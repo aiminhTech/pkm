@@ -1,0 +1,12 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "pages",
+  "attachmentFolderPath": "assets",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "logseq/"
+  ]
+}
