@@ -12,11 +12,9 @@
   https://deno.land/
 	- FaunaDB Example https://deno.com/deploy/docs/tutorial-faunadb
 	-
-- FaunaDB
+- [[FaunaDB]]
   https://fauna.com/
-	- Netlify Functions with Javascript Driver
+	- TODO Netlify Functions with Javascript Driver
 	  https://functions.netlify.com/example/netlify-functions-crud-app-with-fauna/
 	  https://github.com/netlify/netlify-faunadb-example
-	- Deno with GraphQL (could be integrated into Netlify Edge-Function)
-	  https://deno.com/deploy/docs/tutorial-faunadb
 	- https://docs.fauna.com/fauna/current/learn/quick_start/

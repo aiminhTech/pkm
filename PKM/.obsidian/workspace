@@ -7,8 +7,12 @@
         "id": "908f30c624714d9b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "pages/Personal Knowledge Management.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Personal Knowledge Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,5 +88,8 @@
     "collapsed": true
   },
   "active": "908f30c624714d9b",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "pages/Personal Knowledge Management.md",
+    "journals/2022_05_30.md"
+  ]
 }
