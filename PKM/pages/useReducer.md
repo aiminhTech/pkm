@@ -1,0 +1,3 @@
+- `useReducer(reducer, initialState)`
+	- return an Array of 2 items [currentState, dispatch()]
+-

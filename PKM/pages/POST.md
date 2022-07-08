@@ -1,0 +1,4 @@
+- Use to send data to a server to create/update a resource.
+- Pass information through HTTP Header
+- Security
+- Data sent with POST is not displayed in the URL.

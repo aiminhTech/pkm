@@ -1,0 +1,7 @@
+- ## Function Language
+	- [plpgsql](https://de.wikipedia.org/wiki/PL/pgSQL)
+		- https://www.postgresql.org/docs/14/plpgsql.html
+- ## Tools
+	- GUI
+		- [DBeaver](https://dbeaver.io/) install via [[Chocolatey]]
+-

@@ -1,0 +1,10 @@
+- **Edge Functions allow to serve content from the CDN server closest to the user.**  With JS or TS, developers can use edge functions to modify network requests at the edge so it’s closer to your site visitors around the globe.
+- Using Edge Functions with Netlify
+	- Netlify Edge Functions are built on [[Deno]]
+	- Getting started
+		- https://docs.netlify.com/netlify-labs/experimental-features/edge-functions/get-started/?_ga=2.20057720.1347735348.1655119313-1960381409.1636380534
+	-
+- Build functions with TypeScript
+	- https://docs.netlify.com/functions/build-with-typescript/
+- Build functions with Javascript
+	- https://docs.netlify.com/functions/build-with-javascript/

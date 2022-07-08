@@ -1,0 +1,2 @@
+- Cross-Origin Resource Sharing
+- https://deno.land/x/edge_cors@0.2.1

@@ -1,0 +1,17 @@
+- https://app.netlify.com/teams/ai-minh/overview
+- ## Sites
+	- https://app.netlify.com/sites/admirable-kangaroo-28252c
+	- https://app.netlify.com/sites/brave-hugle-95e4b3
+	- https://app.netlify.com/sites/capable-cannoli-a5fe48
+	- https://app.netlify.com/sites/celebrated-marshmallow-93ad33
+	- https://app.netlify.com/sites/ecstatic-cori-31a7f0
+	- https://app.netlify.com/sites/exquisite-fudge-13cb3f
+	- https://app.netlify.com/sites/fervent-cray-827221
+		- repo:: [[repo/memorygame]]
+		- [[Memory Game]]
+	- https://app.netlify.com/sites/helpful-kheer-cd8d9a
+	- https://app.netlify.com/sites/inspiring-swirles-fb3da0
+		-
+	- https://app.netlify.com/sites/wonderful-shirley-f791e6
+		- repo:: [[repo/helloreact2]]
+-

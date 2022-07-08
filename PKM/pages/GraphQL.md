@@ -1,0 +1,2 @@
+- A Query Language
+- GraphQL can use  to query data from any number of different sources, instead of just to query a particular type of data store
