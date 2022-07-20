@@ -1,1 +1,4 @@
+- #Styling
 - https://styled-components.com/
+- ## Installation
+	- `npm install --save styled-components || yarn add styled-components`
