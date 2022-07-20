@@ -30,19 +30,76 @@
   :block/updated-at 1656512610866}
  {:block/name "2022-07-04 monday",
   :block/created-at 1656919457508,
-  :block/updated-at 1657089608864}
+  :block/updated-at 1658215976678}
  {:block/name "2022-07-05 tuesday",
   :block/created-at 1656988298037,
-  :block/updated-at 1657176491431}
+  :block/updated-at 1657290945139}
  {:block/name "2022-07-06 wednesday",
   :block/created-at 1657089326582,
-  :block/updated-at 1657176512983}
+  :block/updated-at 1658215971418}
  {:block/name "2022-07-07 thursday",
   :block/created-at 1657176093657,
   :block/updated-at 1657180024757}
+ {:block/name "2022-07-08 friday",
+  :block/created-at 1657264219757,
+  :block/updated-at 1657292937447}
+ {:block/name "2022-07-11 monday",
+  :block/created-at 1657522000407,
+  :block/updated-at 1658309202267}
+ {:block/name "2022-07-12 tuesday",
+  :block/created-at 1657608750506,
+  :block/updated-at 1658315271253}
+ {:block/name "2022-07-14 thursday",
+  :block/created-at 1657789207096,
+  :block/updated-at 1658310377560}
+ {:block/name "2022-07-15 friday",
+  :block/created-at 1657890630050,
+  :block/updated-at 1658309973959}
+ {:block/name "2022-07-18 monday",
+  :block/created-at 1658136902808,
+  :block/updated-at 1658309422054}
+ {:block/name "2022-07-19 tuesday",
+  :block/created-at 1658215876076,
+  :block/updated-at 1658313271859}
+ {:block/name "2022-07-20 wednesday",
+  :block/created-at 1658308422308,
+  :block/updated-at 1658309096185}
  {:block/name "62b06ebc-af49-485c-82d9-b30b40638c4a",
   :block/created-at 1655730625235,
   :block/updated-at 1655730625235}
+ {:block/name "<a>",
+  :block/created-at 1658216815293,
+  :block/updated-at 1658216815293}
+ {:block/name "<aria>",
+  :block/created-at 1658216852741,
+  :block/updated-at 1658216852741}
+ {:block/name "<button>",
+  :block/created-at 1658216809324,
+  :block/updated-at 1658238273155}
+ {:block/name "<div>",
+  :block/created-at 1658216812372,
+  :block/updated-at 1658216812372}
+ {:block/name "<form>",
+  :block/created-at 1658216820317,
+  :block/updated-at 1658216820317}
+ {:block/name "<img>",
+  :block/created-at 1658216830097,
+  :block/updated-at 1658216830097}
+ {:block/name "<input>",
+  :block/created-at 1658216835762,
+  :block/updated-at 1658216835762}
+ {:block/name "<p>",
+  :block/created-at 1658216840364,
+  :block/updated-at 1658216840364}
+ {:block/name "<span>",
+  :block/created-at 1658216700077,
+  :block/updated-at 1658216700077}
+ {:block/name "<text>",
+  :block/created-at 1658216817801,
+  :block/updated-at 1658216817801}
+ {:block/name "[hypertextmarkup",
+  :block/created-at 1658217295277,
+  :block/updated-at 1658217295277}
  {:block/name "a",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
@@ -52,15 +109,39 @@
  {:block/name "application programming interface",
   :block/created-at 1655112013982,
   :block/updated-at 1655112013982}
+ {:block/name "apt",
+  :block/created-at 1657291151860,
+  :block/updated-at 1657805954413}
+ {:block/name "aria role",
+  :block/created-at 1658217191692,
+  :block/updated-at 1658217297855}
  {:block/name "b",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
+ {:block/name "basic unix commands",
+  :block/created-at 1657890653288,
+  :block/updated-at 1657895212817}
+ {:block/name "bitbucket",
+  :block/created-at 1657290837968,
+  :block/updated-at 1658310893206}
+ {:block/name "button role",
+  :block/created-at 1658217211087,
+  :block/updated-at 1658217231523}
  {:block/name "c",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
+ {:block/name "canceled",
+  :block/created-at 1657522060280,
+  :block/updated-at 1657522060280}
+ {:block/name "cancelled",
+  :block/created-at 1657522060280,
+  :block/updated-at 1657522060280}
  {:block/name "card",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
+ {:block/name "chocolatey",
+  :block/created-at 1657291458157,
+  :block/updated-at 1657805773177}
  {:block/name "client url",
   :block/created-at 1655711330559,
   :block/updated-at 1655711521499}
@@ -70,45 +151,78 @@
  {:block/name "cors",
   :block/created-at 1656509783561,
   :block/updated-at 1656509942316}
+ {:block/name "css",
+  :block/created-at 1657608943551,
+  :block/updated-at 1657608943551}
  {:block/name "curl",
   :block/created-at 1655711511882,
   :block/updated-at 1655711511882}
+ {:block/name "datenbank",
+  :block/created-at 1658310913157,
+  :block/updated-at 1658310929138}
  {:block/name "datenbanksprachen",
   :block/created-at 1653919424593,
   :block/updated-at 1653919604785}
  {:block/name "deno",
   :block/created-at 1655293880456,
-  :block/updated-at 1655294014571}
+  :block/updated-at 1657290489767}
+ {:block/name "deno deploy",
+  :block/created-at 1657290489767,
+  :block/updated-at 1657290563578}
+ {:block/name "dnf",
+  :block/created-at 1657291149679,
+  :block/updated-at 1657805612046}
  {:block/name "doing",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
  {:block/name "done",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
+ {:block/name "draggable",
+  :block/created-at 1658216778974,
+  :block/updated-at 1658216886879}
  {:block/name "edge functions",
   :block/created-at 1655288769563,
   :block/updated-at 1655295816502}
  {:block/name "fauna query language",
   :block/created-at 1653919604785,
   :block/updated-at 1653919674616}
+ {:block/name "faunad",
+  :block/created-at 1658310701544,
+  :block/updated-at 1658310701544}
  {:block/name "faunadb",
   :block/created-at 1653919665789,
-  :block/updated-at 1653919665789}
+  :block/updated-at 1658311394638}
  {:block/name "favorites",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
+ {:block/name "fedora",
+  :block/created-at 1657805523284,
+  :block/updated-at 1657805523284}
+ {:block/name "figma",
+  :block/created-at 1657608953844,
+  :block/updated-at 1657895351793}
  {:block/name "get",
   :block/created-at 1655710060226,
   :block/updated-at 1655711017203}
  {:block/name "git reset",
   :block/created-at 1656340686795,
   :block/updated-at 1656340725146}
+ {:block/name "github",
+  :block/created-at 1657291633456,
+  :block/updated-at 1658310767095}
  {:block/name "graphql",
   :block/created-at 1653919445139,
   :block/updated-at 1655302888128}
+ {:block/name "html",
+  :block/created-at 1658136965591,
+  :block/updated-at 1658136965591}
  {:block/name "http request methods",
   :block/created-at 1655710046482,
   :block/updated-at 1655711299706}
+ {:block/name "hypertext markup language",
+  :block/created-at 1658136930662,
+  :block/updated-at 1658217191693}
  {:block/name "in-progress",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
@@ -118,21 +232,36 @@
  {:block/name "later",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
- {:block/name "netlify faunadb",
-  :block/created-at 1655730479094,
-  :block/updated-at 1655730634810}
+ {:block/name "logseq",
+  :block/created-at 1658310660399,
+  :block/updated-at 1658310660399}
+ {:block/name "memory game",
+  :block/created-at 1657290945139,
+  :block/updated-at 1657291408622}
+ {:block/name "netlify",
+  :block/created-at 1657290563578,
+  :block/updated-at 1657292610591}
  {:block/name "netlify functions",
   :block/created-at 1655293216245,
   :block/updated-at 1655294577034}
  {:block/name "netlify functions and faunadb",
   :block/created-at 1653918896000,
-  :block/updated-at 1653919701242}
+  :block/updated-at 1657292417950}
+ {:block/name "netlifyfunction",
+  :block/created-at 1657805220172,
+  :block/updated-at 1657805220172}
  {:block/name "now",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
  {:block/name "npm",
   :block/created-at 1657111453290,
-  :block/updated-at 1657111453290}
+  :block/updated-at 1657805265173}
+ {:block/name "outbreak",
+  :block/created-at 1657291126326,
+  :block/updated-at 1657291134665}
+ {:block/name "packagemanagers",
+  :block/created-at 1657292553117,
+  :block/updated-at 1657805971631}
  {:block/name "personal knowledge management",
   :block/created-at 1653918896002,
   :block/updated-at 1653918896002}
@@ -142,33 +271,72 @@
  {:block/name "post",
   :block/created-at 1655710130298,
   :block/updated-at 1655711027536}
+ {:block/name "postgresql",
+  :block/created-at 1657287002929,
+  :block/updated-at 1657812835673}
  {:block/name "query language",
   :block/created-at 1653919674615,
   :block/updated-at 1653919674615}
+ {:block/name "react",
+  :block/created-at 1657291008019,
+  :block/updated-at 1657291008019}
  {:block/name "react hooks",
   :block/created-at 1657094064699,
   :block/updated-at 1657104250911}
+ {:block/name "react-hook-form",
+  :block/created-at 1658310306027,
+  :block/updated-at 1658310306027}
+ {:block/name "react-modal",
+  :block/created-at 1658310353968,
+  :block/updated-at 1658310353968}
+ {:block/name "regular expressions",
+  :block/created-at 1657894772679,
+  :block/updated-at 1657895254415}
+ {:block/name "repo",
+  :block/created-at 1657291253718,
+  :block/updated-at 1657291253718}
+ {:block/name "repo/helloreact2",
+  :block/created-at 1657291253717,
+  :block/updated-at 1657291253717}
+ {:block/name "repo/memorygame",
+  :block/created-at 1657291371385,
+  :block/updated-at 1657291371385}
  {:block/name "sql",
   :block/created-at 1653919536866,
   :block/updated-at 1653919536866}
  {:block/name "structured query language",
   :block/created-at 1653919502841,
   :block/updated-at 1653919536867}
+ {:block/name "styled component",
+  :block/created-at 1657896142345,
+  :block/updated-at 1657896153660}
+ {:block/name "styling",
+  :block/created-at 1658311101865,
+  :block/updated-at 1658311138518}
  {:block/name "supabase",
   :block/created-at 1657180023639,
-  :block/updated-at 1657180103205}
+  :block/updated-at 1658310984891}
+ {:block/name "tailscale",
+  :block/created-at 1658136902958,
+  :block/updated-at 1658136902958}
+ {:block/name "tailwindcss",
+  :block/created-at 1657291019019,
+  :block/updated-at 1657895277082}
  {:block/name "templates",
   :block/created-at 1655729432853,
   :block/updated-at 1655730059318}
- {:block/name "to",
-  :block/created-at 1655707492197,
-  :block/updated-at 1655707492197}
- {:block/name "to/read",
-  :block/created-at 1655707492196,
-  :block/updated-at 1655707492196}
  {:block/name "todo",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
+ {:block/name "twin.macro",
+  :block/created-at 1658311131856,
+  :block/updated-at 1658311156335}
+ {:block/name "typescript",
+  :block/created-at 1657291004900,
+  :block/updated-at 1657895428514}
+ {:block/name "ubuntu",
+  :block/created-at 1657805882265,
+  :block/updated-at 1657805892211}
  {:block/name "usecontext",
   :block/created-at 1657099354024,
   :block/updated-at 1657099354024}
@@ -179,5 +347,8 @@
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
  {:block/name "waiting",
-  :block/created-at 1653918674221, 
-  :block/updated-at 1653918674221}]
+  :block/created-at 1653918674221,
+  :block/updated-at 1653918674221}
+ {:block/name "yarn",
+  :block/created-at 1657805194733, 
+  :block/updated-at 1657805641661}]

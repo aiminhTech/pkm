@@ -14,7 +14,7 @@
 	-
 - [[FaunaDB]]
   https://fauna.com/
-	- TODO Netlify Functions with Javascript Driver
+	- Netlify Functions with Javascript Driver
 	  id:: 62b06ebc-af49-485c-82d9-b30b40638c4a
 	  https://functions.netlify.com/example/netlify-functions-crud-app-with-fauna/
 	  https://github.com/netlify/netlify-faunadb-example

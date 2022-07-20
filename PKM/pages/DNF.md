@@ -1,0 +1,2 @@
+- [[Fedora]] package manager
+- https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/DNF/
