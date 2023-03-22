@@ -1,2 +1,6 @@
 - [[Datenbank]]
 - [[Java]]
+- [[Webdesign]]
+- [[Frontend]] #React #[[React Hooks]]
+- [[Backend]]
+-

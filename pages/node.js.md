@@ -1,0 +1,11 @@
+- #JavaScript #Webdesign
+- ## Was ist node.js?
+	- Laufszeitumgebung für JavaScript
+		- mit der Installation node.js ist [[npm]] auch installiert wurde
+	- Asynchron und Eventbasiert, eigenet sich gut für Websever
+		- wird oft im [[Backend]] verwendet
+-
+- ## Links
+	- http://nodejs.org/de
+	- http://nodejs.org/de/about
+	- http://nodejs.org/dist/latest-v18.x/docs/api/
