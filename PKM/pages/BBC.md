@@ -1,6 +1,8 @@
+- [[Telematik]]
 - [[Datenbank]]
 - [[Java]]
+- [[C#]]
 - [[Webdesign]]
 - [[Frontend]] #React #[[React Hooks]]
 - [[Backend]]
--
+- [[Multiuser]]

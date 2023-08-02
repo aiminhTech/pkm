@@ -1,0 +1,3 @@
+-
+- #[[Structured Query Language]] #Datenbanksprachen
+- alias:: DDL
