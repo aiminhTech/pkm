@@ -1,0 +1,2 @@
+- text file which describes the actions to build a [[OCI Image]]
+- used by `podman build` and `buildah bud` #Podman #Buildah

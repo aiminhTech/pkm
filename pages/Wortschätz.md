@@ -1,0 +1,19 @@
+- ## 18th Feb
+	- **enorm (adj)**: ungewöhnlich
+	- **schlicht (adj)**: ganz einfach
+	- **die Norm**: tieu chuan
+	- **die Adipositas**: stark Übergewicht
+		- adipös / übergewichtig (adj)
+	- **Peng** (n): lautes Geräusch, Knall
+	- **das Vorurteil** : eine negative Meinung über etwas gebildet, ohne die Sache zu kennen.
+	- **fremdenfeindlich (adj)**: gegen etwas Unbekanntes agressiv (z.B Ausländer, andere Relihionen oder ein Gegner)
+- ## 25th Feb
+	- **hinken (v)**: einer Verletzung an Bein oder Hüfte in der Fortbewegung behindert sein
+		- hinkte, sein gehinkt
+	- **leiden (v)**: chiu dung
+		- litt, haben gelitten
+	- **verschlingen (v)**: ngau nghien
+		- verschlang, hat verschlungen
+	- **schwellen (v)**: sung len
+		- schwoll, sein geschwellt
+-

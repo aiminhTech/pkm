@@ -1,3 +1,8 @@
+- #React #Frontend
+	-
+- ## Hook
+	- Hook ist spezielle Hilfsfunktionen in der React Welt. React lässt uns auch eigene Hooks schreiben
+	- [[useState]]
 - ## State Management
 	- https://blog.knoldus.com/best-way-to-manage-in-react-using-context-usereducer-and-customhook/
 		- use [[useReducer]] to store and update state

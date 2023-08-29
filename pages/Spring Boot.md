@@ -1,0 +1,15 @@
+- #Backend
+- https://spring.io
+- Spring Initializr: [https;//start.spring.io](https://start.spring.io)
+- Ein Java-basiertes Framework, das die Entwicklung von Webanwendungen und Mikroservices mit Spring Framework durch drei Kernfunktionen schneller und einfacher macht.
+- # Warum Spring Boot?
+  collapsed:: true
+	- In Java geschrieben
+	- Welt verbreitet
+	- Modern
+	- Flexible und vielseitig
+	- Framework:
+		- Bereitstellung von Funktionalitäten
+		- Strukturierung und Standardisierung
+		- Wiederverwendbar
+		- Zeitersparnis
