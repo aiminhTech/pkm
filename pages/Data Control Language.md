@@ -1,4 +1,5 @@
-- #[[Structured Query Language]] #Datenbanksprachen #Datenbank
+tags:: Structured Query Language, Datenbanksprachen, Datenbank
+
 - alias:: DCL
 - wird verwendet, um Benutzer und deren Rechte zu administrieren
 - # Benutzer

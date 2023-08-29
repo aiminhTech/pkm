@@ -1,4 +1,5 @@
-- #[[Structured Query Language]] #Datenbanksprachen #Datenbank
+tags:: Structured Query Language, Datenbanksprachen Datenbank
+
 - alias:: DDL
 - Grundfunktionen zum Erstellen einer Datenbank mit Tabellen verwenden
   collapsed:: true

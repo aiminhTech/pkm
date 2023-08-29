@@ -1,4 +1,5 @@
-- #BBC
+tags:: Webdesign
+
 - # Einfügen eines Stylesheets
   collapsed:: true
 	- WICHTIG: Auf Viewport eingehen!

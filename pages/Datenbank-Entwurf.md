@@ -1,4 +1,5 @@
-- #Datenbank
+tags:: Datenbank
+
 - [[Globale Normalisierung]]
 - [[Schlüssel]]
 - [[Normalisierung]]

@@ -1,4 +1,5 @@
-- #Datenbank-Entwurf #Datenbank
+tags:: Datenbank-Entwurf, Datenbank
+
 - # Tabellenstruktur erstellen
   id:: 6485e8b4-c321-4f88-b299-7027cee6a8ae
   collapsed:: true

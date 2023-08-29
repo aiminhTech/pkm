@@ -1,4 +1,5 @@
-- #Datenbank #MySQL
+tags:: Datenbank, MySQL
+
 - Daten importieren und exportieren
 - # Export aus MySQL DB Dump File
   collapsed:: true

@@ -1,0 +1,3 @@
+- text file which describes the actions to build a [[Docker Image]]
+- used by `docker build`
+- also use by modern tools like [[Podman]], but they prefer the name [[Containerfile]]

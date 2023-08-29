@@ -1,0 +1,8 @@
+- https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo
+- [[Podman]]
+	- create and run containers
+- [[Buildah]]
+	- create container images #[[OCI Image]]
+- [[Skopeo]]
+	- inspect and copy images between [[Container Registry]]
+-

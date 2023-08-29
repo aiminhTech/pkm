@@ -1,4 +1,5 @@
-- #Datenbank
+tags:: Datenbank
+
 - SQL Abfragen über mehrere Tabellen
 - Beispiel Tabellen
   collapsed:: true

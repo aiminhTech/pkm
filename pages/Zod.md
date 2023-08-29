@@ -1,0 +1,62 @@
+tags:: Typescript, Quicktype, Deno, npm
+
+- [https://zod.dev/](https://zod.dev/)
+- A TypeScript-first schema declaration and validation library
+- We can catch type errors at runtime with zod
+- TypeScript only checks types at compile time. And that means that, invalid data, that doesn't have the fields we think are required, can still break our applications.
+- # Installation
+  collapsed:: true
+	- ## npm
+		- https://zod.dev/?id=from-npm-nodebun
+		- `npm install zod` #npm
+		- `yarn add zod` #yarn
+	- ## deno
+		- https://zod.dev/?id=from-denolandx-deno
+		- ```ts
+		  import { z } from "https://deno.land/x/zod/mod.ts";
+		  ```
+- # Define schema
+  collapsed:: true
+	- ```ts
+	  import {z} from "zod"
+	  
+	  const PersonSchema = z.object({
+	    results: z.array(
+	    	z.object({
+	        id: z.number(),
+	        name: z.string(),
+	        job: z.string()
+	      })
+	    )
+	  })
+	  
+	  type Person = z.infer<typeof PersonSchema>
+	  ```
+- # Validation
+  collapsed:: true
+	- https://zod.dev/?id=basic-usage
+	- ```stylus
+	  import { z } from "zod";
+	  
+	  // creating a schema for strings
+	  const mySchema = z.string();
+	  
+	  // parsing
+	  mySchema.parse("tuna"); // => "tuna"
+	  mySchema.parse(12); // => throws ZodError
+	  
+	  // "safe" parsing (doesn't throw error if validation fails)
+	  mySchema.safeParse("tuna"); // => { success: true; data: "tuna" }
+	  mySchema.safeParse(12); // => { success: false; error: ZodError }
+	  ```
+- # Transform returned data
+  id:: 64e46f0e-6523-4237-bf77-7c952faa001a
+  collapsed:: true
+	- https://zod.dev/?id=coercion-for-primitives
+	- ```stylus
+	  z.coerce.string(); // String(input)
+	  z.coerce.number(); // Number(input)
+	  z.coerce.boolean(); // Boolean(input)
+	  z.coerce.bigint(); // BigInt(input)
+	  z.coerce.date(); // new Date(input)
+	  ```

@@ -1,4 +1,5 @@
-- #Datenbank
+tags:: Datenbank
+
 - # Was ist eine Transaktion?
 	- Eine Transaktion fasst mehrere Arbeitsschritte zusammen und sorgt dafür, dass diese
 	  alle zusammen ausgeführt werden, oder alle zusammen nicht ausgeführt werden

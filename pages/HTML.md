@@ -1,4 +1,5 @@
-- #Webdesign #BBC
+tags:: Webdesign
+
 - # Semantik & HTML Einführung
   collapsed:: true
 	- **Semantik** (von altgr. σημαίνειν *sēmaínein*, ‚bezeichnen‘, ‚zum Zeichen gehörig‘),

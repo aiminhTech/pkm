@@ -1,4 +1,5 @@
-- #Datenbank-Entwurf #Datenbank
+tags:: Datenbank-Entwurf, Datenbank
+
 - # Abstecken des Problemrahmens
   id:: 6485df42-460f-4ded-a452-be874227b3ca
   collapsed:: true

@@ -1,4 +1,5 @@
-- #Datenbank
+tags:: bbc, Datenbank
+
 - [[Datenbanksprachen]]
 - [[Datentyp]]
 - [[Datenbank-Entwurf]]
@@ -8,5 +9,5 @@
 - [[Joins und Aggregationsfunktionen]]
 - [[Unterabfragen - Subqueries]]
 - [[Transaktion]]
-- [[Booklet]]
 - [[DB-Fachbegriff]]
+-

@@ -1,4 +1,5 @@
-- #BBC
+tags:: BBC
+
 - # Typografie
   collapsed:: true
 	- Whitespace ist eines der mächtigsten Werkzeuge im Design. Whitespace ist
@@ -118,4 +119,4 @@
 		-
 - [[CSS]]
 - [[HTML]]
-- [[JavaScript]]
+- [[Javascript]]

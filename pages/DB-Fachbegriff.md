@@ -1,4 +1,5 @@
-- #Datenbank
+tags:: Datenbank
+
 - # Datenmodell
   collapsed:: true
 	- Beschreibt die Struktur und die Beziehungen der Daten in einer Datenbank.

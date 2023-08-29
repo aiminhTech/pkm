@@ -1,11 +1,14 @@
-- #Datenbank-Entwurf #Datenbank
+tags:: Datenbank-Entwurf, Datenbank
+
 - ((6485e4a4-66aa-4402-ae9f-fe70cc33950b))
 - # Warum?
+  collapsed:: true
 	- Reduzierung von Redundanzen
 	- Klar strukturiertes Datenbankmodell
 	- Vermeidung von ==Anomalien==
 		- Als eine Anomalie bezeichnet man ein Fehlverhalten der Datenbank
 - # Abhängigkeiten
+  collapsed:: true
 	- Abhängigkeiten helfen uns herauszufinden, welche Daten bzw. Spalten in eine neue Tabelle ausgelagert werden sollten
 	- ## Funktionale Abhängigkeit
 		- Der Wert, welcher in der Spalte ==farbe== steht, ist abhängig vom ==getraenk==
@@ -21,6 +24,7 @@
 		-
 	-
 - # Normaliesieren-Vorgehen
+  collapsed:: true
 	- Bsp.
 	  background-color:: green
 	- ![Bildschirmfoto 2023-06-11 um 17.56.13.png](../assets/Bildschirmfoto_2023-06-11_um_17.56.13_1686498974754_0.png)

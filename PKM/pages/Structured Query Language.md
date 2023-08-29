@@ -1,5 +1,6 @@
-- #Datenbank 
-  alias:: SQL
+tags:: datenbank
+alias:: SQL
+
 - [[Data Definition Language]]
   collapsed:: true
 	- alias:: DDL

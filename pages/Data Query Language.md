@@ -1,4 +1,5 @@
-- #[[Structured Query Language]] #Datenbanksprachen #Datenbank
+tags:: Structured Query Language, Datenbanksprachen, Datenbank
+
 - alias:: DQL
 - Grundfunktionen zum Auslesen der Daten einer Tabellen verwenden
 - # SELECT

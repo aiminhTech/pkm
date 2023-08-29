@@ -1,4 +1,4 @@
 - [[Java]]
 - [[C#]]
 - [[TypeScript]]
-- [[JavaScript]]
+- [[Javascript]]

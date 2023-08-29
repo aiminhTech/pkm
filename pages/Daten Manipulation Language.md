@@ -1,4 +1,5 @@
-- #[[Structured Query Language]] #Datenbanksprachen #Datenbank
+tags:: Structured Query Language, Datenbanksprachen, Datenbank
+
 - alias:: DML
 - Grundfunktionen zum Abfüllen der Tabellen mit Daten verwenden
   id:: 64048b41-84fe-4c83-9827-2e8020d7745d

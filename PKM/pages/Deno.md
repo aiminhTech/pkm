@@ -1,4 +1,4 @@
-- A runtime for [[JavaScript]] and [[TypeScript]]
+- A runtime for [[Javascript]] and [[TypeScript]]
 - [[Deno Deploy]]
 -
 -

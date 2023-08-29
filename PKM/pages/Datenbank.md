@@ -1,4 +1,5 @@
-- #bbc
+tags:: bbc
+
 - [[FaunaDB]]
 - [[Supabase]]
 - [[MySQL]]

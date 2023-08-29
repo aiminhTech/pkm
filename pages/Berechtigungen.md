@@ -1,2 +1,3 @@
-- #Datenbank
-	- {{embed [[Data Control Language]]}}
+tags:: Datenbank
+
+- {{embed [[Data Control Language]]}}
