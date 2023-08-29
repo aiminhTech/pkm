@@ -1,4 +1,4 @@
-- [[Modul 117 - Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
+- [[M117 - Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
 - Einer der ersten Schritte beim Aufbau eines Netzwerkes ist die Festlegung der Übertragungsmedien
 - Wenn jedoch die Übertragungsgeschwindigkeit und die Übertragungszuverlässigkeit innerhalb des geplanten Netzwerkes eine Rolle spielt, wird eher ein kabelgebundenes Netz in Frage kommen.
 - # Strukturierte Verkabelung

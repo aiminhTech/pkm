@@ -318,4 +318,5 @@
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :feature/enable-journals? true
+ :journal/page-title-format "yyyy-MM-dd EEEE"
  }
