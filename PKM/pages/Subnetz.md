@@ -1,0 +1,5 @@
+- Ein Subnetz definiert sich mit Hilfe einer [[Netzwerkadresse]] zusammen mit einer [[Subnetzmaske]]
+- Innerhalb eines Subnetzes und über die Grenzen eines Subnetzes werden Endgeräte mit Hilfe von Netzwerkkomponenten und Netzwerkmedien miteinander verbunden.
+- Die Kommunikation innerhalb eines Subnetzes erfolgt mit Hilfe der [[MAC-Adresse]]. Die Kommunikation zwischen verschiedenen Subnetzen erfolgt mit Hilfe der IP-Adresse.
+-
+-

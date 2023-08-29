@@ -1,4 +1,7 @@
-[{:block/name "2022-05-30 monday",
+[{:block/name "1. lehrjahr",
+  :block/created-at 1673795918085,
+  :block/updated-at 1673797244814}
+ {:block/name "2022-05-30 monday",
   :block/created-at 1653918664643,
   :block/updated-at 1653918664643}
  {:block/name "2022-06-07 tuesday",
@@ -70,6 +73,9 @@
  {:block/name "2023-01-11 wednesday",
   :block/created-at 1673458175462,
   :block/updated-at 1673458175462}
+ {:block/name "2023-01-15 sunday",
+  :block/created-at 1673795902912,
+  :block/updated-at 1673795902912}
  {:block/name "62b06ebc-af49-485c-82d9-b30b40638c4a",
   :block/created-at 1655730625235,
   :block/updated-at 1655730625235}
@@ -127,6 +133,9 @@
  {:block/name "basic unix commands",
   :block/created-at 1657890653288,
   :block/updated-at 1657895212817}
+ {:block/name "bbc",
+  :block/created-at 1673798277085,
+  :block/updated-at 1673798311338}
  {:block/name "bitbucket",
   :block/created-at 1657290837968,
   :block/updated-at 1658310893206}
@@ -136,6 +145,9 @@
  {:block/name "c",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
+ {:block/name "c#",
+  :block/created-at 1673798361085,
+  :block/updated-at 1673798361085}
  {:block/name "canceled",
   :block/created-at 1657522060280,
   :block/updated-at 1657522060280}
@@ -171,7 +183,7 @@
   :block/updated-at 1653919604785}
  {:block/name "deno",
   :block/created-at 1655293880456,
-  :block/updated-at 1657290489767}
+  :block/updated-at 1673798381508}
  {:block/name "deno deploy",
   :block/created-at 1657290489767,
   :block/updated-at 1657290563578}
@@ -208,18 +220,30 @@
  {:block/name "figma",
   :block/created-at 1657608953844,
   :block/updated-at 1657895351793}
+ {:block/name "funk",
+  :block/created-at 1673803773137,
+  :block/updated-at 1673803773137}
  {:block/name "get",
   :block/created-at 1655710060226,
   :block/updated-at 1655711017203}
+ {:block/name "gibb",
+  :block/created-at 1673795938627,
+  :block/updated-at 1673795948620}
  {:block/name "git reset",
   :block/created-at 1656340686795,
   :block/updated-at 1656340725146}
  {:block/name "github",
   :block/created-at 1657291633456,
   :block/updated-at 1658310767095}
+ {:block/name "glaskabel",
+  :block/created-at 1673803788402,
+  :block/updated-at 1673803788402}
  {:block/name "graphql",
   :block/created-at 1653919445139,
   :block/updated-at 1655302888128}
+ {:block/name "grundlagen",
+  :block/created-at 1673796230925,
+  :block/updated-at 1673798102945}
  {:block/name "html",
   :block/created-at 1658136965591,
   :block/updated-at 1658136965591}
@@ -232,18 +256,46 @@
  {:block/name "in-progress",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
+ {:block/name "java",
+  :block/created-at 1673798311338,
+  :block/updated-at 1673798311338}
+ {:block/name "javafx",
+  :block/created-at 1673798408388,
+  :block/updated-at 1673798408388}
+ {:block/name "javascript",
+  :block/created-at 1673798381507,
+  :block/updated-at 1673798381507}
  {:block/name "kent c. dodds",
   :block/created-at 1657094064691,
   :block/updated-at 1657094064691}
+ {:block/name "kupferkabel",
+  :block/created-at 1673803786178,
+  :block/updated-at 1673803786178}
  {:block/name "later",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
+ {:block/name "logisches netz",
+  :block/created-at 1673796265349,
+  :block/updated-at 1673804265284}
  {:block/name "logseq",
   :block/created-at 1658310660399,
   :block/updated-at 1658310660399}
+ {:block/name "mac-adresse",
+  :block/created-at 1673802281443,
+  :block/updated-at 1673802281443}
  {:block/name "memory game",
   :block/created-at 1657290945139,
   :block/updated-at 1657291408622}
+ {:block/name
+  "modul 117 - informatik- und netzinfrastruktur für ein kleines unternehmen realisieren",
+  :block/created-at 1673796090567,
+  :block/updated-at 1673798264386}
+ {:block/name "modul 162 - daten analysieren & modellieren",
+  :block/created-at 1673796023054,
+  :block/updated-at 1673796023054}
+ {:block/name "modul 319 - applikationen entwerfen und implementieren",
+  :block/created-at 1673796040746,
+  :block/updated-at 1673796062102}
  {:block/name "netlify",
   :block/created-at 1657290563578,
   :block/updated-at 1657292610591}
@@ -256,12 +308,18 @@
  {:block/name "netlifyfunction",
   :block/created-at 1657805220172,
   :block/updated-at 1657805220172}
+ {:block/name "netzwerkadresse",
+  :block/created-at 1673802120500,
+  :block/updated-at 1673802120500}
+ {:block/name "netzwerkressourcen",
+  :block/created-at 1673796277209,
+  :block/updated-at 1673805424723}
  {:block/name "now",
   :block/created-at 1653918674221,
   :block/updated-at 1653918674221}
  {:block/name "npm",
   :block/created-at 1657111453290,
-  :block/updated-at 1657805265173}
+  :block/updated-at 1673805088947}
  {:block/name "outbreak",
   :block/created-at 1657291126326,
   :block/updated-at 1657291134665}
@@ -271,6 +329,9 @@
  {:block/name "personal knowledge management",
   :block/created-at 1653918896002,
   :block/updated-at 1653918896002}
+ {:block/name "physisches netz",
+  :block/created-at 1673796254408,
+  :block/updated-at 1673796810982}
  {:block/name "pkm",
   :block/created-at 1653918896208,
   :block/updated-at 1653918896208}
@@ -280,6 +341,9 @@
  {:block/name "postgresql",
   :block/created-at 1657287002929,
   :block/updated-at 1657812835673}
+ {:block/name "programmieren",
+  :block/created-at 1673798349296,
+  :block/updated-at 1673798408388}
  {:block/name "query language",
   :block/created-at 1653919674615,
   :block/updated-at 1653919674615}
@@ -310,6 +374,9 @@
  {:block/name "repo/memorygame",
   :block/created-at 1657291371385,
   :block/updated-at 1657291371385}
+ {:block/name "smb",
+  :block/created-at 1673804479668,
+  :block/updated-at 1673804479668}
  {:block/name "sql",
   :block/created-at 1653919536866,
   :block/updated-at 1653919536866}
@@ -322,6 +389,12 @@
  {:block/name "styling",
   :block/created-at 1658311101865,
   :block/updated-at 1658319486849}
+ {:block/name "subnetz",
+  :block/created-at 1673802098450,
+  :block/updated-at 1673802281444}
+ {:block/name "subnetzmaske",
+  :block/created-at 1673802124074,
+  :block/updated-at 1673802124074}
  {:block/name "supabase",
   :block/created-at 1657180023639,
   :block/updated-at 1658310984891}
@@ -331,6 +404,9 @@
  {:block/name "tailwindcss",
   :block/created-at 1657291019019,
   :block/updated-at 1657895277082}
+ {:block/name "telematik",
+  :block/created-at 1673802299168,
+  :block/updated-at 1673802299168}
  {:block/name "templates",
   :block/created-at 1655729432853,
   :block/updated-at 1655730059318}

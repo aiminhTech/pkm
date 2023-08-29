@@ -1,4 +1,4 @@
-- [[GRUNDLAGEN]]
-- [[PHYSISCHES NETZ]]
-- [[LOGISCHES NETZ]]
-- [[NETZWERKRESSOURCEN]]
+- [[Grundlagen]]
+- [[Physisches Netz]]
+- [[Logisches Netz]]
+- [[Netzwerkressourcen]]
