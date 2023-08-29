@@ -1,4 +1,5 @@
 - #BBC
+- [[HTTP Protokoll]]
 - [[HTTP Request Methods]]
 - [[Spring Boot]]
 - [[Data JPA]]
@@ -11,6 +12,7 @@
 		- Zustandlos (Stateless / keine Session auf Server)
 		- Cachable
 - # DataJPA
+  collapsed:: true
 	- https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa
 - # DataJPA DB-Einbinden
   collapsed:: true

@@ -1,4 +1,4 @@
-- [[Modul 117 - Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
+- [[M117 - Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
 - ## Aufbau eines Rechnernetwerkes
 	- ### Kommunikation
 		- Theoretisch betrachtet, besteht ein Netzwerk aus den Komponenten Information, Sender, einem oder mehreren Empfängern und einem Übertragungsmedium.
@@ -33,5 +33,3 @@
 	- ### Wide Area Network (WAN)
 		- Ein WAN erstreckt sich über grosse geografische Bereiche, indem zum Beispiel mehrere MANs über einen Kontinent oder weltweit miteinander verbunden werden.
 		- In der Regel wird eine WAN von grossen Telekommunikationsanbietern betrieben, welche die WANs wiederum mit dem Internet verbinden.
-- ## Schichtenmodellen
-	- TODO like from bbc
