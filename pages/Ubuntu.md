@@ -1,2 +1,1 @@
--
 - https://ubuntu.com/server/docs
