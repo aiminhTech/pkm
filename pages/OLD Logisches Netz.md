@@ -1,4 +1,4 @@
-- [[MODUL 117 - INFORMATIK- UND NETZINFRASTRUKTUR FÜR EIN KLEINES UNTERNEHMEN REALISIEREN]]
+- [[MODUL 117 - Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren]]
 - # Definition
 	- Das ==logische Netz== zeigt den Datenfluss zwischen den Endgeräten auf
 	- Ein logisches Netz kann auch als [[Subnetz]] bezeichnet werden.

@@ -1,3 +1,4 @@
-- #GIBB #[[Modul 114]]
+tags:: [[GIBB]], [[Modul 114]]
+
 - [[Dateiarten]]
 - [[Kompression]]

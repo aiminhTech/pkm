@@ -1,6 +1,6 @@
 tags:: Frontend
 
-- # Uniform Resource Locator (URL)
+- ## Uniform Resource Locator (URL)
   collapsed:: true
 	- Eine URL dient dazu, eine Ressource eindeutig zu kennzeichnen und zu adressieren. Clients können so spezifische Dokumente anfragen. Die allgemeine Form sieht wie folgt aus:
 	- https://gitlab.com/ch-tbz-it/Stud/m293g/m293/-/raw/main/T3_Protokoll/x_gitressources/URL.png
@@ -21,17 +21,19 @@ tags:: Frontend
 	- **Anker**:
 		- Ein Anker wird mit dem ==# -Tag== gesetzt.
 		- Wenn der Anker auf der Seite existiert, wird direkt zu diesem Abschnitt gesprungen.
-- # Wie funktioniert HTTP?
+- ## Wie funktioniert HTTP?
   collapsed:: true
-	- ## TCP-Kommunikation
+	- ### TCP-Kommunikation
+	  collapsed:: true
 		- HTTP ist auf TCP aufgebaut und verwendet ein Client-Server Kommunikationsmodell mit Anfragen (Request) und Antworten (Response).
 		- Jeder Request und jede Response sendet Nachrichten mit einem Kopf- und einem Inhaltsteil (Header und Body).
 		- https://gitlab.com/ch-tbz-it/Stud/m293g/m293/-/raw/main/T3_Protokoll/x_gitressources/RequestResponse.png
-	- ## HTTP-Kommunikation
+	- ### HTTP-Kommunikation
+	  collapsed:: true
 		- Während auf der TCP-Schicht ganz allgemein Nachrichten (Messages) geschickt werden, definiert die Applikationsschicht (HTTP), welche Inhalte die Nachrichten haben.
 		- Im Header der Nachricht (grün) wird Protokoll-Informationen und der HTTP Header verschickt, wie in folgendem Beispiel gezeigt wird. Der Nachrichten-Header (TCP-Schicht) entspricht also nicht dem HTTP-Header (Applikationsschicht), aber der HTTP-Header ist ein Teil des Nachrichten-Headers.
-		- https://gitlab.com/ch-tbz-it/Stud/m293g/m293/-/raw/main/T3_Protokoll/x_gitressources/RequestResponseExample.png
-- # HTTP Statuscode
+		- https://gitlab.com/ch-tbz-it/Stud/m293g/m293/-/raw/main/T3_Protokoll/x_gitressources/RequestResponseExample.png{:height 272, :width 520}
+- ## HTTP Statuscode
   collapsed:: true
 	- Liste von Statuscode: https://www.rfc-editor.org/rfc/rfc9110.html#name-status-codes
 	- Sendet jede Response einen **Status-Code**, der aussagt, ob die Anfrage erfolgreich war und wenn nicht, welcher Fehler aufgetreten ist.
@@ -40,7 +42,7 @@ tags:: Frontend
 		- **404 Not Found**: Die Ressource wurde nicht gefunden. Evtl. wurde ein falscher Pfad mitgeliefert.
 		- **500 Internal Server Error**: Dieser Fehler kann auftreten bei dynamischen Seiten, die Fehler verursachen.
 	-
-- # Request-Methoden
+- ## Request-Methoden
   collapsed:: true
 	- HTTP definiert ein Set von Methoden, die bei Anfragen verwendet werden. Die Methoden geben einen Hinweis darauf, was eine Anfrage erreichen möchte.
 	- Gesteuert werden die Methoden auf der Seite des Servers. Der Client kann zwar jede URL mit einer beliebigen Methode aufrufen, aber der Server wird nicht auf alle Methoden antworten.

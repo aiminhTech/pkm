@@ -1,5 +1,4 @@
-- [[M117 - Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
-- ## Aufbau eines Rechnernetwerkes
+## Aufbau eines Rechnernetwerkes
 	- ### Kommunikation
 		- Theoretisch betrachtet, besteht ein Netzwerk aus den Komponenten Information, Sender, einem oder mehreren Empfängern und einem Übertragungsmedium.
 		- ![image.png](../assets/image_1673798099446_0.png){:height 32, :width 94}

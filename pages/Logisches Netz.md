@@ -1,1 +1,1 @@
-- #[[M117 - Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
+- Ein **logisches Netzwerk** ist eine virtuelle Darstellung eines Netzwerks, das dem Benutzer als ein völlig separates und unabhängiges Netzwerk erscheint, obwohl es physisch nur ein Teil eines größeren Netzwerks oder eines lokalen Netzwerks sein könnte.

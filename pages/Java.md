@@ -1,2 +1,6 @@
 - #Programmieren #BBC
 - [[Java Development Kit (JDK)]]
+- [[Data Types]]
+- [[Syntax]]
+-
+-

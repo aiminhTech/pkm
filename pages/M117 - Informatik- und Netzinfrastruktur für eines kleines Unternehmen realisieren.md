@@ -2,4 +2,4 @@
 - [[Grundlagen]]
 - [[Physisches Netz]]
 - [[Logisches Netz]]
-- [[NETZWERKRESSOURCEN]]
+- [[Netzwerkressourcen]]
