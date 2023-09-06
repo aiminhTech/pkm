@@ -1,6 +1,7 @@
 tags:: [[C#]], [[Java]]
 
 - Object-Oriented Programming
+- The primary benefits of an object-oriented language are this association between data and functionality in class units and the ability of classes to *encapsulate* or hide details, freeing the developer from worrying about low-level details.
 - ## C#
   collapsed:: true
 	- ### Access Modifiers
@@ -173,4 +174,11 @@ tags:: [[C#]], [[Java]]
 			     }
 			  }
 			  ```
--
+- ## Java
+	- ### Classes
+		- Classes are the fundamental building blocks of most object-oriented languages
+		- A *class* is a group of data items with associated functions that can perform operations on that data.
+		- data items => variables, function => method
+	- ### Constructor
+		- A constructor is called to set up a new instance of a class.
+		- When a new object is created, Java allocates storage for it, sets instance variables to their default values, and calls the constructor method for the class to do whatever application-level setup is required.
