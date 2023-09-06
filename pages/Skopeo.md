@@ -1,0 +1,1 @@
+- Skopeo can copy images between registries, delete images, extract images, inspect, and sign images.
