@@ -1,4 +1,4 @@
-tags:: [[C#]], [[Java]]
+tags:: [[C#]], [[Java]] [[Javascript]]
 
 - ## C#
   collapsed:: true
@@ -9,6 +9,7 @@ tags:: [[C#]], [[Java]]
 	  collapsed:: true
 		- ![Bildschirmfoto 2023-05-19 um 16.51.18.png](../assets/Bildschirmfoto_2023-05-19_um_16.51.18_1684507885058_0.png)
 - ## Java
+  collapsed:: true
 	- ### Primitive Data Types
 	  collapsed:: true
 		- https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
@@ -62,3 +63,25 @@ tags:: [[C#]], [[Java]]
 			  int[] threeIntsV2 = { 4, 9, 7 };
 			  ```
 	-
+- ## JavaScript
+  collapsed:: true
+	- Einfacher als bei Java
+	- Es wird nicht zwischen Integer und Double unterschieden
+	- ![Bildschirmfoto 2023-08-02 um 20.40.04.png](../assets/Bildschirmfoto_2023-08-02_um_20.40.04_1691001606909_0.png)
+	- ### String
+	  collapsed:: true
+		- ```jsx
+		  
+		  let text = "John";                 // Datentyp: String
+		  let text2 = text + " " + "Doe";
+		  let text3 = `Hey ${text}`;	// Template String
+		  let text4 = `overlay ${menu.isOpen ? "" : "hidden"}`;
+		  let char = text[0]                 
+		  let size = text.length;       
+		  // Datentyp: Number
+		  text = text.substring(2, 2) 
+		  text = text.toUpperCase();
+		  text = text.replace("John", "Sam");
+		  
+		  
+		  ```
