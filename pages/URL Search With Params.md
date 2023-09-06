@@ -1,4 +1,4 @@
-tags:: URL, Javascrip, typescript
+tags:: URL, Javascript, typescript
 ```javascript
 let u = new URL("http://localhost/")
 

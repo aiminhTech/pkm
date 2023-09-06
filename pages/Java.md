@@ -1,6 +1,15 @@
-tags:: [[BBC]], [[Programming Language]]
+tags:: [[BBC]], [[Programming Language]], [[OOP]]
 
 - [[Java Development Kit (JDK)]]
 - [[Data Types]]
 - [[Syntax]]
 - [[OOP]]
+- [[User Input]]
+- [[DateTime]]
+- [[StringBuilder]]
+- [[File Handling]]
+- [[UML]]
+- [[Exceptions]]
+- [[Differentiate between Arguments and Parameters]]
+- [[java.math]]
+-

@@ -1,7 +1,7 @@
 tags:: [[C#]], [[Java]]
 
 - ## Java
-  collapsed:: true
+	- [Type Casting - Fundamentals Of Object-Oriented Programming: Java and IntelliJ [Video]](https://learning.oreilly.com/videos/fundamentals-of-object-oriented/9781837635702/9781837635702-video2_5/) #[[Fundamentals of object-oriented Programming Java]]
 	- In Java, there are two types of casting:
 		- **Widening Casting** (automatically) - converting a smaller type 
 		  to a larger type size
