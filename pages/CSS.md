@@ -1,23 +1,23 @@
-tags:: Webdesign
+tags:: [[Webdesign]], [[HTML]]
 
-- # Einfügen eines Stylesheets
+- ## Einfügen eines Stylesheets
   collapsed:: true
 	- WICHTIG: Auf Viewport eingehen!
 	- ![Bildschirmfoto 2023-07-27 um 12.27.10.png](../assets/Bildschirmfoto_2023-07-27_um_12.27.10_1690435632691_0.png){:height 284, :width 749}
-	- ## Relative Pfadangaben
+	- ### Relative Pfadangaben
 		- Eine relative Pfadangabe ist immer relativ zum Pfad, in welchem sich die verschiedenen
 		  Dateien befinden.
 		- In der Datei index.html haben wir die relative Pfadangabe „css/style.css“
 		- Da sich die Datei index.html im Ordner „C:\Meine Seite“ befindet, ist der Pfad
 		  relativ zu „C:\Meine Seite“, „css/style.css“ wird also an „C:\Meine Seite“ angefügt.
 		- ![Bildschirmfoto 2023-07-27 um 12.29.54.png](../assets/Bildschirmfoto_2023-07-27_um_12.29.54_1690435796336_0.png)
-	- ## HTML/CSS trennen
-		- ### Wieso?
+	- ### HTML/CSS trennen
+		- #### Wieso?
 			- Wiederverwendbarer CSS-Code
 			- Templates können erstellt werden (Ganzes Look & Feel kann durch Ersetzen einer CSS-Datei geändert werden)
 			- Struktur und Design werden sauber getrennt (Übersichtlicher, besser verwaltbar)
 			- Alle HTML-Elemente können zentral angesteuert werden
-	- ## CSS-Formatierungen
+	- ### CSS-Formatierungen
 		- ```css
 		  selektor {
 		    eigenschaft: wert;
@@ -35,29 +35,9 @@ tags:: Webdesign
 			  }
 			  ```
 		- [https://developer.mozilla.org/de/docs/Web/CSS/CSS_Referenz](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Referenz)
-- # CSS Masseinheiten
-  collapsed:: true
-	- Pixel (px):
-		- (Referenz)pixel des Bildschirmes
-	- Punkte (pt):
-		- Absolutgrösse aus dem Buchdruck
-	- Ems (em):
-		- Relativ zur Schriftgrösse des
-		  Eltern-Elements
-	- Rems (rem):
-		- Relativ zur Schriftgrösse der Browsereinstellungen (r = Root)
-	- Prozent (%):
-		- Relativ zum verfügbaren Platz
-	- [http://www.w3.org/TR/WCAG10-CSS-TECHS/#units](http://www.w3.org/TR/WCAG10-CSS-TECHS/)
-	- [https://developer.mozilla.org/de/docs/Web/CSS/length](https://developer.mozilla.org/de/docs/Web/CSS/length)
-- # CSS-Formatierungen
-  collapsed:: true
-	- ### Line Height
-		- ![Bildschirmfoto 2023-07-27 um 12.38.03.png](../assets/Bildschirmfoto_2023-07-27_um_12.38.03_1690436285512_0.png){:height 388, :width 672}
-			-
-	- ### Shorthand properties
-		- ![Bildschirmfoto 2023-07-27 um 12.38.31.png](../assets/Bildschirmfoto_2023-07-27_um_12.38.31_1690436312817_0.png)
-		- Nicht genauer auf margin eingehen, Properties können auch mehrere Werte annehmen.
+- [[User Experience]]
+- [[CSS Masseinheiten]]
+- [[CSS Formatierungen]]
 - # Selektoren
   collapsed:: true
 	- [https://](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors)[developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors)
@@ -160,18 +140,7 @@ tags:: Webdesign
 		- ```css
 		  <p>Lorem <span>ipsum</span> dolor sit amet</p>
 		  ```
-- # Flex Box
-  collapsed:: true
-	- Elemente im zur Verfügung stehenden Platz des Container verteilen
-	- Spalten & Zeilen
-	- ![Bildschirmfoto 2023-07-27 um 13.02.30.png](../assets/Bildschirmfoto_2023-07-27_um_13.02.30_1690437752504_0.png)
-	- ![Bildschirmfoto 2023-07-27 um 13.03.08.png](../assets/Bildschirmfoto_2023-07-27_um_13.03.08_1690437791188_0.png)
-	- ![Bildschirmfoto 2023-07-27 um 13.03.23.png](../assets/Bildschirmfoto_2023-07-27_um_13.03.23_1690437805244_0.png)
-	- ![Bildschirmfoto 2023-07-27 um 13.03.36.png](../assets/Bildschirmfoto_2023-07-27_um_13.03.36_1690437821111_0.png)
-		- align-items -> Wenn 1 Zeile
-		- align-content -> Wenn mehrere Zeilen
-	- ![Bildschirmfoto 2023-07-27 um 13.04.28.png](../assets/Bildschirmfoto_2023-07-27_um_13.04.28_1690437873592_0.png)
-	- https://flexboxfroggy.com/#de üben
+- [[Flex Box]]
 - # Grid
   collapsed:: true
 	- ## Grid und Verschachtelung

@@ -187,7 +187,7 @@ tags:: [[C#]], [[Java]], [[4 Pillars of OOP]]
 		- [Constructors and Access Specifiers (Setters and Getters) - Fundamentals Of Object-Oriented Programming: Java and IntelliJ [Video]](https://learning.oreilly.com/videos/fundamentals-of-object-oriented/9781837635702/9781837635702-video3_3/) #[[Fundamentals of object-oriented Programming Java]]
 		- A constructor is called to set up a new instance of a class.
 		- When a new object is created, Java allocates storage for it, sets instance variables to their default values, and calls the constructor method for the class to do whatever application-level setup is required.
-	- ### Inheritance
+	- ### Inheritance (Vererbung)
 	  collapsed:: true
 		- [Inheritance - Fundamentals Of Object-Oriented Programming: Java and IntelliJ [Video]](https://learning.oreilly.com/videos/fundamentals-of-object-oriented/9781837635702/9781837635702-video3_5/) #[[Fundamentals of object-oriented Programming Java]]
 		- [Multi-Level Inheritance, Polymorphism - Fundamentals Of Object-Oriented Programming: Java and IntelliJ [Video]](https://learning.oreilly.com/videos/fundamentals-of-object-oriented/9781837635702/9781837635702-video3_6/)
