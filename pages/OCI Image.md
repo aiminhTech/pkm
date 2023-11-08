@@ -1,4 +1,4 @@
-tags:: OCI, [[container image]]
+tags:: OCI, [[Container Image]]
 
 - [Understanding container images - OCI image specification · Ravikanth Chaganti](https://ravichaganti.com/blog/2022-10-28-understanding-container-images-oci-image-specification/)
 - ## Image Specification

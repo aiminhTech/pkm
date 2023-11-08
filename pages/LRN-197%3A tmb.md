@@ -1,10 +1,14 @@
 tags:: Typescript, Deno Fresh, TailwindCSS
 
 - Trademark Browser App
-- http://database.ipi.ch/public/apidocs
-- https://git.ipip.ch/projects/IPI/repos/public-frontend/browse/public-frontend-register/public-frontend-register-web/src/main/java/ch/ipi/frontend/register/web/resources
+- https://issues.ipip.ch/browse/LRN-197
+- https://git.ipip.ch/users/quach/repos/tmb/browse
+- ## official link:
+	- http://database.ipi.ch/public/apidocs
+	- https://git.ipip.ch/projects/IPI/repos/public-frontend/browse/public-frontend-register/public-frontend-register-web/src/main/java/ch/ipi/frontend/register/web/resources
 -
 - `auth.ts`
+  collapsed:: true
 	- Fetch Access-Token from [[IDP]].
 		- ```
 		  export async function getToken(
@@ -66,5 +70,14 @@ tags:: Typescript, Deno Fresh, TailwindCSS
 					- Checks if the remaining lifetime of the refresh token is less than 50% of the `refresh_expires_in` time.
 					- If so =>  it calls a function `refreshToken` to refresh the token, and then returns the refreshed token.
 					- If not => returns the original token.
--
+- ## datadelivery deployment
+	- ssh jboss@ipieswi025.ipi.ch
+	- Dev: http://ipieswi025.ipi.ch/logs/jboss/
+	- Prod: http://ipipswi025.ipi.ch/logs/jboss/
+- ## third party
+	- Icons: https://tabler-icons-tsx.deno.dev/
+- ## import
+	- ACE Editor:
+		- [https://github.com/ajaxorg/ace-builds](https://github.com/ajaxorg/ace-builds)
+		- https://github.com/ajaxorg/ace
 -

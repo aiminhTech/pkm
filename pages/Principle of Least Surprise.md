@@ -1,0 +1,1 @@
+- https://de.wikipedia.org/wiki/Principle_of_Least_Surprise

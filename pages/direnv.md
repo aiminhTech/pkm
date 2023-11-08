@@ -1,0 +1,6 @@
+- https://direnv.net/
+- An extension for your shell.
+- It augments existing shells with a new feature that can load and unload environment variables depending on the current directory.
+- ## Basic Installation
+	- direnv is packaged in most distributions already. See [the installation documentation](https://direnv.net/docs/installation.html) for details.
+	- [hook direnv into your shell](https://direnv.net/docs/hook.html).

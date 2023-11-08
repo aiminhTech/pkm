@@ -1,1 +1,1 @@
-tags:: [[container image]]
+tags:: [[Container Image]]
