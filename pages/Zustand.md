@@ -1,7 +1,13 @@
+tags:: [[Typescript]], [[Javascript]], [[Web Storage]], [[LRN-205: Technology Repition]]
+
+- https://docs.pmnd.rs/zustand/getting-started/introduction
 - A small, fast, and scalable bearbones state management solution.
 - Zustand has a comfy API based on hooks. It isn't boilerplatey or opinionated,
   but has enough convention to be explicit and flux-like.
 -
+- ## Installation
+	- `npm install zustand`
+	- `yarn add zustand`
 - ## persisting store data
 	- https://docs.pmnd.rs/zustand/integrations/persisting-store-data
 	- The Persist middleware enables you to store your Zustand state in a storage

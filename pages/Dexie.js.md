@@ -48,4 +48,9 @@ tags:: [[Javascript]], [[IndexedDB]]
 		    }
 		  }
 		  ```
-	-
+	- ### Read data
+		- ```typescript
+		  const addresses = useLiveQuery(
+		      () => db.addresses.toArray()
+		    )
+		  ```

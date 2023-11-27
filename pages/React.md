@@ -5,7 +5,7 @@
 - Applikationen und Elemente bestehen aus verschachtelten Components
 - https://reactjs.org/
 - Tutorial: https://beta.reactjs.org/learn
-- # Component
+- ## Component
   collapsed:: true
 	- (React) Apps bestehen aus Components
 	- Ein Component ist ein Teil des UI (Benutzeroberfläche), der über eine eigene Logik und ein
@@ -70,12 +70,11 @@
 				-
 				-
 				-
-- # Hooks
-  collapsed:: true
+- ## Hooks
 	- [https://reactjs.org/docs/hooks-effect.html](https://reactjs.org/docs/hooks-effect.html)
 	- [https://nextjs.org/docs/basic-features/data-fetching/overview](https://nextjs.org/docs/basic-features/data-fetching/overview)
 	- [[React Hooks]]
-	- ## useEffect
+	- ### useEffect
 	  collapsed:: true
 		- Mit der useEffect Funktion können wir einerseits auf Updates unserer state Variablen reagieren und Funktionen zu bestimmten Zeitpunkten ausführen
 		- ![Bildschirmfoto 2023-08-01 um 18.08.12.png](../assets/Bildschirmfoto_2023-08-01_um_18.08.12_1690906094055_0.png)
@@ -266,7 +265,8 @@
 			- Wenn wir state Variablen mit Werten aus den Props initialisieren wollen, müssen wir auch useEffect brauchen.
 			- Wenn unser Propsattribut gleich heisst, wie die State Variable, können wir kein Destructuring brauchen. (list => props.list)
 			- ![image.png](../assets/image_1690906930328_0.png)
-	- ## useState
+	- ### useState
+	  collapsed:: true
 		- Hook  = Spezielle Hilfsfunktionen in der React Welt
 		- Wir brauchen am Anfang die Hooks useState und useEffect von React
 		- Wir werden noch den useRouter Hook von next.js kennenlernen
@@ -289,7 +289,6 @@
 			  
 			  ```
 		- ### JSX Eventhandler
-		  collapsed:: true
 			- Wir definieren eine Funktion, die ein Event entgegennimmt und übergeben diese Funktion dem onClick Attribut
 			- ![image.png](../assets/image_1690907042850_0.png)
 			- ![image.png](../assets/image_1690907049460_0.png)
@@ -327,9 +326,9 @@
 		- ### useState mit Arrays
 			- ![Bildschirmfoto 2023-08-01 um 18.29.37.png](../assets/Bildschirmfoto_2023-08-01_um_18.29.37_1690907379070_0.png)
 				-
-- # Advanced react.js
+- ## Advanced react.js
   collapsed:: true
-	- ## Komplexere Components entwerfen
+	- ### Komplexere Components entwerfen
 	  collapsed:: true
 		- Mockup des Components
 		- Datenstruktur analysieren
@@ -337,7 +336,7 @@
 		  brauchen
 		- Lift state up
 		- Kommunikation Parent – Child über Callbackfunktionen
-	- ## Beispiel
+	- ### Beispiel
 	  collapsed:: true
 		- ### Mockup des Components
 		  collapsed:: true
@@ -374,57 +373,58 @@
 			- Searchbar erhält die Suchanfage (query) und den “an Lager” Filterwert (inStocksOnly) via props
 			- Erhält die beiden Funktionen onQueryChange und onInStockOnlyChange, um den Parentcomponent bei Änderungen zu benachrichtigen,via props
 			- ![image.png](../assets/image_1690935003936_0.png)
-	- ## Eigene Hooks schreiben
+	- ### Eigene Hooks schreiben
 	  collapsed:: true
 		- useState, useEffect können in eigene Funktionen gepackt werden
 		- Es bietet sich an, ein Objekt mit dem Wert und Methoden zu manipulation zu returnen
 		- Eigene Funktion muss mit “use” beginnen
 		- ![image.png](../assets/image_1690934964633_0.png)
 		- ![image.png](../assets/image_1690934969016_0.png)
-	- ## State mit props  initialisieren
+	- ### State mit props  initialisieren
 	  collapsed:: true
 		- Wenn wir state Variablen mit Werten aus den Props initialisieren wollen, müssen wir auch useEffect brauchen.
 		- Wenn unser Propsattribut gleich heisst, wie dieState Variable, können wir kein Destructuring brauchen. (list => props.list)
 		- ![image.png](../assets/image_1690934933143_0.png)
-- # Advanced next.js
-  collapsed:: true
-	- ## Projekt aufsetzen mit create-next-app
+- ## Advanced next.js
+	- ### Projekt aufsetzen mit create-next-app
 	  collapsed:: true
 		- `npx create-next-app my-app`
 		- Erstellt eine fertige next.js App im Verzeichnis my-app
 		- npx wurde mit node.js zusammen installiert
-	- ## jsconfig.json für Imports
+	- ### jsconfig.json für Imports
 	  collapsed:: true
 		- In der Datei jsconfig.json kann man beliebige Aliase für Pfade konfigurieren
 		- ![image.png](../assets/image_1690935309355_0.png)
-	- ## Image Component
+	- ### Image Component
 	  collapsed:: true
 		- Erhöht Performance beim Laden von Bildern
 			- Nur sichtbare Bildern werden geladen
 			- Bilder werden auf Server zugeschnitten
 			- Verschwomener Platzhalter beim laden
 		- ![image.png](../assets/image_1690935376415_0.png){:height 578, :width 700}
-	- ## API Routes
+	- ### API Routes
 	  collapsed:: true
 		- Im Verzeichnis pages/api können API Routen definiert werden
 		- Datenbankabfragen, fetch, Dateien lesen / schreiben
 		- Diese Routen können vom Client via fetch angesprochen werden
 		- ![image.png](../assets/image_1690935432428_0.png)
 		- ![image.png](../assets/image_1690935437428_0.png)
-	- ## getStaticProps
+	- ### getStaticProps
 	  collapsed:: true
+		- #
 		- Wenn eine Seite die Funktion getStaticProps exportiert, so werden diese Funktionen beim Ausführen des Befehls $ npm run build bzw. $ next build aufgerufen und es werden möglichst statische Seiten generiert.
 		- Je nach Konfiguration können diese Seiten zur Laufzeit aktualisiert werden.
 		- revalidate: 10 => die Seite wird maximal alle 10 sekunden neu generiert
 		- ![image.png](../assets/image_1690935714210_0.png)
-	- ## getStaticPaths
+	- ### getStaticPaths
 	  collapsed:: true
+		- #
 		- Wenn eine Seite einen Parameter hat(z.B. eine Id), dann muss auch die Funktion getStaticPaths exportiert werden.
 		- Hier könnten wir noch genau angeben, für welche Posts HTML generiert
 		  werden soll.
 		- Fallback: true => Seiten werden beim Aufruf generiert falls nötig
 		- ![image.png](../assets/image_1690935752785_0.png)
-	- ## next build, next start, next export
+	- ### next build, next start, next export
 	  collapsed:: true
 		- `npm run build ` (next build)
 			- Erstellung einer fertigen App (Production Build)
