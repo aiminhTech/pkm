@@ -1,5 +1,6 @@
 ## run container
 	- `podman run -it --rm docker.io/denoland/deno:ubuntu-1.36.4`
+	- podman run --name chatpad --rm -it -p 8080:80 ghcr.io/deiucanta/chatpad:latest
 	- ``` 
 	  podman build -t hello-openshift-time:latest .
 	  podman run -it --rm --publish 9000:8000 hello-openshift-time:latest

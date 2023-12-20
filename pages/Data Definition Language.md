@@ -7,22 +7,19 @@ tags:: Structured Query Language, Datenbanksprachen Datenbank
 	- **EXPLAIN**– Anzeigen
 	- **ALTER** – Verändern
 	- **DROP** – Löschen
-- # CREATE
+- ## CREATE
   collapsed:: true
-	- ## DATABASE
-		- ## Erstellen einer DB
-		  collapsed:: true
+	- ### DATABASE
+		- #### Erstellen einer DB
 			- ```sql
 			  CREATE DATABASE datenbank_name;
 			  ```
-		- ## DB anzeigen
-		  collapsed:: true
+		- #### DB anzeigen
 			- ```sql 
 			  SHOW DATABASES;
 			  ```
 			- ==Dieser Befehl ist nur mit MySQL verfügbar==
-		- ## DB wählen
-		  collapsed:: true
+		- #### DB wählen
 			- ```sql
 			  USE datenbank_name;
 			  ```
@@ -94,37 +91,35 @@ tags:: Structured Query Language, Datenbanksprachen Datenbank
 				    FOREIGN KEY (firma_id) REFERENCES firma (id) 
 				    ON DELETE NO ACTION ON UPDATE NO ACTION);
 				  ```
-- # EXPLAIN
-  collapsed:: true
-	- ## Tabellen erklären
+- ## EXPLAIN
+	- ### Tabellen erklären
 	  collapsed:: true
 		- ```sql
 		  EXPLAIN tabellen_name;
 		  ```
 		- Mit **EXPLAIN** können die definierten Attribute angezeigt werden
-- # ALTER
-  collapsed:: true
-	- ## DATABASE
-		- ### Löschen
+- ## ALTER
+	- ### DATABASE
+		- #### Löschen
 			- Das Löschen einer Datenbank wird beinahe gleich wie das Löschen einer Tabelle gemacht
 			- ```sql
 			  DROP DATABASE datenbank_name; 
 			  ```
-	- ## TABELLEN
+	- ### TABELLEN
 		- Einzelne Attribute können mit **ALTER** nachträglich zu der Tabelle hinzugefügt oder gelöscht werden
-		- ### Attribute hinzufügen
+		- #### Attribute hinzufügen
 		  collapsed:: true
 			- ```sql
 			  ALTER TABLE tabellen_name
 			  ADD COLUMN spalten_name datentyp [FIRST|AFTER column_name_2];
 			  ```
-		- ### Attribute ändern
+		- #### Attribute ändern
 		  collapsed:: true
 			- ``` sql
 			  ALTER TABLE tabellen_name
 			  CHANGE COLUMN spalten_name spalten_name_neu datentyp_neu;
 			  ```
-		- ### Attribute löschen
+		- #### Attribute löschen
 		  collapsed:: true
 			- Dieser Befehl sollte eigentlich bei einer guten Planung nie gebraucht werden
 			- Löscht ohne zu fragen die Tabelle **inkl. Inhalt**!
@@ -132,7 +127,7 @@ tags:: Structured Query Language, Datenbanksprachen Datenbank
 			  ALTER TABLE tabellen_name
 			  DROP COLUMN spalten_name;
 			  ```
-		- ### Fremdschlüssel hinzufügen
+		- #### Fremdschlüssel hinzufügen
 		  collapsed:: true
 			- ```sql
 			  ALTER TABLE <Tabelle1> 
@@ -142,44 +137,44 @@ tags:: Structured Query Language, Datenbanksprachen Datenbank
 			  	ON DELETE [NO ACTION], [CASCADE], [SET NULL], [SET DEFAULT];
 			  ```
 				-
-		- ### Fremdschlüssel löschen
+		- #### Fremdschlüssel löschen
 		  collapsed:: true
 			- ```sql 
 			  ALTER TABLE <Tabelle> 
 			  	DROP FOREIGN KEY <Constraint>;
 			  ```
-		- ### Eindeutiger Schlüssel hinzufügen
+		- #### Eindeutiger Schlüssel hinzufügen
 		  collapsed:: true
 			- (z.B. darf jeder Fremdschlüsselwert max. 1x vorkommen):
 			- ```sql 
 			  ALTER TABLE <Tabelle> 
 			  	ADD UNIQUE (<Spalte>);
 			  ```
-		- ### Eindeutiger Schlüssel löschen:
+		- #### Eindeutiger Schlüssel löschen:
 		  collapsed:: true
 			- ```sql 
 			  ALTER TABLE <Tabelle> 
 			  	DROP CONSTRAINT <Constraint>;
 			  ```
-		- ### Standardwert festlegen
+		- #### Standardwert festlegen
 			- wenn ein Datensatz eingefügt und dieses Attribut weggelassen wird, dann wird der Standardwert eingesetzt):
 			- ```sql 
 			  ALTER TABLE <Tabelle> 
 			  	ALTER <Spalte> SET DEFAULT <Wert>;
 			  ```
-		- ### Standardwert löschen
+		- #### Standardwert löschen
 			- ```sql 
 			  ALTER TABLE <Tabelle> 
 			  	ALTER <Spalte> DROP DEFAULT;
 			  ```
-		- ### Wertebereich festlegen:
+		- #### Wertebereich festlegen:
 			- ```sql 
 			  ALTER TABLE <Tabelle> 
 			  	ADD CONSTRAINT <Constraint> 
 			      CHECK (Ausdruck);
 			  ```
 			- Ein Ausdruck, der den Wertebereich festlegt. Beispiel: (PLZ >= 1000 AND PLZ <= 9999)
-		- ### Wertebereich löschen:
+		- #### Wertebereich löschen:
 		  collapsed:: true
 			- ```sql 
 			  ALTER TABLE <Tabelle> 

@@ -7,10 +7,16 @@
 	  :LOGBOOK:
 	  CLOCK: [2023-11-22 Wed 10:00:10]--[2023-11-22 Wed 10:00:12] =>  00:00:02
 	  :END:
-	- LATER Texte Hardrock Cafe
+	- DONE Texte Hardrock Cafe
+	  :LOGBOOK:
+	  CLOCK: [2023-12-11 Mon 13:32:43]--[2023-12-11 Mon 13:32:44] =>  00:00:01
+	  :END:
 - Deadline 04.12
-	- LATER PowerPoint Entwürfe
+	- DONE PowerPoint Entwürfe
 -
 - Zeitsaufwand
 	- 22.11 (30')
 		- Texte verfassen & Termineinladung erstellen
+	- 04.12 (7:30 - 8:05) => 35'
+		-
+-

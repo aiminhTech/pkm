@@ -1,48 +1,48 @@
 tags:: Datenbank-Entwurf, Datenbank
 
 - ((6485e4a4-66aa-4402-ae9f-fe70cc33950b))
-- # Warum?
+- ## Warum?
   collapsed:: true
 	- Reduzierung von Redundanzen
 	- Klar strukturiertes Datenbankmodell
 	- Vermeidung von ==Anomalien==
 		- Als eine Anomalie bezeichnet man ein Fehlverhalten der Datenbank
-- # Abhängigkeiten
+- ## Abhängigkeiten
   collapsed:: true
 	- Abhängigkeiten helfen uns herauszufinden, welche Daten bzw. Spalten in eine neue Tabelle ausgelagert werden sollten
-	- ## Funktionale Abhängigkeit
+	- ### Funktionale Abhängigkeit
 		- Der Wert, welcher in der Spalte ==farbe== steht, ist abhängig vom ==getraenk==
 		- ![Bildschirmfoto 2023-06-11 um 17.50.23.png](../assets/Bildschirmfoto_2023-06-11_um_17.50.23_1686498627769_0.png){:height 150, :width 300}
 			-
-	- ## Volle Abhängigkeit
+	- ### Volle Abhängigkeit
 		- Die Spalte ==geschmack== ist **voll abhängig** von der ==frucht== und der Spalte ==farbe==.
 		- ![Bildschirmfoto 2023-06-11 um 17.52.51.png](../assets/Bildschirmfoto_2023-06-11_um_17.52.51_1686498774130_0.png){:height 150, :width 300}
 			- Eine orange Aprikose ist immer süss, eine grüne ist immer sauer.
-	- ##  Transitiv Abhängigkeit
+	- ###  Transitiv Abhängigkeit
 		- Die Spalte ==raeder== ist abhängig vom ==fahrzeugtyp==, welcher wiederum abhängig ist von der ==bezeichnung==.
 		- ![Bildschirmfoto 2023-06-11 um 17.54.51.png](../assets/Bildschirmfoto_2023-06-11_um_17.54.51_1686498893671_0.png){:height 200, :width 400}
 		-
 	-
-- # Normaliesieren-Vorgehen
+- ## Normaliesieren-Vorgehen
   collapsed:: true
 	- Bsp.
 	  background-color:: green
 	- ![Bildschirmfoto 2023-06-11 um 17.56.13.png](../assets/Bildschirmfoto_2023-06-11_um_17.56.13_1686498974754_0.png)
 	  collapsed:: true
 		-
-	- ## 1. Normalform
+	- ### 1. Normalform
 		- ==Um die 1. NF zu erreichen, darf ein Attribut (Zelle) **nicht mehr als einen Wert (atomar)** enthalten.==
 		- ![Bildschirmfoto 2023-06-11 um 17.57.24.png](../assets/Bildschirmfoto_2023-06-11_um_17.57.24_1686499047845_0.png)
 		- Um die 1. Normalform zu erreichen, erstellen wir neue Entitäten (Zeilen)
 		- Pro Attribut (Zelle) ist nun nur noch ein einzelner Wert vorhanden
-	- ## 2. Normalform
+	- ### 2. Normalform
 		- ==Um die 2. NF zu erreichen, müssen alle **vollen Abhängigkeiten **aufgelöst werden.==
 		- ![Bildschirmfoto 2023-06-11 um 17.58.51.png](../assets/Bildschirmfoto_2023-06-11_um_17.58.51_1686499133502_0.png)
 		- Die Tabelle wird aufgeteilt
 		- Damit in der Tabelle ==note== die Informationen zum Lernenden und zum
 		  Modul nicht verloren gehen, müssen wir eine Referenz haben
 		- ![Bildschirmfoto 2023-06-11 um 18.00.33.png](../assets/Bildschirmfoto_2023-06-11_um_18.00.33_1686499234618_0.png)
-	- ## 3. Normalform
+	- ### 3. Normalform
 		- ==Um die 3. NF zu erreichen, müssen alle **transitiven Abhängigkeiten** aufgelöst werden.==
 		- ![Bildschirmfoto 2023-06-11 um 18.03.26.png](../assets/Bildschirmfoto_2023-06-11_um_18.03.26_1686499408686_0.png)
 		- Wie beim vorherigen Trennen müssen die Referenzen auf andere Daten beibehalten werden

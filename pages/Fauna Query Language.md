@@ -1,3 +1,2 @@
 - https://docs.fauna.com/fauna/current/api/fql/
-- [[Query Language]] for [[FaunaDB]]
--
+- [[Structured Query Language]] for [[FaunaDB]]

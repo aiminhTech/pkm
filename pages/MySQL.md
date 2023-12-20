@@ -10,4 +10,3 @@ tags:: bbc, Datenbank
 - [[Unterabfragen - Subqueries]]
 - [[Transaktion]]
 - [[DB-Fachbegriff]]
--
