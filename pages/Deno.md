@@ -1,3 +1,3 @@
-- A runtime for [[Javascript]] and [[TypeScript]]
+- A runtime for [[JavaScript]] and [[TypeScript]]
 - [[Deno Deploy]]
 -

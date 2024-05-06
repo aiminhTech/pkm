@@ -4,3 +4,4 @@
 - [[Chocolatey]]
 - [[DNF]]
 - [[APT]]
+- [[jsr]]

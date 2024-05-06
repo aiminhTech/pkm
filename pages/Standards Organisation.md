@@ -4,4 +4,4 @@
 		- [[XML]]
 		- [[HTML]]
 	- [[Ecma]]
-		- [[Javascript]]
+		- [[JavaScript]]

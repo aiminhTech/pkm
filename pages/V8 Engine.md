@@ -1,0 +1,2 @@
+- an open-source JavaScript and WebAssembly engine developed by The Chromium Project for the Google Chrome web browser.
+- It is also used in other projects, including Node.js. The engine is written in C++ and is designed to execute JavaScript code at high speeds.

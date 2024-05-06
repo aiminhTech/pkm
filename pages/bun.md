@@ -3,7 +3,8 @@ tags:: [[NPM]]
 - https://bun.sh/
 - `bun install`
 - ## `bunfig.toml`
-	- telemetry = false
+	- ```toml
+	  telemetry = false
 	  
 	  [install]
 	  #frozenLockfile = true
@@ -12,4 +13,4 @@ tags:: [[NPM]]
 	  [install.cache]
 	  dir = ".bun/install/cache"
 	  disable = true
-	-
+	  ```

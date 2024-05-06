@@ -6,10 +6,8 @@
 	  podman run -it --rm --publish 9000:8000 hello-openshift-time:latest
 	  podman image ls
 	  ```
-	- ```
-	  podman build -t "time-svc" -f Dockerfile-time .  //build container
+	- podman build -t "time-svc" -f Dockerfile-time .  //build container
 	  podman tag localhost/time-svc:latest default-route-openshift-image-registry.apps.ipip-ocp.ipip.ch/test-qai-hello-openshift/time-svc:latest
-	  ```
 - ## Steps to create image
 	- **Write** a [[Dockerfile]]
 	- **Build image locally** `podman build -t my-image:tag /path/to/Dockerfile/directory`

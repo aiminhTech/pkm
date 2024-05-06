@@ -1,0 +1,44 @@
+{:blocks (
+{:block/created-at 1713950493051
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "pink"
+:rotation 0
+:borderRadius 2
+:index 0
+:scale [1 1]
+:scaleLevel "sm"
+:fill "pink"
+:type "box"
+:size [368 80]
+:strokeType "line"
+:strokeWidth 1.6
+:opacity 1
+:label "CALL STACK"
+:id "6cfedfb0-021b-11ef-8a8c-9bb9c7c71290"
+:fontWeight 400
+:noFill false
+:point [784 -216]
+:fontSize 16
+:parentId "6628cd8d-5a39-42d2-ac7d-e55d3c0ace94"
+:nonce 1713950478440
+:italic false}}
+:block/updated-at 1713950493051})
+:pages (
+{:block/uuid #uuid "6628cd8d-5a39-42d2-ac7d-e55d3c0ace94"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "6628cd8d-5a39-42d2-ac7d-e55d3c0ace94"
+:name "js visualized"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("6cfedfb0-021b-11ef-8a8c-9bb9c7c71290")}}
+:block/updated-at 1713950493051
+:block/created-at 1713950093327
+:block/type "whiteboard"
+:block/name "js visualized"
+:block/original-name "JS Visualized"})}

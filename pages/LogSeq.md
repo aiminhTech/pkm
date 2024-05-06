@@ -2,3 +2,4 @@
 	- automatically sync with iphone
 - acer: `~ /pkm`
 - ige wks: `C:/ige/pkm`
+	- $env:https_proxy="http://www-proxy.ipip.ch:8080"
