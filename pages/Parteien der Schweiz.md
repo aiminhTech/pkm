@@ -1,0 +1,107 @@
+tags:: [[ABU - Politik]]
+
+- ## SVP (Schweizerische Volkspartei)
+  collapsed:: true
+	- ### VertreterInnen im Parlament
+		- Mitgliedern: 90000
+		- Bundesrat: 2
+		- Ständerat: 62
+		- Nationalrat 6
+	- ### Politische Einstellung der Partei (Beispiele)
+		- Restriktive Einwanderung für Identität und stabilitätschutz
+		- Verschäfung auf recht
+		- #### Sicht der Partei
+			- Fokus auf Wahrung nationaler Interessen
+			- Kein EU Betritt
+	- ### Welche Leute die Partei als WählerInnen hat
+		- In der Nationalwahl
+		- ### Geschlecht
+			- Frauen 22.7%
+			- Männer 29.1%
+		- ### Alter
+			- mehr Menschen im Alter 65-74
+			- Ältere Menschen haben oft konservativere politische Ansichten, als jüngere Menschen
+		- ### Region
+			- mehr Lands-Menschen als Agglomerations und Stadt-Menschen, da mehr ältere Menschen auf dem Land leben
+- ## FDP (Die Liberalen)
+  collapsed:: true
+	- ### VertreterInnen im Parlament
+		- Mitgliedern: 100'000
+		- Bundesrat: 2
+		- Ständerat: 11
+		- Nationalrat 27
+	- ### Politische Einstellung der Partei (Beispiele)
+		- stärkt die schweizer Wirtschft
+		- #### Sicht der Partei
+	- ### Welche Leute die Partei als WählerInnen hat
+		- Bürger mit mehr EInkommen
+- ## GLP (Grünliberale)
+  collapsed:: true
+	- ### Präsident
+	- ### VertreterInnen im Parlament
+		- Mitgliedern: 5100
+		- Bundesrat: 0
+		- Ständerat: 1
+		- Nationalrat:10
+	- ### Politische Einstellung der Partei (Beispiele)
+		- Klimaschutz und Energie
+		- Enge Zusammenarbeiten mit der EU
+		- moderne Gesellschaft und Gleichberechtigung
+		- Wirftschaft und Innvovation
+		- Aussenpolitik und Sicherheit
+		- Nachhaltige und Möbilität
+	- ### Welche Leute die Partei als WählerInnen hat
+		- jungen Menschen => haben oft liberarke Einstellung, typische wunsch die gesellsacht uzinündern
+		- bebliber im der stadt und agglomerarion
+		- Menschen, die Matura machen/ haben oder höherue AUsbulungsung machen
+		- höheren Einkommen
+		- in der Ausbildung ist mehr als Rente
+- ## EVP (Evangelische Volkspartein)
+  collapsed:: true
+	- ### VertreterInnen im Parlament
+		- Mitgliedern: 4500
+		- Bundesrat: 0
+		- Ständerat: 0
+		- Nationalrat: 2
+	- ### Politische Einstellung der Partei (Beispiele)
+		- nachhaltige Umweltpotilik
+		- soziale Gerechtigkeit
+	- ### Welche Leute die Partei als WählerInnen hat
+		- Frauen doppelt so gross als Männer
+		- Angestellten => da EVP rechte für Arbeiter einsetzt
+- ## GPS (Grüne)
+	- ### VertreterInnen im Parlament
+		- Mitgliedern: 13'000
+		- Bundesrat:
+		- Ständerat:
+		- Nationalrat:
+	- ### Politische Einstellung der Partei (Beispiele)
+		- Umweltpolitik
+	- ### Welche Leute die Partei als WählerInnen hat
+		- Leute in West und Nordschweiz
+		- Frauen mehr als Männer
+		- Alter 25-34 Jahren
+- ## SP (Sozialdemokratische Partei der Schweiz)
+	- ### VertreterInnen im Parlament
+		- Mitgliedern: 31'300
+		- Bundesrat: 2
+		- Ständerat: 6
+		- Nationalrat: 39
+	- ### Politische Einstellung der Partei (Beispiele)
+		-
+	- ### Welche Leute die Partei als WählerInnen hat
+- ## Die Mitte
+  collapsed:: true
+	- ### VertreterInnen im Parlament
+		- Mitgliedern: 86
+		- Bundesrat: b
+		- Ständerat:
+		- Nationalrat:
+	- ### Politische Einstellung der Partei (Beispiele)
+		-
+	- ### Welche Leute die Partei als WählerInnen hat
+		- ### Alter
+			- 45 - 54 am meisten
+		- ### Geschlecht
+			- frauen mehr als männer
+			-

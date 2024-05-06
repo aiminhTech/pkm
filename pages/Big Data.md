@@ -1,0 +1,11 @@
+- Big Data bezieht sich auf große Mengen an Daten, die aufgrund ihrer Grösse, Komplexität und Vielfalt schwer mit herkömmlichen Datenverarbeitungsmethoden zu handhaben sind.
+- Diese Daten können **strukturiert**, **unstrukturiert** oder **halbstrukturiert** sein und stammen aus verschiedenen Quellen wie Sensoren, sozialen Medien, Transaktionen, Maschinendaten und mehr.
+- ## Big Data 3 (5) V
+	- Bei Big Data Anwendungen geht es um die Beherrschung der folgenden 3 Vs:
+		- ==**V**olume (Volumen)==: Der Datenbestand ist umfangreich und liegt im Tera- bis Zettabytebereich (1 Zettabyte = 1’000’000’000’000’000’000’000 Byte)
+		- ==**V**ariety (Vielfalt)==: Speicherung von strukturierten, semi-strukturierten und unstrukturierten Daten (Text, Grafik, Bilder, Audio, Video, usw.)
+		- ==**V**elocity (Geschwindigkeit)==: Datenströme müssen in Echtzeit ausgewertet und analysiert werden können
+	- Weitere 2 Vs:
+		- ==**V**alue (Wert)==: Big Data Anwendungen sollen den Unternehmenswert steigern
+		- ==**V**eracity (Wahrhaftigkeit)==: Datenbestände liegen in unterschiedlicher Qualität vor, dies muss bei Auswertungen berücksichtigt werden
+-

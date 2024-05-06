@@ -1,0 +1,13 @@
+- Der Hauptunterschied liegt darin, wo die Macht liegt und wie viel Einfluss die regionalen Regierungen im Vergleich zur Zentralregierung haben.
+- ##  Zentralismus
+	- chủ nghĩa liên bang
+	- Beim Zentralismus hat die Hauptregierung in einem Land die meiste Macht. Sie trifft wichtige Entscheidungen, erlässt Gesetze und kontrolliert die Regionen oder Staaten im Land. Die regionalen Regierungen haben weniger Einfluss und folgen den Anweisungen der Zentralregierung.
+	- Im Zentralismus wird die Staatgewalt auf einen Mittelpunkt (=Zentrum) konzentriert
+	- Zentralismus will Vereinheitlichung
+	- Der Einheit (oder Zentralstaat) ist daher zentralistisch ausgerichtet.
+	- Frankreich, England, Finnland, Japan
+- ## Föderelismus
+	- Im Föderalismus teilen sich die Zentralregierung und die regionalen Regierungen die Macht. Jede Region oder jeder Staat im Land hat seine eigenen Gesetze und gewisse Unabhängigkeit. Die Zentralregierung und die regionalen Regierungen arbeiten zusammen, um das Land zu regieren.
+	- Im Föderalismus wird Rücksicht genommen auf Sitten und Gebräuche, auf Sprache und Kunltur der verschiedenen Gegenden und Landschaften.
+	- Die Staatsgewalt wird auf mehrere Gebiete verteilt, damit Selbständigkeit und Freiheit der einzelnen Bevölkerungsgruppen gewahrt bleiben.
+	- Schweiz, Deutschland, USA, Kanada

@@ -5,3 +5,11 @@
 	- [[Modul 114]]
 - # Semester 3
 	- [[M293 - Webauftritt erstellen und veröffentlich]]
+	- [[M322 - Benutzerschnittstellen]]
+	- [[M346 - Cloud Lösung konzipieren und realisieren]]
+	- [[ABU - Politik]]
+- ## Semester 4
+	- [[M165 - NoSQL-Datenbank]]
+	- [[ABU - Kunst & Kultur]]
+	- [[M426 - Software mit agilen Methoden entwickeln]]
+	- [[M254 - Geschäftsprozesse beschreiben]]

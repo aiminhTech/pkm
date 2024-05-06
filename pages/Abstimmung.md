@@ -1,0 +1,14 @@
+## Einflussmöglichkeiten von Politikern
+	- **Persönliche Gespräche**: Politiker können persönlich mit uns sprechen, um ihre Meinungen zu teilen und wir von ihrer Sichtweise zu überzeugen.
+	- **Gruppenmeetings**: Politiker können Gruppenmeetings oder Versammlungen organisieren, um die Themen zu diskutieren und Meinungen auszutauschen.
+	- **Informationsaustausch**: Politiker können relevante Informationen, Daten und Fakten teilen, um ihre Argumente zu unterstützen.
+	- **Unterstützung anbieten**: Politiker können anbieten, uns in anderen politischen Fragen oder Projekten zu unterstützen, um eine solidarische Beziehung aufzubauen.
+	- **Kompromissbereitschaft**: Politiker können bereit sein, Kompromisse einzugehen und Änderungen an Gesetzesentwürfen vorzuschlagen, um die Zustimmung ihrer Kollegen zu gewinnen.
+	- **Rückhalt in der Partei**: Die Unterstützung der eigenen Partei und die Überzeugung der Parteikollegen können hilfreich sein.
+	- **Öffentliche Unterstützung**: Politiker können die öffentliche Meinung nutzen, indem sie in der Presse oder in sozialen Medien für ihre Position werben.
+- ## Begriffen
+	- **Parole**: Das ist ein kurzer Slogan oder Botschaft, der die Aufmerksamkeit der Wähler oder der Öffentlichkeit auf die Abstimmungsvorlage zu lenken.
+	- **Abstimmungsvorlage**: Das ist das konkrete Thema oder der Vorschlag, über den die Menschen abstimmen. (ein Gesetzesentwurf, eine Verfassungsänderung)
+	- **Abstimmungsbotschaft**: Das sind die Kommunikationen oder die Informationen, die von Befürwortern oder Gegnern einer Abstimmungsvorlage verwendet werden, um die Wähler zu überzeugen. Diese Botschaften können in Form von Werbespots, Flugblättern, Reden und anderen Medien verbreitet werden.
+	- **Abstimmungskampagne**: Das sind die organisierten Bemühungen von Gruppen, Parteien oder Einzelpersonen, um die Meinung der Wähler zu beeinflussen und sie zur Teilnahme an der Abstimmung zu motivieren.
+	- **Meinungsbildung**: Die Meinungsbildung ist der Prozess, bei dem Menschen Informationen und Argumente zu einer Abstimmungsvorlage sammeln und verarbeiten, um eine Meinung oder Haltung zu diesem Thema zu entwickeln.
