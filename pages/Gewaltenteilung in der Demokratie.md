@@ -1,0 +1,31 @@
+## Staatsgewalten
+	- **Was mit der Verteilung erreicht werden soll?** => Man vermeidet dadurch eine Machtansammlung und einen Missbrauch der Macht, weil sich die drei Gewalten gegenseitig kontrollieren.
+	- Die drei staatlichen Gewalten sind recht unabhängig voneinander und kontrollieren sich gegenseitig.
+	- Wichtig ist vor allem, dass Gerichte unabhängig entscheiden können.
+	- ### Legislative (Legislativa)
+		- Recht setzen (Parlament und Volk)
+		- Ihre Hauptaufgabe ist die Gesetzgebung.
+		- Sie verabschieden, ändern und heben Gesetze auf.
+		- Sie überwachen und kontrollieren die Exekutive und können Regierungsentscheidungen beeinflussen.
+	- ### Exekutive (Executive)
+		- Recht durchsetzen (Regierung, Präsident)
+		- Ihre Hauptaufgabe ist die Umsetzung der Gesetze und die Verwaltung des Staates.
+		- Sie setzen die politischen Entscheidungen um, führen Regierungsgeschäfte und sind oft für die Aussenpolitik verantwortlich.
+		- In vielen Ländern haben sie auch Befugnisse zur Ernennung von Regierungsmitgliedern und Verwaltungsbeamten.
+	- ### Judikative (Iudiciaria)
+		- über Recht und Unrecht urteilen (Gerichte)
+		- Ihre Hauptaufgabe ist die Auslegung und Anwendung der Gesetze.
+		- Sie entscheiden über Rechtsstreitigkeiten, überprüfen die Verfassungsmässigkeit von Gesetzen und sorgen für die Einhaltung der Rechtsnormen.
+		- Die Judikative stellt sicher, dass die Gesetze gerecht und verfassungsgemäss angewendet werden
+	- ### Medien (vierte Gewalt)
+		- Informieren und öffentliche Meinungsbildung
+		- Einerseits tragen sie wesentlich zur Meinungsbildung bei, anderseits üben sie eine Kontrolle über die politischen Behörden aus, n dem sie Missstände aufdecken und darüber berichten.
+		- Die Medien können durch die Auswahl und die Darstellung Informationen grossen Einfluss auf die öffentliche Meinung und die Politik ausüben.
+		- #### Legalen Möglichkeiten den Medien zur Verfügung stehen, die Leute zu beeinflussen.
+			- Einseitig Berichten
+			- Nur die einen Fakten nennen
+			- über etwas berichten oder eben nicht berichten
+			- Kritisch / unkritisch über eine Seite berichten
+			- Werbung schalten
+	-
+	-

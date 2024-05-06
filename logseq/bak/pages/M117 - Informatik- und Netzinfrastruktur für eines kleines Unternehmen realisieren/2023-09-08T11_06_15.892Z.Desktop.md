@@ -1,0 +1,5 @@
+- #GIBB
+- [[Grundlagen]]
+- [[Physisches Netz]]
+- [[Logisches Netz]]
+- [[NETZWERKRESSOURCEN]]
