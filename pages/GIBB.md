@@ -12,4 +12,4 @@
 	- [[M165 - NoSQL-Datenbank]]
 	- [[ABU - Kunst & Kultur]]
 	- [[M426 - Software mit agilen Methoden entwickeln]]
-	- [[M254 - Geschäftsprozesse beschreiben]]
+-

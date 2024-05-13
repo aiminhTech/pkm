@@ -68,6 +68,7 @@ tags:: [[Javascript]]
 		  </html>
 		  ```
 	- ### `worker.js`
+	  collapsed:: true
 		- which holds the expensive CPU operation task and communicates with worker.html file after task completion
 		- ```js
 		  let i = 0;
@@ -83,4 +84,3 @@ tags:: [[Javascript]]
 		  count();
 		  ```
 - After running above code you will notice webworker works efficiently without blocking user interface or from rendering.
--

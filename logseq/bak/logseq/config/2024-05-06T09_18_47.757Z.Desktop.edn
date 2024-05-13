@@ -321,5 +321,3 @@
  :journal/page-title-format "yyyy-MM-dd EEEE"
  :graph/settings {:journal? false}
  }
-
-:reflection "<span style='color: #d9d898'>$1</span>"

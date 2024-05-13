@@ -24,7 +24,7 @@
 :parentId "6628cd8d-5a39-42d2-ac7d-e55d3c0ace94"
 :nonce 1713950478440
 :italic false}}
-:block/updated-at 1713950493051})
+:block/updated-at 1715000415617})
 :pages (
 {:block/uuid #uuid "6628cd8d-5a39-42d2-ac7d-e55d3c0ace94"
 :block/properties 
@@ -37,7 +37,7 @@
 :nonce 1
 :assets []
 :shapes-index ("6cfedfb0-021b-11ef-8a8c-9bb9c7c71290")}}
-:block/updated-at 1713950493051
+:block/updated-at 1715000415616
 :block/created-at 1713950093327
 :block/type "whiteboard"
 :block/name "js visualized"

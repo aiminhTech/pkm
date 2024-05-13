@@ -1,0 +1,7 @@
+- [[CSV]]
+- [[XML]]
+- [[JSON]]
+- [[MessagePack]]
+- [[TOML]]
+- [[CBOR]]
+-

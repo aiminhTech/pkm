@@ -1,5 +1,6 @@
-- macos : `~ /icloud/logseq/grahps/pkm`
+- **macos** : `~ /icloud/logseq/grahps/pkm`
 	- automatically sync with iphone
-- acer: `~ /pkm`
-- ige wks: `C:/ige/pkm`
+- **acer**: `~ /pkm`
+- **ige wks**: `C:/ige/pkm`
 	- $env:https_proxy="http://www-proxy.ipip.ch:8080"
+-

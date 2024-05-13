@@ -27,20 +27,18 @@ tags:: Datenbank-Entwurf, Datenbank
 	- ### Kardinalitäten
 		- ![Bildschirmfoto 2023-06-11 um 17.20.18.png](../assets/Bildschirmfoto_2023-06-11_um_17.20.18_1686496820056_0.png){:height 302, :width 598}
 		- ==m==
-		  collapsed:: true
 			- must, multiple
 			- 1 oder mehrere Elemente
 		- ==c==
-		  collapsed:: true
 			- choice, can
 			- 0 oder 1 Element
 		- ==mc==
-		  collapsed:: true
 			- must-can
 			- 0, 1 oder mehrere Elemente
 			-
 - ## Beziehungen überprüfen
   id:: b9d44628-10a0-4bf2-a673-2cdae5f3e384
+  collapsed:: true
 	- ==m:m== kann nicht in Tabellen gespeichertwerden!
 	- auflösen von komplexen Beziehungen ==[m:m]== und ==[m:mc]==
 	- überprüfen der Beziehungen => keine ==[1:1], [1:c]== oder ==[c:c]== (begrenzt
