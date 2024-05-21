@@ -319,5 +319,9 @@
  :file/name-format :triple-lowbar
  :feature/enable-journals? false
  :journal/page-title-format "yyyy-MM-dd EEEE"
- :graph/settings {:journal? false}
+ :graph/settings {:journal? false
+ :builtin-pages? true}
+ :graph/forcesettings {:link-dist 180
+ :charge-strength 1000
+ :charge-range 4000}
  }

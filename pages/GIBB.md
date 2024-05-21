@@ -1,15 +1,15 @@
-# Semester 1
-	- [[M162 - Daten analysieren & modellieren]]
-	- [[M117 - Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
-- # Semester 2
+## Semester 1
+	- [[Daten analysieren & modellieren]]
+	- [[Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
+- ## Semester 2
 	- [[Modul 114]]
-- # Semester 3
-	- [[M293 - Webauftritt erstellen und veröffentlich]]
-	- [[M322 - Benutzerschnittstellen]]
-	- [[M346 - Cloud Lösung konzipieren und realisieren]]
-	- [[ABU - Politik]]
+- ## Semester 3
+	- [[Webauftritt erstellen und veröffentlich]]
+	- [[Benutzerschnittstellen (UI-UX)]]
+	- [[Cloud Lösung konzipieren und realisieren]]
+	- [[ABU]] #Politik
 - ## Semester 4
-	- [[M165 - NoSQL-Datenbank]]
-	- [[ABU - Kunst & Kultur]]
-	- [[M426 - Software mit agilen Methoden entwickeln]]
+	- [[ABU]] #[[Kunst & Kultur]]
+	- [[NoSQL-Datenbank]]
+	- [[Software mit agilen Methoden entwickeln]]
 -

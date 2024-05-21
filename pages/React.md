@@ -1,11 +1,13 @@
-- #Frontend #BBC
+tags:: [[Frontend]], [[BBC]]
+
+- https://reactjs.org/
 - A JavaScript library for building user interfaces
 - Mit JavaScript und JSX werden **Components** definiert
 - Aufruf wie HTML-Tags!
 - Applikationen und Elemente bestehen aus verschachtelten Components
-- https://reactjs.org/
-- Tutorial: https://beta.reactjs.org/learn
+- **Tutorial**: https://beta.reactjs.org/learn
 - ## Component
+  collapsed:: true
 	- (React) Apps bestehen aus Components
 	- Ein Component ist ein Teil des UI (Benutzeroberfläche), der über eine eigene Logik und ein
 	  eigenes Erscheinungsbild verfügt
@@ -70,6 +72,7 @@
 				-
 				-
 - ## Hooks
+  collapsed:: true
 	- [https://reactjs.org/docs/hooks-effect.html](https://reactjs.org/docs/hooks-effect.html)
 	- [https://nextjs.org/docs/basic-features/data-fetching/overview](https://nextjs.org/docs/basic-features/data-fetching/overview)
 	- [[React Hooks]]
@@ -326,6 +329,7 @@
 			- ![Bildschirmfoto 2023-08-01 um 18.29.37.png](../assets/Bildschirmfoto_2023-08-01_um_18.29.37_1690907379070_0.png)
 				-
 - ## Advanced react.js
+  collapsed:: true
 	- ### Komplexere Components entwerfen
 	  collapsed:: true
 		- Mockup des Components
@@ -382,6 +386,7 @@
 		- Wenn unser Propsattribut gleich heisst, wie dieState Variable, können wir kein Destructuring brauchen. (list => props.list)
 		- ![image.png](../assets/image_1690934933143_0.png)
 - ## Advanced next.js
+  collapsed:: true
 	- ### Projekt aufsetzen mit create-next-app
 	  collapsed:: true
 		- `npx create-next-app my-app`
@@ -406,7 +411,6 @@
 		- ![image.png](../assets/image_1690935437428_0.png)
 	- ### getStaticProps
 	  collapsed:: true
-		- #
 		- Wenn eine Seite die Funktion getStaticProps exportiert, so werden diese Funktionen beim Ausführen des Befehls $ npm run build bzw. $ next build aufgerufen und es werden möglichst statische Seiten generiert.
 		- Je nach Konfiguration können diese Seiten zur Laufzeit aktualisiert werden.
 		- revalidate: 10 => die Seite wird maximal alle 10 sekunden neu generiert

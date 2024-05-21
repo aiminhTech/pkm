@@ -12,3 +12,7 @@
 		  
 		  type InnerCacheType = Unpacked<CacheType>; // Event | User
 		  ```
+- ## Ultity Types
+	- ### Partial<Type>
+		- https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype
+		-

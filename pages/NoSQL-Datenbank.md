@@ -1,7 +1,8 @@
-tags:: [[SQL]]
+tags:: [[SQL]], [[GIBB]]
 
 - #[[RDBMS (SQL Datenbank)]]
 - #[[Big Data]]
+- **M165**
 -
 - ## BASE-Prinzip
   collapsed:: true
@@ -16,8 +17,10 @@ tags:: [[SQL]]
 		- MongoDB kann auch als ACID-konforme Datenbank konfiguriert werden.
 		- Alle SQL-Datenbanken (RDBMS) funktionieren nach dem ACID-Prinzip. In Ausnahmefällen - bei stark verteilten Datenbanken - kann jedoch davon abgewichen werden.
 - ## CAP-Theorem
+  collapsed:: true
 	-
 - ## Stores
+  collapsed:: true
 	- ### Key-Value Stores
 		- #Redis
 	- ### Wide-Column Stores

@@ -1,4 +1,4 @@
-tags:: [[ABU - Politik]]
+tags:: [[Politik]]
 
 - ## SVP (Schweizerische Volkspartei)
   collapsed:: true

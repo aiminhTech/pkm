@@ -1,5 +1,6 @@
 tags:: [[GIBB]]
 
+- **M346**
 - ## Was ist Cloud Computing?
   collapsed:: true
 	- In jeder Cloud werden Ressourcen in einem Netzwerk skalierbar zur Verfügung gestellt.

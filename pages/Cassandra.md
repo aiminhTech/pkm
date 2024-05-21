@@ -1,4 +1,4 @@
-tags:: [[M165 - NoSQL-Datenbank]]
+tags:: [[NoSQL-Datenbank]]
 
 - ## Was ist Cassandra?
 	- Freie Software (ähnlich wie Open-Source-Software)

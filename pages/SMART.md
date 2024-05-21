@@ -1,7 +1,7 @@
 - **SMART Ziele **helfen dir dabei, Aufgaben und Ziele effektiv zu planen und sie dann zu erreichen. Mit ihnen** **kannst du also sowohl deine **privaten Ziele**, als auch **berufliche Ziele im Unternehmen** erfolgreich umsetzen!
-- ![inline-project-management-project-management-phases-2-de-2x.webp](../assets/inline-project-management-project-management-phases-2-de-2x_1715080988598_0.webp)
+- ![die-smart-methode-1.webp](../assets/die-smart-methode-1_1715669791051_0.webp){:height 375, :width 780}
 	- **S**pezifisch — *Was genau will ich erreichen?*
 	- **M**essbar — *Wie überprüfe ich, ob ich das Ziel erreicht habe?*
-	- **A**zsführbar— *Möchte ich das Ziel überhaupt erreichen?*
+	- **A**ttraktiv— *Möchte ich das Ziel überhaupt erreichen?*
 	- **R**ealistisch — *Kann ich das Ziel mit meinen Mitteln erreichen?*
 	- **T**erminiert — *Wann möchte ich das Ziel erreicht haben?*
