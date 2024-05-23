@@ -119,4 +119,4 @@ tags:: BBC
 		-
 - [[CSS]]
 - [[HTML]]
-- [[Javascript]]
+- [[JavaScript]]

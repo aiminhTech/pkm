@@ -2,8 +2,7 @@
 - # Journal
   template:: Journal
   template-including-parent:: false
-	- ## Work
+	- ## Goals & Work
 	- ## Duties
 	- ## Learn
-	- ## TIL
-	- ## Misc
+	- ## Reflection

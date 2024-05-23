@@ -1,0 +1,12 @@
+- wks reboot `pendmoves.exe`
+	- https://learn.microsoft.com/en-us/sysinternals/downloads/pendmoves
+- Sync pkm repo
+- Software update
+	- [[APT]]
+		- apt update
+		- apt upgrade
+	- [[Deno]]
+		- deno upgrade
+	- [[bun]]
+		- bun upgrade
+-

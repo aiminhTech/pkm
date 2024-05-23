@@ -2,20 +2,20 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 
 - alias:: DQL
 - Grundfunktionen zum Auslesen der Daten einer Tabellen verwenden
-- # SELECT
-	- ## Alle Attribute aus einer Tabelle
+- ## SELECT
+	- ### Alle Attribute aus einer Tabelle
 	  collapsed:: true
 		- ```sql
 		  SELECT * FROM tabellen_name; 
 		  ```
-	- ## Einzelne Attribute aus einer Tabelle
+	- ### Einzelne Attribute aus einer Tabelle
 	  collapsed:: true
 		- ```sql
 		  SELECT spaltename_X [, spaltename_Y, …] 
 		  FROM tabellen_name;
 		  
 		  ```
-	- ## Gezieltes Auslesen
+	- ### Gezieltes Auslesen
 	  collapsed:: true
 		- Einzelne Entitäten können direkt angesprochen werden
 		- ID oder Inhalt eines Attributes in der Bedingung angeben
@@ -23,7 +23,7 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 		  SELECT spaltename_X [, spaltename_Y, …]
 		  FROM tabellen_name WHERE bedingung;
 		  ```
-	- ## Verknüpfungen
+	- ### Verknüpfungen
 	  collapsed:: true
 		- Eine Query kann sich aus mehreren Bedingungen zusammensetzen
 		- **AND** und **OR** sind die beiden Kombinationsmöglichkeiten
@@ -38,7 +38,7 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 		  WHERE vorname = "Max"
 		  OR vorname = "Lisi"
 		  ```
-	- ## Geordnetes Auslesen
+	- ### Geordnetes Auslesen
 	  collapsed:: true
 		- Die Entitäten werden selten in einer brauchbaren Reihenfolge eingegeben
 		- **ORDER BY** sortiert die Entitäten für die Ausgabe
@@ -51,7 +51,7 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 		  SELECT vorname FROM mitarbeiter
 		  ORDER BY vorname;
 		  ```
-	- ## WHERE … IN / NOT IN
+	- ### WHERE … IN / NOT IN
 	  collapsed:: true
 		- **IN** = In der Liste / Spalte
 		- **NOT IN** = Nicht in der Liste / Spalte
@@ -68,7 +68,7 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 		  
 		  ```
 		-
-	- ## LIKE / NOT LIKE
+	- ### LIKE / NOT LIKE
 	  collapsed:: true
 		- **LIKE** wird verwendet, um nach einer bestimmten Zeichenkette/Pattern zu suchen
 		- ```sql
@@ -77,7 +77,7 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 		  WHERE f.name LIKE ‘%a%’;
 		  ```
 		- Das **%** wird als Platzhalter für null oder mehrere beliebige Zeichen eingesetzt
-	- ## BETWEEN
+	- ### BETWEEN
 	  collapsed:: true
 		- Zwischen Wert *x* und *y*
 		- Zahlen, Text oder Daten
@@ -89,7 +89,8 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 		  *'P' exklusiv
 		  ```
 		-
-	- ## Gruppieren nach Werten
+	- ### Gruppieren nach Werten
+	  collapsed:: true
 		- **GROUP BY** => gruppiert Werte anhand einer Spalte (Attribut)
 		- **HAVING** => erlaubt es die berechneten Werte weiter zu vergleichen/filtern
 		- ```sql

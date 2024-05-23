@@ -56,7 +56,7 @@ tags:: Webdesign
 			- Was soll passieren, wenn auf einen Button im Link geklickt wird?
 			-
 			-
-- # LATER Schemantische Tags
+- # Schemantische Tags
 	- ## Navigation (<nav>)
 		-
 	- ## Table (<table>)

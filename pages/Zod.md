@@ -5,6 +5,7 @@ tags:: Typescript, Quicktype, Deno, npm
 - We can catch type errors at runtime with zod
 - TypeScript only checks types at compile time. And that means that, invalid data, that doesn't have the fields we think are required, can still break our applications.
 - ## Installation
+  collapsed:: true
 	- ## npm
 		- https://zod.dev/?id=from-npm-nodebun
 		- `npm install zod` #npm

@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 - #React #Frontend
+=======
+tags:: [[React]], [[Frontend]]
+
+>>>>>>> 88a26b9effa3e06b1c3e96463b9700dbafb702aa
 - ## Hook
 	- Hook ist spezielle Hilfsfunktionen in der React Welt. React lässt uns auch eigene Hooks schreiben
 	- [[useState]]
@@ -17,14 +22,18 @@
 				- expose state from Reducer via FooContext
 			- Hook: useFooAction
 			- expose custom dispatch functions for each FooAction, which call dispatch functions of the Reducer which is available via FooContext.
+<<<<<<< HEAD
+=======
+- ## Lernvideo
+>>>>>>> 88a26b9effa3e06b1c3e96463b9700dbafb702aa
 	- [[Kent C. Dodds]]
 		- https://kentcdodds.com/blog/how-to-use-react-context-effectively
 		- most of the time is default value not necessary
 		- https://kentcdodds.com/blog/application-state-management-with-react
 		- https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks
 			- {{video https://youtu.be/RENGNzZ0dIs}}
-	- https://usehooks.com/useAuth
-		- https://github.com/uidotdev/usehooks/tree/master/src/pages
-	- https://soshace.com/react-user-login-authentication-using-usecontext-and-usereducer/
-	- https://betterprogramming.pub/easy-state-management-with-react-hooks-and-the-context-api-5db04e1f0ba5
-	- https://github.com/sofialevin/react-tetris/tree/master/src/hooks
+		- https://usehooks.com/useAuth
+			- https://github.com/uidotdev/usehooks/tree/master/src/pages
+		- https://soshace.com/react-user-login-authentication-using-usecontext-and-usereducer/
+		- https://betterprogramming.pub/easy-state-management-with-react-hooks-and-the-context-api-5db04e1f0ba5
+		- https://github.com/sofialevin/react-tetris/tree/master/src/hooks

@@ -1,6 +1,7 @@
-- #BBC
+tags:: [[BBC]]
+
 - [[React]]
-- # Frontendarchitektur
+- ## Frontendarchitektur
   collapsed:: true
 	- ## Klassische Architektur
 		- ![Bildschirmfoto 2023-08-01 um 17.28.06.png](../assets/Bildschirmfoto_2023-08-01_um_17.28.06_1690903690177_0.png)
@@ -36,4 +37,5 @@
 				-
 			-
 			-
+-
 -

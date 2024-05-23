@@ -1,4 +1,4 @@
-tags:: [[Javascript]], [[IndexedDB]]
+tags:: [[JavaScript]], [[IndexedDB]]
 
 - https://dexie.org/
 - A popular library for working with IndexedDB, which is a client-side web database that allows you to store and manage structured data.

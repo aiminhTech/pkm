@@ -1,4 +1,4 @@
-tags:: [[C#]], [[Java]] [[Javascript]]
+tags:: [[C#]], [[Java]] [[JavaScript]]
 
 - ## C#
   collapsed:: true
@@ -9,6 +9,7 @@ tags:: [[C#]], [[Java]] [[Javascript]]
 	  collapsed:: true
 		- ![Bildschirmfoto 2023-05-19 um 16.51.18.png](../assets/Bildschirmfoto_2023-05-19_um_16.51.18_1684507885058_0.png)
 - ## Java
+  collapsed:: true
 	- ### Primitive Data Types
 	  collapsed:: true
 		- https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html

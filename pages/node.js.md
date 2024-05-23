@@ -1,4 +1,4 @@
-- #Javascript #Webdesign
+- #JavaScript #Webdesign
 - ## Was ist node.js?
 	- Laufszeitumgebung für JavaScript
 		- mit der Installation node.js ist [[npm]] auch installiert wurde

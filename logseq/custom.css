@@ -1,0 +1,13 @@
+.done {
+	text-decoration: none;
+	color: #08A045;
+	opacity: 1;
+	font-weight: bold
+}
+
+.later {
+	text-decoration: none;
+	color: #E2619F;
+	opacity: 1;
+	font-weight: bold
+}

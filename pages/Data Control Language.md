@@ -2,9 +2,9 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 
 - alias:: DCL
 - wird verwendet, um Benutzer und deren Rechte zu administrieren
-- # Benutzer
-	- ## Erstellen
-	  collapsed:: true
+- ## Benutzer
+  collapsed:: true
+	- ### Erstellen
 		- ```sql
 		  CREATE USER benutzer@hostname IDENTIFIED BY password;
 		  ```
@@ -19,14 +19,14 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 			- Das ==%== ist ein Platzhalter, gleiche Bedeutung wie ==*==.
 			- ==%== => entspricht beliebig vielen Charakteren
 			- ==_== (Underline) => entspricht genau einem Charakter
-	- ## Löschen
-		- ### Benutzer mit **DROP** löschen
+	- ### Löschen
+		- #### Benutzer mit **DROP** löschen
 			- ```sql
 			  DROP USER benutzer@hostname;
 			  
 			  DROP USER hr_manager@localhost;
 			  ```
-		- ### Datensatz in der Tabelle **[MYSQL.]USER** löschen
+		- #### Datensatz in der Tabelle **[MYSQL.]USER** löschen
 			- ```sql
 			  DELETE FROM [MYSQL.]USER
 			  WHERE user = benutzername;
@@ -34,23 +34,23 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 			  DELETE FROM [MYSQL.]USER
 			  WHERE user = "hr_manager";
 			  ```
-- # Zugriffsrechte
-	- ## Vergeben
-	  collapsed:: true
+- ## Zugriffsrechte
+	- ### Vergeben
 		- ==* . *==
 		  collapsed:: true
 			- Rechte gelten für alle DBs und allen Tabellen
 		- ==Datenbank.*==
+		  collapsed:: true
 			- Rechte gelten für alle Tabellen einer bestimmten DB
 		- ==Datenbank.Tabelle==
+		  collapsed:: true
 			- Rechte gelten für die angegebene Tabelle
 		- Standardmässig kann nur *root* Rechte vergeben
 		- ```sql
 		  GRANT rechteliste ON db.tabelle TO benutzer@hostname;	
 		  GRANT ALL ON firma.mitarbeiterTO hr_manager@localhost;
 		  ```
-	- ## Entziehen
-	  collapsed:: true
+	- ### Entziehen
 		- Rechte können jederzeit wieder mit **REVOKE** entzogen werden
 		- ```Sql
 		  REVOKE rechteliste ON 

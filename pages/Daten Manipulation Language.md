@@ -9,9 +9,8 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 	- **DELETE**: Daten löschen
 	- **SELECT**: Abfragen durchführen
 	-
-- # INSERT
-	- Werte einfügen
-	  collapsed:: true
+- ## INSERT
+	- ### Werte einfügen
 		- ```sql
 		  INSERT INTO tabellen_nameVALUES (
 		    value1, value2, ...);
@@ -22,7 +21,7 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 		    VALUES (value1, value2, ...); 
 		  
 		  ```
-	- Mehrere Werte einfügen
+	- ### Mehrere Werte einfügen
 	  collapsed:: true
 		- ```sql
 		  INSERT INTO tabellen_nameVALUES 
@@ -30,9 +29,8 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 		  (value1, value2, ...),
 		  (value1, value2, ...);	
 		  ```
-- # UPDATE
-  collapsed:: true
-	- ## Werte verändern
+- ## UPDATE
+	- ### Werte verändern
 		- Wie beim **SELECT** wird auch hier mit **WHERE** und oft mit der ID gearbeitet
 		- ```sql
 		  UPDATE tabellen_name
@@ -41,7 +39,7 @@ tags:: Structured Query Language, Datenbanksprachen, Datenbank
 		  WHERE spaltename_Z = ‘XYZ’;
 		  	
 		  ```
-	- ## Werte löschen
+	- ### Werte löschen
 		- Mit **DELETE** können einzelne Entitäten gelöscht werden
 		- ```sql
 		  DELETE FROM tabellen_name; 

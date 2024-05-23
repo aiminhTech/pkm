@@ -1,4 +1,4 @@
-alias:: ## HTML
+alias:: HTML
 
 - ## Element
 	- ### [[<a>]]

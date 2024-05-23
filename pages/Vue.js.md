@@ -1,14 +1,16 @@
-tags:: [[JSX]], [[Javascript]]
+tags:: [[JSX]], [[JavaScript]]
 
 - https://vuejs.org/guide/introduction.html
 - A JavaScript framework for building user interfaces.
 - It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and 
   component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
 - ## Learn Links
+  collapsed:: true
 	- [https://jj09.net/vue-for-react-developers/](https://jj09.net/vue-for-react-developers/)
 	- [https://prismic.io/blog/compare-react-vs-vue](https://prismic.io/blog/compare-react-vs-vue)
 	- [https://blog.logrocket.com/vue-3-react-developers-side-by-side-comparison-demos/#rendering-lists-items-v-for](https://blog.logrocket.com/vue-3-react-developers-side-by-side-comparison-demos/#rendering-lists-items-v-for)
 - ## Quick Start
+  collapsed:: true
 	- https://vuejs.org/guide/quick-start.html
 	- `npm create vue@latest`
 	- Once the project is created, follow the instructions to install dependencies and start the dev server:
@@ -18,6 +20,7 @@ tags:: [[JSX]], [[Javascript]]
 		  > npm run dev> 
 		  ```
 - ## `<script setup>`
+  collapsed:: true
 	- https://vuejs.org/api/sfc-script-setup.html
 	- ```vue
 	  <script setup>
@@ -27,6 +30,7 @@ tags:: [[JSX]], [[Javascript]]
 	- The code inside is compiled as the content of the component's `setup()` function.
 	- This means that unlike normal `<script>`, which only executes once when the component is first imported, code inside `<script setup>` will **execute every time an instance of the component is created**.
 - ## Syntax
+  collapsed:: true
 	- ### directly in html
 	  collapsed:: true
 		- ```vue
@@ -110,6 +114,7 @@ tags:: [[JSX]], [[Javascript]]
 			- The `<style>` section is used to define the component's styling rules
 		-
 - ## Built-in Directives
+  collapsed:: true
 	- https://vuejs.org/api/built-in-directives.html
 	- ### v-bind
 	  collapsed:: true
@@ -168,6 +173,7 @@ tags:: [[JSX]], [[Javascript]]
 			  
 			  ```
 - ## Event Handling
+  collapsed:: true
 	- https://vuejs.org/guide/essentials/event-handling.html
 	- ### Inline event handling
 		- You can directly bind an event to an element using the `v-on` directive followed by the event name.
@@ -189,6 +195,7 @@ tags:: [[JSX]], [[Javascript]]
 		  
 		  ```
 - ## API Styles
+  collapsed:: true
 	- Vue components can be authored in two different API styles: **Options API** and **Composition API**.
 	- ### Options API
 		- With Options API, we define a component's logic using an object of options such as `data`, `methods`, and `mounted`.
@@ -251,4 +258,6 @@ tags:: [[JSX]], [[Javascript]]
 		    <button @click="increment">Count is: {{ count }}</button>
 		  </template>
 		  ```
+- ## Composable
+	- A function that leverages Vue's Composition API to encapsulate and reuse **stateful logic**.
 -

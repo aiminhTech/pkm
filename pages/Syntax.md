@@ -1,7 +1,6 @@
-tags:: [[C#]], [[Java]], [[Javascript]]
+tags:: [[C#]], [[Java]], [[JavaScript]]
 
 - ## C#
-  collapsed:: true
 	- ### Privat Variable
 	  collapsed:: true
 		- ```C#
@@ -18,6 +17,7 @@ tags:: [[C#]], [[Java]], [[Javascript]]
 		- #### Compare
 		  id:: 64f81fae-1b82-45b9-b84b-62408a02ff9b
 			- `==`   `<`  `>`   `<=`   `>=` ` !=`
+			  collapsed:: true
 		- #### Arithmetic
 			- `+` `-` `*`  `/`
 			- `%`  (modulo)
@@ -241,6 +241,7 @@ tags:: [[C#]], [[Java]], [[Javascript]]
 			- ![Bildschirmfoto 2023-05-19 um 17.06.29.png](../assets/Bildschirmfoto_2023-05-19_um_17.06.29_1684508790965_0.png)
 			- Es wird automatisch erkannt, wenn ein Wert gesetzt oder gelesen wird und die entsprechenden get bzw. set-Methoden werden aufgerufen.
 - ## Java
+  collapsed:: true
 	- ### main() Method
 	  collapsed:: true
 		- ```java

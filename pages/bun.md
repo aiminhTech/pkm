@@ -3,7 +3,8 @@ tags:: [[NPM]]
 - https://bun.sh/
 - `bun install`
 - ## `bunfig.toml`
-	- telemetry = false
+	- ```toml
+	  telemetry = false
 	  
 	  [install]
 	  #frozenLockfile = true
@@ -12,4 +13,11 @@ tags:: [[NPM]]
 	  [install.cache]
 	  dir = ".bun/install/cache"
 	  disable = true
-	-
+	  
+	  ```
+- ## `bun update`
+	- update all deps to the latest versions that's compatible with the version range specified in `package.json`
+	- does not update directly in `package.json` but `bun.lockb`
+	- check out `bun.lockb` when use `bun update`
+-
+-
