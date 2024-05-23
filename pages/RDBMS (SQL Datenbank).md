@@ -1,4 +1,7 @@
-## Relationales Datenbankmanagementsystem RDBMS
+tags:: [[Datenbank]]
+
+- ## Relationales Datenbankmanagementsystem RDBMS
+  collapsed:: true
 	- Oft wird der Begriff SQL-Datenbanken als Synonym für relationale Datenbanken oder RDBMS verwendet. Das ist nicht korrekt, denn SQL ist eine Datenbanksprache und kein Datenbanksystem.
 	- In einer relationalen Datenbank werden die Daten in Tabellen gespeichert. Jede Tabelle enthält Datensätze (Tupel, Zeilen) und jeder Datensatz besteht aus Attributen (Merkmale, Spalten). Eine Relation besteht aus Datensätzen und Attributen und kann folgende Ausprägungen annehmen:
 	  collapsed:: true

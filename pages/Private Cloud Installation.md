@@ -1,10 +1,12 @@
-tags:: [[M346 - Cloud Lösung konzipieren und realisieren]]
+tags:: [[Cloud Lösung konzipieren und realisieren]]
 
 - ## Aufbau einer Private Cloud Allgemeine
+  collapsed:: true
 	- Das Ziel der Private Cloud ist virtuelle Maschinen in einer Cloud zur Verfügung zu stellen.
 - ## Ablaufplan zur Installation der Cloud
 	- ![Bildschirmfoto 2023-12-03 um 18.12.50.png](../assets/Bildschirmfoto_2023-12-03_um_18.12.50_1701623573553_0.png)
 - ## Remote Verbindung einrichten (Fernzugriff per SSH)
+  collapsed:: true
 	- Braucht es dazu einen **private** und einen **public** Key
 	- Server und Client tauschen die Schlüssel aus.
 	- ### Authentisierung

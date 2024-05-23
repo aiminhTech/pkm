@@ -1,4 +1,6 @@
-## ZEITALTER DER EXTREME 1900er
+tags:: [[ABU]]
+
+- ## ZEITALTER DER EXTREME 1900er
 	- ## Ereignisse
 	  collapsed:: true
 		- ###  1. Weltkrieg (1914 - 1918)

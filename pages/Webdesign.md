@@ -1,6 +1,6 @@
 tags:: BBC
 
-- # Typografie
+- ## Typografie
   collapsed:: true
 	- Whitespace ist eines der mächtigsten Werkzeuge im Design. Whitespace ist
 	  id:: 64c1f8b1-758b-47de-9c0c-1fb23d01decf
@@ -43,13 +43,14 @@ tags:: BBC
 					- [color.adobe.com](https://color.adobe.com/)
 	- ## Farben
 		- Trivialnamen und RGB-Code
-		- Farben haben Namen
+		- **Farben haben Namen:**
 			- red, yellow, orange, deeppink, lightgreen, firebrick, rebeccapurple, etc.
-		- RRGGBB
-			- #ff1493, #90ee90, #b22222
-		- RGB:
-			- #f00, #ff0, #639
-- # Responsive Webdesign
+		- **RRGGBB:**
+			- **ff1493**, **90ee90**, **b22222**
+			  id:: 6641bbdf-04c2-48dc-b64a-cec337b0e9e8
+		- **RGB**:
+			- **f00**, **ff0**, **639**
+- ## Responsive Webdesign
   collapsed:: true
 	- responsive = ansprechbar, empfänglich, zugänglich, **reagierend**, ***antwortend***, responsiv
 	- ## Wieso?
@@ -103,7 +104,7 @@ tags:: BBC
 				  
 				  ```
 		-
-- # W3C
+- ## W3C
   collapsed:: true
 	- # Definition
 		- **World Wide Web Consortium**

@@ -38,10 +38,9 @@ tags:: [[Webdesign]], [[HTML]]
 - [[User Experience]]
 - [[CSS Masseinheiten]]
 - [[CSS Formatierungen]]
-- # Selektoren
-  collapsed:: true
+- ## Selektoren
 	- [https://](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors)[developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors)
-	- ## HTML Attribut id
+	- ### HTML Attribut id
 		- Das HTML Attribut id gibt einem HTML-Element einen Identifikationsnamen
 		- Jedes HTML-Element kann **nur einen Identifikationsnamen** haben
 		- Dieselbe **id** darf nur einmal pro HTML-Seite **vergeben werden
@@ -53,7 +52,7 @@ tags:: [[Webdesign]], [[HTML]]
 		  </article>
 		  
 		  ```
-	- ## HTML Attribut class
+	- ### HTML Attribut class
 		- Das Attribut class gibt einem HTML-Element einen Klassennamen
 		- Jedes HTML-Element kann ein oder mehrere Klassennamen haben
 		- Elemente einer HTML-Klasse können mit CSS gestylt werden
@@ -64,8 +63,9 @@ tags:: [[Webdesign]], [[HTML]]
 		  </article>
 		  
 		  ```
-	- ## HTML mit CSS formatieren
-		- ### HTML
+	- ### HTML mit CSS formatieren
+		- #### HTML
+		  collapsed:: true
 			- ```html
 			  <section id="main">
 			    <article class="content">
@@ -75,7 +75,7 @@ tags:: [[Webdesign]], [[HTML]]
 			  
 			  
 			  ```
-		- ### CSS
+		- #### CSS
 			- ```css
 			  #main {
 			    width: 16.6%;

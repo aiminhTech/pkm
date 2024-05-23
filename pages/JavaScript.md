@@ -3,10 +3,9 @@ tags:: [[node.js]], [[Programming Language]]
 - [[Syntax]]
 - [[Data Types]]
 - ## JS im Browser
-  collapsed:: true
 	- https://developer.mozilla.org/en/
 	- JS wird vom Browser ausgeführt
-		- beim Laden von [[<script>]] tags in [[HTML]]
+		- beim Laden von <script> tags in [[HTML]]
 		- beim Laden von externen JS-Dateien
 		- bei Browserevents (Maus, Tastatur, Touch,...)
 	- ### Globaler Kontext

@@ -1,3 +1,3 @@
-- #[[Hypertext Markup Language]]
+- #[[HTML Element]]
 - supports the HTML Drag and Drop API
 - https://developer.mozilla.org/de/docs/Web/HTML/Global_attributes/draggable
