@@ -2,6 +2,7 @@ tags:: [[LRN-221 Supercheck Verbesserung RPC]]
 
 - ## Backend
 	- ### `messaging.ts`
+	  collapsed:: true
 		- Der Zweck des gegebenen Codes ist die Verbindung zu einem NATS-Server 
 		  herzustellen
 		- ```ts
@@ -45,6 +46,7 @@ tags:: [[LRN-221 Supercheck Verbesserung RPC]]
 		  
 		  ```
 	- ### `rpc_messaging`
+	  collapsed:: true
 		- Der Zweck ist es, eine abstrakte Struktur bereitzustellen, um RPC-Request über Messaging-Systeme #NATS zu senden und zu empfangen
 		- ```ts
 		  
@@ -91,3 +93,81 @@ tags:: [[LRN-221 Supercheck Verbesserung RPC]]
 		  }
 		  ```
 		-
+	- ### rpc.ts
+		- In diesem TypeScript-Code werden Enums (Enumerationen) verwendet, um symbolische Namen für bestimmte, klar definierte Werte zu erstellen. Das hilft dabei, den Code übersichtlicher und lesbarer zu gestalten. Insbesondere dienen die Enums hier folgenden Zwecken:
+		  
+		  1. **`RPCMessageElementIdx` Enum:**
+		     ```typescript
+		     export enum RPCMessageElementIdx {
+		       TYPE = 0,
+		       META = 1,
+		     }
+		     ```
+			- **Beschreibung:** Definiert Indizes zur Kennzeichnung der Position von Elementen innerhalb einer RPC-Nachricht (Remote Procedure Call). `TYPE` (0) steht für den Nachrichtentyp und `META` (1) für die Metadaten.
+			  
+			  2. **`RPCRequestElementIdx` Enum:**
+			  ```typescript
+			  export enum RPCRequestElementIdx {
+			  TYPE = RPCMessageElementIdx.TYPE,
+			  META = RPCMessageElementIdx.META,
+			  METHOD_NAME = 2,
+			  FIRST_PARAM = 3
+			  }
+			  ```
+			- **Beschreibung:** Erweiterung des `RPCMessageElementIdx` Enums, um zusätzliche Indizes für spezifische Elemente von RPC-Anfragen hinzuzufügen. `METHOD_NAME` (2) steht für den Methodennamen und `FIRST_PARAM` (3) für den ersten Parameter der Anfrage.
+			  
+			  3. **`RPCResponseElementIdx` Enum:**
+			  ```typescript
+			  export enum RPCResponseElementIdx {
+			  TYPE = RPCMessageElementIdx.TYPE,
+			  META = RPCMessageElementIdx.META,
+			  DATA_OR_ERROR = 2
+			  }
+			  ```
+			- **Beschreibung:** Erweiterung des `RPCMessageElementIdx` Enums für spezifische Elemente von RPC-Antworten. `DATA_OR_ERROR` (2) steht für die Daten oder Fehlerinformationen in der Antwort.
+			  
+			  **Zusammenfassend:** Diese Enums helfen dabei, fixierte Positionen in strukturierten Arrays für RPC-Nachrichten (sowohl Anfragen als auch Antworten) zu referenzieren. Dadurch wird es einfacher und sicherer, auf die einzelnen Elemente innerhalb dieser Arrays zuzugreifen.
+			  
+			  **Confidence Level:** High
+			  
+			  **Quellen:**
+		- Offizielle TypeScript-Dokumentation: [TypeScript Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
+	- Die Funktionen `request` und `response` dienen dazu, spezifische Typen von RPC-Nachrichten zu erzeugen: Anfragen und Antworten. Sie vereinfachen den Prozess der Erstellung dieser Nachrichten, indem sie Standardstrukturen festlegen.
+	- ### `request` Funktion
+	  ```typescript
+	  export function request(meta: RPCRequestMeta, methodName: RPCRequestMethod, ...params: RPCValue[]): RPCRequest {
+	  return [RPCMessageType.REQUEST, meta, methodName, ...params]
+	  }
+	  ```
+	- **Beschreibung:** Diese Funktion erstellt eine RPC-Anfrage.
+	- **Parameter:**
+		- `meta`: Metadaten der Anfrage vom Typ `RPCRequestMeta`.
+		- `methodName`: Der Name der Methode, die aufgerufen werden soll, vom Typ `RPCRequestMethod`.
+		- `...params`: Beliebig viele zusätzliche Parameter der Anfrage vom Typ `RPCValue[]`.
+	- **Rückgabewert:** Liefert ein Array vom Typ `RPCRequest`, welches die Anfrage repräsentiert.
+	- ### `response` Funktion
+	  ```typescript
+	  export function response<T extends RPCValue = RPCValue>(data: T, meta: RPCResponseMeta = {}): RPCResponse<T, never> {
+	  return [RPCMessageType.RESPONSE, meta, data]
+	  }
+	  ```
+	- **Beschreibung:** Diese Funktion erstellt eine RPC-Antwort.
+	- **Parameter:**
+		- `data`: Die Antwortdaten vom generischen Typ `T`, welcher standardmäßig `RPCValue` ist.
+		- `meta`: Optionale Metadaten der Antwort vom Typ `RPCResponseMeta`.
+	- **Rückgabewert:** Liefert ein Array vom Typ `RPCResponse<T, never>`, welches die Antwort repräsentiert.
+	- ### Zweck und Nutzen
+	  1. **Strukturierte Erstellung:**
+	   Beide Funktionen stellen sicher, dass die erstellten Nachrichten den erwarteten Strukturen entsprechen. So wird das Risiko von Formatierungsfehlern reduziert.
+	  
+	  2. **Klarheit und Lesbarkeit:**
+	   Durch die Verwendung dieser Funktionen wird der Code klarer und weniger fehleranfällig, da Entwickler auf einfache Weise korrekte RPC-Nachrichten erstellen können, ohne sich um die genaue Anordnung der Elemente kümmern zu müssen.
+	  
+	  3. **Typensicherheit:**
+	   Mit TypeScript-Typen und Generics wird sichergestellt, dass die Nachrichten die richtigen Datentypen enthalten. Das vereinfacht die Fehlersuche und verbessert die Kompatibilität zwischen verschiedenen Teilen der Anwendung.
+	  
+	  **Confidence Level:** High
+	  
+	  **Quellen:**
+	- Offizielle TypeScript-Dokumentation: [TypeScript Functions](https://www.typescriptlang.org/docs/handbook/functions.html)
+	- [Using Generics in TypeScript Functions](https://www.typescriptlang.org/docs/handbook/2/generics.html)

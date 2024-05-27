@@ -1,6 +1,7 @@
 - wks reboot `pendmoves.exe`
 	- https://learn.microsoft.com/en-us/sysinternals/downloads/pendmoves
 - Sync pkm repo
+	- {{embed ((664c6765-4e0b-408b-8918-5cf42e209865))}}
 - Software update
 	- [[APT]]
 		- apt update
