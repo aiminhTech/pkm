@@ -3,6 +3,7 @@
   template:: Journal
   template-including-parent:: false
 	- ## Goals & Work
+	- ## Meeting
 	- ## Duties
 	- ## Learn
 	- ## Reflection

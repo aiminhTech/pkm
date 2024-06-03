@@ -57,8 +57,10 @@ tags:: [[LRN-221 Supercheck Verbesserung RPC]]
 		    Promise<RPCResponse<T, string>> {
 		      return this.executeEncoded(encodeRequest(req))
 		    }
+		    
+		    
 		  
-		    // nimmt eine bereits kodierte Anfrage entgegen, sendet sie über ein 
+		    // Nimmt eine bereits kodierte Anfrage entgegen, sendet sie über ein 
 		    // Messaging-System (hier als "nc" referenziert) mit einem Zeitlimit von 
 		    // 90 Sekunden und decodiert die Antwort.
 		    async executeEncoded<T extends RPCValue = RPCValue>(req: Uint8Array): 
@@ -76,8 +78,12 @@ tags:: [[LRN-221 Supercheck Verbesserung RPC]]
 		    }
 		  }
 		  
+		  
+		  
 		  //  Erstellt eine Instanz der `RPCMessagingPublisher`-Klasse
 		  export const publisher = new RPCMessagingPublisher()
+		  
+		  
 		  
 		  // Nimmt eine spezifische Parameter entgegen und erstellt eine Anfrage, 
 		  // sendet sie über den `publisher` und parse dann die Antwort basierend auf 
@@ -93,7 +99,8 @@ tags:: [[LRN-221 Supercheck Verbesserung RPC]]
 		  }
 		  ```
 		-
-	- ### rpc.ts
+	- ### `rpc.ts`
+	  collapsed:: true
 		- In diesem TypeScript-Code werden Enums (Enumerationen) verwendet, um symbolische Namen für bestimmte, klar definierte Werte zu erstellen. Das hilft dabei, den Code übersichtlicher und lesbarer zu gestalten. Insbesondere dienen die Enums hier folgenden Zwecken:
 		  
 		  1. **`RPCMessageElementIdx` Enum:**
@@ -132,42 +139,63 @@ tags:: [[LRN-221 Supercheck Verbesserung RPC]]
 			  
 			  **Quellen:**
 		- Offizielle TypeScript-Dokumentation: [TypeScript Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
-	- Die Funktionen `request` und `response` dienen dazu, spezifische Typen von RPC-Nachrichten zu erzeugen: Anfragen und Antworten. Sie vereinfachen den Prozess der Erstellung dieser Nachrichten, indem sie Standardstrukturen festlegen.
-	- ### `request` Funktion
-	  ```typescript
-	  export function request(meta: RPCRequestMeta, methodName: RPCRequestMethod, ...params: RPCValue[]): RPCRequest {
-	  return [RPCMessageType.REQUEST, meta, methodName, ...params]
-	  }
-	  ```
-	- **Beschreibung:** Diese Funktion erstellt eine RPC-Anfrage.
-	- **Parameter:**
-		- `meta`: Metadaten der Anfrage vom Typ `RPCRequestMeta`.
-		- `methodName`: Der Name der Methode, die aufgerufen werden soll, vom Typ `RPCRequestMethod`.
-		- `...params`: Beliebig viele zusätzliche Parameter der Anfrage vom Typ `RPCValue[]`.
-	- **Rückgabewert:** Liefert ein Array vom Typ `RPCRequest`, welches die Anfrage repräsentiert.
-	- ### `response` Funktion
-	  ```typescript
-	  export function response<T extends RPCValue = RPCValue>(data: T, meta: RPCResponseMeta = {}): RPCResponse<T, never> {
-	  return [RPCMessageType.RESPONSE, meta, data]
-	  }
-	  ```
-	- **Beschreibung:** Diese Funktion erstellt eine RPC-Antwort.
-	- **Parameter:**
-		- `data`: Die Antwortdaten vom generischen Typ `T`, welcher standardmäßig `RPCValue` ist.
-		- `meta`: Optionale Metadaten der Antwort vom Typ `RPCResponseMeta`.
-	- **Rückgabewert:** Liefert ein Array vom Typ `RPCResponse<T, never>`, welches die Antwort repräsentiert.
-	- ### Zweck und Nutzen
-	  1. **Strukturierte Erstellung:**
-	   Beide Funktionen stellen sicher, dass die erstellten Nachrichten den erwarteten Strukturen entsprechen. So wird das Risiko von Formatierungsfehlern reduziert.
-	  
-	  2. **Klarheit und Lesbarkeit:**
-	   Durch die Verwendung dieser Funktionen wird der Code klarer und weniger fehleranfällig, da Entwickler auf einfache Weise korrekte RPC-Nachrichten erstellen können, ohne sich um die genaue Anordnung der Elemente kümmern zu müssen.
-	  
-	  3. **Typensicherheit:**
-	   Mit TypeScript-Typen und Generics wird sichergestellt, dass die Nachrichten die richtigen Datentypen enthalten. Das vereinfacht die Fehlersuche und verbessert die Kompatibilität zwischen verschiedenen Teilen der Anwendung.
-	  
-	  **Confidence Level:** High
-	  
-	  **Quellen:**
-	- Offizielle TypeScript-Dokumentation: [TypeScript Functions](https://www.typescriptlang.org/docs/handbook/functions.html)
-	- [Using Generics in TypeScript Functions](https://www.typescriptlang.org/docs/handbook/2/generics.html)
+		- Die Funktionen `request` und `response` dienen dazu, spezifische Typen von RPC-Nachrichten zu erzeugen: Anfragen und Antworten. Sie vereinfachen den Prozess der Erstellung dieser Nachrichten, indem sie Standardstrukturen festlegen.
+		- ### `request` Funktion
+		  ```typescript
+		  export function request(meta: RPCRequestMeta, methodName: RPCRequestMethod, ...params: RPCValue[]): RPCRequest {
+		  return [RPCMessageType.REQUEST, meta, methodName, ...params]
+		  }
+		  ```
+		- **Beschreibung:** Diese Funktion erstellt eine RPC-Anfrage.
+		- **Parameter:**
+			- `meta`: Metadaten der Anfrage vom Typ `RPCRequestMeta`.
+			- `methodName`: Der Name der Methode, die aufgerufen werden soll, vom Typ `RPCRequestMethod`.
+			- `...params`: Beliebig viele zusätzliche Parameter der Anfrage vom Typ `RPCValue[]`.
+		- **Rückgabewert:** Liefert ein Array vom Typ `RPCRequest`, welches die Anfrage repräsentiert.
+		- ### `response` Funktion
+		  ```typescript
+		  export function response<T extends RPCValue = RPCValue>(data: T, meta: RPCResponseMeta = {}): RPCResponse<T, never> {
+		  return [RPCMessageType.RESPONSE, meta, data]
+		  }
+		  ```
+		- **Beschreibung:** Diese Funktion erstellt eine RPC-Antwort.
+		- **Parameter:**
+			- `data`: Die Antwortdaten vom generischen Typ `T`, welcher standardmäßig `RPCValue` ist.
+			- `meta`: Optionale Metadaten der Antwort vom Typ `RPCResponseMeta`.
+		- **Rückgabewert:** Liefert ein Array vom Typ `RPCResponse<T, never>`, welches die Antwort repräsentiert.
+		- ### Zweck und Nutzen
+		  1. **Strukturierte Erstellung:**
+		   Beide Funktionen stellen sicher, dass die erstellten Nachrichten den erwarteten Strukturen entsprechen. So wird das Risiko von Formatierungsfehlern reduziert.
+		  
+		  2. **Klarheit und Lesbarkeit:**
+		   Durch die Verwendung dieser Funktionen wird der Code klarer und weniger fehleranfällig, da Entwickler auf einfache Weise korrekte RPC-Nachrichten erstellen können, ohne sich um die genaue Anordnung der Elemente kümmern zu müssen.
+		  
+		  3. **Typensicherheit:**
+		   Mit TypeScript-Typen und Generics wird sichergestellt, dass die Nachrichten die richtigen Datentypen enthalten. Das vereinfacht die Fehlersuche und verbessert die Kompatibilität zwischen verschiedenen Teilen der Anwendung.
+		  
+		  **Confidence Level:** High
+		  
+		  **Quellen:**
+		- Offizielle TypeScript-Dokumentation: [TypeScript Functions](https://www.typescriptlang.org/docs/handbook/functions.html)
+		- [Using Generics in TypeScript Functions](https://www.typescriptlang.org/docs/handbook/2/generics.html)
+	- ### `store.ts`
+		- ```ts §
+		  export async function storeRPCRequest(
+		    req: Uint8Array | RPCRequest,
+		  ): Promise<string> {
+		    const os = await objectStore("supercheck_rpc", rpcStoreTTLNanos); // Initialisiert den Objekt-Store
+		    
+		    const decoded = ArrayBuffer.isView(req) ? decodeRequest(req) : req; // Dekodiert die Anfrage, wenn sie ein Uint8Array ist
+		    
+		    // Generiert einen Hash basierend auf dem Methodennamen und dem ersten Parameter
+		    const hash = await hashMethodNameAndParams(decoded[RPCRequestElementIdx.METHOD_NAME], decoded[RPCRequestElementIdx.FIRST_PARAM]); 
+		    
+		    // Speichert den ersten Parameter der Anfrage blob mit dem Namen `req_${hash}`
+		    await os.putBlob({ name: `req_${hash}` }, encode(decoded[RPCRequestElementIdx.FIRST_PARAM])); 
+		    return hash; // Gibt den Hash zurück
+		  }
+		  
+		  ```
+		- ```
+	- ##
+	-
