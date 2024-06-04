@@ -1,15 +1,19 @@
 tags:: [[GIBB]]
 
 - **M426**
+- **https**://**aex**.**dev**.**azure.com**/.
 - ## Was macht gutes ein Zusammenarbeit?
+  collapsed:: true
 	- Gute Doku
 	- Motivation
 	- Empathie
 	- Respekt
 	- Vertrauen
 - ## Agile Methode
+  collapsed:: true
 	-
 - ## SCRUM
+  collapsed:: true
 	- ### Rollen (Roles)
 		- In Scrum gibt es verschiedene Rollen, die jeweils **spezifische Verantwortlichkeiten**  innerhalb des Teams haben.
 		- #### **Product Owner**:
@@ -78,3 +82,5 @@ tags:: [[GIBB]]
 			- Sie sind konkrete Aufgaben, die von den Teammitgliedern erledigt werden, um eine User Story abzuschliessen.
 			- Tasks können alles umfassen, von Codierungs- und Designtätigkeiten bis hin zu Tests und Dokumentation.
 			- Sie helfen dabei, die Arbeit einer User Story in handhabbare Teile aufzuteilen und den Fortschritt nachvollziehbar zu machen.
+- [[Quellcodeverwaltung]]
+	-

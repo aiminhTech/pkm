@@ -1,0 +1,19 @@
+## Wirtschaftsstandort
+	- ### Pro-/Kontraargumente betreffen dem Wirtschaftsstandort Schweiz
+		- **Pro**
+			- Politische Stabilität
+			- Steuern (Wenn um Personen geht, dann ist es Kontra)
+			- Infrasturktur
+			- Schulwesen
+			- Einstellung zur Arbeit
+			- Verkehrslage
+			- Wasser
+			- Transitland
+			- Landschaft (Aussehen)
+		- **Kontra**
+			- Boden (Verfügbatkeit, Preis, Beschaffenheit,...)
+			- Rohstoffe
+			- Lohnniveau
+			- Binnenlage
+		- **Neutral**
+			- Schweizer Markt
