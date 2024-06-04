@@ -1,0 +1,25 @@
+tags:: [[OReilly]]
+
+- https://issues.ipip.ch/browse/LRN-227
+- Bearbeite folgende Online Kurse:
+- Beispiele lokal nachvollziehen (git repos, vscode, Übungen)
+- Lerndokumentation erweitern (pro Kurs min. 1 LogSeq-Seite)
+- Erste Priorität: A, B, C, D, H, J ( => 24h Aufwand)
+	-
+- ## frontendmasters
+	- (A) 4h35 [https://frontendmasters.com/courses/angular-fundamentals/](https://frontendmasters.com/courses/angular-fundamentals/)
+	- (B) 2h11 [https://frontendmasters.com/courses/javascript-quiz/](https://frontendmasters.com/courses/javascript-quiz/)
+	- (C) 5h12 [https://frontendmasters.com/courses/typescript-v4/](https://frontendmasters.com/courses/typescript-v4/)
+	- (D) 5h03 [https://frontendmasters.com/courses/intermediate-typescript-v2/](https://frontendmasters.com/courses/intermediate-typescript-v2/)
+	- (E) 4h42 [https://frontendmasters.com/courses/rust/](https://frontendmasters.com/courses/rust/)
+	- (F) 5h19 [https://frontendmasters.com/courses/rust-ts-devs/](https://frontendmasters.com/courses/rust-ts-devs/)
+	- (G) 7h04 [https://frontendmasters.com/courses/databases/](https://frontendmasters.com/courses/databases/)
+- ## Optional
+	- 5h10 [https://frontendmasters.com/courses/enterprise-typescript/](https://frontendmasters.com/courses/enterprise-typescript/)
+	- 6h57 [https://frontendmasters.com/courses/production-angular/](https://frontendmasters.com/courses/production-angular/)
+-
+- ## Oreilly
+	- (H) 3h30 [Learn Angular for Modern Web Applications [Video]]([https://learning.oreilly.com/course/learn-angular-for/9780137324842/](https://learning.oreilly.com/course/learn-angular-for/9780137324842/))
+	- (J) 3h39 [Angular 16 and RxJS: Build modern Single Page Applications [Video]]([https://learning.oreilly.com/videos/angular-16-and/10000DIVC202416/](https://learning.oreilly.com/videos/angular-16-and/10000DIVC202416/))
+	- **Optional**
+		- 34h58 [Angular - The Complete Guide [2023 Edition] [Video]]([https://learning.oreilly.com/course/angular-the/9781788998437/](https://learning.oreilly.com/course/angular-the/9781788998437/))

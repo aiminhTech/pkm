@@ -1,2 +1,3 @@
-- is the platform which  provides edge functions for [[Netlify]] and [[Supabase]]
 - https://deno.com/deploy
+- Platform which provides edge functions for [[Netlify]] and [[Supabase]]
+-
