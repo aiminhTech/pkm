@@ -1,4 +1,4 @@
-tags:: [[Javascript]], [[Typescript]]
+tags:: [[JavaScript]], [[Typescript]]
 
 - https://deno.land/x/sqlite@v3.8
 - https://github.com/dyedgreen/deno-sqlite

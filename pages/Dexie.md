@@ -1,0 +1,1 @@
+tags:: [[Dexie.js]], [[IndexedDB]]

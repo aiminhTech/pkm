@@ -11,7 +11,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 		- https://static.frontendmasters.com/assets/courses/2024-01-29-angular-fundamentals/angular-fundamentals-slides.pdf
 		- https://github.com/MarkTechson/angular-fundamentals-lessons
 - ## Installation
-  collapsed:: true
 	- https://angular.dev/tools/cli/setup-local
 	- ```bash
 	  sudo npm install -g @angular/cli
@@ -104,7 +103,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 		  }
 		  ```
 - ## Template
-  collapsed:: true
 	- ### Conditional Logic
 	  collapsed:: true
 		- #### @if
@@ -172,6 +170,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 			  
 			  ```
 	- ### Loop
+	  collapsed:: true
 		- #### @for
 			- ```html
 			  <section class="container">
@@ -352,13 +351,11 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 					- `carList: Car[] = [{ make: 'Foyoda', model: 'Famery' }, { make: 'Ronda', model: 'Disaccord' }];`: Initializes a list of two cars.
 					- `addCarToSaved(car: Car)`: Method that adds a car to the `savedCarList` when called.
 - ## Navigation
-  collapsed:: true
 	- `route-outlet`
 		- A `router-outlet` in Angular is a directive that acts as a placeholder within your application where the router will dynamically insert the component for the active route.
 		- Essentially, it's where the routed component's template will be displayed.
 	- ### Routing
 		- `app.routes.ts`: Defines the routing configuration
-		  collapsed:: true
 			- ```ts
 			  //app.routes.ts
 			  
@@ -376,7 +373,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 				- `path: ""`: The default route, also known as the root path.
 				- `component: GreetingsComponent`: The component that will be displayed when the default path is accessed.
 		- `app.config.ts`: Configures the application to use the router
-		  collapsed:: true
 			- ```ts
 			  //app.config.ts
 			  import { ApplicationConfig } from '@angular/core';
@@ -393,7 +389,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 				- Imports `provideRouter` from `@angular/router` which is used to configure the router with the defined routes.
 				- `appConfig` is an `ApplicationConfig` object where router providers are listed.
 		- `app.component.ts`
-		  collapsed:: true
 			- ```ts
 			  //app.component.ts
 			  import { Component } from '@angular/core';
@@ -418,7 +413,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 				- `imports: [CommonModule, RouterModule]`: Imports necessary modules for common Angular directives and routing capabilities.
 				- `<router-outlet/>`: A placeholder where the routed component (in this case, `GreetingsComponent` for the default path) will be displayed.
 	- ### RouterLink
-	  collapsed:: true
 		- create clickable links using the router link directive
 		- ```ts
 		  //app.component.ts
@@ -551,7 +545,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 		-
 	-
 - ## Forms
-  collapsed:: true
 	- We have 2 ways to define forms and gather input from users
 	- ### Template Driven Forms
 	  collapsed:: true
@@ -597,7 +590,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 				- They are bound to the `input` and `textarea` elements using `[(ngModel)]`, which is Angular’s two-way data binding syntax. This means any changes in the input fields will be reflected in the `title` and `body` variables, and changes in the variables will update the input fields.
 			- Angular’s **`ngModel`** directive updates the `title` and `body` properties with the new values.
 	- ### Reactive Forms
-	  collapsed:: true
 		- Supports typing
 		- Reuseable, can share models
 		- More robust testing configuration
@@ -645,15 +637,19 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 		  
 		  ```
 			- **Reactive Form Definition: `FormGroup` and `FormControl`**
+			  collapsed:: true
 				- `blogForm` is an instance of `FormGroup`, which aggregates multiple form controls into a single object, allowing management of the entire form.
 				- The `FormGroup` is initialized with two form controls: `title` and `body`, both set to empty strings. `FormControl` objects track the value and the validation status of each individual form field.
 			- **`handleFormSubmit` Method**
+			  collapsed:: true
 				- This method is called when the form is submitted (triggered by `(ngSubmit)="handleFormSubmit()"` in the template).
 			- It calls the `postBlog` method, passing in the current values of the `title` and `body` form controls.
 			- **`postBlog` Method**
+			  collapsed:: true
 				- This method takes two arguments (title and body), logs a message to 
 				  the console with these values, simulating a blog post submission
 			- **Form Template**
+			  collapsed:: true
 				- The `<form>` element:
 					- The form element uses the `formGroup` directive to bind the `blogForm` FormGroup.
 					- It also uses the `(ngSubmit)` directive to bind the form's submit event to the `handleFormSubmit` method.
@@ -661,9 +657,13 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 					- The `<input>` and `<textarea>` elements bind to `FormControl` instances using the `formControlName` directive.
 				- Submit button:
 					- The `<button>` element, with `type="submit"`, triggers the form submission when clicked.
+		- #### Validation
+			-
 	- ### Dependency Injection (DI)
+	  collapsed:: true
 		- DI is a design pattern and mechanism for **creating and delivering** some parts of an app to other **parts of an app that require them**
 		- `//user.service.ts`
+		  collapsed:: true
 			- ```ts
 			  
 			  import { Injectable } from '@angular/core';
@@ -762,6 +762,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 				  }
 				  }
 				  ```
+	-
 - ## Signals
   collapsed:: true
 	- Signals are a new way of handling change detection and reactivity in Angular application
@@ -774,4 +775,49 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 		- An effect is a side-effectful operation which reads the value of zero or more signals
 - ## Deferrable Views
   collapsed:: true
+	- https://v17.angular.io/guide/defer
 	- Allow for lazy loading of components and templates, which can help reduce the initial bundle size and improve performance
+	- Refer to delaying the creation or update of some parts of your view until they are actually needed. This can help improve performance by not doing unnecessary work upfront.
+	- ```
+	  @defer {
+	    <large-component />
+	  }
+	  
+	  //The content of the main @defer block is the section of content that is 
+	  lazily loaded. It will not be rendered initially, and all of the content 
+	  will appear once the specified trigger or when condition is met and the 
+	  dependencies have been fetched. 
+	  By default, a @defer block is triggered when the browser state becomes idle.
+	  ```
+	- ### `on idle`
+		- Load or perform an action when the browser is idle.
+		- **Use Case**: Suitable for non-essential tasks that can be done when there's no other high-priority work. For example, preloading sections of an app in the background.
+	- ### `on immediate`
+		- Load or perform an action immediately without any delay.
+		- **Use Case**: Useful for content that needs to be available as soon as possible, like critical UI components.
+	- ### `on timer(...)`
+		- Load or perform an action after a specified time delay.
+		- **Use Case**: Useful for delaying tasks to improve perceived performance or to stagger resource loads.
+	- ### `on viewport(...)`
+		- Load or perform an action when a specific element comes into the viewport (is visible on the screen).
+		- **Use Case**: Perfect for lazy-loading images or sections of a page to save bandwidth and improve load times.
+	- ### `on interaction(...)`
+		- Load or perform an action when the user interacts with a specific part of the UI (like clicking a button).
+		- **Use Case**: Efficient for tasks triggered by user actions, ensuring that resources are only loaded when necessary.
+	- ### `on hover(...)`
+		- Load or perform an action when the user hovers over an element.
+		- **Use Case**: Great for preloading content or showing tooltips and previews to improve the user experience.
+		- ```html
+		   @defer (on hover(loadPosts)) {
+		          <app-posts />
+		        }
+		  ```
+	- ### Summary
+		- These strategies help manage resource loading and user experience effectively:
+		- **`on idle`**: Non-essential tasks performed in the background.
+		- **`on immediate`**: High-priority tasks executed instantly.
+		- **`on timer(...)`**: Tasks delayed by a specified time.
+		- **`on viewport(...)`**: Content loaded when visible on the screen.
+		- **`on interaction(...)`**: Content loaded upon specific user actions.
+		- **`on hover(...)`**: Content loaded on mouse hover for quick previews.
+	-

@@ -12,8 +12,6 @@
 	- [[ABU]] #[[Kunst & Kultur]]
 	- [[NoSQL-Datenbank]]
 	- [[Software mit agilen Methoden entwickeln]]
--
-	- [[ABU - Kunst & Kultur]]
-	- [[M426 - Software mit agilen Methoden entwickeln]]
 	-
-	- [[M254]]
+		-
+		- [[M254]]
