@@ -2,7 +2,11 @@ tags:: [[node.js]], [[Programming Language]]
 
 - [[Syntax]]
 - [[Data Types]]
+- [[JS EventLoop]]
+- [[Scope & Closure]]
+-
 - ## JS im Browser
+  collapsed:: true
 	- https://developer.mozilla.org/en/
 	- JS wird vom Browser ausgeführt
 		- beim Laden von <script> tags in [[HTML]]
@@ -70,6 +74,7 @@ tags:: [[node.js]], [[Programming Language]]
 		- querySelector() und querySelectorAll() sind neuer, besser Typisierten und am flexibelsten
 		-
 	- ### Events
+	  collapsed:: true
 		- EventListener und Events sind ähnlich wie in JAVA
 		- Es existieren viele unterschiedliche Events
 		- Unterschiedliche HTML Elemente haben unterschiedliche Events
@@ -81,6 +86,7 @@ tags:: [[node.js]], [[Programming Language]]
 - ## Kommunikation mit dem Webserver
   collapsed:: true
 	- ### Der Begriff Webserver
+	  collapsed:: true
 		- Liefert Dokumente an Clients aus
 			- HTML-Seiten an unseren Browser
 			- Dasselbe mit CSS, JavaScript, JSON und Bilder
@@ -90,9 +96,11 @@ tags:: [[node.js]], [[Programming Language]]
 			- Logs
 			- Caching
 	- ### Verarbeiten einer Anfrage
+	  collapsed:: true
 		- ![Bildschirmfoto 2023-08-02 um 20.55.20.png](../assets/Bildschirmfoto_2023-08-02_um_20.55.20_1691002521720_0.png)
 			-
 	- ### HTML Link
+	  collapsed:: true
 		- Browser lädt eine Seite vom Webserver
 		- Per HTTP-GET
 		- Ganze Seite wir neu geladen (neuer DOM wird erstellt)
@@ -110,7 +118,7 @@ tags:: [[node.js]], [[Programming Language]]
 		-
 	- ### Fetch API
 	  collapsed:: true
-		- await fetch(url) ;
+		- `await fetch(url)`
 		- Laden von Serverresourcen mittels JS (JSON, HTML, Bilder, …)  Typischste Anwendung: CRUD Operationen bei einer Rest-API
 		- Nur Teile einer Seite können neu geladen werden. Bessere UX!
 		- ![image.png](../assets/image_1691002673984_0.png)
@@ -129,6 +137,260 @@ tags:: [[node.js]], [[Programming Language]]
 		- Asynchrone Funktionen sind mit dem Keyword **async** markiert.
 		- ![image.png](../assets/image_1691002807350_0.png)
 		-
+- ## Datentypen
+  collapsed:: true
+	- Einfacher als bei Java
+	- Es wird nicht zwischen Integer und Double unterschieden
+	- ![Bildschirmfoto 2023-08-02 um 20.40.04.png](../assets/Bildschirmfoto_2023-08-02_um_20.40.04_1691001606909_0.png){:height 141, :width 524}
+	- ### String
+	  collapsed:: true
+		- ```jsx
+		  
+		  let text = "John";                 // Datentyp: String
+		  let text2 = text + " " + "Doe";
+		  let text3 = `Hey ${text}`;	// Template String
+		  let text4 = `overlay ${menu.isOpen ? "" : "hidden"}`;
+		  let char = text[0]                 
+		  let size = text.length;       
+		  // Datentyp: Number
+		  text = text.substring(2, 2) 
+		  text = text.toUpperCase();
+		  text = text.replace("John", "Sam");
+		  
+		  
+		  ```
+- ## Syntax
+  collapsed:: true
+	- **Eingebettet im HTML**:` <script>… </script>`
+	- Ähnliche Syntax wie Java
+	- Schwach typisiert (Keine Angaben von Datentypen im Code)
+	- Semikolons sind optional
+	- ![image.png](../assets/image_1691001483673_0.png){:height 567, :width 445}
+		- ### Variablen
+			- “**let**“ deklariert eine Variable
+			- “**const**“ deklariert eine Konstante
+			- “**var**“ deklariert globale Variablen und sollte nicht mehr verwendet werden
+			- Variable ohne Zuweisung sind ‘**’undefined**’’
+			- Falls möglich verwende “**const**“, sonst “**let**“
+			- ![Bildschirmfoto 2023-08-02 um 20.39.15.png](../assets/Bildschirmfoto_2023-08-02_um_20.39.15_1691001558034_0.png)
+		- ### Steuerlogik
+			- ```jsx
+			  
+			  if (bedingung) {
+			    anweisungen;
+			  } else if (bedingung) {
+			    anweisungen;
+			  } else {
+			    anweisungen;
+			  }
+			  
+			  ```
+			- ```jsx
+			  switch (variable) {
+			    case wert1:
+			      anweisungen;
+			      break;
+			    case wert2:
+			      anweisungen;
+			      break;
+			    default:
+			      anweisungen;
+			  }
+			  ```
+			- ```jsx
+			  while (bedingung) {
+			    anweisungen;
+			    break;
+			    continue;
+			  }
+			  do {
+			    anweisungen;
+			  } while (bedingung);
+			  
+			  ```
+			- ```jsx
+			  for (let schritt = 0; schritt < 5; schritt++) {
+			    anweisungen;
+			  }
+			  ```
+			- ```jsx
+			  try {
+			    anweisungen;
+			  } catch (exception) {
+			    anweisungen;
+			  } finally {
+			    anweisungen;
+			  }
+			  throw new Error("...");
+			  
+			  
+			  ```
+		- ### Vergleichsoperatoren
+		  collapsed:: true
+			- Vergleiche immer mit `===`
+			- `==` vergleicht nur den Wert
+			- `===` vergleicht den Wert und den Typ
+			- ```jsx
+			  let x = 10;
+			  let y = "10"
+			  if (x == y) { /* x ist hier gleich wie y */ }
+			  if (x === y) { /* x ist hier nicht gleich wie y */ }
+			  if (x != y) { }
+			  if (x !== y) { }
+			  
+			  ```
+			-
+		- ### Array
+		  collapsed:: true
+			- ```jsx
+			  
+			  const cars = ["Saab", "Volvo", "BMW"];
+			  cars[0] = "Audi";
+			  let myCar = cars[2];
+			  
+			  let size = cars.length;
+			  
+			  cars.push("Audi"); 	// Fügt ein Element hinzu
+			  let car = cars.pop(); 	// Löscht das letzte Element
+			  for (let x of cars) {
+			    text += x;
+			  }
+			  
+			  cars.forEach(car => {
+			    text += `<p>${car}</p>`;
+			  });
+			  
+			  
+			  ```
+		- ### Klassen
+		  collapsed:: true
+			- JS kennt Klassen ähnlich wie Java.
+			- Verwende wenn möglich **keine Klassen**, sondern **JS Objekte!**
+			- ```jsx
+			  
+			  class Car {
+			    constructor(brand) {
+			      this.carname = brand;
+			    }
+			    present() {
+			      return 'I have a ' + this.carname;
+			    }
+			  }
+			  class Model extends Car {
+			    constructor(brand, mod) {
+			      super(brand);
+			      this.model = mod;
+			    }
+			    show() {
+			      return this.present() + ', it is a ' + this.model;
+			    }
+			  }
+			  
+			  mycar = new Model("Ford", "Mustang");
+			  mycar.present();
+			  
+			  
+			  ```
+		- ### JS Objekt
+		  collapsed:: true
+			- Entspricht dem Objekt bei Java
+			- Assoziatives Array (Key-Value Pairs)
+			- Kapselt Daten, manchmal auch Verhalten
+			- JS Objekte sind viel flexibler
+			- ```jsx
+			        
+			    const ronald = {
+			        vorname: "Ronald",
+			        nachname: "Reagan",
+			        männlich: true,
+			        AnzahlKinder: 3,
+			        Geburtsdatum: "1911-02-06",
+			        Partei:
+			        {
+			          Name: "Republican Party",
+			          Hauptsitz: "Washington, D.C.",
+			          Gründungsdatum: "1854-03-20",
+			          Gründungsort: "Ripon"
+			        },
+			        Amt: "US-Präsident"
+			      };
+			  
+			  
+			  ```
+			- JS Objekte sind **dynamisch** typisiert. Attribute und Methoden können jederzeit hinzugefügt werden.
+				- ```jsx
+				  //beispiel1
+				  const user = {
+				  
+				    name: "Mario",
+				    login: "admin",
+				     
+				    getName() {
+				        return this.name
+				    }
+				  }
+				  let userName = user.name;
+				  let userName = user["name"];
+				  let userName = user.getName();
+				  
+				  
+				  //beispiel2
+				  user.password = "1234";
+				  let userPassword = user.password;
+				  user.setName = function(newName) {
+				    this.name = newName;
+				  }
+				  user.setName("Luigi");
+				  
+				  
+				  ```
+				- Der Code zeigt, wie man bei Js Object Literals nach der Erstellung Attribute und
+				  Funktionen dynamisch hinzufügen kann.
+				- Das „this“-Keyword innerhalb eines Js Object Literals zeigt, wie bei Java auf die
+				  Instanz.
+				-
+- ## Increment Operators
+  collapsed:: true
+	- In JavaScript, the `++count` and `count++` expressions both increment the value of the variable `count` by 1, but they do so in slightly different ways due to the position of the increment operator (`++`).
+	- ### Prefix Increment `++count`
+		- The variable `count` is incremented by 1 before its value is used in the expression.
+		- First, the variable `count` is increased by 1.
+		- Then, the new value of `count` is returned and used in the expression.
+		- ```javascript
+		  let count = 5;
+		  let result = ++count; // count is incremented to 6, then result is assigned the value 6
+		  console.log(result); // 6
+		  console.log(count);  // 6
+		  ```
+	- ### Postfix Increment `count++`
+		- The variable `count` is incremented by 1 after its value is used in the expression.
+		- First, the current value of `count` is returned and used in the expression.
+		- Then, the variable `count` is increased by 1.
+		- ```javascript
+		  let count = 5;
+		  let result = count++; // result is assigned the value 5, then count is incremented to 6
+		  console.log(result); // 5
+		  console.log(count);  // 6
+		  ```
+	- ### Use Case:
+		- **Using Prefix Increment in a Loop**:
+			- Here, `++i` increments `i` before the condition check in each iteration.
+			- ```javascript
+			  for (let i = 0; i < 5; ++i) {
+			    console.log(i); // Prints 0, 1, 2, 3, 4
+			  }
+			  ```
+		- **Using Postfix Increment in a Loop**:
+			- Here, `i++` increments `i` after the condition check in each iteration.
+			- ```javascript
+			  for (let i = 0; i < 5; i++) {
+			    console.log(i); // Prints 0, 1, 2, 3, 4
+			  }
+			  ```H
+				-
+	- ### Choosing Between `++count` and `count++`:
+		- Use **`++count`** if you need the incremented value immediately in the expression.
+		- Use **`count++`** if you need the original value before it is incremented in the expression.
 - ## Promise, await und async
   collapsed:: true
 	- ### Was ist ein Callback-Funktion?
@@ -138,16 +400,13 @@ tags:: [[node.js]], [[Programming Language]]
 			- *setTimeout() *startet eine **Callback-Funktion** nach 10 Millisekunden
 			- ![image.png](../assets/image_1691002988948_0.png)
 	- ### Threads bei JS
-	  collapsed:: true
 		- JS läuft standardmässig auf dem UI Thread
 		- UI Thread blockiert === Browser eingefroren
 		- Langanhaltende Tasks **müssen** asynchron ausgeführt werden
-		- «asynchron» im Sinne von parallel, auf einem weiteren Thread
-		- ![image.png](../assets/image_1691003554782_0.png)
-			- Der Code zeigt, wie mit einer Endlosschleife der Browser eingefroren wird.
-			-
+		- ==asynchron== im Sinne von parallel, auf einem weiteren Thread
+		- Der Code zeigt, wie mit einer Endlosschleife der Browser eingefroren wird.
+			- ![image.png](../assets/image_1691003554782_0.png){:height 351, :width 295}
 	- ### Asynchron Funktionen
-	  collapsed:: true
 		- Eine **asynchrone Funktionen** wird auf einem eigenen Threads ausgeführt.
 			- 1. Start asynchrone Funktion 1
 			- 2. Start asynchrone Funktion 2
@@ -156,7 +415,7 @@ tags:: [[node.js]], [[Programming Language]]
 			- 5. Asynchrone Funktion 1 ist fertig
 			- 6. Asynchrone Funktion 2 ist fertig
 			- 7.…
-		- ![image.png](../assets/image_1691003659372_0.png)
+		- ![image.png](../assets/image_1691003659372_0.png){:height 351, :width 407}
 			- Eine Funktion bei JS wird durch das Keyword «async» zu einer asynchronen Funktion.
 			- Der Code zeigt zwei Schreibweise einer asynchronen Funktion.
 	- ### Promise
@@ -173,3 +432,9 @@ tags:: [[node.js]], [[Programming Language]]
 			- Then() nimmt als Argument eine Callback-Funktion entgegen, welche im Erfolgsfall mit
 			  dem Resultat der asynchronen Funktion aufgerufen wird.
 			- Catch() nimmt als Argument eine Callback-Funktion entgegen, welche im Exceptionfall mit der Excption der asynchronen Funktion aufgerufen wird.
+- ## `this` Keyword
+	- The value of the `this` keyword is the global object
+	- ### Regular Functions
+		- The value of the ==this== keyword is the object on which the function is invoked
+	- ### Arrow Functions
+		- The value of the ==this== keyword in an arrow function is determined by the lexical environment in which the arrow function was defined
