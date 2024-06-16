@@ -11,6 +11,7 @@ tags:: [[JavaScript]], [[Volta]]
 		- https://www.typescript-training.com/course/fundamentals-v4
 		- https://github.com/mike-north/typescript-courses/tree/main?tab=readme-ov-file
 - ## Types
+  collapsed:: true
 	- ### Extract a type from an array
 	  id:: 6638eb09-42c1-4e4f-aada-59c13006ceb8
 		- ```ts
@@ -19,6 +20,6 @@ tags:: [[JavaScript]], [[Volta]]
 		  type InnerCacheType = Unpacked<CacheType>; // Event | User
 		  ```
 - ## Ultity Types
+  collapsed:: true
 	- ### Partial<Type>
 		- https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype
-		-

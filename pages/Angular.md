@@ -1,16 +1,43 @@
 tags:: [[TypeScript]], [[HTML]], [[CSS]]
 
+- https://angular.dev/
 - Angular is a web framework used to be build scalable web apps with confidence
 - **Use**
 	- [[TypeScript]]: to programm logic in the application
 	- [[HTML]]: to define markup in templates
 	- [[CSS]]: to style the template
+-
 - ## Courses
   collapsed:: true
-	- https://frontendmasters.com/courses/angular-fundamentals/
+	- https://frontendmasters.com/courses/angular-fundamentals/ #frontentmaster
 		- https://static.frontendmasters.com/assets/courses/2024-01-29-angular-fundamentals/angular-fundamentals-slides.pdf
 		- https://github.com/MarkTechson/angular-fundamentals-lessons
+	- [Learn Angular for Modern Web Applications [Video]]([https://learning.oreilly.com/course/learn-angular-for/9780137324842/](https://learning.oreilly.com/course/learn-angular-for/9780137324842/)) #OReilly
+- ## Why Angular?
+  collapsed:: true
+	- **Motivation**:
+		- Many companies have adopted Angular, leading to numerous job postings.
+		- Understanding Angular's purpose and benefits is as crucial as learning to use it.
+	- **What is Angular?**:
+		- **Angular** is an open-source, front-end framework created and maintained by Google, along with the open-source community.
+		- It's designed to help developers create maintainable, performant applications swiftly.
+		- Encourages organized front-end development with a robust structure.
+	- **Benefits of Angular**:
+		- **Modular Components**: Allows code reuse across the application, reducing redundancy.
+		- **Written in TypeScript**: A statically-typed dialect of JavaScript that helps keep code organized and maintainable, especially for larger applications.
+		- **Longevity and Support**: Around since 2010 (major changes in 2015), ensuring extensive online help and community support.
+	- **Comparison with React and Vue**:
+		- **React**:
+			- A library (not a full framework like Angular).
+			- Offers flexibility in how things are done, which can be both a strength and a challenge.
+		- **Vue**:
+			- Easier to integrate into existing websites gradually.
+			- Less daunting for incremental adoption compared to Angular, which is more suited for starting projects from scratch.
+		- **Angular**:
+			- Provides a structured, "right way" to do everything.
+			- Better for building applications from the ground up rather than integrating into existing projects.
 - ## Installation
+  collapsed:: true
 	- https://angular.dev/tools/cli/setup-local
 	- ```bash
 	  sudo npm install -g @angular/cli
@@ -21,10 +48,57 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 	- ### Create new component
 		- https://v17.angular.io/cli/generate
 		- ```bash
-		  ng generate component userinfo
+		  ng generate component example
+		  
+		  //or
+		  
+		  ng g c example
 		  ```
-		- Is used in Angular's CLI to generate a new component named `userinfo`
+		- Is used in Angular's CLI to generate a new component named `example`
 		- This will create a folder with component files (like `.ts`, `.html`, `.css`, `.spec.ts`) set up for you.
+	- ### Create new service
+		- ```ts
+		  ng generate service example
+		  
+		  //or
+		  
+		  ng g s example
+		  ```
+-
+- ## `main.ts`
+  collapsed:: true
+	- The main *entry point for the application*. This file is essential as it sets up the Angular environment and bootstraps the root module, typically `AppModule`, which then starts the application.
+	- In summary, `main.ts` is fundamental in Angular application startup, handling the environment configuration, and bootstrapping the root Angular module.
+	- **Example**
+		- ```ts
+		  import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+		  import { enableProdMode } from '@angular/core';
+		  import { AppModule } from './app/app.module';
+		  import { environment } from './environments/environment';
+		  
+		  if (environment.production) {
+		    enableProdMode();
+		  }
+		  
+		  platformBrowserDynamic().bootstrapModule(AppModule)
+		    .catch(err => console.error(err));
+		  
+		  ```
+		- **Importing Angular Modules and Core Functions:** `main.ts` imports necessary Angular packages, notably the `platformBrowserDynamic` function from `@angular/platform-browser-dynamic` and the root `AppModule` from application files.
+		- **Bootstrapping the Root Module:**
+			- The `platformBrowserDynamic().bootstrapModule(AppModule)` starts the application by bootstrapping `AppModule`.
+		- **Enabling Production Mode (Optional):** If the application is in production mode, `enableProdMode()` is called to disable Angular's development mode, which can include additional checks that are not necessary in production.
+- ## `app.module.ts`
+  collapsed:: true
+	- https://angular.dev/style-guide#app-root-module
+	- From Angular v17 onwards, Standalone is now the new default for the CLI
+	- So when you create a new project, you won't have any modules in it if you don't specify anything. However, it is still possible to create a module-based app by using the `--no-standalone` flag :
+		- ```bash
+		  ng new --no-standalone
+		  ```
+	- Standalone components are a feature introduced in v14. With the change in v17, the Angular team [strongly recommends to use them](https://blog.angular.io/introducing-angular-v17-4d7033312e4b#586d) as they are easier to use, understand and are require less boilerplate.
+	-
+-
 - ## Component
   collapsed:: true
 	- ### Syntax
@@ -103,6 +177,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 		  }
 		  ```
 - ## Template
+  collapsed:: true
 	- ### Conditional Logic
 	  collapsed:: true
 		- #### @if
@@ -351,10 +426,12 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 					- `carList: Car[] = [{ make: 'Foyoda', model: 'Famery' }, { make: 'Ronda', model: 'Disaccord' }];`: Initializes a list of two cars.
 					- `addCarToSaved(car: Car)`: Method that adds a car to the `savedCarList` when called.
 - ## Navigation
+  collapsed:: true
 	- `route-outlet`
 		- A `router-outlet` in Angular is a directive that acts as a placeholder within your application where the router will dynamically insert the component for the active route.
 		- Essentially, it's where the routed component's template will be displayed.
 	- ### Routing
+	  collapsed:: true
 		- `app.routes.ts`: Defines the routing configuration
 			- ```ts
 			  //app.routes.ts
@@ -413,7 +490,9 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 				- `imports: [CommonModule, RouterModule]`: Imports necessary modules for common Angular directives and routing capabilities.
 				- `<router-outlet/>`: A placeholder where the routed component (in this case, `GreetingsComponent` for the default path) will be displayed.
 	- ### RouterLink
-		- create clickable links using the router link directive
+	  collapsed:: true
+		- Create clickable links using the *router link directive*
+		- A *route link* might be used instead of an `href` attribute when we want to navigate between routes without reloading the page
 		- ```ts
 		  //app.component.ts
 		  @Component({
@@ -438,8 +517,8 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 		  ```
 		- How to pass dynamic values to a route using placeholders and input binding
 	- ### Dynamic Routes
+	  collapsed:: true
 		- `app.routes.ts`
-		  collapsed:: true
 			- ```ts
 			  //app.routes.ts
 			  
@@ -516,7 +595,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 			- `productId`: An integer property initialized to 0.
 			- `@Input() set id(value: number)`: A setter method to set `productId` from the input binding
 		- `app.component.ts`
-		  collapsed:: true
 			- ```ts
 			  import { Component } from '@angular/core';
 			  import { RouterOutlet, RouterLink } from '@angular/router';
@@ -542,12 +620,72 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 			    productTitles = ['Product 1', 'Product 2', 'Product 3'];
 			  }
 			  ```
-		-
-	-
-- ## Forms
-	- We have 2 ways to define forms and gather input from users
-	- ### Template Driven Forms
+	- ### Use URL Parameters & Query Parameters
 	  collapsed:: true
+		- Extra pieces of information about the page that are added to the URL
+		- ==**Advantage of using query params over URL params:**== query paramsallow us to share the extract state of an application by copying and pasting the URL. This makes it convenient to send specific configurations or settings to someone else
+		- #### URL (Route) Parameters
+			- URL parameters *are used for important data that is part of the route pattern itself*
+			- **Setting Up Route Parameters**
+				- ```ts
+				  //app-routing.module.ts
+				  const routes: Routes = [
+				    { path: 'user/:id', component: MyComponent }
+				  ];
+				  
+				  ```
+			- **Accessing Route Parameters**
+				- ```ts
+				  // 
+				  // To access these parameters in your component, use the ActivatedRoute 
+				  // service
+				  
+				  import { Component, OnInit } from '@angular/core';
+				  import { ActivatedRoute } from '@angular/router';
+				  
+				  @Component({
+				    selector: 'app-my-component',
+				    templateUrl: './my-component.component.html',
+				    styleUrls: ['./my-component.component.css']
+				  })
+				  export class MyComponent implements OnInit {
+				    userId: string;
+				  
+				    constructor(private route: ActivatedRoute) { }
+				  
+				    ngOnInit(): void {
+				      this.userId = this.route.snapshot.paramMap.get('id') || "";
+				    }
+				  }
+				  ```
+		- #### Query Parameters
+			- Query parameters *are used for optional data that does not fit into the route pattern*
+			- **Accessing Query Parameters**
+				- ```ts
+				  
+				  export class MyComponent implements OnInit {
+				    params: any[] = []
+				  
+				    constructor(private route: ActivatedRoute) { }
+				  
+				    ngOnInit(): void {
+				    	this.route.queryParams.subscribe(params => this.params = Object.keys(params).map(key => ({ name: key, value: params[key] }))
+				    }
+				  }
+				  ```
+	- ### Create "Not Found" page
+		- ```ts
+		  //app-routing.ts
+		  const routes: Routes = [
+		    { path: "**", component: NotFoundPageComponent },
+		  ];
+		  ```
+- ## Forms
+  collapsed:: true
+	- **We have 2 ways to define forms and gather input from users**
+	- ### Template Driven Forms (Uncontrolled Forms)
+	  collapsed:: true
+		- *We let the DOM handle all the form's functionality*
 		- Quick to setup and use
 		- Best for small one-time use forms
 		- Requires more configuration for testing
@@ -589,11 +727,14 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 				- These are the variables that store the title and body of the blog post. They are initially set to empty strings.
 				- They are bound to the `input` and `textarea` elements using `[(ngModel)]`, which is Angular’s two-way data binding syntax. This means any changes in the input fields will be reflected in the `title` and `body` variables, and changes in the variables will update the input fields.
 			- Angular’s **`ngModel`** directive updates the `title` and `body` properties with the new values.
-	- ### Reactive Forms
+	- ### Reactive Forms (Controlled Forms)
+	  collapsed:: true
+		- *The state of our form is explicitly tracked*
 		- Supports typing
 		- Reuseable, can share models
 		- More robust testing configuration
-		- ```ts
+		- collapsed:: true
+		  ```ts
 		  import { Component } from '@angular/core';
 		  import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 		  
@@ -659,110 +800,56 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 					- The `<button>` element, with `type="submit"`, triggers the form submission when clicked.
 		- #### Validation
 			-
-	- ### Dependency Injection (DI)
-	  collapsed:: true
-		- DI is a design pattern and mechanism for **creating and delivering** some parts of an app to other **parts of an app that require them**
-		- `//user.service.ts`
-		  collapsed:: true
-			- ```ts
-			  
-			  import { Injectable } from '@angular/core';
-			  import { data, User } from './data';
-			  
-			  @Injectable({
-			    providedIn: 'root'
-			  })
-			  export class UserService {
-			    private userData: User[] = data;
-			  
-			    constructor() { }
-			  
-			    getUserData(): Promise<User[]> {
-			      return new Promise((resolve) => {
-			        resolve(this.userData);
-			      });
-			    }
-			  }
-			  ```
-				- **Decorator - `@Injectable`:**
-					- The `Injectable` decorator indicates that this class can be injected as a dependency within other classes.
-					- `{ providedIn: 'root' }` specifies that this service 
-					  should be provided at the root level, meaning that the service is a 
-					  singleton and available globally across the application.
-				- **Class - `UserService`:**
-					- This class, `UserService`, is intended to manage user-related data and operations.
-					- A private property `userData` of type `User[]` is initialized with the value of `data`, which is imported.
-				- **Method - `getUserData`:**
-					- This method returns a `Promise` that resolves to an array of `User` objects.
-					- It wraps the `userData` in a Promise and resolves it immediately.
-		- `app.component.ts`
-		  collapsed:: true
-			- ```ts
-			  @Component({
-			    selector: 'app-root',
-			    standalone: true,
-			    imports: [UserInfoComponent],
-			    template: `
-			    <h1>User Listing</h1>
-			    @for(user of userData; track user.id) {
-			      <app-user-info [user]="user" />
-			    }
-			    `,
-			  })
-			  export class AppComponent implements OnInit {
-			    userService = inject(UserService)
-			    userData: User[] = []
-			  
-			    async ngOnInit(): Promise<void> {
-			      const data = await this.userService.getUserData()
-			      this.userData = data
-			    }
-			  
-			  }
-			  
-			  ```
-				- **Class - `AppComponent`:**
-					- The class is named `AppComponent` and it implements the `OnInit` lifecycle hook from Angular.
-				- **Properties:**
-					- `userService`: This uses the `inject` utility function to inject the `UserService`. This is a new way introduced in Angular 14 (with standalone components support) for dependency injection.
-					- `userData`: This is an array of `User` objects that starts as an empty array.
-				- **Methods - `ngOnInit`:**
-					- This method is called once the component is initialized.
-					- It's defined as `async`, so it can use `await` to handle the `Promise` from `getUserData`.
-					- It awaits the result of `getUserData` and assigns it to `userData`, updating the component's state with the user data fetched from the service.
-		- ### OnInit
-			- `OnInit` is an interface in Angular, part of the Angular core library (`@angular/core`). It provides a lifecycle hook method called `ngOnInit` that is called by Angular to indicate that Angular is done creating the component or directive.
-			- **When is `ngOnInit` Called?**
-				- The `ngOnInit` method is called once after the first `ngOnChanges` method, if it exists, right after Angular has finished initializing the component or directive.
-				- This makes `ngOnInit` a good place to perform component initialization, such as fetching data from a service, setting up initial states, or performing other setup tasks.
-			- **Example Use Case**
-				- Suppose you have a component that needs to fetch user data when it is initialized. Here’s how you might use `ngOnInit`:
-				- ```typescript
-				  import { Component, OnInit } from '@angular/core';
-				  import { UserService, User } from './user.service';
-				  
-				  @Component({
-				  selector: 'app-user-list',
-				  template: `
-				    <h1>User List</h1>
-				    <ul>
-				      <li *ngFor="let user of users">
-				        {{ user.name }}
-				      </li>
-				    </ul>
-				  `
-				  })
-				  export class UserListComponent implements OnInit {
-				  users: User[] = [];
-				  
-				  constructor(private userService: UserService) { }
-				  
-				  async ngOnInit(): Promise<void> {
-				    this.users = await this.userService.getUserData();
-				  }
-				  }
-				  ```
-	-
+- ## Event Handling
+  collapsed:: true
+	- ### `EventEmitter`
+		- Is used to *create custom events in components and services*
+		- *Provides a way for components to communicate with each other*
+		- ```ts
+		  import { Component, EventEmitter, Output } from '@angular/core';
+		  
+		  @Component({
+		    selector: 'app-multiple-choice',
+		    templateUrl: './multiple-choice.component.html',
+		    styleUrl: './multiple-choice.component.css'
+		  })
+		  export class MultipleChoiceComponent {
+		    @Output() a = new EventEmitter<void>();
+		    @Output() b = new EventEmitter<void>();
+		    @Output() c = new EventEmitter<void>();
+		    @Output() d = new EventEmitter<void>();
+		  
+		    aClicked(): void {
+		      this.a.emit()
+		    }
+		  
+		    bClicked(): void {
+		      this.b.emit()
+		    }
+		  
+		    cClicked(): void {
+		      this.c.emit()
+		    }
+		  
+		    dClicked(): void {
+		      this.d.emit()
+		    }
+		  }
+		  
+		  ```
+		- ```ts
+		  <h2 class="title">Outputs</h2>
+		  
+		  <div>
+		    <button (click)="aClicked()">A</button>
+		    <button (click)="bClicked()">B</button>
+		    <button (click)="cClicked()">C</button>
+		    <button (click)="dClicked()">D</button>
+		  </div>
+		  
+		  
+		  ```
+-
 - ## Signals
   collapsed:: true
 	- Signals are a new way of handling change detection and reactivity in Angular application
@@ -821,3 +908,254 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]]
 		- **`on interaction(...)`**: Content loaded upon specific user actions.
 		- **`on hover(...)`**: Content loaded on mouse hover for quick previews.
 	-
+- ## View encapsulation
+  collapsed:: true
+	- Is a way to control how styles defined in a component affect the component itself and other parts of the application
+	- **Emulated (default)**:
+		- Styles defined in this component are scoped to this component and do not affect other components
+		- Angular adds unique attributes to elements in the component's template and styles so that they only apply to that component
+	- **ShadowDom**:
+		- Uses the native shadow DOM to encapsulate styles
+		- Styles are completely isolated from the rest of the application, providing true style encapsulation
+	- **None**:
+		- No encapsulation is applied
+		- Styles defined in the component are applied globally and can affect styles in other parts of the application
+	- **Example**
+		- ```ts
+		  import { Component, ViewEncapsulation } from '@angular/core';
+		  
+		  @Component({
+		    selector: 'app-my-component',
+		    templateUrl: './my-component.component.html',
+		    styleUrls: ['./my-component.component.css'],
+		    encapsulation: ViewEncapsulation.Emulated
+		  })
+		  export class MyComponent {
+		    // Component logic here
+		  }
+		  
+		  ```
+-
+- ## Fetching Data
+  collapsed:: true
+	- [Fetching data in Angular: HttpClient or Fetch API? | by Saeid | Medium](https://medium.com/@saeid_38500/my-test-post-3e533db437f7/)
+	- **Angular services:** handle data loading and server communication in Angular applications
+	- **Observable**: a design pattern used for event handling
+	- ### Fetch data with HTTPClient
+	  collapsed:: true
+		- ```ts
+		  //user.service.ts
+		  import { HttpClient } from '@angular/common/http';
+		  import { Injectable } from '@angular/core';
+		  import { Observable } from 'rxjs';
+		  
+		  @Injectable({
+		    providedIn: 'root'
+		  })
+		  export class UserInfoService {
+		  
+		    constructor(private http: HttpClient) { }
+		  
+		    loadData(): Observable<any> {
+		      return this.http.get<any>("https://randomuser.me/api/")
+		    }
+		  }
+		  ```
+		- ```ts
+		  import { Component, OnInit } from '@angular/core';
+		  import { UserInfoService } from '../user-info.service';
+		  
+		  @Component({
+		    selector: 'app-user-info-display',
+		    templateUrl: './user-info-display.component.html',
+		    styleUrl: './user-info-display.component.css'
+		  })
+		  export class UserInfoDisplayComponent implements OnInit {
+		    info: any = {}
+		  
+		    constructor(private userInfo: UserInfoService) { }
+		  
+		    ngOnInit(): void {
+		      this.userInfo.loadData().subscribe(data => this.info = data.results[0])
+		  
+		    }
+		  
+		  }
+		  ```
+	- ### Fetch data with `fetch`
+		- ```ts
+		  //data.service.ts
+		  import { Injectable } from '@angular/core';
+		  
+		  interface User {
+		    firstname: string;
+		    lastname: string;
+		    birthday: string;
+		    id: string;
+		  }
+		  
+		  @Injectable({
+		    providedIn: 'root'
+		  })
+		  export class DataService {
+		    private apiUrl = 'https://6561036783aba11d99d1cff0.mockapi.io/api/test';
+		  
+		    getData(): Promise<User> {
+		        const users = fetch(this.apiUrl).then(res => res.json());
+		        return users;
+		    }
+		  }
+		  ```
+		- ```ts
+		  export class MyComponent {
+		    constructor(private dataService: DataService) {}
+		  
+		    logData() {
+		      this.dataService.getData().then(data => console.log(data));
+		    }
+		  }
+		  ```
+- ## Dependency Injection (DI)
+  collapsed:: true
+	- DI is a design pattern and mechanism for **creating and delivering** some parts of an app to other **parts of an app that require them**
+	- `user.service.ts`
+	  collapsed:: true
+		- ```ts
+		  
+		  import { Injectable } from '@angular/core';
+		  import { data, User } from './data';
+		  
+		  @Injectable({
+		    providedIn: 'root'
+		  })
+		  export class UserService {
+		    private userData: User[] = data;
+		  
+		    constructor() { }
+		  
+		    getUserData(): Promise<User[]> {
+		      return new Promise((resolve) => {
+		        resolve(this.userData);
+		      });
+		    }
+		  }
+		  ```
+			- **Decorator - `@Injectable`:**
+				- The `Injectable` decorator indicates that this class can be injected as a dependency within other classes.
+				- `{ providedIn: 'root' }` specifies that this service 
+				  should be provided at the root level, meaning that the service is a 
+				  singleton and available globally across the application.
+			- **Class - `UserService`:**
+				- This class, `UserService`, is intended to manage user-related data and operations.
+				- A private property `userData` of type `User[]` is initialized with the value of `data`, which is imported.
+			- **Method - `getUserData`:**
+				- This method returns a `Promise` that resolves to an array of `User` objects.
+				- It wraps the `userData` in a Promise and resolves it immediately.
+	- `app.component.ts`
+	  collapsed:: true
+		- ```ts
+		  @Component({
+		    selector: 'app-root',
+		    standalone: true,
+		    imports: [UserInfoComponent],
+		    template: `
+		    <h1>User Listing</h1>
+		    @for(user of userData; track user.id) {
+		      <app-user-info [user]="user" />
+		    }
+		    `,
+		  })
+		  export class AppComponent implements OnInit {
+		    userService = inject(UserService)
+		    userData: User[] = []
+		  
+		    async ngOnInit(): Promise<void> {
+		      const data = await this.userService.getUserData()
+		      this.userData = data
+		    }
+		  
+		  }
+		  
+		  ```
+			- **Class - `AppComponent`:**
+				- The class is named `AppComponent` and it implements the `OnInit` lifecycle hook from Angular.
+			- **Properties:**
+				- `userService`: This uses the `inject` utility function to inject the `UserService`. This is a new way introduced in Angular 14 (with standalone components support) for dependency injection.
+				- `userData`: This is an array of `User` objects that starts as an empty array.
+			- **Methods - `ngOnInit`:**
+				- This method is called once the component is initialized.
+				- It's defined as `async`, so it can use `await` to handle the `Promise` from `getUserData`.
+				- It awaits the result of `getUserData` and assigns it to `userData`, updating the component's state with the user data fetched from the service.
+-
+- ## Lifecycle events
+  collapsed:: true
+	- https://v17.angular.io/guide/lifecycle-hooks
+	- ### ngOnInit
+		- **OnInit**
+			- `OnInit` is an interface in Angular, part of the Angular core library (`@angular/core`). It provides a lifecycle hook method called `ngOnInit` that is called by Angular *to indicate that Angular is done creating the component or directive*
+		- **When to Use**
+			- Initialization logic like fetching data from a server.
+			- Setup any additional logic that depends on the input properties.
+		- **Example Use Case**
+			- Suppose you have a component that needs to fetch user data when it is initialized. Here’s how you might use `ngOnInit`:
+			- ```typescript
+			  import { Component, OnInit } from '@angular/core';
+			  import { UserService, User } from './user.service';
+			  
+			  @Component({
+			  selector: 'app-user-list',
+			  template: `
+			    <h1>User List</h1>
+			    <ul>
+			      <li *ngFor="let user of users">
+			        {{ user.name }}
+			      </li>
+			    </ul>
+			  `
+			  })
+			  export class UserListComponent implements OnInit {
+			  users: User[] = [];
+			  
+			  constructor(private userService: UserService) { }
+			  
+			  async ngOnInit(): Promise<void> {
+			    this.users = await this.userService.getUserData();
+			  }
+			  }
+			  ```
+	- ### ngOnDestroy
+		- `ngOnDestroy` is a lifecycle hook called by Angular just before destroying the directive/component
+		- **When to Use**
+			- Cleanup logic like unsubscribing from Observables or detaching event handlers to avoid memory leaks.
+		- **Example**
+			- ```ts
+			  import { Component, OnDestroy } from '@angular/core';
+			  
+			  @Component({
+			    selector: 'app-example',
+			    templateUrl: './example.component.html',
+			    styleUrls: ['./example.component.css']
+			  })
+			  export class ExampleComponent implements OnDestroy {
+			  
+			    constructor() { }
+			  
+			    ngOnDestroy(): void {
+			      // Cleanup logic
+			      console.log('ngOnDestroy called!');
+			    }
+			  
+			  }
+			  
+			  ```
+- ## Directive
+	- [Angular Directives: A Comprehensive Guide | Medium](https://medium.com/@ayushgrwl365/angular-directives-enhancing-user-interfaces-with-ease-bb99d74e69cd)
+	- ### `ng-content`
+		- It enables  the insertion of content inside component tags
+	- TODO more content
+	  :LOGBOOK:
+	  CLOCK: [2024-06-15 Sat 18:00:24]--[2024-06-15 Sat 18:00:25] =>  00:00:01
+	  CLOCK: [2024-06-15 Sat 18:00:27]--[2024-06-15 Sat 18:00:28] =>  00:00:01
+	  CLOCK: [2024-06-15 Sat 18:00:30]
+	  :END:
+-
