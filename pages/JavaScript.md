@@ -447,3 +447,4 @@ tags:: [[node.js]], [[Programming Language]]
 		- **Arrow Functions:** is *determined by the lexical environment in which the arrow function was defined*
 		- **Classes:** in constructor functions or classes is *the value of the newly created instance*
 		- **Event handler:** using a regular function is *the element that received the event*
+-

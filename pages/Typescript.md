@@ -623,6 +623,7 @@ tags:: [[JavaScript]], [[Volta]]
 		  ```
 -
 - ## Type Queries
+  collapsed:: true
 	- Allow us to obtain type information from values, which is particularly useful when working with libraries or complex types
 	- ### `keyof`
 		- Allows us to obtain a type representing all property keys on a given interface

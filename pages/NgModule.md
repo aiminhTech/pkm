@@ -2,7 +2,6 @@ tags:: [[Angular]]
 
 - Ein **NgModule** (kurz für Angular Module) ist ein grundlegendes Bauelement einer Angular-Anwendung, das verwendet wird, umerwandte Code-Ressourcen zu organisieren und zu verwalten.
 - Angular verwendet NgModules, um das Anwendungsmaterial zu bündeln und den Code in überschaubare Abschnitte zu unterteilen.
--
 - ##
 - ## Vorteile
 - **Modularität und Wiederverwendbarkeit**:

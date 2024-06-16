@@ -1,0 +1,32 @@
+tags:: [[Angular]]
+
+- https://rxjs.dev
+- **Reactive Extensions for JavaScript**
+- A library for composing asynchronous and event-based programs using observable sequences.
+- It provides a collection of operators to work with asynchronous data streams, enabling developers to write complex and efficient event-driven code.
+-
+- ## Key concepts in RxJS
+	- ### Observables:
+		- These represent a collection of future values or events. Observables can be thought of as a stream of data that can be observed and manipulated over time.
+	- ### Observers:
+		- These are consumers of the values emitted by an Observable. An Observer subscribes to an Observable to receive data.
+	- ### Operators:
+		- RxJS provides many operators to transform, filter, and combine observables. These operators can be chained together to create complex data flows. Common operators include `map`, `filter`, `merge`, `concat`, and `switchMap`.
+	- ### Subjects:
+		- A type of observable that allows for multicasting to multiple observers. Subjects are both an Observable and an Observer, meaning they can emit values and subscribe to other observables.
+	- ### Schedulers:
+		- These control the timing of the execution of tasks, providing a way to manage concurrency in RxJS.
+- ## Why we use RxJS in Angular?
+	- **Handling Asynchronous Operations**:
+		- In modern web applications, asynchronous tasks such as fetching data from servers (e.g., via HTTP requests) are common.
+		- RxJS provides a unified way to handle these tasks using observables, which are powerful data streams that can be manipulated, composed, and managed using operators
+		- This makes asynchronous code cleaner, more readable, and easier to maintain compared to traditional callback-based approaches.
+	- **Event Handling and UI Updates**:
+		- Interactive web applications heavily rely on user interactions (e.g., button clicks, mouse movements) and dynamic UI updates.
+		- RxJS allows developers to create observable streams from these events and manipulate them using operators. This enables reactive responses to user actions, facilitating dynamic and responsive user interfaces.
+	- **Data Transformation and Manipulation**:
+		- RxJS provides a rich set of operators (e.g., map, filter, mergeMap, switchMap) that allow developers to transform and manipulate data streams efficiently within observables.
+		- These operators help in processing data, applying business logic, filtering results, and combining multiple streams, all while maintaining a declarative and functional style of programming.
+	- **State Management and Data Sharing**:
+		- In complex applications, components often need to share data or communicate with each other.
+		- RxJS introduces concepts like subjects and behavior subjects that facilitate centralized state management and efficient data sharing among components. This helps in maintaining consistency and synchronization across different parts of the application.
