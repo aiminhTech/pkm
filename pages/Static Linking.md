@@ -9,8 +9,6 @@
 	- Any changes to the library require the entire program to be re-linked and possibly re-compiled.
 	- Multiple programs using the same library will each have their own copy of the library code, leading to increased disk space usage and reduced sharing at runtime.
 - ## Note:
-	- Static linking is different from dynamic linking, where the linking of
-	  libraries is not done at compile time but at runtime. With dynamic linking,
-	  multiple programs can share the same code from a library, which helps in saving
-	  memory and allows updates to be made to the library without having to recompile
+	- Static linking is different from dynamic linking, where the linking of libraries is not done at compile time but at runtime.
+	- With dynamic linking, multiple programs can share the same code from a library, which helps in saving memory and allows updates to be made to the library without having to recompile
 	  or relink the programs using it.

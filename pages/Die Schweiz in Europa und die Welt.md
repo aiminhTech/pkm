@@ -26,6 +26,15 @@
 	- Ein Produktionsstandort ist der Ort, an dem Produkte hergestellt werden.
 	- Das kann eine Fabrik, eine Werkstatt oder ein anderer Ort sein, an dem Maschinen und Arbeitskräfte zusammenkommen, um Waren herzustellen.
 	- Es ist der physische Ort, an dem die Produktion stattfindet.
+	- **Vorteile**
+		- Hohe Qualität (guter Ruf, qualifizierte Arbeitskräfte, Überprüfung,...)
+		- Produktivität
+		- Politische und wirtschafttliche Stabilität
+	- **Nachteile**
+		- Strenge Gesetze und Vorschriften
+		- Hohe Lohnkosten
+		- Weniger Einflussnahme der Firmen als anderswo
+	-
 - ## Wirtschaftsstandort
 	- Bezieht sich auf einen bestimmten Ort oder Region, an dem wirtschaftliche Aktivitäten stattfinden. Kurz gesagt, ist es ein Ort, der Unternehmen anzieht und ihnen ermöglicht, erfolgreich zu wachsen und zu gedeihen.
 	- ### 2 wichtige Unterscheide zum Produktionsstandort
@@ -47,6 +56,8 @@
 			- Rohstoffe
 			- Lohnniveau
 			- Binnenlage
+			- Strenge Gesetze und Vorschriften
+			- Weniger Einflussnahme der Firmen als anderswo
 		- **Neutral**
 			- Schweizer Markt
 -
@@ -66,7 +77,6 @@
 		- So wurde die Europäische Union (EU) gegründet, mit einem gemeinsamen Parlament und der Einführung des Euro als Währung.
 		- Der Handel zwischen den Ländern wurde einfacher und intensiver, was zu langanhaltendem Frieden in Europa beitrug.
 - ## Montanunion
-  collapsed:: true
 	- **Europäische Gemeinschaft für Kohle und Stahl** (EGKS)
 	- **Gründungszeit**
 		- Wurde am 18. April 1951 durch den Vertrag von Paris gegründet und trat am 23. Juli 1952 in Kraft
@@ -115,25 +125,16 @@
 			- Zölle werden abgeschafft (negativ für Produzenten)
 			- Höhere Zinsen (Steuern)
 - ## Zuwanderung Konsequenzen
-  collapsed:: true
 	- ### Wachstum des BIP
-		- Die Zuwanderung führt zu einem Anstieg der erwerbstätigen Bevölkerung und damit zu einem Wachstum von Konsumausgaben, zu mehr Nachfrage nach Wohnungen, Immobilien, Dienstleistungen usw.
-		- Die erhöhte Nachfrage stimuliert das Angebot und fördert das Wachstum des BIP und der Beschäftigung.
+		- Zuwanderung bringt mehr Menschen in Arbeit, erhöht den Konsum und fördert das Wirtschaftswachstum.
 	- ### Immobilienpreise
-		- Die vielen Leute, die aus EU-Ländern in die Schweiz kommen, wollen alle ein Zuhause haben. Besonders in Städten wie Zürich und Genf, wo die meisten von ihnen hingehen, steigen die Preise für Wohnungen und Häuser.
-		- Das passiert, weil es mehr Leute gibt, die nach Wohnraum suchen, als es Häuser und Wohnungen gibt.
+		- Viele zugezogene Menschen suchen Wohnraum in Städten wie Zürich und Genf, wodurch die Immobilienpreise steigen.
 	- ### Arbeitslosigkeit
-		- Wenn mehr Leute in die Schweiz kommen, gibt es mehr Leute, die arbeiten wollen. Manche Leute denken, dass dadurch Leute aus der Schweiz ihren Job verlieren könnten und es mehr Arbeitslose geben könnte.
-		- Aber wenn es genug offene Stellen gibt, können die neuen Leute diese Jobs auch besetzen und so die Wirtschaft ankurbeln.
-		- Die Arbeitslosigkeit in der Schweiz hat sich in den letzten Jahren je nach Wirtschaftslage verändert, aber insgesamt gibt es keine klaren Hinweise darauf, dass das Abkommen zur Freizügigkeit negativ auf die Gesamtzahl der Arbeitslosen gewirkt hat.
+		- Zuwanderung bringt mehr Arbeitskräfte; wenn es genug Jobs gibt, hilft das der Wirtschaft und beeinflusst die Arbeitslosigkeit kaum.
 	- ### Arbeitsproduktivität
-		- Grundsätzlich gilt: Je besser die Erwerbstätigen ausgebildet sind, umso produktiver sind sie. Das mehrheitlich hohe Bildungsniveau der neu zugewanderten Ausländer hat den Bildungsstand der Schweizer Erwerbsbevölkerung erhöht.
-		- Die Arbeitsproduktivität dürfte deshalb gestiegen sein. Ein Anstieg der Arbeitsproduktivität bedeutet eine höhere Wirtschaftsleistung pro Stunde und damit ein höheres Wirtschaftswachstum.
+		- Gut ausgebildete Zuwanderer steigern die Produktivität und das Wirtschaftswachstum.
 	- ### Löhne
-		- Wenn es mehr Arbeitskräfte gibt, könnte dies zu einem Druck auf die Löhne führen, besonders wenn die zugewanderten Arbeitskräfte direkt mit den Einheimischen konkurrieren.
-		- Da viele Zuwanderer gut qualifiziert sind, könnte dies vor allem bei gut qualifizierten Arbeitskräften zu einem Lohndruck führen.
-		- Es gibt jedoch keine klaren Anzeichen dafür, dass die allgemeine Lohnentwicklung nach der Einführung des Freizügigkeitsabkommens wesentlich anders war als zuvor.
-		- Es ist möglich, dass der Anstieg der Löhne durch die Zuwanderung der letzten Jahre moderat gedämpft wurde, insbesondere bei hochqualifizierten Arbeitskräften.
+		- Zuwanderung kann den Lohndruck erhöhen, besonders bei gut qualifizierten Jobs, aber die allgemeine Lohnentwicklung blieb ziemlich gleich.
 - ## Vor- und Nachteile für Leute die in CH und EU
 	- ### CH
 		- **Vorteile**
@@ -168,7 +169,7 @@
 		- Sie ermöglichen der Schweiz den Zugang zum EU-Binnenmarkt in bestimmten Bereichen. Zum Beispiel regelt die Personenfreizügigkeit, dass Menschen frei entscheiden können, ob sie in der EU oder der Schweiz arbeiten und leben möchten.
 		- Andere Verträge betreffen Forschung und Landwirtschaft.
 		- **Personenfreizügigkeit**: Personen aus der EU und der Schweiz können in beiden Gebieten frei arbeiten und leben
-	- ### Bilateralen II (10 Verträge)
+	- ### Bilateralen II (9 Verträge)
 		- Bestehen aus neun Verträgen und wurden 2005 eingeführt.
 		- Ein Vertrag ist das Schengen-Abkommen, das die Grenzkontrollen zwischen der EU und der Schweiz abschafft. Es fördert auch die Zusammenarbeit gegen Kriminalität, insbesondere den Schutz der EU-Aussengrenzen.
 		- Ein weiterer Vertrag ist das Dublin-Abkommen, das regelt, dass Asylbewerber nur in einem Land der EU oder der Schweiz einen Asylantrag stellen können, und das Urteil gilt dann für alle anderen Länder.
@@ -195,7 +196,7 @@
 			- Die Schweiz hat weltpolitisch so weniger Einfluss
 			- Mehr büroaktischer Aufwand
 	- ### Einflüsse der bilateralen Verträge auf mein persönliches Berufsleben
-		- **Arbeitsmöglichkeiten**: Durch die Personenfreizügigkeit der Bilateralen I habe ich als Arbeitnehmer die Möglichkeit, frei zu entscheiden, ob du in der EU oder der Schweiz arbeiten möchte. Dies kann deine Karrieremöglichkeiten erweitern, da ich potenziell in einem grösseren Markt arbeiten kann.
+		- **Arbeitsmöglichkeiten**: Durch die Personenfreizügigkeit der Bilateralen I habe ich als Arbeitnehmer die Möglichkeit, frei zu entscheiden, ob ich in der EU oder der Schweiz arbeiten möchte. Dies kann meine Karrieremöglichkeiten erweitern, da ich potenziell in einem grösseren Markt arbeiten kann.
 		- **Weiterbildungsmöglichkeiten:** Durch die bilaterale Zusammenarbeit zwischen der Schweiz und der EU könnte ich die Möglichkeit haben, an Weiterbildungsveranstaltungen in verschiedenen Ländern teilzunehmen. Dadurch könnte ich meine Fähigkeiten verbessern und auf dem neuesten Stand bleiben.
 	- ## Kündigungsmöglichkeiten
 		- Die bilateralen Verträge I wurden im Gegensatz zu den bilateralen Verträgen II als Paket abgeschlossen. **Was bedeutet das?**

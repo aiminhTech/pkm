@@ -30,8 +30,8 @@ tags:: [[JavaScript]]
 			  
 			  ```
 - ## Closure
-  collapsed:: true
 	- A feature that allows a function to retain access to its **lexical scope**, even when that function is executed outside of its original scope
+	- Closures allow a function to access variables from an enclosing scope even after that function has returned
 	- ### Lexical Scope
 		- Lexical scope refers to the fact that the scope of variables is determined by their physical location in the written code.
 		- For instance, variables defined inside a function are not accessible outside of that function.

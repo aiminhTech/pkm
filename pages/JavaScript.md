@@ -391,6 +391,14 @@ tags:: [[node.js]], [[Programming Language]]
 	- ### Choosing Between `++count` and `count++`:
 		- Use **`++count`** if you need the incremented value immediately in the expression.
 		- Use **`count++`** if you need the original value before it is incremented in the expression.
+- ## Strict mode `use strict`
+  collapsed:: true
+	- Is a directive that helps you write more secure and error-free code by enabling strict mode.
+	- When you use strict mode, it changes the way JavaScript operates in the following ways
+		- **Prevents the use of undeclared variables**: You must declare all variables with `var`, `let`, or `const`. This helps avoid accidental global variables.
+		- **Disallows duplicate parameter names**: You can't have function parameters with the same name, which helps prevent confusion and potential errors in your code.
+		- **Throws errors for unsafe actions**: Certain actions that JavaScript normally allows, but can lead to bugs or security issues, will throw errors in strict mode. For example, assigning a value to a non-writable property or using a variable/object before declaring it.
+		- **Changes in `this` behavior**: In functions, `this` will be `undefined` if the function is called without an object context, instead of defaulting to the global object (like `window` in browsers).
 - ## Promise, await und async
   collapsed:: true
 	- ### Was ist ein Callback-Funktion?
@@ -434,7 +442,8 @@ tags:: [[node.js]], [[Programming Language]]
 			- Catch() nimmt als Argument eine Callback-Funktion entgegen, welche im Exceptionfall mit der Excption der asynchronen Funktion aufgerufen wird.
 - ## `this` Keyword
 	- The value of the `this` keyword is the global object
-	- ### Regular Functions
-		- The value of the ==this== keyword is the object on which the function is invoked
-	- ### Arrow Functions
-		- The value of the ==this== keyword in an arrow function is determined by the lexical environment in which the arrow function was defined
+	- ### The value of the ==this== keyword in:
+		- **Regular Functions**:  is *the object on which the function is invoked*
+		- **Arrow Functions:** is *determined by the lexical environment in which the arrow function was defined*
+		- **Classes:** in constructor functions or classes is *the value of the newly created instance*
+		- **Event handler:** using a regular function is *the element that received the event*

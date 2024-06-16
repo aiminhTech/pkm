@@ -1,3 +1,3 @@
 - [[Politik]]
 - [[Kunst & Kultur]]
-- [[Die Schweiz in Europa und der Schweiz]]
+- [[Die Schweiz in Europa und die Welt]]
