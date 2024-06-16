@@ -12,6 +12,6 @@
 	- [[ABU]] #[[Kunst & Kultur]]
 	- [[NoSQL-Datenbank]]
 	- [[Software mit agilen Methoden entwickeln]]
-	- [[Geschäftsprozesse beschreiben]] [[M254]]
+	- [[Geschäftsprozesse beschreiben]]
 	-
 -

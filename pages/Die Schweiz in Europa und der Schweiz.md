@@ -1,4 +1,36 @@
-## Wirtschaftsstandort
+## Globalisierung
+	- Globalisierung ist ein Prozess, bei dem Menschen, Unternehmen und Regierungen auf der ganzen Welt immer stärker miteinander verbunden werden
+	- ### Globale Verflechtung
+		- #### Ursachen
+			- **Handel**: Länder tauschen Waren und Dienstleistungen miteinander aus, um Bedürfnisse zu erfüllen, die sie alleine nicht befriedigen können. Durch Handelsabkommen und die Öffnung von Märkten wird der Handel zwischen Ländern erleichtert.
+			- **Migration**: Menschen ziehen aus verschiedenen Gründen in andere Länder, sei es auf der Suche nach Arbeit, Bildung oder Sicherheit. Dies führt zu einem Austausch von Ideen, Kulturen und Fähigkeiten zwischen verschiedenen Teilen der Welt.
+			- **Investitionen**: Unternehmen investieren in verschiedenen Ländern, um neue Märkte zu erschliessen, Kosten zu senken oder von unterschiedlichen Ressourcen zu profitieren. Dadurch entstehen globale Lieferketten und wirtschaftliche Verflechtungen.
+		- #### Beispiel
+			- **Handel**: Elektronikprodukte wie Smartphones werden in China hergestellt und weltweit verkauft. Die Teile dafür kommen aus verschiedenen Ländern und werden dann zusammengebaut.
+			- **Ernährung**: Lebensmittel wie Orangen aus Spanien werden über lange Strecken transportiert und landen in Supermärkten weltweit, auch in den USA oder Australien.
+			- **Kultur**: Amerikanische Filme werden in Kinos überall gezeigt und Popmusik aus verschiedenen Ländern hat Fans auf der ganzen Welt. Dadurch vermischen sich Ideen und Einflüsse aus verschiedenen Kulturen.
+			- **Finanzen**: Menschen und Unternehmen können Geld über Grenzen hinweg bewegen, um zu investieren oder Geschäfte abzuwickeln. Internationale Banken und Börsen ermöglichen einen schnellen Geldfluss rund um den Globus.
+			- **Arbeit**: Unternehmen können Arbeitskräfte aus anderen Ländern einstellen, sei es durch Outsourcing oder die Einstellung von Fachkräften aus dem Ausland. Dadurch arbeiten Menschen aus verschiedenen Teilen der Welt zusammen, um gemeinsame Ziele zu erreichen.
+	- ### Folgen der Globalisierung für die Mehrheit der Menschen
+		- **Positive**
+		  background-color:: green
+			- **Wirtschaftliche Chancen:** Globale Märkte bieten Unternehmen die Möglichkeit, zu wachsen und neue Kunden zu erreichen, was zu wirtschaftlichem Wachstum führen kann.
+			- **Technologischer Fortschritt**: Führt zu Innovationen und Fortschritten in vielen Bereichen, wie Medizin und Kommunikation
+			- **Kulturelle Austausch:** Globalisierung bringt Menschen aus verschiedenen Regionen zusammen und ermöglicht ihnen, voreinander zu lernen und sich auszutauschen, was zu einem besseren Verständnis und Respekt für unterschiedliche Kulturen führen kann.
+		- **Negative**
+		  background-color:: pink
+			- **Verlust der Identität:** Durch die Vermischung und Vereinheitlichung können lokale Traditionen und Kulturen verloren gehen, was zu einem Verlust der Identität führen kann.
+			- **Wirtschaftliche Ungleichheit:** Kann die Kluft zwischen reichen und armen Ländern der Bevölkerungsgruppen vergrössern, da nicht alle gleichermassen den Vorteilen profitieren
+	-
+- ## Produktionsstandort
+	- Ein Produktionsstandort ist der Ort, an dem Produkte hergestellt werden.
+	- Das kann eine Fabrik, eine Werkstatt oder ein anderer Ort sein, an dem Maschinen und Arbeitskräfte zusammenkommen, um Waren herzustellen.
+	- Es ist der physische Ort, an dem die Produktion stattfindet.
+- ## Wirtschaftsstandort
+	- Bezieht sich auf einen bestimmten Ort oder Region, an dem wirtschaftliche Aktivitäten stattfinden. Kurz gesagt, ist es ein Ort, der Unternehmen anzieht und ihnen ermöglicht, erfolgreich zu wachsen und zu gedeihen.
+	- ### 2 wichtige Unterscheide zum Produktionsstandort
+		- Beim Wirtschaftsstandort kommen die Dienstleistungen dazu (in der Schweiz der grösste Bereich
+		- Beim Wirtschaftsstandort geht es darum, wo sich der Firmensitz befindet (und dadurch auch Steuern bezahlt)
 	- ### Pro-/Kontraargumente betreffen dem Wirtschaftsstandort Schweiz
 		- **Pro**
 			- Politische Stabilität
@@ -11,9 +43,161 @@
 			- Transitland
 			- Landschaft (Aussehen)
 		- **Kontra**
-			- Boden (Verfügbatkeit, Preis, Beschaffenheit,...)
+			- Boden (Verfügbarkeit, Preis, Beschaffenheit,...)
 			- Rohstoffe
 			- Lohnniveau
 			- Binnenlage
 		- **Neutral**
 			- Schweizer Markt
+-
+- ## In 3 Schritten zur EU
+	- ### Schritt 1
+		- Nach dem Zweiten Weltkrieg waren die Länder Europas in einer schwierigen Lage.
+		- Sie träumten von Frieden, Wohlstand und Demokratie, um einen weiteren Krieg zu verhindern. Kohle und Stahl waren damals wichtige Rohstoffe für die Wirtschaft, aber auch eine potenzielle Gefahr für Konflikte.
+		- Robert Schumann, ein französischer Politiker mit deutscher Herkunft, hatte eine clevere Idee: Deutschland und Frankreich sollten gemeinsam Kohle und Stahl produzieren, um ihre Zusammenarbeit zu fördern und Konflikte zu vermeiden.
+		- Diese Idee führte zur Gründung der Europäischen Gemeinschaft für Kohle und Stahl.
+	- ### Schritt 2
+		- Der Schumann-Plan war ein wichtiger Schritt für wirtschaftlichen Aufschwung.
+		- Die beteiligten Länder beschlossen, in anderen Bereichen ebenfalls zusammenzuarbeiten und gründeten die Europäische Wirtschaftsgemeinschaft (EWG).
+		- Die europäische Atomgemeinschaft half zudem, günstige Kernenergie zu produzieren und die Wirtschaft anzukurbeln.
+	- ### Schritt 3
+		- Erst nach dem Mauerfall begannen Ost- und Westeuropa enger zusammenzuwachsen.
+		- Immer mehr Länder interessierten sich nicht nur wirtschaftlich, sondern auch politisch für eine Zusammenarbeit.
+		- So wurde die Europäische Union (EU) gegründet, mit einem gemeinsamen Parlament und der Einführung des Euro als Währung.
+		- Der Handel zwischen den Ländern wurde einfacher und intensiver, was zu langanhaltendem Frieden in Europa beitrug.
+- ## Montanunion
+  collapsed:: true
+	- **Europäische Gemeinschaft für Kohle und Stahl** (EGKS)
+	- **Gründungszeit**
+		- Wurde am 18. April 1951 durch den Vertrag von Paris gegründet und trat am 23. Juli 1952 in Kraft
+		- Der Vertrag war auf eine Laufzeit von 50 Jahren angelegt und lief somit im Jahr 2002 aus
+	- **Gründerstaaten**
+		- Belgien
+		- Deutschland (damals Westdeutschland)
+		- Frankreich
+		- Italien
+		- Luxemburg
+		- Niderlande
+	- **Entstehungsgründe**
+		- Die Entstehung hatte mehere wichtige Gründe
+		- **Friedenssicherung:** Nach den Zerstörungen des Zweiten Weltkriegs suchten die europäischen Länder nach Wegen, um zukünftige Konflikte zu verhindern. Die Kontrolle üner die Kolh- und Stahlproduktion, die für Kriegsführung essentiell ist, sollte zukünftige Kriege zwischen den Mitgliedsstaaten verhindern
+		- **Witschaftliche Integration:** Durch die Schaffung eines gemeinsamen Marktes für Kohle und Stahl sollte Handelsheimnisse abgebaut und die wirtschaftliche Zusammenarbeit gefödert werden. Dies sollte zur wirtschaftlichen Erholung und zum Wohlstand in Europa beitragen
+		- **Deutsch-französiche Aussöhnung (hoa giai)** war ein Hauptgrund für die Gründung der EGKS. Frankreich und Deutschland wollten durch die gemeinsame Verwaltung der Kohle- und Stahlproduktion Vertrauen aufbauen und ihre Rivalität überwinden.
+- ## Europäischen Union (EU)
+	- Zusammenschluss von Ländern in Europa, die zusammenarbeiten, um verschiedene Dinge zu erreichen. Sie begann als eine Gruppe von Ländern, die beschlossen haben, Kohle und Stahl gemeinsam zu kontrollieren, um Frieden sicherzustellen, und ist seitdem gewachsen.
+	- Die EU hat heute 27 Mitgliedsländer. Sie arbeiten zusammen, um den Handel zwischen den Ländern einfacher zu machen, damit Menschen, Waren und Geld frei zwischen den Ländern fließen können. Sie haben auch gemeinsame Regeln für Dinge wie Umweltschutz, Arbeitnehmerrechte und Sicherheit.
+	- ### Ziele
+		- **Frieden und Sicherheit:** Die EU wurde nach dem Zweiten Weltkrieg gegründet, um Frieden und Stabilität in Europa zu fördern. Durch politische Zusammenarbeit und die Schaffung gemeinsamer Institutionen soll Konflikten vorgebeugt werden.
+		- **Wirtschaftliche Integration:** Ein zentrales Ziel der EU ist die Schaffung eines gemeinsamen Binnenmarktes, in dem der freie Verkehr von Waren, Dienstleistungen, Kapital und Personen gewährleistet ist. Dies soll den Handel fördern, das Wirtschaftswachstum steigern und Arbeitsplätze schaffen.
+		- **Soziale Gerechtigkeit und Solidarität:** Die EU strebt die Förderung des sozialen Zusammenhalts und der sozialen Gerechtigkeit an, indem sie sich für die Verbesserung der Lebensbedingungen, die Bekämpfung von Armut und die Förderung der sozialen Integration einsetzt.
+		- **Umweltschutz und Nachhaltigkeit:** Die EU verfolgt das Ziel, Umweltverschmutzung zu bekämpfen, die Biodiversität zu schützen und den Klimawandel einzudämmen. Durch umweltpolitische Maßnahmen und die Förderung nachhaltiger Entwicklung soll eine lebenswerte Umwelt für zukünftige Generationen geschaffen werden.
+		- **Förderung der Demokratie und der Menschenrechte:** Die EU setzt sich für die Achtung der Menschenrechte, der Demokratie und der Rechtsstaatlichkeit ein, sowohl innerhalb der EU als auch in ihren Beziehungen zu anderen Ländern.
+		- **Internationale Zusammenarbeit:** Die EU strebt eine enge Zusammenarbeit mit anderen Ländern und internationalen Organisationen an, um globale Herausforderungen wie Armut, Terrorismus, Migration und die Verbreitung von Atomwaffen anzugehen.
+	- ### Folgen EU-Beitritts der Schweiz
+		- **Positiv**
+		  background-color:: green
+			- **Bessere Wirtschaft:** Die Schweiz könnte einfacher Geschäfte mit anderen Ländern der EU machen, was der Wirtschaft hilft.
+			- **Mehr Zusammenarbeit:** Die Schweiz könnte enger mit anderen EU-Ländern zusammenarbeiten, um Probleme wie Umweltschutz oder Sicherheit anzugehen.
+			- **Mehr Geld für Projekte:** Die EU hat Programme, die Geld für verschiedene Projekte geben. Die Schweiz könnte von diesem Geld profitieren, um Dinge wie Infrastruktur oder Forschung zu verbessern.
+			- Mitentscheidungsrecht in der EU
+			- Weniger Aufwand (politisch, adminstrativ)
+			- Marktöffnung macht Druck auf die Preise in der Schweiz, weshalb die Produkte günstiger werden
+			- Zölle werden abgeschafft (positive für Konsumenten)
+			- Wirtschaftliche Intergration in den EU Binnenmarkt erhöht die Konkurrenzfähigkeit
+		- **Negativ**
+		  background-color:: pink
+			- **Weniger Selbstbestimmung:** Die Schweiz müsste einige Entscheidungen an die EU abgeben und EU-Regeln befolgen.
+			- **Mehr Kosten:** Die Schweiz müsste wahrscheinlich mehr Geld an die EU zahlen.
+			- **Veränderungen in der Kultur:** Die Schweiz könnte einige ihrer eigenen Regeln und Traditionen ändern müssen, um sich an EU-Regeln anzupassen.
+			- Mitgliederbeitrag von jährlich 3,4 Mrd. CHF
+			- Muss sich dem Diktat der EU unterstellen
+			- Marköffnung schafft mehr Konkurrenz für die Firmen
+			- Zölle werden abgeschafft (negativ für Produzenten)
+			- Höhere Zinsen (Steuern)
+- ## Zuwanderung Konsequenzen
+  collapsed:: true
+	- ### Wachstum des BIP
+		- Die Zuwanderung führt zu einem Anstieg der erwerbstätigen Bevölkerung und damit zu einem Wachstum von Konsumausgaben, zu mehr Nachfrage nach Wohnungen, Immobilien, Dienstleistungen usw.
+		- Die erhöhte Nachfrage stimuliert das Angebot und fördert das Wachstum des BIP und der Beschäftigung.
+	- ### Immobilienpreise
+		- Die vielen Leute, die aus EU-Ländern in die Schweiz kommen, wollen alle ein Zuhause haben. Besonders in Städten wie Zürich und Genf, wo die meisten von ihnen hingehen, steigen die Preise für Wohnungen und Häuser.
+		- Das passiert, weil es mehr Leute gibt, die nach Wohnraum suchen, als es Häuser und Wohnungen gibt.
+	- ### Arbeitslosigkeit
+		- Wenn mehr Leute in die Schweiz kommen, gibt es mehr Leute, die arbeiten wollen. Manche Leute denken, dass dadurch Leute aus der Schweiz ihren Job verlieren könnten und es mehr Arbeitslose geben könnte.
+		- Aber wenn es genug offene Stellen gibt, können die neuen Leute diese Jobs auch besetzen und so die Wirtschaft ankurbeln.
+		- Die Arbeitslosigkeit in der Schweiz hat sich in den letzten Jahren je nach Wirtschaftslage verändert, aber insgesamt gibt es keine klaren Hinweise darauf, dass das Abkommen zur Freizügigkeit negativ auf die Gesamtzahl der Arbeitslosen gewirkt hat.
+	- ### Arbeitsproduktivität
+		- Grundsätzlich gilt: Je besser die Erwerbstätigen ausgebildet sind, umso produktiver sind sie. Das mehrheitlich hohe Bildungsniveau der neu zugewanderten Ausländer hat den Bildungsstand der Schweizer Erwerbsbevölkerung erhöht.
+		- Die Arbeitsproduktivität dürfte deshalb gestiegen sein. Ein Anstieg der Arbeitsproduktivität bedeutet eine höhere Wirtschaftsleistung pro Stunde und damit ein höheres Wirtschaftswachstum.
+	- ### Löhne
+		- Wenn es mehr Arbeitskräfte gibt, könnte dies zu einem Druck auf die Löhne führen, besonders wenn die zugewanderten Arbeitskräfte direkt mit den Einheimischen konkurrieren.
+		- Da viele Zuwanderer gut qualifiziert sind, könnte dies vor allem bei gut qualifizierten Arbeitskräften zu einem Lohndruck führen.
+		- Es gibt jedoch keine klaren Anzeichen dafür, dass die allgemeine Lohnentwicklung nach der Einführung des Freizügigkeitsabkommens wesentlich anders war als zuvor.
+		- Es ist möglich, dass der Anstieg der Löhne durch die Zuwanderung der letzten Jahre moderat gedämpft wurde, insbesondere bei hochqualifizierten Arbeitskräften.
+- ## Vor- und Nachteile für Leute die in CH und EU
+	- ### CH
+		- **Vorteile**
+		  background-color:: green
+			- **Hoher Lenbensstandard:** Die Schweiz bietet einen der besten Lebensstandards weltweit mit sehr guter Gesundheitsversorgung, Bildung und sozialen Dienstleistungen
+			- **Stabilität und Sicherheit:** Die Schweiz ist bekannt für ihre politische Stabilität, geringe Kriminalitätsrate und hohe persönliche Sicherheit
+			- **Wirschaftliche Stärke:** Eine starke und stabile Wirtschaft mit niedriger Arbeitslosigkeit und hohen Gehältern
+			- **Natürliche Schönheit**: Die Schweiz bietet beeindruckende Landschaften mit Bergen, Seen und einer sauberen Umwelt.
+			- **Infrastruktur:** Hochentwickelte Infrastruktur mit zuverlässigem öffentlichen Verkehr, guten Strassen und erstklassigen Einrichtungen.
+		- **Nachteile**
+		  background-color:: pink
+			- **Hohe Lebenshaltungskosten**: Die Schweiz gehört zu den teuersten Ländern der Welt, was sich in hohen Miet- und Lebenshaltungskosten widerspiegelt.
+			- **Integration**: Es kann schwierig sein, sich in die Schweizer Gesellschaft zu integrieren, insbesondere für Ausländer, die nicht eine der Landessprachen (Deutsch, Französisch, Italienisch) sprechen.oromanisch)
+			- **Kleine Binnenmarkte:**  Die Schweiz ist ein kleiner Binnenmarkt, was für Unternehmen begrenzte Expansionsmöglichkeiten bedeutet.
+			- **Strikte Einwanderungsregeln**: Die Schweiz hat strenge Einwanderungs- und Aufenthaltsbestimmungen.
+	- ### EU
+		- **Vorteile**
+		  background-color:: green
+			- **Nidriege Lebenshaltungskosten:** In vielen EU-Ländern, insbesondere in Osteuropa und Teilen Südeuropas, sind die Lebenshaltungskosten deutlich niedriger.
+			- **Grösse des Binnenmarktes:** Der EU-Binnenmarkt ist der grösste einheitliche Markt der Welt, was erhebliche Vorteile für Handel und Geschäftsentwicklung biete
+			- **Kultur- und Freizeitangebote:** Die kulturelle Vielfalt innerhalb der EU ist enorm, mit einem breiten Spektrum an Freizeit-, Kultur- und Unterhaltungsangeboten in den verschiedenen Ländern
+		- **Nachteile**
+		  background-color:: pink
+			- **Politische Instabilität**: Einige EU-Länder haben mit politischer Instabilität oder wirtschaftlichen Herausforderungen zu kämpfen, was das Leben dort unsicherer machen kann.
+			- **Wirtschaftliche Unterschiede**: Die wirtschaftliche Lage kann stark von Land zu Land variieren, was zu unterschiedlichen Lebensstandards und Arbeitsmöglichkeiten führt.
+			- **Bürokratie:** Die EU ist bekannt für ihre umfangreiche Bürokratie und komplexen Regulierungen. Dies kann Geschäftsaktivitäten und persönliche Angelegenheiten verlangsamen und verkomplizieren.
+- ## Die bilateralen Verträge CH - EU
+	- Die Schweiz ist kein Mitgliedsstaat der Europäischen Union (EU). Sie arbeitet aber eng mit der EU zusammen. Dazu hat sie mit der EU verschiedene Verträge ausgehandelt, unter anderem die Bilateralen I und II.
+	- Die bilateralen Verträge zwischen der Schweiz und der EU sind eine Reihe von ==Abkommen==, die eine enge Zusammenarbeit und gegenseitige Beziehungen zwischen den beiden Parteien regeln.
+	- ### Bilateralen I (7 Verträge)
+		- Bestehen aus sieben Verträgen und wurden 2002 eingeführt.
+		- Sie ermöglichen der Schweiz den Zugang zum EU-Binnenmarkt in bestimmten Bereichen. Zum Beispiel regelt die Personenfreizügigkeit, dass Menschen frei entscheiden können, ob sie in der EU oder der Schweiz arbeiten und leben möchten.
+		- Andere Verträge betreffen Forschung und Landwirtschaft.
+		- **Personenfreizügigkeit**: Personen aus der EU und der Schweiz können in beiden Gebieten frei arbeiten und leben
+	- ### Bilateralen II (10 Verträge)
+		- Bestehen aus neun Verträgen und wurden 2005 eingeführt.
+		- Ein Vertrag ist das Schengen-Abkommen, das die Grenzkontrollen zwischen der EU und der Schweiz abschafft. Es fördert auch die Zusammenarbeit gegen Kriminalität, insbesondere den Schutz der EU-Aussengrenzen.
+		- Ein weiterer Vertrag ist das Dublin-Abkommen, das regelt, dass Asylbewerber nur in einem Land der EU oder der Schweiz einen Asylantrag stellen können, und das Urteil gilt dann für alle anderen Länder.
+		- Andere Verträge betreffen Medien, Bildung und Umwelt.
+		- **Schengen:** Es erlaubt Menschen, ohne Grenzkontrollen zwischen den teilnehmenden Ländern zu reisen. (Bsp. Wenn ich von der Schweiz nach Deutschland reist oder umgekehrt, muss ich normalerweise keinen Reisepass vorzeigen)
+		- **Dublin:** Diese Regelung hilft dabei, festzustellen, welches Land für die Bearbeitung von Asylanträgen zuständig ist. Wenn jemand in die Schweiz kommt und Asyl beantragen möchte, hilft das Dublin zu entscheiden, ob die Schweiz oder ein anderes Land für die Prüfung des Antrags zuständig ist. Es soll verhindern, dass Menschen in mehreren Ländern gleichzeitig um Asyl bitten können
+	- ### Vor und Nachteile gegenüber einem Beitritt
+		- **Vorteile:**
+		  background-color:: green
+			- Massgeschneiderte Zusammenarbeit
+			- Zölle entfallen an den Grenzen nicht in allen Sektoren (Schutz des Schweizermarktes)
+			- Die Schweiz ist weniger dem Diktat der EU unterstellt  und eigenständiger. Sie kann dort mitmachen, wo sie will
+			- Eigene Regeln (Bps. Finanzplatz, Arbeitsmarkt)
+			- leidet weniger unter schlechten Wirtschaft anderer EU-Staaten
+			- kann den Wert ihrer Währung individuell anpassen
+			- weniger Steuernm da man weniger abgeben muss
+			- Kein EU-Mitgliedsbeitrag
+		- **Nachteile**
+		  background-color:: pink
+			- Grösserer Aufwand um zu Regeln, Gesetzen oder Ähnöichem zu kommen
+			- Oftmals zähe Verhandlungen mit der EU
+			- Zölle entfallen an den Grenzen nicht in allen Sektoren (höhere Preise auf dem Schweizermarkt)
+			- Schweiz kann bei der Entwicklung von EU-Regeln nicht mitbestimmt
+			- Die Schweiz hat weltpolitisch so weniger Einfluss
+			- Mehr büroaktischer Aufwand
+	- ### Einflüsse der bilateralen Verträge auf mein persönliches Berufsleben
+		- **Arbeitsmöglichkeiten**: Durch die Personenfreizügigkeit der Bilateralen I habe ich als Arbeitnehmer die Möglichkeit, frei zu entscheiden, ob du in der EU oder der Schweiz arbeiten möchte. Dies kann deine Karrieremöglichkeiten erweitern, da ich potenziell in einem grösseren Markt arbeiten kann.
+		- **Weiterbildungsmöglichkeiten:** Durch die bilaterale Zusammenarbeit zwischen der Schweiz und der EU könnte ich die Möglichkeit haben, an Weiterbildungsveranstaltungen in verschiedenen Ländern teilzunehmen. Dadurch könnte ich meine Fähigkeiten verbessern und auf dem neuesten Stand bleiben.
+	- ## Kündigungsmöglichkeiten
+		- Die bilateralen Verträge I wurden im Gegensatz zu den bilateralen Verträgen II als Paket abgeschlossen. **Was bedeutet das?**
+		- Wenn aus Paket bilaterale Verträge I ein Vertrag gekündigt wird, werden auch alle andern 6 Verträge aufgelöst (==Guillotineklausel==)
+		- Aus den bilateralen Verträgen II können auch einzelne Verträge gekundigt werden

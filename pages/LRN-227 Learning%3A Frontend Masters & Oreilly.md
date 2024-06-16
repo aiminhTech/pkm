@@ -5,7 +5,6 @@ tags:: [[OReilly]]
 - Beispiele lokal nachvollziehen (git repos, vscode, Übungen)
 - Lerndokumentation erweitern (pro Kurs min. 1 LogSeq-Seite)
 - Erste Priorität: A, B, C, D, H, J ( => 24h Aufwand)
-	-
 - ## frontendmasters
 	- (A) 4h35 [https://frontendmasters.com/courses/angular-fundamentals/](https://frontendmasters.com/courses/angular-fundamentals/)
 	- (B) 2h11 [https://frontendmasters.com/courses/javascript-quiz/](https://frontendmasters.com/courses/javascript-quiz/)
