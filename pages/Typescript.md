@@ -129,6 +129,7 @@ tags:: [[JavaScript]], [[Volta]]
 		  ```
 - ## Ultity Types
   collapsed:: true
+  collapsed:: true
 	- ### Partial<Type>
 		- https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype
 - ## Variables and Values
