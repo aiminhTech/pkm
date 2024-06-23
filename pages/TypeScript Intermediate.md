@@ -297,9 +297,11 @@ tags:: [[TypeScript]]
 			- **T = 10**: Evaluates to `false`
 			- **T = 10 | 2**: Evaluates to `boolean` because the union includes a type that meets the condition and one that does not.
 - ## Inference with conditional types
+  collapsed:: true
 	- The **`infer`** keyword offers a powerful mechanism for type manipulation. *By capturing parts of existing types, it allows you to extract or infer new type parameters*
 	-
 - ## Ultity Types
+  collapsed:: true
 	- https://www.typescriptlang.org/docs/handbook/utility-types.html
 	- ### Extract and Exclude Utility Types
 		- **Extract**
@@ -333,3 +335,84 @@ tags:: [[TypeScript]]
 	- ### Pick<Types, Keys>
 		- https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys
 - ## Mapped Types
+- ## Key Remapping in Mapped Types
+  collapsed:: true
+	- *Dynamically transform keys in mapped types.*
+	- ```ts
+	  type Colors = "red" | "green" | "blue";
+	  type ColorSelector = {
+	    [K in Colors as `select${Capitalize<K>}`]: () => void;
+	  }
+	  
+	  const cs: ColorSelector = {} as any;
+	  cs.selectRed();  // Valid
+	  cs.selectGreen();  // Valid
+	  cs.selectBlue();  // Valid
+	  
+	  ```
+	- In this example, the keys of `ColorSelector` are dynamically generated as `selectRed`, `selectGreen`, and `selectBlue`
+	-
+-
+- ## Template Literal Types
+	- *Create dynamic types using string literals.*
+	- In this example, the `Statistics` type has optional properties `meanValue` and `medianValue`
+		- ```ts
+		  type Statistics = {
+		    [K in `${"median" | "mean"}Value`]?: number;
+		  }
+		  
+		  const stats: Statistics = {};
+		  stats.meanValue;  // This is valid
+		  stats.medianValue;  // This is valid
+		  
+		  ```
+	-
+	- **Extracting Keys with Patterns**
+		- *Use patterns to extract keys with `Extract` and template literals*
+		- ```ts
+		  let winFns: Extract<keyof Window, `set${any}`> = "" as any;
+		  
+		  // winFns can be "setInterval" or "setTimeout"
+		  
+		  ```
+		- This extracts keys from the `Window` type that start with "set"
+	- **Changing Case with Utility Types**
+		- *Use `Capitalize`, `Uppercase`, and `Lowercase` within template literals to modify string case.*
+		- Provides utility types to change the case of string literals within template literal types
+		- ```ts
+		  type T1 = `send${Capitalize<"mouse" | "keyboard">}Event`;
+		  // T1 is "sendMouseEvent" | "sendKeyboardEvent"
+		  
+		  type T2 = `send${Uppercase<"mouse" | "keyboard">}Event`;
+		  // T2 is "sendMOUSEEvent" | "sendKEYBOARDEvent"
+		  
+		  type T3 = `send${Lowercase<"Mouse" | "keyBoard">}Event`;
+		  // T3 is "sendmouseEvent" | "sendkeyboardEvent"
+		  
+		  ```
+- ## Checked Index Access
+	- *Use the `noUncheckedIndexAccess` compiler flag to enforce safe property access in index signatures*
+	- When working with index signatures in TypeScript, there is a risk of accessing properties that may be `undefined`. Previously, it was advised to explicitly handle this by defining types that include `undefined`
+	- ```ts
+	  type Dict<T> = { [K: string]: T | undefined };
+	  
+	  const d: Dict<string[]> = {};
+	  d.rhubarb?.join(", ");  // Safe access, using optional chaining
+	  
+	  ```
+	- To enforce this more strictly, TypeScript introduced the `noUncheckedIndexAccess` compiler flag. When enabled, this flag makes the compiler check that index accesses are safe
+	- ```ts
+	  // Enable this flag in tsconfig.json
+	  {
+	    "compilerOptions": {
+	      "noUncheckedIndexAccess": true
+	    }
+	  }
+	  
+	  type Dict<T> = { [K: string]: T };
+	  
+	  const d: Dict<string[]> = {};
+	  d.rhubarb.join(", ");  // Error: 'd.rhubarb' is possibly 'undefined'.
+	  
+	  ```
+	- With `noUncheckedIndexAccess` enabled, you are alerted if there is a possibility of accessing an `undefined` property
