@@ -5,7 +5,10 @@
 - **acer**: `~ /pkm`
 - **ige wks**: `C:/ige/pkm`
   id:: 664c6765-4e0b-408b-8918-5cf42e209865
-	- $env:https_proxy="http://www-proxy.ipip.ch:8080"
+	- ```powershell
+	  $env:https_proxy="http://www-proxy.ipip.ch:8080"
+	  ```
+	-
 - ## Videos
   collapsed:: true
 	- {{youtube https://www.youtube.com/watch?v=cy5A-_S1bnU}}

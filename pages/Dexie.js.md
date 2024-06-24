@@ -3,6 +3,7 @@ tags:: [[JavaScript]], [[IndexedDB]]
 - https://dexie.org/
 - A popular library for working with IndexedDB, which is a client-side web database that allows you to store and manage structured data.
 - ## Dexie in React
+  collapsed:: true
 	- https://dexie.org/docs/Tutorial/React
 	- ### Installation
 		- `npm install dexie`
@@ -54,3 +55,5 @@ tags:: [[JavaScript]], [[IndexedDB]]
 		      () => db.addresses.toArray()
 		    )
 		  ```
+- ## Dexie in Angular
+	- https://dexie.org/docs/Tutorial/Angular

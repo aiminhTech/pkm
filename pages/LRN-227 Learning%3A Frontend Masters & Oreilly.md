@@ -1,10 +1,8 @@
 tags:: [[OReilly]]
 
 - https://issues.ipip.ch/browse/LRN-227
-- Bearbeite folgende Online Kurse:
-- Beispiele lokal nachvollziehen (git repos, vscode, Übungen)
-- Lerndokumentation erweitern (pro Kurs min. 1 LogSeq-Seite)
-- Erste Priorität: A, B, C, D, H, J ( => 24h Aufwand)
+- **Erste Priorität: A, B, C, D, H, J ( => 24h Aufwand)**
+- Die folgende Kursvideso vollständig ansehen. Während des Kurses Notizen im LogSeq (pro Kurs min. 1 LogSeq-Seite) machen und die im Kurs gezeigten Aufgaben aktiv bearbeiten und abschliessen.
 - ## frontendmasters
 	- DONE (A) 4h35 [https://frontendmasters.com/courses/angular-fundamentals/](https://frontendmasters.com/courses/angular-fundamentals/)
 	  :LOGBOOK:
@@ -22,6 +20,10 @@ tags:: [[OReilly]]
 	- (E) 4h42 [https://frontendmasters.com/courses/rust/](https://frontendmasters.com/courses/rust/)
 	- (F) 5h19 [https://frontendmasters.com/courses/rust-ts-devs/](https://frontendmasters.com/courses/rust-ts-devs/)
 	- (G) 7h04 [https://frontendmasters.com/courses/databases/](https://frontendmasters.com/courses/databases/)
+	- DONE [https://frontendmasters.com/courses/typescript-practice/](https://frontendmasters.com/courses/typescript-practice/)
+	  :LOGBOOK:
+	  CLOCK: [2024-06-24 Mon 14:39:20]--[2024-06-24 Mon 14:39:21] =>  00:00:01
+	  :END:
 - ## Optional
 	- 5h10 [https://frontendmasters.com/courses/enterprise-typescript/](https://frontendmasters.com/courses/enterprise-typescript/)
 	- 3h29 https://frontendmasters.com/courses/typescript-practice/

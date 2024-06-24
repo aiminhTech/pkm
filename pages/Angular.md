@@ -8,8 +8,9 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 	- [[CSS]]: to style the template
 -
 - ## Courses
-  collapsed:: true
+	- https://frontendmasters.com/courses/production-angular/ #frontentmaster
 	- https://frontendmasters.com/courses/angular-fundamentals/ #frontentmaster
+	  collapsed:: true
 		- https://static.frontendmasters.com/assets/courses/2024-01-29-angular-fundamentals/angular-fundamentals-slides.pdf
 		- https://github.com/MarkTechson/angular-fundamentals-lessons
 	- [Learn Angular for Modern Web Applications [Video]]([https://learning.oreilly.com/course/learn-angular-for/9780137324842/](https://learning.oreilly.com/course/learn-angular-for/9780137324842/)) #OReilly
@@ -89,6 +90,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 			- The `platformBrowserDynamic().bootstrapModule(AppModule)` starts the application by bootstrapping `AppModule`.
 		- **Enabling Production Mode (Optional):** If the application is in production mode, `enableProdMode()` is called to disable Angular's development mode, which can include additional checks that are not necessary in production.
 - ## Modules `app.module.ts`
+  collapsed:: true
 	- https://angular.dev/style-guide#app-root-module
 	- Are used to group components, directives, pipes, and services that are related to each other.
 	- **NgModule Decorator**: We define a module using the `@NgModule` decorator. This decorator takes a metadata object that tells Angular how to compile and launch the application.
@@ -865,6 +867,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  ```
 -
 - ## Signals
+  collapsed:: true
 	- Signals are a new way of handling change detection and reactivity in Angular application
 	- ### signal
 		- A value that can tell ANgular when it changes
@@ -954,6 +957,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 	- **Angular services:** handle data loading and server communication in Angular applications
 	- **Observable**: a design pattern used for event handling
 	- ### Fetch data with HTTPClient
+	  collapsed:: true
 		- ```ts
 		  //user.service.ts
 		  import { HttpClient } from '@angular/common/http';
@@ -994,6 +998,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  }
 		  ```
 	- ### Fetch data with `fetch`
+	  collapsed:: true
 		- ```ts
 		  //data.service.ts
 		  import { Injectable } from '@angular/core';

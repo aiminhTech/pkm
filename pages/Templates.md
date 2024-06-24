@@ -11,8 +11,9 @@
 - # SMART
   template:: SMART
   template-including-parent:: false
-	- **Spezifisch**:
-	- **Messbar:**
-	- **Attraktiv:**
-	- **Realitisch:**
-	- **Terminiert:**
+	- ### SMART
+		- **Spezifisch**:
+		- **Messbar:**
+		- **Attraktiv:**
+		- **Realitisch:**
+		- **Terminiert:**
