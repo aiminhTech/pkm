@@ -953,6 +953,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  ```
 -
 - ## Fetching Data
+  collapsed:: true
 	- [Fetching data in Angular: HttpClient or Fetch API? | by Saeid | Medium](https://medium.com/@saeid_38500/my-test-post-3e533db437f7/)
 	- **Angular services:** handle data loading and server communication in Angular applications
 	- **Observable**: a design pattern used for event handling

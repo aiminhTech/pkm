@@ -17,3 +17,4 @@ tags:: [[Angular]]
 	  was sowohl die Wartung als auch die Zusammenarbeit im Team erleichtert.
 - **Einfache Verwaltung von Abhängigkeiten**:
 	- Durch die Import- und Exportmechanismen von NgModules können Abhängigkeiten und Ressourcen klar und effizient verwaltet werden
+-
