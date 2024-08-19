@@ -9,7 +9,6 @@ tags:: [[GIBB]]
 	- ![Bildschirmfoto 2023-12-03 um 15.20.43.png](../assets/Bildschirmfoto_2023-12-03_um_15.20.43_1701613245350_0.png)
 	- Man unterteilt Cloud-Computing in Deployment Model (Bereitstellungsmodell) und Service Model.
 - ## Bereitstellungsmodelle
-  collapsed:: true
 	- ### Private Cloud
 		- Accessible to everyone
 		- Cloud-Umgebungen, die typischerweise aus IT-Infrastukturen erstellt werden, die nicht dem **Endbenutzer** gehöre
@@ -19,7 +18,6 @@ tags:: [[GIBB]]
 	- ### Public Cloud
 		- Owned by a single person
 		- Als Cloud-Umgebungen definieren, die nur einem Endbenutzer oder einer Nutzergruppe zugeteilt und üblicherweise hinter der Firewall dieses Nutzers oder dieser Gruppe ausgeführt werden.
-		-
 	- ### Hybrid Cloud
 		- Rent a taxi driver
 		- Eine Lösung, die eine Private Cloud mit einem oder mehreren Public Cloud Services kombiniert und mittels proprietärer Software eine Kommunikation zwischen unterschiedlichen Services ermöglicht

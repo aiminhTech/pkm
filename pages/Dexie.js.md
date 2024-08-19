@@ -58,3 +58,4 @@ tags:: [[JavaScript]], [[IndexedDB]]
 - ## Dexie in Angular
 	- https://dexie.org/docs/Tutorial/Angular
 	- TODO todo
+-

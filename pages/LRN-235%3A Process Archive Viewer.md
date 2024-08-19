@@ -1,0 +1,24 @@
+tags:: [[IGE]], [[S3]]
+
+- https://issues.ipip.ch/browse/LRN-235
+- https://wiki.ipip.ch/pages/viewpage.action?pageId=178930536
+-
+- ## Project Links
+	- **JIRA**: https://issues.ipip.ch/browse/LRN-235
+	- **Bitbucket**:
+	- **Openshift**:
+		- *test-qai-entwicklung-*:
+		- *test-qai-*:
+	-
+- ## Sourcecode
+	- **Inklusiv container und alles**: https://git.ipip.ch/projects/OPS/repos/process-archive-viewer/browse
+	- **Python code für den frontent + backend**: https://git.ipip.ch/projects/OPS/repos/process-archive-viewer/browse/app/main.py
+- ## Tools
+	- **Frontend**: [[Angular]], [[Angular Material]]
+	- **Backend**: [[S3]], [[Elastic]]
+- ## Libraries
+	- timelines-chart: https://www.npmjs.com/package/timelines-chart
+	- ngx-simple-charts:
+		- https://angular2guy.wordpress.com/2023/07/01/a-scrolling-date-timeline-chart-with-angular-material-components/
+		- https://github.com/Angular2Guy/ngx-simple-charts
+	- https://apexcharts.com/angular-chart-demos/timeline-charts/

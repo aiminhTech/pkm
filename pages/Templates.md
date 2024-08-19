@@ -17,3 +17,14 @@
 		- **Attraktiv:**
 		- **Realitisch:**
 		- **Terminiert:**
+-
+- # Project Links
+  template:: Project Links
+  template-including-parent:: false
+	- ## Project Links
+		- **JIRA**:
+		- **Bitbucket**:
+		- **Openshift**:
+			- *test-qai-entwicklung-*:
+			- *test-qai-*:
+-

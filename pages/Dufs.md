@@ -6,12 +6,15 @@
 	- ### docker
 	- ``docker run -v `pwd`:/data -p 5000:5000 --rm sigoden/dufs /data -A``
 - ## Usage
-	- Serve current working directory in read-only mode
+	- **Serve current working directory in read-only mode**
 		- ```
 		  dufs
 		  ```
-	- Allow all operations like upload/delete/search/create/edit...
+	- **Allow all operations like upload/delete/search/create/edit...**
 		- ```
 		  dufs -A
 		  ```
--
+	- **Serve a single-page application like react/vue**
+		- ```
+		  --render-spa
+		  ```

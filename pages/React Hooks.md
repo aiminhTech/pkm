@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-- #React #Frontend
-=======
 tags:: [[React]], [[Frontend]]
 
->>>>>>> 88a26b9effa3e06b1c3e96463b9700dbafb702aa
 - ## Hook
 	- Hook ist spezielle Hilfsfunktionen in der React Welt. React lässt uns auch eigene Hooks schreiben
 	- [[useState]]
@@ -22,10 +18,7 @@ tags:: [[React]], [[Frontend]]
 				- expose state from Reducer via FooContext
 			- Hook: useFooAction
 			- expose custom dispatch functions for each FooAction, which call dispatch functions of the Reducer which is available via FooContext.
-<<<<<<< HEAD
-=======
 - ## Lernvideo
->>>>>>> 88a26b9effa3e06b1c3e96463b9700dbafb702aa
 	- [[Kent C. Dodds]]
 		- https://kentcdodds.com/blog/how-to-use-react-context-effectively
 		- most of the time is default value not necessary
