@@ -8,3 +8,7 @@ tags:: [[JavaScript]], [[TypeScript]], [[Deno Web APIs]], [[JSR]]
 		- The Standard Library has been moved to [JSR](https://jsr.io/@std). See [the blog post](https://deno.com/blog/std-on-jsr) for details.
 	- https://docs.deno.com/runtime/manual/basics/standard_library
 -
+- ## Quick Start
+	- ```bash
+	  deno init
+	  ```
