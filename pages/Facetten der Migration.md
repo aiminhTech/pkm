@@ -1,0 +1,48 @@
+tags:: [[GIBB]], [[ABU]]
+
+- ## Wenn sich Kulturen begegnen
+	- ### Die grössten Herausforderungen, die durch Migration für die ankommenden Menschen entstehen, sehen wir darin, dass …
+		- Sprache
+	- ### Die grössten Herausforderungen, die durch Migration für die ansässigen Menschen entstehen, sehen wir darin, dass …
+		- Fremdheit
+	- ### Die grössten Chancen, welche Migration einem Land eröffnet, sehen wir darin, dass …
+		- Kultur verbreiten, kulturelle Vielfalt
+		- Wirtschaft stärken
+		- demografische Herausfoderungen mindern
+		- Technologienforschritt
+		- Arbeitskräfte
+	- ### Gewünschte Strategie von Neuankömmlingen
+		- Aktiver Intergration (Mitmachen), Interessant an Intergration
+		- Gute Arbeit leisten
+-
+-
+- ## Wer darf in der Schweiz leben
+	- **Leute mit einem Schweizerpass**
+	- **Arbeitsmigranten (gültiger Arbeitsvertrag mit einer Firma in der Schweiz)**
+		- *Personenfreizügigkeitsvertrag mit der EU/EFTA*
+			- Anzahl unbeschränkt, B oder C-Ausweis
+		- *Jahreskontingente für Drittstaaten*
+			- Anzahl beschränkt, B oder C-Ausweis
+	- **Leute nach Asylverfahren**
+		- *Asylsuchend*
+			- N-Ausweis während Prozess
+		- *Annerkannte Flüchtlinge*
+			- B-Ausweis bei angenommenem Asylantrag (an Leib und Leben verfolgt)
+		- *Vorläufig aufgenommene Ausländer|innen*
+			- F-Ausweis, Rückkehr unzulässig/unzumutbar/unmöglich
+		- *Schutzbedüftige*
+			- S-Ausweis, vorübergehender Aufenhalt
+-
+- ## Wir wird man Schweizer:in
+	- **Mindesten ein Elternteil ist Schweizer:in**
+		- Geburt
+		- Adoption
+	- **Einbügerung (kantonale- oder Gemeinderegelung)**
+		- *Ordentlich*
+			- 10 Jahren in der Schweiz, C-Ausweis
+		- *Erleichtert*
+			- Verheiratet mit Schweizer:in
+			- 3.Ausländer:innengeneration
+		-
+			-
+	-

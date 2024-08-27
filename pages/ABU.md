@@ -1,3 +1,4 @@
 - [[Politik]]
 - [[Kunst & Kultur]]
 - [[Die Schweiz in Europa und die Welt]]
+- [[Facetten der Migration]]
