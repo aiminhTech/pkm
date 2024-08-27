@@ -6,7 +6,6 @@ tags:: [[Angular]]
 	- ```bash
 	  ng add @angular/material
 	  ```
--
 - ## Display a component
 	- You need to import the `MatSlideToggleModule` that you want to display by adding the following lines to your `app.module.ts` file.
 	- ```ts

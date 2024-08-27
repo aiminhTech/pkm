@@ -1,4 +1,4 @@
-tags:: [[TypeScript]], [[TypeScript Intermediate]], [[jQuery]]
+tags:: [[TypeScript]], [[TypeScript Intermediate]]
 
 - https://frontendmasters.com/courses/typescript-practice/ #frontentmaster
 - https://www.typescript-training.com/course/making-typescript-stick
@@ -7,7 +7,6 @@ tags:: [[TypeScript]], [[TypeScript Intermediate]], [[jQuery]]
 	- https://github.com/type-challenges/type-challenges/tree/main?tab=readme-ov-file
 	- ### Round 1 - Easy
 	  id:: 6679114e-5f4a-44c5-a125-47d7ab0f97b6
-	  collapsed:: true
 		- #### `If<C, T, F>`
 		  collapsed:: true
 			- **Implement a type that evaluates to `T` if the type `C` is `true` or `F` if `C` is `false`**
@@ -44,6 +43,7 @@ tags:: [[TypeScript]], [[TypeScript Intermediate]], [[jQuery]]
 		  collapsed:: true
 			- **Implement a type that emits the return type of a function type `F`**
 			- **Tests**
+			  collapsed:: true
 				- ```ts
 				  // Tests
 				  
@@ -98,58 +98,6 @@ tags:: [[TypeScript]], [[TypeScript Intermediate]], [[jQuery]]
 				- **`F extends {(...arg: any[]): infer RT}`**: this part check id `F` is a function
 					- `(...arg: any[])`: this part indicates that the functoin can have any number of arguments and of any type
 					- `infer RT`: this part means, if `F` is indeed a function, `infer RT` will capture the return type of that function and assigns it to `RT`
-		- #### `Split<S, SEP>`
-			- **Implement a type that splits a string literal type `S` by a delimiter `SEP`, emitting
-			  a tuple type containing the string literal types for all of the “tokens”**
-			- **Tests**
-				- ```ts
-				  // Tests
-				  
-				  type cases = [
-				    Expect<
-				      Equal<
-				        Split<"Hi! How are you?", "z">,
-				        ["Hi! How are you?"]
-				      >
-				    >,
-				    Expect<
-				      Equal<
-				        Split<"Hi! How are you?", " ">,
-				        ["Hi!", "How", "are", "you?"]
-				      >
-				    >,
-				    Expect<
-				      Equal<
-				        Split<"Hi! How are you?", "">,
-				        [
-				          "H",
-				          "i",
-				          "!",
-				          " ",
-				          "H",
-				          "o",
-				          "w",
-				          " ",
-				          "a",
-				          "r",
-				          "e",
-				          " ",
-				          "y",
-				          "o",
-				          "u",
-				          "?"
-				        ]
-				      >
-				    >,
-				    Expect<Equal<Split<"", "">, []>>,
-				    Expect<Equal<Split<"", "z">, [""]>>,
-				    Expect<Equal<Split<string, "whatever">, string[]>>
-				  ]
-				  ```
-			- **Code**
-				- ```ts
-				  ```
-				- LATER todo
 		- #### `IsTuple<T>`
 		  collapsed:: true
 			- **Implement a type `IsTuple`, which takes an input type `T` and returns whether

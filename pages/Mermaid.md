@@ -7,3 +7,6 @@ tags:: [[Visual Studio Code]]
 	- https://mermaid.js.org/syntax/entityRelationshipDiagram.html#syntax #ERD #Datenbank-Entwurf
 - ## Sequence Diragram
 	- https://mermaid.js.org/syntax/sequenceDiagram.html
+- ## Gantt Diagramm
+	- https://mermaid.js.org/syntax/gantt.html
+	-

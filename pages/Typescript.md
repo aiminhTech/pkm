@@ -300,6 +300,7 @@ title:: TypeScript
 		  ]
 		  ```
 - ## Tuples
+  collapsed:: true
 	- https://en.wikipedia.org/wiki/Tuple
 	- To work with a multi-element, ordered data structure, where position of each item has some special meaning or convention.
 	- ```ts

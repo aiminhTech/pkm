@@ -8,6 +8,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 	- [[CSS]]: to style the template
 -
 - ## Courses
+  collapsed:: true
 	- https://frontendmasters.com/courses/production-angular/ #frontentmaster
 	- https://frontendmasters.com/courses/angular-fundamentals/ #frontentmaster
 	  collapsed:: true
@@ -38,14 +39,16 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 			- Provides a structured, "right way" to do everything.
 			- Better for building applications from the ground up rather than integrating into existing projects.
 - ## Installation
-  collapsed:: true
 	- https://angular.dev/tools/cli/setup-local
 	- ```bash
 	  sudo npm install -g @angular/cli
 	  ```
 - ## Angular CLI
-  collapsed:: true
 	- https://v17.angular.io/cli
+	- ### Create new project
+		- ```bash
+		  ng new <project-name>
+		  ```
 	- ### Create new component
 		- https://v17.angular.io/cli/generate
 		- ```bash
