@@ -2,9 +2,21 @@ tags:: [[GIBB]], [[ABU]]
 
 - ## Wenn sich Kulturen begegnen
 	- ### Die grössten Herausforderungen, die durch Migration für die ankommenden Menschen entstehen, sehen wir darin, dass …
-		- Sprache
+		- Eine der größten Hürden ist die Sprachbarriere.
+		- Viele haben Schwierigkeiten, sich in eine neue Kultur zu integrieren.
+		- Der Zugang zu Arbeitsplätzen und Bildung ist oft schwierig.
+		- Hinzu kommen rechtliche und bürokratische Herausforderungen.
+		- Viele Migranten haben traumatische Erlebnisse hinter sich.
+		- Sie müssen sich in einem fremden Umfeld soziale Netzwerke aufbauen.
+		- Diskriminierung und Vorurteile in der neuen Gesellschaft sind weitere Hindernisse.
 	- ### Die grössten Herausforderungen, die durch Migration für die ansässigen Menschen entstehen, sehen wir darin, dass …
-		- Fremdheit
+		- Es kann zu Missverständnissen aufgrund kultureller Unterschiede kommen.
+		- Einige Menschen haben Angst vor einem Verlust ihrer eigenen Identität und Traditionen.
+		- Die Integration von Migranten kann Ressourcen wie Bildung und Wohnraum beanspruchen.
+		- Manchmal entstehen Spannungen durch wirtschaftliche Konkurrenz um Arbeitsplätze.
+		- Vorurteile und Unsicherheiten gegenüber den Neuankömmlingen sind ebenfalls verbreitet.
+		- Es besteht die Herausforderung, eine Balance zwischen Integration und dem Erhalt eigener Werte zu finden.
+		- Kommunikation und der Abbau von Vorurteilen sind wichtig, um ein harmonisches Zusammenleben zu ermöglichen.
 	- ### Die grössten Chancen, welche Migration einem Land eröffnet, sehen wir darin, dass …
 		- Kultur verbreiten, kulturelle Vielfalt
 		- Wirtschaft stärken
@@ -33,7 +45,7 @@ tags:: [[GIBB]], [[ABU]]
 		- *Schutzbedüftige*
 			- S-Ausweis, vorübergehender Aufenhalt
 -
-- ## Wir wird man Schweizer:in
+- ## Wie wird man Schweizer:in
 	- **Mindesten ein Elternteil ist Schweizer:in**
 		- Geburt
 		- Adoption
@@ -43,6 +55,29 @@ tags:: [[GIBB]], [[ABU]]
 		- *Erleichtert*
 			- Verheiratet mit Schweizer:in
 			- 3.Ausländer:innengeneration
-		-
-			-
 	-
+- ## Interview-Projekt Fragen
+	- **Pull / Push -Faktoren**
+		- Welche spezifischen Gründe hast du dazu veranlasst, deine Heimat zu verlassen?
+		- Hattest du Erwartungen an die Schweiz? Wenn ja, was?
+		- Hattest du Gründe für das Verlassen deines Heimatlandes?
+	- **Rassismus**
+		- Hast du schon mal Rassismus erleben und wie ist es passiert?
+		- Wie gehst du mit rassistischen Erfahrungen um?
+		- Welche Gefühl hast du, wenn du so etwas erlebt?
+	- **Angewendete Integrationsstrategien**
+		- Wie hast du unternommen, um dich in die Gesellschaft zu integrieren?
+		- Wie wichtig war für dich das Erlernen der Sprache und wie bist du das angegangen?
+		- Gab es spezifische Herausforderungen bei der Integration und wie hast du diese überwunden?
+	- **Reaktionen der Aufnahmegesellschaft**
+		- Wie würdest du die allgemeine Reaktion der Aufnahmegesellschaft auf deine Ankunft beschreiben?
+		- In welchen Bereichen des gesellschaftlichen Lebens fühlst du dich besonders willkommen oder ausgeschlossen?
+		- Wie hat sich die Einstellung der Aufnahmegesellschaft dir gegenüber im Laufe der Zeit verändert?
+	- **Durchlaufene Phasen der Identitätsentwicklung**
+		- Wie hat sich dein Sebstbild seit deiner Migration verändert?
+		- Wie verbindest du deine Herkunftskultur mit der Kultur der Schweiz in deinem täglichen Leben?
+	- **Meinung gegenüber der jeweiligen Migrationspolitik**
+		- Wie bewertest du die Migrationspolitik der Schweiz?
+		- Welche Aspekte der schweizerischen Migrationspolitik hat dir bei deiner Integration geholfen, und welche haben es dir erschwert?
+		- Wie stehst du zu den aktuellen politischen Diskussionen über Migration in der Schweiz?
+		-

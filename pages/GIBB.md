@@ -9,10 +9,12 @@
 	- [[Cloud Lösung konzipieren und realisieren]]
 	- [[ABU]] #Politik
 - ## Semester 4
-	- [[ABU]] #[[Kunst & Kultur]]
+	- [[ABU]] #[[Kunst & Kultur]] #[[Die Schweiz in Europa und die Welt]]
 	- [[NoSQL-Datenbank]]
 	- [[Software mit agilen Methoden entwickeln]]
 	- [[Geschäftsprozesse beschreiben]]
 - ## Semester 5
 	- [[Funktional Programmieren]]
+	- [[ABU]] #[[Facetten der Migration]]
+	- [[English]]
 -
