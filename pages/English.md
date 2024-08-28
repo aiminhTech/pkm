@@ -1,0 +1,7 @@
+-
+- ## Tesla Presentation
+	- ### Company
+		- Tesla, Inc. is an American electric vehicle (EV) and clean energy company founded in 2003 by Martin Eberhard and Marc Tarpenning. However, it's most famously associated with Elon Musk, who joined the company shortly after its founding and became its CEO and the face of the brand. Tesla's mission is "to accelerate the world’s transition to sustainable energy."
+	- K
+	- ### Projects
+		-
