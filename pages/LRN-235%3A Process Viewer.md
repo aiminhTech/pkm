@@ -16,15 +16,17 @@ tags:: [[IGE]], [[S3]]
 - ## Sourcecode
 	- **Inklusiv container und alles**: https://git.ipip.ch/projects/OPS/repos/process-archive-viewer/browse
 	- **Python code für den frontent + backend**: https://git.ipip.ch/projects/OPS/repos/process-archive-viewer/browse/app/main.py
+	- **Python code Elastic**: https://git.ipip.ch/projects/OPS/repos/rundeck_batch/browse/BPP_camunda_prozess_archivieren/run.py?at=refs%2Fheads%2FAM-677_prozess_historie_elastic#745,885,930,956,986
 - ## Tools
 	- ### Frontend: [[Angular]], [[Angular Material]]
 	- ### Backend:
+	  collapsed:: true
 		- #### [[S3]]
 			- {{embed ((66bded88-8a50-4ec3-a9bc-79f48af21d10))}}
 		- #### [[Elastic]]
 			- {{embed ((66cc7663-c057-4a83-affc-eeaefc514740))}}
 - ## Libraries
-  collapsed:: true
+	- **@elastic/elasticsearch**: https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html
 	- timelines-chart: https://www.npmjs.com/package/timelines-chart
 	- ngx-simple-charts:
 		- https://angular2guy.wordpress.com/2023/07/01/a-scrolling-date-timeline-chart-with-angular-material-components/

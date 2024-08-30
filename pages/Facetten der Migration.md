@@ -62,9 +62,10 @@ tags:: [[GIBB]], [[ABU]]
 		- Hattest du Erwartungen an die Schweiz? Wenn ja, was?
 		- Hattest du Gründe für das Verlassen deines Heimatlandes?
 	- **Rassismus**
-		- Hast du schon mal Rassismus erleben und wie ist es passiert?
+		- Hast du jemals Rassismus erfahren? Wenn ja, wie ist es passiert?
 		- Wie gehst du mit rassistischen Erfahrungen um?
 		- Welche Gefühl hast du, wenn du so etwas erlebt?
+		- Welche Gefühle hattest du, als du solche Erfahrungen gemacht hast?
 	- **Angewendete Integrationsstrategien**
 		- Wie hast du unternommen, um dich in die Gesellschaft zu integrieren?
 		- Wie wichtig war für dich das Erlernen der Sprache und wie bist du das angegangen?
