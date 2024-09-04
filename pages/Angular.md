@@ -530,7 +530,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  ```
 		- How to pass dynamic values to a route using placeholders and input binding
 	- ### Dynamic Routes
-	  collapsed:: true
 		- `app.routes.ts`
 			- ```ts
 			  //app.routes.ts
@@ -558,7 +557,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 				- It sets up an `ApplicationConfig` object called `appConfig` which includes providers for the router.
 				- Specifically, it uses `provideRouter` to supply the routing configuration, and `withComponentInputBinding` to enable input binding from the router.
 		- `details.component.ts`
-		  collapsed:: true
 			- ```ts
 			  import { Component, Input } from '@angular/core';
 			  import { CommonModule } from '@angular/common';
@@ -608,7 +606,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 			- `productId`: An integer property initialized to 0.
 			- `@Input() set id(value: number)`: A setter method to set `productId` from the input binding
 		- `app.component.ts`
-		  collapsed:: true
 			- ```ts
 			  import { Component } from '@angular/core';
 			  import { RouterOutlet, RouterLink } from '@angular/router';
