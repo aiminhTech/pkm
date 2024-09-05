@@ -116,6 +116,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 -
 - ## Component
 	- ### Syntax
+	  collapsed:: true
 		- The `@Component` decorator annotates a class to specify that it is a component.
 		- Each property within the decorator serves a different purpose:
 			- `selector` is the custom HTML tag.
@@ -190,9 +191,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  }
 		  ```
 - ## Template
-  collapsed:: true
 	- ### Conditional Logic
-	  collapsed:: true
 		- #### @if
 		  collapsed:: true
 			- ```html
@@ -289,10 +288,8 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 			    
 			  ```
 	- ### Property binding
-	  collapsed:: true
 		- Property binding in Angular enables you to **set values for properties** of **elements in your templates**
 		- #### @Input
-		  collapsed:: true
 			- Send information into a component (like props)
 			- ```ts
 			  //listing.component.ts
@@ -530,6 +527,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  ```
 		- How to pass dynamic values to a route using placeholders and input binding
 	- ### Dynamic Routes
+	  collapsed:: true
 		- `app.routes.ts`
 			- ```ts
 			  //app.routes.ts
@@ -557,6 +555,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 				- It sets up an `ApplicationConfig` object called `appConfig` which includes providers for the router.
 				- Specifically, it uses `provideRouter` to supply the routing configuration, and `withComponentInputBinding` to enable input binding from the router.
 		- `details.component.ts`
+		  collapsed:: true
 			- ```ts
 			  import { Component, Input } from '@angular/core';
 			  import { CommonModule } from '@angular/common';
@@ -606,6 +605,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 			- `productId`: An integer property initialized to 0.
 			- `@Input() set id(value: number)`: A setter method to set `productId` from the input binding
 		- `app.component.ts`
+		  collapsed:: true
 			- ```ts
 			  import { Component } from '@angular/core';
 			  import { RouterOutlet, RouterLink } from '@angular/router';
@@ -692,7 +692,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  ];
 		  ```
 - ## Forms
-  collapsed:: true
 	- **We have 2 ways to define forms and gather input from users**
 	- ### Template Driven Forms (Uncontrolled Forms)
 	  collapsed:: true
@@ -812,7 +811,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		- #### Validation
 			-
 - ## Event Handling
-  collapsed:: true
 	- ### `EventEmitter`
 		- Is used to *create custom events in components and services*
 		- *Provides a way for components to communicate with each other*

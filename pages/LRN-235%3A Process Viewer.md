@@ -20,8 +20,8 @@ tags:: [[IGE]], [[S3]]
 - ## Tools
 	- ### Frontend: [[Angular]], [[Angular Material]]
 	- ### Backend:
-	  collapsed:: true
 		- #### [[S3]]
+		  collapsed:: true
 			- {{embed ((66bded88-8a50-4ec3-a9bc-79f48af21d10))}}
 		- #### [[Elastic]]
 			- {{embed ((66cc7663-c057-4a83-affc-eeaefc514740))}}
