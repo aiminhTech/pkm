@@ -12,6 +12,7 @@ tags:: [[Funktional Programmieren]], [[Programming Language]]
 	- Haskell thường được sử dụng trong các lĩnh vực yêu cầu độ chính xác và hiệu suất cao như tài chính, xử lý dữ liệu lớn, phát triển các hệ thống phân tán, hoặc trong nghiên cứu học thuật.
 	- Tuy nhiên, do sự phức tạp và sự khác biệt so với các ngôn ngữ lập trình mệnh lệnh như Python hay Java, Haskell chủ yếu được sử dụng trong các dự án đặc thù hoặc bởi những người có kinh nghiệm về lập trình chức năng.
 - ## Courses
+	- https://medium.com/latinxinai/understanding-the-function-application-operator-in-haskell-e4ffe75fdc61
 	- Youtube:
 		- [https://well-typed.com/blog/2024/06/announcing-free-haskell-intro-course/](https://well-typed.com/blog/2024/06/announcing-free-haskell-intro-course/)
 		- [https://teaching.well-typed.com/intro/](https://teaching.well-typed.com/intro/)
