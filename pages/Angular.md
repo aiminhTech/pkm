@@ -290,6 +290,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 	- ### Property binding
 		- Property binding in Angular enables you to **set values for properties** of **elements in your templates**
 		- #### @Input
+		  collapsed:: true
 			- Send information into a component (like props)
 			- ```ts
 			  //listing.component.ts
@@ -436,6 +437,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 					- `carList: Car[] = [{ make: 'Foyoda', model: 'Famery' }, { make: 'Ronda', model: 'Disaccord' }];`: Initializes a list of two cars.
 					- `addCarToSaved(car: Car)`: Method that adds a car to the `savedCarList` when called.
 - ## Navigation
+  collapsed:: true
 	- `route-outlet`
 		- A `router-outlet` in Angular is a directive that acts as a placeholder within your application where the router will dynamically insert the component for the active route.
 		- Essentially, it's where the routed component's template will be displayed.
@@ -692,6 +694,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  ];
 		  ```
 - ## Forms
+  collapsed:: true
 	- **We have 2 ways to define forms and gather input from users**
 	- ### Template Driven Forms (Uncontrolled Forms)
 	  collapsed:: true
@@ -811,6 +814,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		- #### Validation
 			-
 - ## Event Handling
+  collapsed:: true
 	- ### `EventEmitter`
 		- Is used to *create custom events in components and services*
 		- *Provides a way for components to communicate with each other*
@@ -1026,7 +1030,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  }
 		  ```
 - ## Dependency Injection (DI)
-  collapsed:: true
 	- DI is a design pattern and mechanism for **creating and delivering** some parts of an app to other **parts of an app that require them**
 	- `user.service.ts`
 	  collapsed:: true
