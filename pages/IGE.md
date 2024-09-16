@@ -13,7 +13,6 @@
 		- [[LRN-235: Process Viewer]]
 -
 - ## Login Info
-  collapsed:: true
 	- ### S3 
 	  id:: 66bded88-8a50-4ec3-a9bc-79f48af21d10
 		- #S3
