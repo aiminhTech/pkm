@@ -115,9 +115,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		- **Encapsulation**: Each Angular Module can be designed to encapsulate a specific feature or part of the application, keeping the codebase clean and manageable.
 -
 - ## Component
-  collapsed:: true
 	- ### Syntax
-	  collapsed:: true
 		- The `@Component` decorator annotates a class to specify that it is a component.
 		- Each property within the decorator serves a different purpose:
 			- `selector` is the custom HTML tag.
@@ -441,14 +439,12 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 					- `carList: Car[] = [{ make: 'Foyoda', model: 'Famery' }, { make: 'Ronda', model: 'Disaccord' }];`: Initializes a list of two cars.
 					- `addCarToSaved(car: Car)`: Method that adds a car to the `savedCarList` when called.
 - ## Navigation
-  collapsed:: true
 	- `route-outlet`
 		- A `router-outlet` in Angular is a directive that acts as a placeholder within your application where the router will dynamically insert the component for the active route.
 		- Essentially, it's where the routed component's template will be displayed.
 	- ### Routing
 	  collapsed:: true
 		- `app.routes.ts`: Defines the routing configuration
-		  collapsed:: true
 			- ```ts
 			  //app.routes.ts
 			  
@@ -508,7 +504,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 				- `imports: [CommonModule, RouterModule]`: Imports necessary modules for common Angular directives and routing capabilities.
 				- `<router-outlet/>`: A placeholder where the routed component (in this case, `GreetingsComponent` for the default path) will be displayed.
 	- ### RouterLink
-	  collapsed:: true
 		- Create clickable links using the *router link directive*
 		- A *route link* might be used instead of an `href` attribute when we want to navigate between routes without reloading the page
 		- ```ts

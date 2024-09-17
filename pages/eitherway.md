@@ -2,6 +2,14 @@
 - Ein Tool , das sich mit Problemen im Zusammenhang mit der Fehlerbehandlung in der Softwareentwicklung befasst.
 - Der Fokus liegt darauf, die Fehlerbehandlung expliziter und benutzerfreundlicher zu gestalten, 
   unabhängig von den Erfahrungsniveaus und Kontexten der Benutzer.
+-
+- ## Installation
+	- ### Deno
+		- ```deno.json
+		    "imports": {
+		      "eitherway": "https://deno.land/x/eitherway@0.10.0/mod.ts"
+		    },
+		  ```
 - ## Task
 	- https://deno.land/x/eitherway@0.9.2/mod.ts?s=Task
 	- is a composeable extension of `Promise<Result<T,E>>`
