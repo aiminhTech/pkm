@@ -75,10 +75,23 @@ tags:: [[GIBB]], [[ABU]]
 		- In welchen Bereichen des gesellschaftlichen Lebens fühlst du dich besonders willkommen oder ausgeschlossen?
 		- Wie hat sich die Einstellung der Aufnahmegesellschaft dir gegenüber im Laufe der Zeit verändert?
 	- **Durchlaufene Phasen der Identitätsentwicklung**
-		- Wie hat sich dein Sebstbild seit deiner Migration verändert?
+		- Wie hat sich dein Selbstbild seit deiner Migration verändert?
 		- Wie verbindest du deine Herkunftskultur mit der Kultur der Schweiz in deinem täglichen Leben?
 	- **Meinung gegenüber der jeweiligen Migrationspolitik**
 		- Wie bewertest du die Migrationspolitik der Schweiz?
 		- Welche Aspekte der schweizerischen Migrationspolitik hat dir bei deiner Integration geholfen, und welche haben es dir erschwert?
 		- Wie stehst du zu den aktuellen politischen Diskussionen über Migration in der Schweiz?
+-
+	- ### Einleitung
+		- Migration betrifft viele Menschen weltweit, insbesondere jene, die in die Schweiz einwandern. In unserem Projekt beleuchten wir die Erfahrungen und Migrationsgeschichten zweier junger Menschen, die beide in ihrer Jugend mit ihren Familien in die Schweiz gezogen sind. Durch Interviews thematisieren wir zentrale Aspekte der Migration, wie Erfahrungen mit Rassismus Beweggründe, Herausforderungen und Integrationsstrategien. Unser Ziel ist es, durch den Vergleich ihrer Erlebnisse wertvolle Einblicke in die Chancen und Herausforderungen zu gewinnen, die Migrant*innen auf ihrem Weg begegnen.
+		- Migration betrifft viele Menschen weltweit, insbesondere jene, die in die Schweiz kommen. In unserem Projekt werfen wir einen Blick auf die Migrationsgeschichten zweier junger Menschen, die als Kinder mit ihren Familien in die Schweiz gezogen sind. Durch Interviews erforschen wir wichtige Aspekte der Migration, wie Rassismuserfahrungen, Beweggründe, Herausforderungen und Integrationsstrategien. Unser Ziel ist es, durch den Vergleich ihrer Geschichten ein besseres Verständnis für die Chancen und Herausforderungen der Migration zu gewinnen.
+		- Unsere erste Gesprächspartnerin ist *Yeega*, 19 Jahre alt und ursprünglich aus Italien. Im Jahr 2019, im Alter von 15 Jahren, zog sie mit ihrer Mutter in die Schweiz nach Interlaken, da ihre Mutter dort eine Arbeitsstelle gefunden hatte. Der Migrationshintergrund von Yeega liegt somit in einer arbeitsbedingten Familienmigration, bei der sie als Jugendliche in ein neues Land integriert werden musste.
 		-
+	- ## Analyse
+		- #### Rassismus
+			- **Ähnlichkeit**
+				- Dass jeder schon mal
+			- **Unterscheide**
+		- #### Angewendete Integrationsstrategien
+			- **Ähnlichkeit**
+			- **Unterscheide**
