@@ -83,15 +83,30 @@ tags:: [[GIBB]], [[ABU]]
 		- Wie stehst du zu den aktuellen politischen Diskussionen über Migration in der Schweiz?
 -
 	- ### Einleitung
-		- Migration betrifft viele Menschen weltweit, insbesondere jene, die in die Schweiz einwandern. In unserem Projekt beleuchten wir die Erfahrungen und Migrationsgeschichten zweier junger Menschen, die beide in ihrer Jugend mit ihren Familien in die Schweiz gezogen sind. Durch Interviews thematisieren wir zentrale Aspekte der Migration, wie Erfahrungen mit Rassismus Beweggründe, Herausforderungen und Integrationsstrategien. Unser Ziel ist es, durch den Vergleich ihrer Erlebnisse wertvolle Einblicke in die Chancen und Herausforderungen zu gewinnen, die Migrant*innen auf ihrem Weg begegnen.
-		- Migration betrifft viele Menschen weltweit, insbesondere jene, die in die Schweiz kommen. In unserem Projekt werfen wir einen Blick auf die Migrationsgeschichten zweier junger Menschen, die als Kinder mit ihren Familien in die Schweiz gezogen sind. Durch Interviews erforschen wir wichtige Aspekte der Migration, wie Rassismuserfahrungen, Beweggründe, Herausforderungen und Integrationsstrategien. Unser Ziel ist es, durch den Vergleich ihrer Geschichten ein besseres Verständnis für die Chancen und Herausforderungen der Migration zu gewinnen.
-		- Unsere erste Gesprächspartnerin ist *Yeega*, 19 Jahre alt und ursprünglich aus Italien. Im Jahr 2019, im Alter von 15 Jahren, zog sie mit ihrer Mutter in die Schweiz nach Interlaken, da ihre Mutter dort eine Arbeitsstelle gefunden hatte. Der Migrationshintergrund von Yeega liegt somit in einer arbeitsbedingten Familienmigration, bei der sie als Jugendliche in ein neues Land integriert werden musste.
+		- Migration ist ein globales Phänomen, das Millionen von Menschen betrifft – darunter viele, die in die Schweiz kommen. In unserem Projekt konzentrieren wir uns auf die Migrationsgeschichten zweier junger Menschen, die als Kinder mit ihren Familien in die Schweiz eingewandert sind. Durch ausführliche Interviews untersuchen wir verschiedene Aspekte ihrer Erfahrungen: die Herausforderungen, die sie bewältigen mussten, die Beweggründe für ihre Migration, ihre Begegnungen mit Rassismus und die Strategien, die sie zur Integration entwickelt haben.
+		- Unser Ziel ist es, durch den Vergleich ihrer Geschichten ein tieferes Verständnis für die Chancen und Schwierigkeiten der Migration zu entwickeln. Wir wollen zeigen, wie unterschiedlich und zugleich ähnlich die Erfahrungen sein können und damit zur Diskussion über Migration und Integration beitragen.
+		- Unsere erste Gesprächspartnerin ist Yeega, die mit ihren 19 Jahren bereits eine interessante Geschichte zu erzählen hat. Ursprünglich stammt sie aus Italien und zog 2019, im Alter von 15 Jahren, mit ihrer Mutter nach Interlaken in die Schweiz. Der Umzug war bedingt durch eine Arbeitsstelle, die ihre Mutter in der Schweiz gefunden hatte. Yeega hat also als Jugendliche den Übergang in ein neues Land erlebt, was für sie eine besondere Herausforderung der Integration bedeutete.
 		-
 	- ## Analyse
 		- #### Rassismus
+			- Yeega Situation wäre es, als sie während der Corona-Pandemie von ihren Mitschülern „Corona“ genannt wurde. Diese Beleidigung war klar und deutlich.
+			- Milan fühlte sich auch ausgeschlossen, aber auf eine weniger direkte Weise. Er konnte keine speziellen Vorfälle nennen, bei denen er diskriminiert wurde, spürte aber dennoch eine allgemeine Ausgrenzung.
 			- **Ähnlichkeit**
-				- Dass jeder schon mal
-			- **Unterscheide**
+				- Was beide gemeinsam haben, ist, dass sie sich schon einmal ausgeschlossen gefühlt haben und sich angepasst haben, um besser mit der Situation klarzukommen.
+			- **Unterschied**
+				- Sonst gibt es grosse Unterschiede in den beiden Geschichten
+				- Der wichtigste Unterschied besteht darin, wie die Diskriminierung erlebt wurde. Yeega wurde direkt und verbal angegriffen, was klar erkennbar war. Bei Milan war die Diskriminierung weniger konkret; er hatte das Gefühl, allgemein ausgeschlossen zu sein, konnte aber keine konkreten Beispiele nennen.
+				- Auch ihre Reaktionen unterscheiden sich. Yeega entschied sich, die Beleidigungen zu ignorieren und zeigte keine große emotionale Betroffenheit, um sich nicht herunterziehen zu lassen. Milan hingegen fühlte sich anfangs sehr ausgeschlossen, arbeitete aber hart daran, sich anzupassen und besser zu integrieren. Mit der Zeit fühlte er sich dadurch wohler. Er verbesserte seine Sprachkenntnisse und versuchte aktiv, sich in die schweizerische Kultur einzugliedern.
+				  id:: 66e9e0f8-11af-43f0-a03d-e72543ba6e26
+			- **Fazit**
+				- Diskriminierung kann sich in verschiedenen Formen zeigen und die Art und Weise, wie Menschen darauf reagieren, kann sehr unterschiedlich sein. Yeega und Milan haben uns auf ihre eigene Weise gezeigt, wie man mit Ausgrenzung umgehen kann. Ihre Erfahrungen sind wertvolle Beispiele dafür, wie wichtig es ist, individuelle Strategien zur Bewältigung von Herausforderungen zu entwickeln und sich nicht entmutigen zu lassen.
 		- #### Angewendete Integrationsstrategien
 			- **Ähnlichkeit**
+				- Yeega: In der schule gegeangen , Mit kollegen draussen in die verschiedene Stadt in der schweiz gegangen, Sprache lernen. Andere spezielle herausforderungen hatte sie nicht
+				- Milan: Sprache lernen, draussen gehen mit der Leute, Kontakte besser zu plfegen, Sport machen mit der Leute, allgemein kommunikation. Beim Deutsch lernen, um besser zu lernen hat er gesagt, dass Kommunikation mit der Leute ist sicher besser als ein Buch zu lesen. Andere spezielle herausforderungen hatte er nicht
+				- Für beide ist es sehr wichtig die Sprache zu lernen
+				- Sie beide haben auch den Kontakt zu anderen Menschen als wichtig empfunden. Yeega hat durch den Austausch mit Kollegen und das Leben in verschiedenen Städten Fortschritte gemacht. Milan hat betont, dass direkte Gespräche und das Knüpfen von Kontakten entscheidend sind, um die Sprache zu lernen und sich einzuleben.
+				- Interessanterweise haben beide keine besonderen zusätzlichen Herausforderungen bei ihrer Integration erlebt, abgesehen von den normalen Schwierigkeiten beim Sprachenlernen und beim Eingewöhnen.
 			- **Unterscheide**
+				- Yeega
+				- Milan
