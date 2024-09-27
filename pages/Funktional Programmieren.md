@@ -9,3 +9,6 @@ tags:: [[GIBB]], [[Haskell]]
 	- [[Haskell]] ist eine rein funktionale Programmiersprache, in der Variablen nach ihrer Zuweisung nicht mehr geändert werden können und keine klassischen Schleifen wie "for" oder "while" existieren. Dadurch wird sichergestellt, dass man ausschliesslich funktional programmiert. Einmal verstanden, lassen sich die Konzepte des funktionalen Programmierens auch leicht auf andere Sprachen übertragen.
 -
 -
+- ## Exercism
+	- tags:: [[Exercism]]
+	-
