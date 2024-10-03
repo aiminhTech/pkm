@@ -27,3 +27,5 @@ tags:: K8S
 	    name: admin
 	  
 	  ```
+- ## Route Timeouts  504 error for longer running http requests
+	- https://bcdevops.github.io/openshift-wiki/docs/OCP/Proxy504Error.html
