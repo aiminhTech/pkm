@@ -82,3 +82,6 @@ tags:: [[NATS]]
 	  }
 	  
 	  ```
+- ## Work-queue Stream
+	- A *work-queue* retention policy satisfies a very common use case of queuing up messages that are intended to be processed **once and only
+	  once**.
