@@ -18,10 +18,14 @@ tags:: [[IGE]], [[S3]]
 	- ### Frontend #Angular, #[[Angular Material]]
 	- ### Backend:
 		- #### [[S3]]
+		  collapsed:: true
 			- {{embed ((66bded88-8a50-4ec3-a9bc-79f48af21d10))}}
 		- #### [[Elastic]]
 			- {{embed ((66cc7663-c057-4a83-affc-eeaefc514740))}}
+	- ### Testing
+		- https://issues.ipip.ch/browse/LRN-247
 - ## Libraries
+  collapsed:: true
 	- **@elastic/elasticsearch**: https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html
 	- **timelines-chart**: https://www.npmjs.com/package/timelines-chart
 	- **ngx-simple-charts**:
@@ -37,3 +41,5 @@ tags:: [[IGE]], [[S3]]
 	- [[LRN-241: Frontend Implementierung Duration]]
 	- [[LRN-244: Frontend Verbesserung Landingpage]]
 	- [[LRN-245: Backend Integration Testing]]
+	- [[LRN-246: : Frontend Implementierung Paging in Business-Transaction-View]]
+	- [[LRN-247: : Release Process Viewer auf OpenShift]]

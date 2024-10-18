@@ -83,5 +83,7 @@ tags:: [[NATS]]
 	  
 	  ```
 - ## Work-queue Stream
+	- https://natsbyexample.com/examples/jetstream/workqueue-stream/deno
 	- A *work-queue* retention policy satisfies a very common use case of queuing up messages that are intended to be processed **once and only
 	  once**.
+	-
