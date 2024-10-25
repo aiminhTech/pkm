@@ -6,6 +6,7 @@ tags:: [[JetStream]], [[Publish-Subscribe]], [[Request-Reply]]
 	- https://docs.nats.io/nats-concepts/what-is-nats
 	- NATS is an infrastructure that allows such data exchange, segmented in the form of messages. We call this a "**message oriented middleware**".
 - ## NATS Connection Deno
+  collapsed:: true
 	- https://github.com/nats-io/nats.deno
 	- ### Import deno.json
 		- ```deno.json
