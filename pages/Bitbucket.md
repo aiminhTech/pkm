@@ -1,4 +1,5 @@
-- ## Repos
+## Repos
+	- APP_PASSWORD: ``
 	- https://bitbucket.org/aiminhtech/hellonetlifyidentity
 	- https://bitbucket.org/aiminhtech/helloreact
 	- https://bitbucket.org/aiminhtech/helloreact2
@@ -7,7 +8,6 @@
 	  collapsed:: true
 		- https://bitbucket.org/aiminhtech/hellofunctions #NetlifyFunction
 	- ### Memory Game
-	  collapsed:: true
 		- https://bitbucket.org/aiminhtech/memorygame #[[Memory Game]]
 	- ### FaunaDB Example
 	  collapsed:: true
@@ -18,3 +18,4 @@
 	- ### Package Managers
 	  collapsed:: true
 		- https://bitbucket.org/aiminhtech/packagemanagers #DNF #APT #Chocolatey #NPM #Yarn
+-
