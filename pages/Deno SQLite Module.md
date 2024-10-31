@@ -1,6 +1,6 @@
 tags:: [[JavaScript]], [[TypeScript]]
 
-- https://deno.land/x/sqlite@v3.8
+- https://deno.land/x/sqlite
 - https://github.com/dyedgreen/deno-sqlite
 - https://deno.land/x/sqlite@v2.4.2/docs/examples.md?source=
 - This is an SQLite module for JavaScript and TypeScript. The wrapper is targeted
