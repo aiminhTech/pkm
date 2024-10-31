@@ -1,0 +1,8 @@
+-
+- https://issues.ipip.ch/browse/LRN-249
+-
+- ## Links
+	- https://wiki.ipip.ch/pages/viewpage.action?pageId=199862658#ST.96Mappingf%C3%BCrPatent&ESZ-Einf%C3%BChrung
+	- **Mikes Webseite:**  https://st96analyzer.apps.ipip-ocp.ipip.ch/
+		- source code: `/ige/jp/esv-projects/esv/patdoc/patdoc-xml-st96/st96analyzer`
+-

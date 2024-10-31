@@ -5,9 +5,11 @@ tags:: [[IGE]], Typescript, Deno Fresh, TailwindCSS
 - https://git.ipip.ch/users/quach/repos/tmb/browse
 - ## Official links:
 	- http://database.ipi.ch/public/apidocs
+	- New Docs: https://dev-www.swissreg.ch/public/apidocs/80-examples/examples.html
 	- https://git.ipip.ch/projects/IPI/repos/public-frontend/browse/public-frontend-register/public-frontend-register-web/src/main/java/ch/ipi/frontend/register/web/resources
 -
 - ## Code explanation
+  collapsed:: true
 	- ### manifest
 		- `dp-tmb.yml`
 			- #### Annotations Explanation

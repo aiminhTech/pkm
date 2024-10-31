@@ -1,6 +1,7 @@
 tags:: [[NATS]]
 
 - https://docs.nats.io/nats-concepts/jetstream
+- https://nats-io.github.io/nats.deno/ #Deno
 - **Message Persistence**
 - Allows for **persistent messaging** , **storing** and **replaying previously published messages**.
 - This feature enhances NATS messaging by adding message durability and high availability to the system.
@@ -83,5 +84,20 @@ tags:: [[NATS]]
 	  
 	  ```
 - ## Work-queue Stream
+	- https://natsbyexample.com/examples/jetstream/workqueue-stream/deno
 	- A *work-queue* retention policy satisfies a very common use case of queuing up messages that are intended to be processed **once and only
 	  once**.
+	-
+- ## Stream
+	- **`consumer.fetch()`**:
+		- **Batch Processing**: This method is typically used to retrieve a fixed number of messages in a single batch from a stream.
+		- **Blocking Call**: It waits (blocks) until the specified number of messages are fetched, or a timeout occurs.
+		- **Control**: Provides more control over when and how 
+		  many messages are retrieved at one time, which can be useful for batch 
+		  processing scenarios.
+		- **Use Case**: Suitable when you want to process messages in chunks and manage backpressure manually.
+	- **`consumer.consume()`**:
+		- **Continuous Processing**: This method starts a continuous stream of messages and often runs in a loop.
+		- **Event-Driven**: You usually set up a callback function to handle every incoming message as it arrives.
+		- **Efficiency**: More suited to applications that need to process messages as soon as they are available.
+		- **Use Case**: Ideal for real-time processing or when consuming messages in a long-running process.
