@@ -1,17 +1,13 @@
 tags:: [[Funktional Programmieren]], [[Programming Language]]
 
-- Haskell là một ngôn ngữ lập trình chức năng (functional programming) bậc cao, được phát triển với mục đích nghiên cứu và giảng dạy các khái niệm lập trình chức năng. Được đặt tên theo nhà toán học và nhà logic học Haskell Curry, Haskell nổi bật với việc sử dụng các khái niệm như hàm bậc cao (higher-order functions), bất biến (immutability), và tính trong suốt tham chiếu (referential transparency).
-- ## Các đặc điểm chính
-  collapsed:: true
-	- **Ngôn ngữ thuần chức năng**: Haskell là một ngôn ngữ lập trình thuần chức năng, nghĩa là mọi tính toán đều được thực hiện thông qua các hàm. Tất cả các biến đều là bất biến, một khi đã được gán giá trị, chúng không thể bị thay đổi.
-	- **Đánh giá lười (Lazy Evaluation)**: Trong Haskell, các biểu thức không được đánh giá ngay lập tức mà chỉ khi nào giá trị của chúng thực sự cần thiết. Điều này cho phép viết các chương trình với các cấu trúc điều khiển phức tạp mà không cần quan tâm tới việc sắp xếp thứ tự các phép tính.
-	- **Tính trong suốt tham chiếu (Referential Transparency)**: Trong Haskell, cùng một biểu thức luôn cho ra cùng một giá trị bất kể nơi nào hoặc thời điểm nào nó được sử dụng. Điều này giúp việc lý luận và kiểm thử mã trở nên dễ dàng hơn.
-	- **Hệ thống kiểu mạnh mẽ**: Haskell sử dụng hệ thống kiểu tĩnh mạnh mẽ, trong đó kiểu của các biến và hàm được xác định tại thời điểm biên dịch. Điều này giúp phát hiện nhiều lỗi tiềm ẩn trước khi chương trình được chạy.
+- https://www.google.com/search?client=safari&rls=en&q=haskell&ie=UTF-8&oe=UTF-8
+-
 - ##  Use Cases
   collapsed:: true
 	- Haskell thường được sử dụng trong các lĩnh vực yêu cầu độ chính xác và hiệu suất cao như tài chính, xử lý dữ liệu lớn, phát triển các hệ thống phân tán, hoặc trong nghiên cứu học thuật.
 	- Tuy nhiên, do sự phức tạp và sự khác biệt so với các ngôn ngữ lập trình mệnh lệnh như Python hay Java, Haskell chủ yếu được sử dụng trong các dự án đặc thù hoặc bởi những người có kinh nghiệm về lập trình chức năng.
 - ## Courses
+  collapsed:: true
 	- https://medium.com/latinxinai/understanding-the-function-application-operator-in-haskell-e4ffe75fdc61
 	- Youtube:
 		- [https://well-typed.com/blog/2024/06/announcing-free-haskell-intro-course/](https://well-typed.com/blog/2024/06/announcing-free-haskell-intro-course/)
@@ -19,6 +15,7 @@ tags:: [[Funktional Programmieren]], [[Programming Language]]
 	- Playlist:
 		- [https://www.youtube.com/playlist?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10](https://www.youtube.com/playlist?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10)
 - ## Funktionen
+  collapsed:: true
 	- Für Funktionen in Haskell gelten folgende drei Regeln
 		- Alle Funktionen haben ein Argument.
 		- Alle Funktionen geben einen Wert zurück.

@@ -29,6 +29,7 @@ tags:: [[GIBB]], [[ABU]]
 -
 -
 - ## Wer darf in der Schweiz leben
+  collapsed:: true
 	- **Leute mit einem Schweizerpass**
 	- **Arbeitsmigranten (gültiger Arbeitsvertrag mit einer Firma in der Schweiz)**
 		- *Personenfreizügigkeitsvertrag mit der EU/EFTA*
@@ -44,8 +45,8 @@ tags:: [[GIBB]], [[ABU]]
 			- F-Ausweis, Rückkehr unzulässig/unzumutbar/unmöglich
 		- *Schutzbedüftige*
 			- S-Ausweis, vorübergehender Aufenhalt
--
 - ## Wie wird man Schweizer:in
+  collapsed:: true
 	- **Mindesten ein Elternteil ist Schweizer:in**
 		- Geburt
 		- Adoption
@@ -56,7 +57,10 @@ tags:: [[GIBB]], [[ABU]]
 			- Verheiratet mit Schweizer:in
 			- 3.Ausländer:innengeneration
 	-
+- ## Asylverfahren
+-
 - ## Interview-Projekt Fragen
+  collapsed:: true
 	- **Pull / Push -Faktoren**
 		- Welche spezifischen Gründe hast du dazu veranlasst, deine Heimat zu verlassen?
 		- Hattest du Erwartungen an die Schweiz? Wenn ja, was?
@@ -81,13 +85,12 @@ tags:: [[GIBB]], [[ABU]]
 		- Wie bewertest du die Migrationspolitik der Schweiz?
 		- Welche Aspekte der schweizerischen Migrationspolitik hat dir bei deiner Integration geholfen, und welche haben es dir erschwert?
 		- Wie stehst du zu den aktuellen politischen Diskussionen über Migration in der Schweiz?
--
 	- ### Einleitung
 		- Migration betrifft weltweit Millionen von Menschen, auch viele, die in die Schweiz kommen. In unserem Projekt schauen wir uns die Migrationsgeschichten von zwei jungen Menschen an, die als Kinder mit ihren Familien in die Schweiz eingewandert sind.
 		- Durch ausführliche Interviews beleuchten wir verschiedene Aspekte ihrer Erfahrungen.
 		- Unser Ziel ist es, durch den Vergleich ihrer Geschichten besser zu verstehen, welche Chancen und Schwierigkeiten Migration mit sich bringt. Wir wollen zeigen, wie unterschiedlich, aber auch ähnlich die Erfahrungen sein können, und so zur Diskussion über Migration und Integration beitragen.
 		- Unsere erste Gesprächspartnerin ist Yeega, eine 19-jährige junge Frau. Sie kommt ursprünglich aus Italien und zog 2019, als sie 15 Jahre alt war, mit ihrer Mutter nach Interlaken in die Schweiz. Der Grund für den Umzug war, dass ihre Mutter dort eine neue Arbeit gefunden hatte.
-	- ## Analyse
+	- ### Analyse
 		- #### Rassismus
 			-
 			- Bei Yeega war die Situation eindeutig: Während der Corona-Pandemie nannten ihre Mitschüler sie „Corona“. Diese Beleidigung war klar und deutlich.
