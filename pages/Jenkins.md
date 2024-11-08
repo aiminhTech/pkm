@@ -1,0 +1,10 @@
+- https://www.jenkins.io/
+- **This is a tool that helps automate parts of the software development process.**
+- Think of it as an assistant that automatically checks code for errors, run tests, and helps get the new code ready to be used, without requiring a developer to do these tasks manually
+- ## Main Points
+	- **Automate Tasks:** Handles repetive jobs like *testing and building code*, making it easier to manage complex automation tasks.
+	- **Keeps Code Updated:** Developer can regularly integrate changes, helping catch issues early
+	- **Widely Used:** Popular in software development due to its flexibility and extensive plugin support
+	-
+-
+-
