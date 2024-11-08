@@ -1,14 +1,17 @@
 tags:: OCI, [[Container Image]]
 
 - [Understanding container images - OCI image specification · Ravikanth Chaganti](https://ravichaganti.com/blog/2022-10-28-understanding-container-images-oci-image-specification/)
+- Filesystem for Containers
+- An **OCI (Open Container Initiative)** image is a standardized format for packaging and distributing software containers. It ensures that container images can be used consistently across different container technologies and platforms.
+- In simple terms, an OCI image is like a template that contains everything you need to run your application, including the code, runtime, libraries, and dependencies. This makes it easy to deploy and run applications anywhere that supports the OCI standard, like [[Docker]] and Kubernetes.
 - ## Image Specification
   :LOGBOOK:
   CLOCK: [2023-09-05 Tue 13:44:23]
   :END:
-	- Contains an image index, image manifest, a set of file system layers, and a configuration.
+	- Contains an **image index**, **image manifest**, **a set of file system layers**, and a **configuration**.
 	- ![image.png](../assets/image_1693914342614_0.png)
 - ## Image index
-	- an index of manifests that point to images for different platforms / architectures.
+	- An index of manifests that point to images for different platforms / architectures.
 	- ```
 	  {
 	    "schemaVersion": 2,
