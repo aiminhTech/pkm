@@ -1,6 +1,7 @@
 tags:: [[GIBB]], [[ABU]]
 
 - ## Wenn sich Kulturen begegnen
+  collapsed:: true
 	- ### Die grössten Herausforderungen, die durch Migration für die ankommenden Menschen entstehen, sehen wir darin, dass …
 		- Eine der größten Hürden ist die Sprachbarriere.
 		- Viele haben Schwierigkeiten, sich in eine neue Kultur zu integrieren.
@@ -26,8 +27,6 @@ tags:: [[GIBB]], [[ABU]]
 	- ### Gewünschte Strategie von Neuankömmlingen
 		- Aktiver Intergration (Mitmachen), Interessant an Intergration
 		- Gute Arbeit leisten
--
--
 - ## Wer darf in der Schweiz leben
   collapsed:: true
 	- **Leute mit einem Schweizerpass**
@@ -46,7 +45,6 @@ tags:: [[GIBB]], [[ABU]]
 		- *Schutzbedüftige*
 			- S-Ausweis, vorübergehender Aufenhalt
 - ## Wie wird man Schweizer:in
-  collapsed:: true
 	- **Mindesten ein Elternteil ist Schweizer:in**
 		- Geburt
 		- Adoption
@@ -57,7 +55,6 @@ tags:: [[GIBB]], [[ABU]]
 			- Verheiratet mit Schweizer:in
 			- 3.Ausländer:innengeneration
 	-
-- ## Asylverfahren
 -
 - ## Interview-Projekt Fragen
   collapsed:: true
@@ -116,3 +113,21 @@ tags:: [[GIBB]], [[ABU]]
 				- Milan war dabei aktiver, suchte bewusst nach neuen Kontakten und Aktivitäten wie Sport, während Yeega mehr auf ihre bestehenden Freundschaften setzte.
 				-
 			- Zusammengefasst zeigt sich, dass soziale Kontakte sehr wichtig für die Integration sind. Sowohl Yeega als auch Milan haben durch den Austausch mit anderen ihre Deutschkenntnisse verbessert. M Es gibt verschiedene Wege, sich gut zu integrieren, aber am wichtigsten ist, offen für den Kontakt mit anderen zu sein.
+- ## Testvorbereitung
+	- ### Gründe kennen, warum Menschen ein- und auswandern (Pull-/ Push Faktoren)
+		- **Pull-Faktoren**
+			- politische und wirtschaftliche Stabilität
+			- hoher Lebensstandard und Wohlstand
+			- Sicherheit vor Verfolung
+			- Einhaltung der Meschenrechte
+		- **Push-Faktoren**
+			-
+	- Gründe für den hohen Ausländeranteil in der Schweiz nennen können
+	- Wissen, was ein Immigrant, ein Emigrant, ein Arbeitsmigrant und ein Asylbewerber ist
+	- Asylgründe, Gründe für vorläufige Aufnahme kennen
+	- Arbeitsmigrationsbedingungen der Schweiz kennen
+	- Die Zielgebiete für die Arbeitsmigration kennen
+	- Folgen der Migration auf Ziel- und Herkunftsland aufzeigen können
+	- Seitens der Migranten «Assimiliation, Integration und Separation», seitens der Aufnahmegesellschaft «Melting Pot, Mulitikulturalismus und Segregation» unterscheiden können
+	- Aufzeigen können, weshalb es für die EU so schwierig ist Flüchtlingspolitik zu betreiben
+	- Globale Zusammenhänge der Migration in einem Netzwerk ergänzen können

@@ -8,14 +8,16 @@
 	- [[Webauftritt erstellen und veröffentlich]]
 	- [[Benutzerschnittstellen (UI-UX)]]
 	- [[Cloud Lösung konzipieren und realisieren]]
-	- [[ABU]] #Politik
+	- [[Politik]] #ABU
 - ## Semester 4
-	- [[ABU]] #[[Kunst & Kultur]] #[[Die Schweiz in Europa und die Welt]]
+	- [[Kunst & Kultur]] #ABU
+	- [[Die Schweiz in Europa und die Welt]] #ABU
 	- [[NoSQL-Datenbank]]
 	- [[Software mit agilen Methoden entwickeln]]
 	- [[Geschäftsprozesse beschreiben]]
 - ## Semester 5
-	- [[Funktional Programmieren]]
-	- [[ABU]] #[[Facetten der Migration]]
+	- [[Funktional Programmieren]] #Haskell
+	- [[Facetten der Migration]] #ABU
 	- [[English]]
+-
 -
