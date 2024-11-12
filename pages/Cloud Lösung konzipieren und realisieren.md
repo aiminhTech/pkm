@@ -1,6 +1,7 @@
 tags:: [[GIBB]]
+modul:: M346
 
-- **M346**
+-
 - ## Was ist Cloud Computing?
   collapsed:: true
 	- In jeder Cloud werden Ressourcen in einem Netzwerk skalierbar zur Verfügung gestellt.
@@ -9,6 +10,7 @@ tags:: [[GIBB]]
 	- ![Bildschirmfoto 2023-12-03 um 15.20.43.png](../assets/Bildschirmfoto_2023-12-03_um_15.20.43_1701613245350_0.png)
 	- Man unterteilt Cloud-Computing in Deployment Model (Bereitstellungsmodell) und Service Model.
 - ## Bereitstellungsmodelle
+  collapsed:: true
 	- ### Private Cloud
 		- Accessible to everyone
 		- Cloud-Umgebungen, die typischerweise aus IT-Infrastukturen erstellt werden, die nicht dem **Endbenutzer** gehöre

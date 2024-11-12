@@ -1,4 +1,4 @@
-tags:: [[Speicherplatz als rares Gut]], [[Modul 114]]
+tags:: [[Speicherplatz als rares Gut]]
 
 - ## Definition
 	- Die Datenkompression oder Datemkomprimierung ist ein Vorgang, bei dem die Menge digitaler daten reduziert wird.

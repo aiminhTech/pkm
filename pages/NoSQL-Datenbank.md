@@ -1,8 +1,8 @@
 tags:: [[SQL]], [[GIBB]]
+type:: M165
 
-- #[[RDBMS (SQL Datenbank)]]
-- #[[Big Data]]
-- **M165**
+- [[RDBMS (SQL Datenbank)]]
+- [[Big Data]]
 -
 - ## BASE-Prinzip
   collapsed:: true

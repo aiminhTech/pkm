@@ -3,7 +3,7 @@
 	- [[Daten analysieren & modellieren]]
 	- [[Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
 - ## Semester 2
-	- [[Modul 114]]
+	- [[Speicherplatz als rares Gut]]
 - ## Semester 3
 	- [[Webauftritt erstellen und veröffentlich]]
 	- [[Benutzerschnittstellen (UI-UX)]]
@@ -18,6 +18,6 @@
 - ## Semester 5
 	- [[Funktional Programmieren]] #Haskell
 	- [[Facetten der Migration]] #ABU
-	- [[English]]
+	- [[Applikationen testen]]
 -
 -

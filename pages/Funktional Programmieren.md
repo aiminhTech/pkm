@@ -1,6 +1,6 @@
 tags:: [[GIBB]], [[Haskell]]
+type:: M323
 
-- M323
 -
 - ## Einleitung
 	- Programmiersprachen lassen sich in verschiedene Paradigmen einteilen, wie ==imperativ, prozedural, objektorientiert, deklarativ, funktional und logisch==
