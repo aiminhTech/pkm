@@ -7,7 +7,6 @@ tags:: [[IGE]], [[OpenShift]], [[Jenkins]], [[Nexus]], [[Hashicorp Vault]], [[An
 	- **Bitbucket:** https://git.ipip.ch/projects/OPS/repos/openshift/browse
 - ## Deployment für Applikationen via #Ansible
 	- **Guidelines:** [Openshift Guidelines](https://wiki.ipip.ch/display/SWE/Openshift+Guidelines)
-	- delines](https://wiki.ipip.ch/display/SWE/Openshift+Guidelines)
 	- **Project path wks:** `/ige/jp/ops/ansible-apps`
 	- **Bitbucket:** https://git.ipip.ch/projects/OPS/repos/ansible-apps/browse
 -

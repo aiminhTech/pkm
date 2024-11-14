@@ -14,6 +14,7 @@
 - ## Login Info
 	- ### S3 
 	  id:: 66bded88-8a50-4ec3-a9bc-79f48af21d10
+	  collapsed:: true
 		- #S3
 		- https://s3-admin.ipip.ch/ui/s3-console/
 			- **Tenant Name:** A_LAN_Elektronische_Geschaeftsprozesse
@@ -27,6 +28,7 @@
 			- pass: Welcome2IGE
 	- ### Elastic
 	  id:: 66cc7663-c057-4a83-affc-eeaefc514740
+	  collapsed:: true
 		- #Elastic
 		- ### API
 			- [https://a-elasticsearch.ipip.ch](https://a-elasticsearch.ipip.ch)
@@ -51,7 +53,12 @@
 		  user: gast
 		  password: gast
 		  ```
-	-
+	- ### Vault
+		- https://vault.ipip.ch/ui/vault/
+		- ```
+		  windows user
+		  username: quach
+		  ```
 - ## Ressourcen
 	- **Database**: https://database.ipi.ch/database-client/search
 	- **JIRA**: https://issues.ipip.ch/secure/Dashboard.jspa

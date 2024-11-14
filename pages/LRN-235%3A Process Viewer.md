@@ -21,9 +21,15 @@ tags:: [[IGE]], [[S3]]
 		  collapsed:: true
 			- {{embed ((66bded88-8a50-4ec3-a9bc-79f48af21d10))}}
 		- #### [[Elastic]]
+		  collapsed:: true
 			- {{embed ((66cc7663-c057-4a83-affc-eeaefc514740))}}
 	- ### Testing
 		- https://issues.ipip.ch/browse/LRN-247
+	- ### Deployment
+		- #### Vault Secret Paths
+			- production:
+			- abnahme: https://vault.ipip.ch/ui/vault/secrets/abnahme/kv/platforms%2Fs3%2FA_LAN_Elektronische_Geschaeftsprozesse/details?version=4
+			- entwicklung: https://vault.ipip.ch/ui/vault/secrets/entwicklung/kv/applications%2Fprocess-archive-viewer/details?version=1
 - ## Libraries
   collapsed:: true
 	- **@elastic/elasticsearch**: https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html
