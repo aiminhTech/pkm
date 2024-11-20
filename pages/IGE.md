@@ -10,7 +10,7 @@
 		- [[LRN-202: AI Chat]]
 		- [[LRN-213: Supercheck Website]]
 	- ### 3. Lehrjahr
-		- [[LRN-235: Process Viewer]]
+		- [[LRN-235: Process Archive Viewer]]
 - ## Login Info
 	- ### S3 
 	  id:: 66bded88-8a50-4ec3-a9bc-79f48af21d10
