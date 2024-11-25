@@ -21,7 +21,6 @@ tags:: [[IGE]], [[S3]]
 		  collapsed:: true
 			- {{embed ((66bded88-8a50-4ec3-a9bc-79f48af21d10))}}
 		- #### [[Elastic]]
-		  collapsed:: true
 			- {{embed ((66cc7663-c057-4a83-affc-eeaefc514740))}}
 	- ### Testing
 		- https://issues.ipip.ch/browse/LRN-247

@@ -28,7 +28,6 @@
 			- pass: Welcome2IGE
 	- ### Elastic
 	  id:: 66cc7663-c057-4a83-affc-eeaefc514740
-	  collapsed:: true
 		- #Elastic
 		- ### API
 			- [https://a-elasticsearch.ipip.ch](https://a-elasticsearch.ipip.ch)
@@ -59,6 +58,9 @@
 		  windows user
 		  username: quach
 		  ```
+	-
 - ## Ressourcen
 	- **Database**: https://database.ipi.ch/database-client/search
 	- **JIRA**: https://issues.ipip.ch/secure/Dashboard.jspa
+	- **Nexus**: https://containers.ipip.ch/#browse/welcome
+-

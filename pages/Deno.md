@@ -1,19 +1,22 @@
-tags:: [[JavaScript]], [[TypeScript]], [[Deno Web APIs]], [[JSR]]
+tags:: [[JavaScript]], [[TypeScript]], [[Deno Web APIs]], [[JSR]], [[Deno 2.0]]
 
 - https://deno.com/
 - A runtime for [[JavaScript]] and [[TypeScript]]
 - [[Deno Deploy]]
 -
 - ## Standard Library
+  collapsed:: true
 	- https://deno.land/std@0.224.0
 	  collapsed:: true
 		- The Standard Library has been moved to [JSR](https://jsr.io/@std). See [the blog post](https://deno.com/blog/std-on-jsr) for details.
 	- https://docs.deno.com/runtime/manual/basics/standard_library
 - ## Quick Start
+  collapsed:: true
 	- ```bash
 	  deno init
 	  ```
 - ## Safe `deno.json`
+  collapsed:: true
 	- ```deno.json
 	    "compilerOptions": {
 	      "noImplicitThis": true,
@@ -26,3 +29,4 @@ tags:: [[JavaScript]], [[TypeScript]], [[Deno Web APIs]], [[JSR]]
 	      "noUnusedParameters": true
 	    }
 	  ```
+-
