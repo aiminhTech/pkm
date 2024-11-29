@@ -22,7 +22,7 @@
 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
- :ui/enable-tooltip? false
+ :ui/enable-tooltip? true
 
  ;; Show brackets around page references
  ;; :ui/show-brackets? true
@@ -317,9 +317,9 @@
  ;;     ;use triple underscore `___` for slash `/` in page title
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :feature/enable-journals? false
+ :feature/enable-journals? true
  :journal/page-title-format "yyyy-MM-dd EEEE"
- :graph/settings {:journal? false
+ :graph/settings {:journal? true
  :builtin-pages? true}
  :graph/forcesettings {:link-dist 180
  :charge-strength 1000

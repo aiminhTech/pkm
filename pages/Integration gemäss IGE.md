@@ -22,4 +22,7 @@ tags:: [[IGE]], [[OpenShift]], [[Jenkins]], [[Nexus]], [[Hashicorp Vault]], [[An
 		- `master`-Brand wird wird für stabile und freigegebene Versionen des Projekts verwendet. Dieser Branch enthält geprüften und fehlerfreien Code, der bereit für den Einsatz in Produktionsumgebungen ist. Änderungen in diesem Branch erfolgen in der Regel durch Merge-Requests aus dem `develop`-Branch, sobald diese vollständig getestet und validiert wurden.
 	- Die Integration in Ansible-Apps sicherstellen (playbook, inventories und andere notwendigen Komponente)
 -
--
+- Realeasprocess
+	- git branches
+		- develop
+		- master
