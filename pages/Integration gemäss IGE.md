@@ -8,6 +8,7 @@ tags:: [[IGE]], [[OpenShift]], [[Jenkins]], [[Nexus]], [[Hashicorp Vault]], [[An
 - ## Deployment für Applikationen via #Ansible
 	- **Guidelines:** [Openshift Guidelines](https://wiki.ipip.ch/display/SWE/Openshift+Guidelines)
 	- **Project path wks:** `/ige/jp/ops/ansible-apps`
+		- test cmd: `ipi-ansible-playbook -i inventories/entwicklung/ -p process_archive_viewer`
 	- **Bitbucket:** https://git.ipip.ch/projects/OPS/repos/ansible-apps/browse
 -
 - ## Ablauf
