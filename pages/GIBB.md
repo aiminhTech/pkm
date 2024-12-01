@@ -19,5 +19,7 @@
 	- [[Funktional Programmieren]] #Haskell
 	- [[Facetten der Migration]] #ABU
 	- [[Applikationen testen]]
+	- [[Globale Auswirkungen unseres Lebensstils]] #ABU
+	- [[Sprache und Kommunikation]] #ABU
 -
 -
