@@ -1,3 +1,5 @@
+tags:: [[ABU]]
+
 - 1e)
 	- Zieldimension: Umwelt
 	- Der Anbau von saisonalem und regionalem Gemüse verringert die Transportwege beim Vertrieb: möglichst lokale Produktion
