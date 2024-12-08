@@ -4,23 +4,27 @@ tags:: [[IGE]], [[S3]]
 - https://wiki.ipip.ch/pages/viewpage.action?pageId=178930536
 -
 - ## Project Links
+  collapsed:: true
 	- **JIRA**: https://issues.ipip.ch/browse/LRN-235
 	- **Bitbucket**: https://git.ipip.ch/users/quach/repos/process-viewer/browse
 	- **Openshift**:
-		- *test-qai-entwicklung-process-viewer*: https://dev-process-viewer.apps.ipip-ocp.ipip.ch/
-		- *test-qai-*:
+		- **entwicklung**: https://dev-process-archive-viewer.apps.ipip-ocp.ipip.ch/
+		- **abnahme**: https://a-process-archive-viewer.apps.ipip-ocp.ipip.ch/
+		- **produktion**: https://process-archive-viewer.apps.ipip-ocp.ipip.ch/
 - ## Sourcecode
+  collapsed:: true
 	- https://archive.ipip.ch/
 	- **Inklusiv container und alles**: https://git.ipip.ch/projects/OPS/repos/process-archive-viewer/browse
 	- **Python code für den frontent + backend**: https://git.ipip.ch/projects/OPS/repos/process-archive-viewer/browse/app/main.py
 	- **Python code Elastic**: https://git.ipip.ch/projects/OPS/repos/rundeck_batch/browse/BPP_camunda_prozess_archivieren/run.py?at=refs%2Fheads%2FAM-677_prozess_historie_elastic#745,885,930,956,986
 - ## Tools
+  collapsed:: true
 	- ### Frontend #Angular, #[[Angular Material]]
 	- ### Backend:
 		- #### [[S3]]
 		  collapsed:: true
 			- {{embed ((66bded88-8a50-4ec3-a9bc-79f48af21d10))}}
-		- #### [[Elastic]]
+		- #### [[Elastic Search]]
 			- {{embed ((66cc7663-c057-4a83-affc-eeaefc514740))}}
 	- ### Testing
 		- https://issues.ipip.ch/browse/LRN-247
@@ -47,4 +51,5 @@ tags:: [[IGE]], [[S3]]
 	- [[LRN-244: Frontend Verbesserung Landingpage]]
 	- [[LRN-245: Backend Integration Testing]]
 	- [[LRN-246: : Frontend Implementierung Paging in Business-Transaction-View]]
-	- [[LRN-247: Release Process Viewer (OCI Image und Deployment gemäss IGE Guildeline)]]
+	- [[LRN-247: Release Process Archive Viewer (OCI Image und Deployment gemäss IGE Guildeline)]]
+	- [[LRN-255: Manuelles Testen und Fehlerbehebung vor Release]]

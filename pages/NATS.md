@@ -1,4 +1,4 @@
-tags:: [[JetStream]], [[Publish-Subscribe]], [[Request-Reply]]
+tags:: [[JetStream]], [[Publish-Subscribe]], [[Request-Reply]], [[JSR]]
 
 - https://nats.io/
 - https://natsbyexample.com/
@@ -6,8 +6,9 @@ tags:: [[JetStream]], [[Publish-Subscribe]], [[Request-Reply]]
 	- https://docs.nats.io/nats-concepts/what-is-nats
 	- NATS is an infrastructure that allows such data exchange, segmented in the form of messages. We call this a "**message oriented middleware**".
 - ## NATS Connection Deno
-  collapsed:: true
 	- https://github.com/nats-io/nats.deno
+	- ### Import from JSR
+		- https://jsr.io/@nats-io
 	- ### Import deno.json
 		- ```deno.json
 		  "nats": "https://deno.land/x/nats@v1.18.0/src/mod.ts"
@@ -48,3 +49,4 @@ tags:: [[JetStream]], [[Publish-Subscribe]], [[Request-Reply]]
 			- Limit / Interest / Queue
 		- [[Consumer]]
 		- Work-queue Stream
+-

@@ -1,0 +1,1 @@
+- A sentinel value is a special marker used in programming to signal the end of data or to stop a process, like a loop. It's a value that doesn't appear as a regular data entry, so it’s easy to recognize when the processing should end. For example, if you're entering a list of numbers and use `-1` as a sentinel, it tells the program to stop input when `-1` is entered.

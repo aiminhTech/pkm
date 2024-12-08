@@ -11,4 +11,8 @@
 		- deno upgrade
 	- [[bun]]
 		- bun upgrade
+- ### Fedora Linux VM
+	- #LABQAI100
+	- Sicherstelle, dass die VM läuft
+-
 -
