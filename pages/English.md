@@ -1,0 +1,23 @@
+-
+- ## Gibb Module 953
+	- ### Distance Learning 26/11/2024
+		- **Is ‘coding’ and ‘programming’ the same?**
+			- Coding is just a part of programming, which just writing the code that a machine can understand.
+			- Programming is broader and is a process that involves creating programs. Its includes planning, testing, debugging, and developing complete software, not just writing code.
+		- **Give three examples of ‘coding’ you have come across lately.**
+			- developed a REST API for my website:
+			- built a database to save REST API responses
+			- created an interactive interface with Angular
+		- **Tell a memorable programming problem you have had to solve recently.**
+			- Recently, I worked on my first solo project to build a website that showed archived data from business processes for my company. It was all challenging experience because I had to manage everything by myself, from the backend to the frontend. That's why i would say that the whole process was memorable because of the problems I faced and solved.
+		- **List the programming languages you use, what for and why these are the most suitable languages for that issue.**
+			- **TypeScript for Building a Website with Angular**: TypeScript is great for creating websites because it catches mistakes while you write code, because it uses **static typing**. That means it checks the types of variables and functions during development. and helps identify mistakes before the code runs, which makes it easier to fix problems early.
+				- unlike JavaScript, which only catches errors at runtime
+				- it also works perfectly with Angular (what i recently worked on most), a tool for building web pages, and helps organize large projects into smaller, manageable pieces.
+			- **SQL for Managing the Database**: SQL is used to talk to databases, helping us store, update, and find data easily. It is very simple to use for working with structured information and ensures the database works efficiently and correctly.
+		- **Name the programming languages you think a software programmer should know these days, and why.**
+			- TypeScript is essential for modern software development, especially for web applications. It offers the benefits of static typing, which helps catch errors early in the development process, making code more reliable and easier to maintain. It also works well with popular frameworks like Angular, React, and Node.js, which makes it highly versatile and in-demand.
+		- **Some people think ‘coding’ should be taught at school as a regular subject like maths or German. Write down your thoughts about that suggestion and give reasons for your argument.**
+			- Admit that coding is an important skill nowsaday it's also true that adding it as a regular subject in schools may have some challenges. Not all students may be interested in coding and it might take away time from other core subjects like math or science. Additionally, teachers would need specialized training to teach coding effectively, which could be a highcost for schools.
+-
+-
