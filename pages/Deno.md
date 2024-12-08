@@ -5,7 +5,6 @@ tags:: [[JavaScript]], [[TypeScript]], [[Deno Web APIs]], [[JSR]], [[Deno 2.0]]
 - [[Deno Deploy]]
 -
 - ## Standard Library
-  collapsed:: true
 	- https://deno.land/std@0.224.0
 	  collapsed:: true
 		- The Standard Library has been moved to [JSR](https://jsr.io/@std). See [the blog post](https://deno.com/blog/std-on-jsr) for details.
@@ -15,7 +14,6 @@ tags:: [[JavaScript]], [[TypeScript]], [[Deno Web APIs]], [[JSR]], [[Deno 2.0]]
 	  deno init
 	  ```
 - ## Safe `deno.json`
-  collapsed:: true
 	- ```deno.json
 	    "compilerOptions": {
 	      "noImplicitThis": true,
@@ -29,3 +27,12 @@ tags:: [[JavaScript]], [[TypeScript]], [[Deno Web APIs]], [[JSR]], [[Deno 2.0]]
 	    }
 	  ```
 -
+- ## Runtime flags
+	- ### Permission flags
+		- https://docs.deno.com/runtime/fundamentals/security/
+		- Permisson flags in Deno are an integral part of security model, allowing us to explicitly control what actions our scripts are permitted to perform. By default, Deno scripts run in a sandboxed environment with no permissions, making them secure by default.
+		- Necessary permissions can be granted explicitly using various flags
+			- #### `--allow-read`
+				- Grants read accecss to the file system.
+				-
+	- ### `--v8-flags`

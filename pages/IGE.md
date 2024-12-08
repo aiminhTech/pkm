@@ -28,7 +28,7 @@
 			- pass: Welcome2IGE
 	- ### Elastic
 	  id:: 66cc7663-c057-4a83-affc-eeaefc514740
-		- #Elastic
+		- #[[Elastic Search]]
 		- ### API
 			- [https://a-elasticsearch.ipip.ch](https://a-elasticsearch.ipip.ch)
 			- ```
@@ -47,12 +47,14 @@
 			- (nicht finale Version,wird noch geändert, aber die Index Struktur ist ziemlich fest):
 			- [https://git.ipip.ch/projects/OPS/repos/rundeck_batch/browse/BPP_camunda_prozess_archivieren/run.py?at=refs%2Fheads%2FAM-677_prozess_historie_elastic#745,885,930,956,986](https://git.ipip.ch/projects/OPS/repos/rundeck_batch/browse/BPP_camunda_prozess_archivieren/run.py?at=refs%2Fheads%2FAM-677_prozess_historie_elastic#745,885,930,956,986)
 	- ### Camunda Cockpit
+	  collapsed:: true
 		- https://i-esv.ipie.ch/cockpit/app/cockpit/ir-marke-geschaeftsprozesse/#/login
 		- ```
 		  user: gast
 		  password: gast
 		  ```
 	- ### Vault
+	  id:: 66cc8d92-a4fb-4ef2-909f-d95d38766b74
 		- https://vault.ipip.ch/ui/vault/
 		- ```
 		  windows user
@@ -62,5 +64,8 @@
 - ## Ressourcen
 	- **Database**: https://database.ipi.ch/database-client/search
 	- **JIRA**: https://issues.ipip.ch/secure/Dashboard.jspa
-	- **Nexus**: https://containers.ipip.ch/#browse/welcome
--
+		- **Nexus**:
+		  id:: 673d9735-2f8d-4a08-a424-6ea83787b6bc
+		  collapsed:: true
+			- https://containers.ipip.ch/#browse/welcome
+			- https://repository.ipip.ch/repository/npm-jsr-registry/
