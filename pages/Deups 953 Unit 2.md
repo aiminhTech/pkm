@@ -1,0 +1,49 @@
+tags:: [[English]]
+
+- ## qualifications
+	- Attending courses and workshops are especially important in the field of IT for keeping your ==qualifications== up with the latest developments in the field.
+- ## contemporary (adj)
+	- Only the names in the story are ancient, the characters are modern and ==contemporary==.
+- ## compression
+	- A protocol defines how the sending and receiving devices will communicate, and what kind of error checking and data ==compression== is used.
+- ## mend (flicken) - (v)
+	- Those wired connections are not easy to ~~d~~ mend because they are welded to the computer's housing.
+- ## formative
+	- She was born in the US but spent her ==formative== years in Germany.
+	- The term ==formative== assessment refers to a wide variety of methods that teachers use to conduct in-process evaluations of student comprehension, learning needs, and academic progress during a lesson, unit, or course.
+- ## specification
+	- The new Surface Pro 8 will ship with the biggest hardware design and ==specification== changes since the Surface Pro 3 launch more than seven years ago.
+- ## characteristics
+	- The two species are very similar and have several ==characteristics== in common.
+	- Urban schools reflect the ==characteristics== of the environment in which they are located.
+- ## intermediate
+	- The C++ based Extractor is used to extract data from a source server to an ==intermediate== format.
+- ## hence
+	- Computer programmers refer to errors as bugs; ==hence== the term debugging.
+- ## serious
+	- Trojan horse attacks pose one of the most ==serious== threats to computer security.
+- ## majority
+	- The ~~intentionally~~ ==majority== of wearables today are designed for the wrist.
+- ## simplify
+	- The new system has improved things and has helped to ~~order~~ ==simplify== many processes.
+- ## order
+	- You can directly ==order== most of our software through the Web.
+- ## advise
+	- Petra, I ~~persuade~~ ==advised== Peter to buy a Windows tablet instead of an Android tablet.
+- ## creation
+	- Certain programs allow the ~~specification~~ ==creation== of objects that interact with each other.
+	- They recommended the ==creation== of a new agency to be responsible for the environment.
+- ## deploy
+	- Good release management practices ensure that when your software is built, it will be successfully ~~implement~~ ==deployed== to the people who want to use it.
+- ##  implement
+	- The report sets out strict inspection procedures to make sure the recommendations are properly ==implemented==.
+- ## plugin
+	- A ==plugin== which is often created and distributed by independent developers, improves the operation of an application program.
+- ## contradiction
+	- A statement that is always false is known as a ==contradiction==.
+- ## detect
+	- Perhaps the IDE is unable to ==detect== the change because the network drive does not support automatic notifications when the file(s) has changed.
+- ## indispensable
+	- He made many essential contributions to the development of the company and soon became ~~researcher~~ ==indispensable==.
+- ## humble
+	- The programming language SQL has come a long way from its ~~intermediate~~ ==humble== beginnings.

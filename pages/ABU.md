@@ -4,3 +4,4 @@
 - [[Facetten der Migration]]
 - [[Globale Auswirkungen unseres Lebensstils]]
 - [[Sprache und Kommunikation]]
+- [[Mini Business]]

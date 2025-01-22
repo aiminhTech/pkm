@@ -1,6 +1,7 @@
 -
 - ## Gibb Module 953
 	- ### Distance Learning 26/11/2024
+	  collapsed:: true
 		- **Is ‘coding’ and ‘programming’ the same?**
 			- Coding is just a part of programming, which just writing the code that a machine can understand.
 			- Programming is broader and is a process that involves creating programs. Its includes planning, testing, debugging, and developing complete software, not just writing code.
@@ -20,4 +21,7 @@
 		- **Some people think ‘coding’ should be taught at school as a regular subject like maths or German. Write down your thoughts about that suggestion and give reasons for your argument.**
 			- Admit that coding is an important skill nowsaday it's also true that adding it as a regular subject in schools may have some challenges. Not all students may be interested in coding and it might take away time from other core subjects like math or science. Additionally, teachers would need specialized training to teach coding effectively, which could be a highcost for schools.
 -
+- ## Test preparation
+	- [[Deups 953 Unit 1]]
+	- [[Deups 953 Unit 2]]
 -

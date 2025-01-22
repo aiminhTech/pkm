@@ -20,8 +20,111 @@ tags:: [[ABU]]
 	- **Gesamturteil:** Saisonales, regionales und biologisches Gemüse ist insgesamt nachhaltig. Damit werden viele Nachhaltigkeitskriterien aus allen drei Zieldimensionen erfüllt und Zielharmonien genutzt.
 -
 - ## Ökologischer Fussabdruck
+	- Der **ökologische Fussabdruck** zeigt, wie viel Natur wir verbrauchen. Er misst, wie viele Ressourcen (z. B. Wasser, Land, Energie) ein Mensch oder eine Gruppe nutzt und wie viel Platz nötig ist, um den Müll oder CO₂, den wir produzieren, abzubauen.
+	- Einfach gesagt: Er zeigt, ob wir mehr von der Erde nehmen, als sie uns nachhaltig geben kann. Wenn unser Verbrauch grösser ist als das, was die Erde erneuern kann, hinterlassen wir einen "zu grossen Fussabdruck".
+	- ### Den eigenen Fussabdruck kennen (footprint.ch)
+		- Mein persönlicher Earth Overshoot Day ist 23. März.
+		- Wenn alle wie mir leben würden, bräuchten wir 4.4 Erden
 	- **Schädliche Verhaltensweisen**
 		- Heizen/Kühlen
-		- Verkehr (insbesondereFlugverkehr)
+		- Verkehr (insbesondere Flugverkehr)
 		- Essen (insbesondere Fleisch)
 		- Konsumgüter
+- ## Ressourcenverbrauch
+	- ### Folgen des dramatischen Anstiegs des Ressourcenverbrauchs kennen
+		- Enormer Transport an Energieträgern
+		- Klimaerwärmung
+		- Energieengpässe
+		- Verbrauch von nicht erneuerbaren Ressourcen
+		- Etc.
+		- ### Warum gehört die Zukunft den erneuerbaren Energien?
+			- Weil die nicht erneuerbaren Energiequellen nicht mehr ausreichend vorhanden sind.
+	- ### Politische Einflussmöglichkeiten auf den Ressourcenverbrauch kennen und Beispiele dafür machen können
+		- ### Verbote und Gebote
+			- **Ziel:** Umweltbelastungen reduzieren oder schädliches Verhalten verbieten.
+			- **Wirksamkeit:** Gut bei irreversiblen Schäden.
+			- **Innovationsfreundlichkeit:** Eher gering.
+			- **Finanzielle Belastung:** Haushalte mit geringem Einkommen könnten stärker betroffen sein (z. B. teurere Produkte).
+			- **Beispiele**:
+				- Verbot von Einwegplastik.
+				- Grenzwerte für den CO₂-Ausstoß von Fahrzeugen.
+		- ### Lenkungsabgaben oder -steuern
+			- **Ziel:** Schädliches Verhalten durch höhere Kosten unattraktiv machen.
+			- **Wirksamkeit:** Abhängig von der Höhe der Abgabe.
+			- **Innovationsfreundlichkeit:** Hoch, da umweltfreundliches Verhalten belohnt wird.
+			- **Finanzielle Belastung:** Gering für einkommensschwache Haushalte, da sie weniger konsumieren und von Rückerstattungen profitieren.
+			- **Beispiel**
+				- CO₂-Abgabe auf Brennstoffe: In der Schweiz wird eine CO₂-Abgabe auf fossile Brennstoffe wie Heizöl und Gas erhoben, um Anreize für klimafreundliche Heizsysteme zu schaffen. Ein Teil der Einnahmen wird gleichmäßig an die Bevölkerung zurückerstattet.
+				- Tabaksteuer
+		- ### Appelle
+			- **Ziel:** Menschen zu moralisch richtigem Verhalten ermahnen.
+			- **Wirksamkeit:** Bisher gering, aber Entwicklung unklar.
+			- **Innovationsfreundlichkeit:** Eher gering.
+			- **Finanzielle Belastung:** Keine, da freiwillig.
+			- **Beispiel**
+				- Kampagnen für weniger Plastikmüll
+				- Energiesparaufrufe
+- ## Folgen des Klimawandels
+	- **Höhere Temperaturen**: Die Erde wird wärmer, es gibt mehr Hitzewellen.
+	- **Extreme Wetterereignisse**: Stürme, Überschwemmungen und Dürren nehmen zu.
+	- **Steigender Meeresspiegel**: Schmelzende Gletscher und Eiskappen führen dazu, dass Küsten überflutet werden.
+	- **Artensterben**: Tiere und Pflanzen verlieren ihre Lebensräume.
+	- **Weniger sauberes Wasser**: Flüsse und Seen trocknen aus oder werden verschmutzt.
+	- **Ernteausfälle**: Hitze und Dürre schaden der Landwirtschaft.
+	- **Gesundheitsprobleme**: Mehr Krankheiten durch Hitzestress und schlechte Luftqualität.
+	- **Flucht und Migration**: Menschen verlassen ihre Heimat wegen Überflutung oder Nahrungsknappheit.
+- ## Den Unterschied zwischen dem natürlichen und dem anthropogenen Treibhauseffekt kennen
+	- ### Natürlicher Treibhauseffekt
+		- Der **natürliche Treibhauseffekt** ist lebenswichtig.
+		- Gase wie CO₂, Methan und Wasserdampf in der Atmosphäre halten Wärme von der Sonne auf der Erde.
+		- Ohne ihn wäre die Erde im Durchschnitt -18 °C kalt, statt +15 °C.
+		- Natürlichen Treibhauseffekt:  Austausch von Kohlestoffteilchen in der Natur
+	- ### Anthropogener Treibhauseffekt
+		- Der **anthropogene (menschgemachte) Treibhauseffekt** entsteht durch den zusätzlichen Ausstoss von Treibhausgasen.
+		- Hauptursachen: Verbrennung von Öl, Gas, Kohle, Abholzung und Landwirtschaft.
+		- Er verstärkt den Treibhauseffekt, was zur globalen Erwärmung führt.
+		- Anthropogener Treibhauseffekt ist der Verbrennen von eingelagerten Kohlestoffteilchen durch den Menschen
+	- ### Kurz
+		- Der natürliche Treibhauseffekt ist normal und hält die Erde warm.
+		- Der anthropogene Treibhauseffekt ist von Menschen verursacht und macht die Erde zu warm.
+- ## Nachhaltigkeit
+	- ### Wissen, woher der Begriff Nachhaltigkeit ursprünglich kommt
+		- Die Bedürfnisse der heutigen Generation werden erfüllt, ohne die Möglichkeiten zukünftiger Generationen zu gefährden.
+		- Nachhaltig ist eine Entwicklung, wenn sie den Bedürfnissen der heutigen Generation entspricht, ohne die Möglichkeiten künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu befriedigen.
+		- Dabei müssen **wirtschaftliche, soziale** und **ökologische** Bedürfnisse aufeinander abgestimmt werden. Und genau das ist anspruchsvoll, weil zwischen diesen drei Zieldimensionen vielfältige Zielkonflikte bestehen. Erfreulicherweise existieren daneben aber auch Zielharmonien. Diese werden in der Abbildung unten durch die sich überschneidenden Flächen symbolisiert.
+	- ### Die 3 Aspekte der Nachhaltigkeit kennen und in einem Beispiel anwenden können
+		-
+		- **Ökologische Nachhaltigkeit** (Umwelt schützen)
+		  Ziel: Ressourcen schonen, Umwelt schützen, Klima stabilisieren.
+		  Beispiel: Weniger Plastikmüll, Förderung erneuerbarer Energien.
+		- **Ökonomische Nachhaltigkeit**  (wirtschaftlich sinnvoll handeln)
+		  Ziel: Langfristige wirtschaftliche Stabilität, Förderung von Innovationen und fairer Handel.
+		  Beispiel: Unternehmen produzieren effizient, um Ressourcen und Kosten zu sparen.
+		- **Soziale Nachhaltigkeit** (Gerechtigkeit und Lebensqualität fördern).
+		  Ziel: Gerechtigkeit, Chancengleichheit und Verbesserung der Lebensqualität.
+		  Beispiel: Faire Bezahlung und sichere Arbeitsbedingungen.
+		- ### Beispiel: Fair-Trade-Kaffee
+			- **Ökologisch**: Der Kaffee wird biologisch angebaut, um die Böden und Artenvielfalt zu schützen.
+			- **Ökonomisch**: Landwirte erhalten faire Preise, die ihnen langfristige Stabilität bieten.
+			- **Sozial**: Die Arbeiter haben gute Arbeitsbedingungen und soziale Projekte (z. B. Schulen) werden unterstützt.
+- ## Internationale Organisationen
+	- Wichtigste internationale Regierungsorganisationen und Konferenzen nennen können
+	- Ziel und Tätigkeiten der UNO und des IKRK kennen
+	- ### UNO (Vereinte Nationen)
+		- #### Ziel:
+			- **Frieden sichern**: Konflikte verhindern und beenden.
+			- **Menschenrechte schützen**: Für Freiheit und Gleichheit kämpfen.
+			- **Zusammenarbeit fördern**: Länder zusammenbringen, um Probleme wie Armut, Klimawandel oder Krankheiten zu lösen.
+		- #### Tätigkeiten:
+			- **Friedensmissionen**: Soldaten und Helfer schicken, um in Konfliktzonen zu unterstützen.
+			- **Hilfsprogramme**: Hunger bekämpfen, Schulen bauen, Flüchtlingen helfen.
+			- **Gespräche vermitteln**: Länder zusammenbringen, um Streit zu lösen.
+	- ### IKRK (Internationales Komitee vom Roten Kreuz)
+		- #### Ziel:
+			- **Menschen in Not helfen**: Besonders in Kriegsgebieten.
+			- **Schutz der Menschlichkeit**: Regeln im Krieg (wie die Genfer Konventionen) einhalten.
+		- #### Tätigkeiten:
+			- **Hilfe leisten**: Essen, Wasser und medizinische Versorgung in Kriegsgebieten bereitstellen.
+			- **Gefangene besuchen**: Sicherstellen, dass sie menschenwürdig behandelt werden.
+			- **Familien verbinden**: Vermisste Menschen suchen und Familien wiedervereinen.
+-
