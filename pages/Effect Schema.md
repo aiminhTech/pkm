@@ -8,3 +8,38 @@ tags:: [[Effect TS]], [[Zod]], [[Quicktype]]
 	-
 - ## Defining a schema
 	- https://effect.website/docs/schema/getting-started/#defining-a-schema
+-
+-
+- ## Example
+	- ```ts
+	  /*
+	  const c1 = CompetenceArea.make({ id: CompetenceAreaId.make(22), area: "foo", description: "bar" })
+	  
+	  for (const key in c1) {
+	  
+	    if (Object.prototype.hasOwnProperty.call(c1, key)) {
+	  
+	      const element = c1[key];
+	      console.log(key, element);
+	  
+	    }
+	  }
+	  
+	  const Foo = S.Struct({
+	    id: S.Positive,
+	    name: S.NonEmptyString.pipe(S.pattern(/.*ooo$/)),
+	    url: S.URL
+	  })
+	  
+	  type Foo = typeof Foo.Type
+	  
+	  const parseFoo = S.decodeUnknownEither(Foo)
+	  
+	  console.log(parseFoo({ id: 3, name: "barfooo", url: "http://foo" }));
+	  
+	  const parseScore = S.decodeUnknownEither(Score)
+	  
+	  //console.log(Score.make({ id: 1, rating3: "foo", rating: "" }));
+	  console.log(parseScore({ id: 1, rating: "aaa" })); */
+	  
+	  ```
