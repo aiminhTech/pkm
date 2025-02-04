@@ -1,5 +1,4 @@
--
-- ## Semester 1
+## Semester 1
 	- [[Daten analysieren & modellieren]]
 	- [[Informatik- und Netzinfrastruktur für eines kleines Unternehmen realisieren]]
 - ## Semester 2
@@ -17,9 +16,13 @@
 	- [[Geschäftsprozesse beschreiben]]
 - ## Semester 5
 	- [[Funktional Programmieren]] #Haskell
-	- [[Facetten der Migration]] #ABU
 	- [[Applikationen testen]]
+	- [[Facetten der Migration]] #ABU
 	- [[Globale Auswirkungen unseres Lebensstils]] #ABU
 	- [[Sprache und Kommunikation]] #ABU
 	- [[English]]
+- ## Semester 6
+	- [[IT-Kleinprojekt abwickeln]]
+	- [[Applikationsicherheit implementieren]]
+	- [[Business Innovation Idea]] #ABU
 -

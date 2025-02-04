@@ -1,4 +1,4 @@
-type:: M450
+module:: M450
 
 - Applikation werden getestet, um sicherzustellen, dass sie fehlerfrei, sicher, leistungsfähig und benutzerfreundlich sind.
 -
