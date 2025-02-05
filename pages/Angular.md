@@ -191,6 +191,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  }
 		  ```
 - ## Template
+  collapsed:: true
 	- ### Conditional Logic
 		- #### @if
 		  collapsed:: true
@@ -288,6 +289,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 			    
 			  ```
 	- ### Property binding
+	  collapsed:: true
 		- Property binding in Angular enables you to **set values for properties** of **elements in your templates**
 		- #### @Input
 		  collapsed:: true
@@ -694,10 +696,8 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  ];
 		  ```
 - ## Forms
-  collapsed:: true
 	- **We have 2 ways to define forms and gather input from users**
 	- ### Template Driven Forms (Uncontrolled Forms)
-	  collapsed:: true
 		- *We let the DOM handle all the form's functionality*
 		- Quick to setup and use
 		- Best for small one-time use forms
@@ -741,7 +741,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 				- They are bound to the `input` and `textarea` elements using `[(ngModel)]`, which is Angular’s two-way data binding syntax. This means any changes in the input fields will be reflected in the `title` and `body` variables, and changes in the variables will update the input fields.
 			- Angular’s **`ngModel`** directive updates the `title` and `body` properties with the new values.
 	- ### Reactive Forms (Controlled Forms)
-	  collapsed:: true
 		- *The state of our form is explicitly tracked*
 		- Supports typing
 		- Reuseable, can share models
@@ -814,7 +813,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		- #### Validation
 			-
 - ## Event Handling
-  collapsed:: true
 	- ### `EventEmitter`
 		- Is used to *create custom events in components and services*
 		- *Provides a way for components to communicate with each other*
@@ -1030,6 +1028,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  }
 		  ```
 - ## Dependency Injection (DI)
+  collapsed:: true
 	- DI is a design pattern and mechanism for **creating and delivering** some parts of an app to other **parts of an app that require them**
 	- `user.service.ts`
 	  collapsed:: true
