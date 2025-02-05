@@ -116,6 +116,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 -
 - ## Component
 	- ### Syntax
+	  collapsed:: true
 		- The `@Component` decorator annotates a class to specify that it is a component.
 		- Each property within the decorator serves a different purpose:
 			- `selector` is the custom HTML tag.
@@ -190,9 +191,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  }
 		  ```
 - ## Template
-  collapsed:: true
 	- ### Conditional Logic
-	  collapsed:: true
 		- #### @if
 		  collapsed:: true
 			- ```html
@@ -289,7 +288,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 			    
 			  ```
 	- ### Property binding
-	  collapsed:: true
 		- Property binding in Angular enables you to **set values for properties** of **elements in your templates**
 		- #### @Input
 		  collapsed:: true
@@ -439,6 +437,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 					- `carList: Car[] = [{ make: 'Foyoda', model: 'Famery' }, { make: 'Ronda', model: 'Disaccord' }];`: Initializes a list of two cars.
 					- `addCarToSaved(car: Car)`: Method that adds a car to the `savedCarList` when called.
 - ## Navigation
+  collapsed:: true
 	- `route-outlet`
 		- A `router-outlet` in Angular is a directive that acts as a placeholder within your application where the router will dynamically insert the component for the active route.
 		- Essentially, it's where the routed component's template will be displayed.
@@ -1031,7 +1030,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  }
 		  ```
 - ## Dependency Injection (DI)
-  collapsed:: true
 	- DI is a design pattern and mechanism for **creating and delivering** some parts of an app to other **parts of an app that require them**
 	- `user.service.ts`
 	  collapsed:: true
