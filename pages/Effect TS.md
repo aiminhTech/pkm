@@ -1,4 +1,4 @@
-tags:: [[TypeScript]], [[bun]] 
+tags:: [[TypeScript]], [[bun]] , [[Effect SQL]], [[Effect Schema]], [[Effect Runtime]] 
 type:: library
 
 - https://effect.website/
@@ -28,6 +28,7 @@ type:: library
 	- [Effect Source](https://github.com/Effect-TS/effect)
 	- [Effect Discord](https://discord.gg/effect-ts)
 - ## Installation
+  collapsed:: true
 	- https://effect.website/docs/getting-started/installation/
 	- ### Deno
 		- interactive shell: `import * as Effect from "npm:effect"`
@@ -81,6 +82,7 @@ type:: library
 	- *However, effects are not actually functions. They can model synchronous, asynchronous, concurrent, and resourceful computations.*
 	-
 - ## Creatings Effects
+  collapsed:: true
 	- https://effect.website/docs/getting-started/creating-effects/
 	- ### Why not throws errors?
 	  collapsed:: true
@@ -150,6 +152,7 @@ type:: library
 		  // You can think of this as a similar pattern to the traditional try-catch block in JavaScript
 		  ```
 	- ### `tryPromise`
+	  collapsed:: true
 		- https://effect.website/docs/getting-started/creating-effects/#trypromise
 		- Creates an `Effect` that represents an asynchronous computation that might fail
 		- ```ts
@@ -378,7 +381,7 @@ type:: library
 			- `const valueOfEffect = ...` stores this `number`.
 		- 5. **Return Value:**
 			- `return String(valueOfEffect)`: Converts the number to a `string` and returns it.
--
+- collapsed:: true
 - ## Error Handing
 	- ### Tagged Error
 		- A **tagged error** is simply an error that includes a special identifier (a `_tag`) that tells you what kind of error it is. Instead of just using generic error messages, you can create custom error types with their own tags.
@@ -393,6 +396,7 @@ type:: library
 		  }
 		  ```
 	- ### Recover from errors
+	  collapsed:: true
 		- #### `catchAll` - catching all errors
 			- https://effect.website/docs/error-management/expected-errors/#catchall
 			- Handles all errors in an effect by providing a fallback effect.
@@ -432,6 +436,7 @@ type:: library
 		- TODO
 	- ### `either` - move the errror into success channel
 - ## Error Management
+  collapsed:: true
 	- ### `Effect.retry` - Retrying
 		- https://effect.website/docs/error-management/retrying/#retry
 		- ```ts
@@ -634,6 +639,7 @@ type:: library
 		  | `span` | (Optional) The duration of a span in milliseconds, providing insight into the timing of operations. |
 	- ### Log Levels
 		- https://effect.website/docs/observability/logging/#log-levels
+-
 - ## Advanced Features
 	- ### Data Validation
 		- Use the Schema module for validating inputs and outputs.
