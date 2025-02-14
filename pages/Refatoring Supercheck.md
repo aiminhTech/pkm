@@ -1,0 +1,12 @@
+-
+-
+- `healthcheck.ts`
+	- async/await => Effect
+	- eitherway => Either
+	- Promise.all() => Effect.all(), concurrency
+- ` fetch.ts`
+	- async/await => Effect
+	- eitherway => Either
+	- Promise.all() => Effect.all(), concurrency
+- `executor.ts`
+	- remove PQueue

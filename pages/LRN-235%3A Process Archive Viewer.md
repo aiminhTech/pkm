@@ -24,7 +24,8 @@ tags:: [[IGE]], [[S3]]
 		  collapsed:: true
 			- {{embed ((66bded88-8a50-4ec3-a9bc-79f48af21d10))}}
 		- #### [[Elastic Search]]
-			- {{embed ((66cc7663-c057-4a83-affc-eeaefc514740))}}
+			- {{embed ((66cc7663-c057-4a83-affc-eeaefc514740))}}1
+			  id:: 673d95bf-62d7-4db1-ba9c-7b4a1b3fd929
 	- ### Testing
 		- https://issues.ipip.ch/browse/LRN-247
 	- ### Deployment
