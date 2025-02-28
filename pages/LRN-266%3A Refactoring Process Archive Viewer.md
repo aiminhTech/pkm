@@ -1,1 +1,1 @@
-- https://issues.ipip.ch/browse/LRN-266
+jira:: https://issues.ipip.ch/browse/LRN-266

@@ -7,6 +7,7 @@ tags:: [[Effect TS]], [[Zod]], [[Quicktype]]
 	- Crash Course: [https://www.youtube.com/watch?v=nQA_JsCozU4](https://www.youtube.com/watch?v=nQA_JsCozU4)
 	- Compare with Zod: [https://github.com/Effect-TS/effect/blob/main/schema/comparisons.md](https://github.com/Effect-TS/effect/blob/main/schema/comparisons.md)
 - ## Defining a schema
+  collapsed:: true
 	- https://effect.website/docs/schema/getting-started/#defining-a-schema
 	- One common way to define a `Schema` is by ultilizing the `Struct` constructor. This allows to create a new schema that outlines an object with specific properties.
 		- ```ts
@@ -22,6 +23,7 @@ tags:: [[Effect TS]], [[Zod]], [[Quicktype]]
 - ## Encode
 	- Encoding is the process of **transforming structured TypeScript values** into another format, often for serialization *(sending data to an API, database, or UI)*
 - ## Decode
+  collapsed:: true
 	- Decoding is the process of **validating and transforming** input data *(user input, API repsonse*) into a strongly typed Typescript value.
 	- ### decodeUnknown
 		- Eine Funktion, die es ermöglicht, **beliebige unbekannte Daten (`unknown`) in ein spezifisches Schema zu dekodieren und zu validieren**
