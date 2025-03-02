@@ -18,26 +18,23 @@
 - ## Popular hash functions
 	- ### MD5 (Message-Digest Algorithm 5)
 		- **Length**: Produces a 128-bit hash value.
-		- **History**: Developed by Ronald Rivest in 1991.
 		- **Usage**: Was widely used in the past for checksums and password hashing.
 		- **Security**: Considered insecure by modern standards due to vulnerabilities allowing for hash collisions (two different 
 		  inputs producing the same hash). This makes it unsuitable for security-sensitive applications.
 	- ### SHA-1 (Secure Hash Algorithm 1)
 		- **Length**: Produces a 160-bit hash value.
-		- **History**: Developed by the National Security Agency (NSA) and published by the National Institute of Standards and 
-		  Technology (NIST) in 1995.
 		- **Usage**: Used in various security applications and protocols, including TLS and SSL, until vulnerabilities were discovered.
 		- **Security**: Known to be vulnerable to collision attacks since 2005, and major organizations typically mandate phasing it
 		  out in favor of more secure alternatives.
 	- ### SHA-256 (Secure Hash Algorithm 256)
 		- **Length**: Produces a 256-bit hash value.
-		- **History**: Part of the SHA-2 family developed by the NSA and standardized by NIST in 2001.
 		- **Usage**: Widely used in various security protocols, including SSL/TLS, Bitcoin, and digital signatures.
 		- **Security**: Currently considered very secure and collision-resistant, making it a popular choice for contemporary cryptographic needs.
-	- ### Why SHA-256 is Recommended:
-		- **Security**: SHA-256 is part of the SHA-2 family, which offers significant improvements over both MD5 and SHA-1. It is 
-		  resistant to known collision attacks, making it suitable for applications requiring high security.
-		- **Adoption**: SHA-256 is adopted by numerous security systems, including SSL/TLS, and is considered the standard for secure hashing.
-		- **Performance**: While more complex than MD5 and SHA-1, the performance of SHA-256 is acceptable for most applications, and the
-		  increased security is usually a worthwhile trade-off.
+		-
+- ## Why SHA-256 is Recommended
+	- **Security**: SHA-256 is part of the SHA-2 family, which offers significant improvements over both MD5 and SHA-1. It is 
+	  resistant to known collision attacks, making it suitable for applications requiring high security.
+	- **Adoption**: SHA-256 is adopted by numerous security systems, including SSL/TLS, and is considered the standard for secure hashing.
+	- **Performance**: While more complex than MD5 and SHA-1, the performance of SHA-256 is acceptable for most applications, and the
+	  increased security is usually a worthwhile trade-off.
 -

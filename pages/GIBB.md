@@ -24,5 +24,4 @@
 - ## Semester 6
 	- [[IT-Kleinprojekt abwickeln]]
 	- [[Applikationsicherheit implementieren]]
-	- [[Business Innovation Idea]] #ABU
--
+	- [[Markt und Konsum]] #ABU
