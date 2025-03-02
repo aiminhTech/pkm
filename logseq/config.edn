@@ -324,4 +324,5 @@
  :graph/forcesettings {:link-dist 180
  :charge-strength 1000
  :charge-range 4000}
+ :ui/show-brackets? false
  }
