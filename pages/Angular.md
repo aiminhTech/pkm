@@ -439,12 +439,10 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 					- `carList: Car[] = [{ make: 'Foyoda', model: 'Famery' }, { make: 'Ronda', model: 'Disaccord' }];`: Initializes a list of two cars.
 					- `addCarToSaved(car: Car)`: Method that adds a car to the `savedCarList` when called.
 - ## Navigation
-  collapsed:: true
 	- `route-outlet`
 		- A `router-outlet` in Angular is a directive that acts as a placeholder within your application where the router will dynamically insert the component for the active route.
 		- Essentially, it's where the routed component's template will be displayed.
 	- ### Routing
-	  collapsed:: true
 		- `app.routes.ts`: Defines the routing configuration
 			- ```ts
 			  //app.routes.ts
@@ -480,7 +478,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 				- Imports `provideRouter` from `@angular/router` which is used to configure the router with the defined routes.
 				- `appConfig` is an `ApplicationConfig` object where router providers are listed.
 		- `app.component.ts`
-		  collapsed:: true
 			- ```ts
 			  //app.component.ts
 			  import { Component } from '@angular/core';
@@ -531,18 +528,15 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  ```
 		- How to pass dynamic values to a route using placeholders and input binding
 	- ### Dynamic Routes
-	  collapsed:: true
 		- `app.routes.ts`
-			- ```ts
-			  //app.routes.ts
+			- //app.routes.ts
 			  
 			  export const routes: Routes = [
 			    {
 			      path: 'details/:id'
 			      component: DetailsComponent
 			    }
-			  ]	
-			  ```
+			  ]
 				- It sets up a route that matches the URL path `details/:id`, where `:id` is a route parameter. When this path is matched, the `DetailsComponent` will be displayed.
 		- `app.config.ts`
 		  collapsed:: true
@@ -636,7 +630,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 			  }
 			  ```
 	- ### Use URL Parameters & Query Parameters
-	  collapsed:: true
 		- Extra pieces of information about the page that are added to the URL
 		- ==**Advantage of using query params over URL params:**== query paramsallow us to share the extract state of an application by copying and pasting the URL. This makes it convenient to send specific configurations or settings to someone else
 		- #### URL (Route) Parameters
