@@ -67,7 +67,6 @@ title:: TypeScript
 			  }
 			  ```
 	- ### Intersection Types `&`
-	  collapsed:: true
 		- Represent a value that must satisfy all of several types simultaneously. I
 		- It's like a logical ==AND== for types.
 		- *Essentially, ***`&` means “anything that is in both sets” in terms of the allowed values***, and because of this, we can use ***“any of the behavior definitely present on members of *either* set”.**
