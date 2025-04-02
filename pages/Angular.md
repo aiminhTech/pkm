@@ -529,15 +529,19 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		- How to pass dynamic values to a route using placeholders and input binding
 	- ### Dynamic Routes
 		- `app.routes.ts`
-			- //app.routes.ts
-			  
+			- ```ts
+			  //app.routes.ts
+			    
 			  export const routes: Routes = [
 			    {
-			      path: 'details/:id'
-			      component: DetailsComponent
+			      path: 'details/:id'  
+			        component: DetailsComponent
 			    }
 			  ]
-				- It sets up a route that matches the URL path `details/:id`, where `:id` is a route parameter. When this path is matched, the `DetailsComponent` will be displayed.
+			  
+			  //It sets up a route that matches the URL path `details/:id`, where`:id` is a route parameter.
+			  //When this path is matched, the`DetailsComponent` will be displayed.
+			  ```
 		- `app.config.ts`
 		  collapsed:: true
 			- ```ts
@@ -553,7 +557,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 				- It sets up an `ApplicationConfig` object called `appConfig` which includes providers for the router.
 				- Specifically, it uses `provideRouter` to supply the routing configuration, and `withComponentInputBinding` to enable input binding from the router.
 		- `details.component.ts`
-		  collapsed:: true
 			- ```ts
 			  import { Component, Input } from '@angular/core';
 			  import { CommonModule } from '@angular/common';
@@ -603,7 +606,6 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 			- `productId`: An integer property initialized to 0.
 			- `@Input() set id(value: number)`: A setter method to set `productId` from the input binding
 		- `app.component.ts`
-		  collapsed:: true
 			- ```ts
 			  import { Component } from '@angular/core';
 			  import { RouterOutlet, RouterLink } from '@angular/router';
@@ -643,8 +645,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 				  
 				  ```
 			- **Accessing Route Parameters**
-				- ```ts
-				  // 
+				- // 
 				  // To access these parameters in your component, use the ActivatedRoute 
 				  // service
 				  
@@ -665,10 +666,10 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 				      this.userId = this.route.snapshot.paramMap.get('id') || "";
 				    }
 				  }
-				  ```
 		- #### Query Parameters
 			- Query parameters *are used for optional data that does not fit into the route pattern*
 			- **Accessing Query Parameters**
+			  collapsed:: true
 				- ```ts
 				  
 				  export class MyComponent implements OnInit {
