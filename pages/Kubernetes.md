@@ -1,5 +1,5 @@
 alias:: K8S, 
-tags:: [[LRN-197: tmb]], [[hello-openshift]]
+tags:: [[LRN-197: TMB]], [[hello-openshift]]
 
 - https://kubernetes.io/
 - open-source system for automating deployment, scaling, and management of containerized applications.

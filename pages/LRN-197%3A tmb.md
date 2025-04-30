@@ -1,6 +1,6 @@
 tags:: [[IGE]], Typescript, Deno Fresh, TailwindCSS
 
-- Trademark Browser App
+- **Trademark Browser App**
 - https://issues.ipip.ch/browse/LRN-197
 - https://git.ipip.ch/users/quach/repos/tmb/browse
 - ## Official links:

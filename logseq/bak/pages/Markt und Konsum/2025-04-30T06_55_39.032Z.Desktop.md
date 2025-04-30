@@ -1,0 +1,34 @@
+tags:: [[ABU]]
+
+- **Bedürfnisse**
+	- Existenz/Wahl
+	- individuelle/kollektiv
+	- materiell/immateriell
+- **Gütern**
+	- wirtschaftlich/frei
+	- Sachgüter/Dienstleistungen
+	- Konsumgüter/Investitionsgüter
+	- Gebrauchtsgüter/Verbrauchtsgüter
+- **Produktentwicklung**
+	- Spass
+	- Nachaltigkeit
+	- Umsetzbarkeit
+	- Kaufkriterien
+	- Trends, Problemlösung, Fähigkeiten
+- ## Der Markt und die Preisbildung
+	- ### Nachfragekurve
+		- **Preise sinken → nachgefragte Menge größer**
+			- Wenn die Preise sinken, haben mehr Menschen die Möglichkeit, das Produkt oder die Dienstleistung zu kaufen, wodurch die nachgefragte Menge steigt.
+		- **Preise steigen → nachgefragte Menge kleiner**
+			- Wenn die Preise steigen, werden weniger Menschen bereit oder in der Lage sein, das Produkt zu kaufen, was die nachgefragte Menge reduziert.
+	- ### Angebotskurve
+		- **Preis steigt → angebotene Menge größer**
+			- Wenn der Preis steigt, haben Produzenten einen grösseren Anreiz, mehr von einem Gut oder einer Dienstleistung anzubieten, um von den höheren Preisen zu profitieren.
+		- **Preis sinkt → angebotene Menge kleiner**
+			- Wenn der Preis sinkt, sinkt auch der Anreiz für Produzenten, mehr anzubieten, da die Gewinnspanne geringer wird.
+			-
+	- ### Verschiebung der Angebotskurve
+		- Eine Verschiebung der Angebotskurve tritt auf, wenn sich Faktoren ändern, die die Produktionsbedingungen beeinflussen, aber nicht direkt den Preis betreffen. Beispiele für solche Faktoren:
+		- **Produktionskosten steigen → Angebotskurve verschiebt sich nach links**: Wenn die Produktionskosten steigen (z.B. durch teurere Rohstoffe, höhere Löhne oder strengere Regulierungen), wird das Angebot teurer, und Produzenten sind möglicherweise weniger bereit oder in der Lage, die gleiche Menge zu liefern, was die Angebotskurve nach links verschiebt.
+		- **Produktionskosten sinken → Angebotskurve verschiebt sich nach rechts**: Wenn die Produktionskosten sinken (z.B. durch technologische Innovationen oder günstigere Rohstoffe), wird es für Produzenten günstiger, mehr zu produzieren, und die Angebotskurve verschiebt sich nach rechts.
+-

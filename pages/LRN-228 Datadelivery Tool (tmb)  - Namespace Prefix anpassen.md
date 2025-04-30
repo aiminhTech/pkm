@@ -1,3 +1,3 @@
-tags:: [[IGE]], [[LRN-197: tmb]]
+tags:: [[IGE]], [[LRN-197: TMB]]
 
 - https://issues.ipip.ch/browse/LRN-228

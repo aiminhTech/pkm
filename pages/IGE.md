@@ -1,17 +1,18 @@
 ## Others
 	- [[LELA Präsi]]
 - ## Projects
-  collapsed:: true
 	- ### Vorlehre
 		- [[Memory Game]]
 	- ### 2. Lehrjahr
 		- [[hello-openshift]]
-		- [[LRN-197: tmb]]
+		- [[LRN-197: TMB]]
 		- [[LRN-202: AI Chat]]
 		- [[LRN-213: Supercheck Website]]
 	- ### 3. Lehrjahr
 		- [[LRN-235: Process Archive Viewer]]
+		- [[LRN-276: Data Delivery Explorer]]
 - ## Login Info
+  collapsed:: true
 	- ### S3 
 	  id:: 66bded88-8a50-4ec3-a9bc-79f48af21d10
 	  collapsed:: true
