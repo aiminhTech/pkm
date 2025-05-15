@@ -19,5 +19,46 @@
 	  
 	  </ApiRequest>
 	  
+	  
 	  ```
+- **Example Request**
+	- ```xml
+	  <?xml version="1.0"?>
+	  <ApiRequest xmlns="urn:ige:schema:xsd:datadeliverycore-1.0.0" xmlns:pat="urn:ige:schema:xsd:datadeliverypatent-1.0.0"  xmlns:tmk="urn:ige:schema:xsd:datadeliverytrademark-1.0.0">
+	    <Action type="PatentSearch">
+	      <pat:PatentSearchRequest xmlns="urn:ige:schema:xsd:datadeliverycommon-1.0.0">
+	        <Representation details="Maximal" images="Link" strictness="Strict">
+	          <Resource role="item" action="Embed"/>
+	          <Resource role="BibliographicData" action="Embed"/>
+	          <Resource role="PatentLegalStatusData" action="Embed"/>
+	          <Resource role="PatentPublication" action="Embed"/>
+	        </Representation>
+	        <Page size="50"/>
+	        <Query>
+	          <And>
+	            <pat:PatentNumber>*</pat:PatentNumber>
+	          </And>
+	        </Query>
+	        <Sort>
+	          <pat:PatentNumberSort>Descending</pat:PatentNumberSort>
+	        </Sort>
+	      </pat:PatentSearchRequest>
+	    </Action>
+	   <Action type="TrademarkSearch">
+	      <tmk:TrademarkSearchRequest xmlns="urn:ige:schema:xsd:datadeliverycommon-1.0.0">
+	        <Representation details="Maximal" images="Link" strictness="Strict" itemBags="false">
+	          <Resource role="item" action="Embed"/>
+	        </Representation>
+	        <Page size="10"/>
+	        <Query>
+	          <And>
+	            <Id>*</Id>
+	          </And>
+	        </Query>
+	      </tmk:TrademarkSearchRequest>
+	    </Action>
+	  </ApiRequest>
+	  
+	  ```
+-
 -
