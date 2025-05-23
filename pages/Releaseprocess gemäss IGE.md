@@ -8,6 +8,7 @@ tags:: [[IGE]], [[OpenShift]], [[Jenkins]], [[Nexus Repository]], [[Hashicorp Va
 	- **Guidelines:** [Openshift Guidelines](https://wiki.ipip.ch/display/SWE/Openshift+Guidelines)
 	- **Project path wks:** `/ige/jp/ops/ansible-apps`
 		- test cmd: `ipi-ansible-playbook -i inventories/entwicklung/ -p process_archive_viewer`
+		  id:: 67593df3-8891-4867-9277-4944b57c2b60
 	- **Bitbucket:** https://git.ipip.ch/projects/OPS/repos/ansible-apps/browse
 - ## Realeasprocess
 	- ### Repository publizieren
@@ -20,3 +21,5 @@ tags:: [[IGE]], [[OpenShift]], [[Jenkins]], [[Nexus Repository]], [[Hashicorp Va
 	- ### Integration in Ansible-Apps
 		- Die Integration in Ansible-Apps erstellen (playbook, inventories und andere notwendigen Komponente)
 -
+- ## Release Versionierung
+	- {{embed [[Semantische Versionierung]]}}

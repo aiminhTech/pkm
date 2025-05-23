@@ -1,0 +1,9 @@
+- Die Versionsnummerierung nach dem sogenannten "Semantic Versioning" Schema folgt üblicherweise dem Format `MAJOR.MINOR.PATCH`
+- **PATCH-Version (z.B. 1.0.1)**
+	- Diese Zahl wird erhöht, wenn kleine Fehlerbehebungen oder Bugfixes vorgenommen werden, die die Funktionalität nicht verändern. Die Abwärtskompatibilität bleibt dabei gewährleistet.
+- **MINOR-Version (z.B. 1.1.0)**
+	- Diese Zahl wird erhöht, wenn neue Funktionen oder signifikante Verbesserungen hinzugefügt werden, die aber rückwärtskompatibel sind. Es bedeutet, dass der bestehende Code weiterhin funktioniert und keine größere Umstellung notwendig ist.
+- **MAJOR-Version (z.B. 2.0.0)**
+	- Diese Zahl wird erhöht, wenn nicht abwärtskompatible Änderungen vorgenommen werden. Das kann bedeutende neue Funktionen oder radikale Änderungen der bisherigen Funktionen beinhalten. In solchen Fällen müssen Nutzer mit Anpassungen rechnen, um die neue Version nutzen zu können.
+-
+-

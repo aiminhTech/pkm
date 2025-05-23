@@ -3,8 +3,9 @@ tags:: [[IGE]], [[S3]]
 - https://issues.ipip.ch/browse/LRN-235
 - https://wiki.ipip.ch/pages/viewpage.action?pageId=178930536
 -
+- ## Ansible Deploy Dev
+	- `ipi-ansible-playbook -i inventories/entwicklung/ -p process_archive_viewer`
 - ## Project Links
-  collapsed:: true
 	- **JIRA**: https://issues.ipip.ch/browse/LRN-235
 	- **Bitbucket**: https://git.ipip.ch/users/quach/repos/process-viewer/browse
 	- **Openshift**:
@@ -51,5 +52,5 @@ tags:: [[IGE]], [[S3]]
 	- [[LRN-244: Frontend Verbesserung Landingpage]]
 	- [[LRN-245: Backend Integration Testing]]
 	- [[LRN-246: : Frontend Implementierung Paging in Business-Transaction-View]]
-	- [[LRN-247: Release Process Archive Viewer (OCI Image und Deployment gemäss IGE Guildeline)]]
+	- [[LRN-247: Release Process Archive Viewer mit Ansible]]
 	- [[LRN-255: Manuelles Testen und Fehlerbehebung vor Release]]

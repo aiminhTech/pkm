@@ -1,6 +1,7 @@
 - https://issues.ipip.ch/browse/LRN-276
 -
--
+- ## Ansible Deploy Dev
+	- `ipi-ansible-playbook -i inventories/entwicklung/ -p data_delivery_explorer`
 - **DataDelivery Test Request mit mehreren Continuations**
 	- [https://dev-www.swissreg.ch/public/apidocs/reference/actions.html#echo-action](https://dev-www.swissreg.ch/public/apidocs/reference/actions.html#echo-action)
 	- ```xml
