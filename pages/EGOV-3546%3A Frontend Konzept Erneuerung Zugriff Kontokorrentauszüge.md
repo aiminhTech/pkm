@@ -1,21 +1,16 @@
-tags:: [[Nx]], [[Cypress]]
+tags:: [[Nx]], [[Cypress]], [[i18n]]
 
 - https://issues.ipip.ch/browse/EGOV-3546
 -
 - ## Bestehende Applikation finden (git)
 	- **Testkonto**: https://dev-procedure.ipi.ch/procedure-client/account-transactions
 	- **Git Repo**:
-		- https://git.ipip.ch/projects/NPM/repos/ipi-ng/browse
+		- **IPI-NG:** https://git.ipip.ch/projects/NPM/repos/ipi-ng/browse
+		- **Procedure-App**: https://git.ipip.ch/projects/NPM/repos/ipi-ng/browse/apps/egov/procedure-app
+			- https://git.ipip.ch/projects/NPM/repos/ipi-ng/browse/apps/egov/procedure-app
 	- ### Entwicklungsumgebung einrichten
 		- Install [[Cypress]] nach Anleitung im README (Binary manuell Downloaden)
 		- Projekt starten: `npm serve:egov-procedure-app`
 - ## Bestehende Applikation verstehen
-	- https://git.ipip.ch/projects/NPM/repos/ipi-ng/browse/apps/egov/procedure-app
-	- **State-Management** (Wo und wie werden Daten gespeichert?):
-	- **Backend Aufrufe**
-		- **Aufruf Mechanismus:**
-		- URL Struktur
-	- Routing-Konzept
-	- Tabellen und Paging
-	- Download Mechanismus
-	- [[i18n]]
+	-
+	-
