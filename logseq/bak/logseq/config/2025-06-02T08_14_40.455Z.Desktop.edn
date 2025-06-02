@@ -221,7 +221,7 @@
  :ref/linked-references-collapsed-threshold 50
 
  ;; Favorites to list on the left sidebar
- :favorites ["docker" "Angular" "normalisierung"]
+ :favorites ["Angular" "normalisierung"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
@@ -319,9 +319,10 @@
  :file/name-format :triple-lowbar
  :feature/enable-journals? true
  :journal/page-title-format "yyyy-MM-dd EEEE"
- :graph/settings {:journal? false
+ :graph/settings {:journal? true
  :builtin-pages? true}
  :graph/forcesettings {:link-dist 180
  :charge-strength 1000
  :charge-range 4000}
+ :ui/show-brackets? false
  }

@@ -1,12 +1,7 @@
-tags:: [[node.js]], [[Programming Language]]
+tags:: [[node.js]], [[Programming Language]], [[JS EventLoop]], [[Scope & Closure]], [[Data Types]], [[Syntax]]
 
-- [[Syntax]]
-- [[Data Types]]
-- [[JS EventLoop]]
-- [[Scope & Closure]]
 -
 - ## JS im Browser
-  collapsed:: true
 	- https://developer.mozilla.org/en/
 	- JS wird vom Browser ausgeführt
 		- beim Laden von <script> tags in [[HTML]]
@@ -84,7 +79,6 @@ tags:: [[node.js]], [[Programming Language]]
 		- ![image.png](../assets/image_1691002410220_0.png)
 		-
 - ## Kommunikation mit dem Webserver
-  collapsed:: true
 	- ### Der Begriff Webserver
 	  collapsed:: true
 		- Liefert Dokumente an Clients aus

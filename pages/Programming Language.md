@@ -2,3 +2,5 @@
 - [[C#]]
 - [[TypeScript]]
 - [[JavaScript]]
+- [[Haskell]]
+-

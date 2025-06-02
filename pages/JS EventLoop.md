@@ -1,13 +1,11 @@
 tags:: [[JavaScript]]
 
 - ## Learn Videos & Links
-  collapsed:: true
 	- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop
 	- https://chanduivaturi.medium.com/non-blocking-dom-fdaeb3ddd08a
 	- {{video https://www.youtube.com/watch?v=eiC58R16hb8}}
 	-
 - ## Single-threaded
-  collapsed:: true
 	- JavaScript is single-threaded and can only handle one task at a time.
 	- At any given time, only one piece of code is being executed, and concurrent operations are handled by **event loop** mechanisms.
 	- ## Problem
@@ -19,7 +17,6 @@ tags:: [[JavaScript]]
 			- promises
 			- async/await to handle non-blocking I/O operations and keep the application responsive
 - ## JavaScript Runtime
-  collapsed:: true
 	- ### Call Stack
 		- The excution of the programm
 	- ### Memory heap

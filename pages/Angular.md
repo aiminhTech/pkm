@@ -44,6 +44,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 	  sudo npm install -g @angular/cli
 	  ```
 - ## Angular CLI
+  collapsed:: true
 	- https://v17.angular.io/cli
 	- ### Create new project
 		- ```bash
@@ -439,6 +440,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 					- `carList: Car[] = [{ make: 'Foyoda', model: 'Famery' }, { make: 'Ronda', model: 'Disaccord' }];`: Initializes a list of two cars.
 					- `addCarToSaved(car: Car)`: Method that adds a car to the `savedCarList` when called.
 - ## Navigation
+  collapsed:: true
 	- `route-outlet`
 		- A `router-outlet` in Angular is a directive that acts as a placeholder within your application where the router will dynamically insert the component for the active route.
 		- Essentially, it's where the routed component's template will be displayed.
