@@ -1,8 +1,10 @@
 module:: M450
+children:: [[E2E]], [[Unit Test]], [[Intergration Test]]
 
 - Applikation werden getestet, um sicherzustellen, dass sie fehlerfrei, sicher, leistungsfähig und benutzerfreundlich sind.
 -
 - ## Das Testkonzept
+  collapsed:: true
 	- Ein ist ein Dokument oder eine schriftliche Vereinbarung, das Strategien, Ziele, Pläne und Annahmen für das Testen eines Softwareprojekts oder Systems beschreibt. Es dient dazu, die Testaktivitäten klar zu strukturieren und allen Beteiligten ein einheitliches Verständnis zu vermitteln.
 	- Die wichtigsten Elemente eines Testkonzepts sind:
 		- **Zielsetzung**: Beschreibung der Testziele, z. B. Fehleridentifikation oder Qualitätsprüfung.
@@ -17,6 +19,7 @@ module:: M450
 		- **Testmetriken und Berichte**: Festlegung von Messkriterien und Berichtsformaten.
 		- **Verantwortlichkeiten**: Zuweisung von Rollen und Aufgaben.
 	- ### Testobjekt
+	  collapsed:: true
 		- Das Testobjekt ist ==das Ziel der Testaktivitäten== in der Softwareentwicklung. Die Auswahl des Testobjekts ist entscheidend, um die Testziele zu erreichen und die Projektanforderungen effektiv abzudecken.
 		- Es kann je nach Testtyp und -ziel variieren. Gängige Beispiele sind:
 			- **Softwareanwendung**: Eine Webanwendung, mobile App, ein Desktop-Programm oder andere Software.
@@ -26,6 +29,7 @@ module:: M450
 			- **Datenbanken**: Geprüft auf Integrität, Konsistenz und Leistung.
 			- **Hardware-Software-Systeme**: Kombinationen aus Hardware und Software, wie bei eingebetteten Systemen.
 	- ### Systemkontextdiagramm
+	  collapsed:: true
 		- Ein Systemkontextdiagramm visualisiert die Interaktionen zwischen einem zu entwickelnden System und seiner Umgebung. Es bietet einen Überblick über die Systemgrenzen und zeigt die Schnittstellen zu externen Entitäten.
 		- **Hauptkomponenten**:
 			- **Das System**: Im Zentrum des Diagramms, z. B. eine Software, Hardware oder ein komplexes System.
@@ -40,6 +44,7 @@ module:: M450
 			- Unterstützt die Kommunikation zwischen Entwicklern und Stakeholdern.
 			- Ausgangspunkt für detailliertere Modelle und Diagramme.
 	- ### Systemarchitektur
+	  collapsed:: true
 		- Das Testobjekt näher betrachten lässt sich durch ein
 		- Die Systemarchitektur beschreibt die Struktur und Organisation eines Systems, inklusive seiner Komponenten, deren Interaktionen und Zusammenwirken.
 		- **Hauptaufgaben der Systemarchitektur:**
@@ -52,6 +57,7 @@ module:: M450
 			- Client-Server-Architektur
 			- Microservices-Architektur
 	- ### Schichtenmodel
+	  collapsed:: true
 		- Das Schichtenmodell ist ein strukturiertes Framework, das Systeme in funktionale Ebenen unterteilt. Typische Schichten in der Softwareentwicklung sind:
 			- **Präsentationsschicht**: Benutzerschnittstelle und Darstellung.
 			- **Logikschicht**: Geschäftslogik und Regeln.
@@ -64,6 +70,7 @@ module:: M450
 		- **Beispiel**:
 			- ![Screenshot 2024-11-19 at 14.46.03.png](../assets/Screenshot_2024-11-19_at_14.46.03_1732023967417_0.png)
 	- ### Kritikalität der Funktionseinheiten
+	  collapsed:: true
 		- Die Kritikalität der Funktionseinheiten bewertet die Bedeutung einzelner Komponenten eines Systems, um deren Auswirkungen im Falle eines Fehlers oder Ausfalls zu analysieren. Dies ist ein zentraler Aspekt des Risikomanagements.
 		- **Wichtige Aspekte:**
 			- **Identifikation der Funktionseinheiten**: Festlegen, welche Module, Subsysteme oder Komponenten analysiert werden sollen.
@@ -86,6 +93,7 @@ module:: M450
 			- **Testpriorität:**
 				- Die Funktion **Speichern** hat die höchste Priorität bei Tests, gefolgt von **Text eingeben**. **Drucken** hat eine geringere Priorität, da der Verlust dieser Funktion das Programm nicht unbrauchbar macht.
 	- ### Testanforderungen (Normal-, Grenz- und Ausnahmebedingungen)
+	  collapsed:: true
 		- Testanforderungen legen fest, welche Kriterien und Bedingungen während eines Tests überprüft werden müssen, um die Funktionsfähigkeit und Zuverlässigkeit einer Software oder eines Systems sicherzustellen.
 		- Diese Tests helfen, die Software unter verschiedenen Bedingungen zu überprüfen und ihre Stabilität und Zuverlässigkeit zu garantieren.
 		- Diese Anforderungen lassen sich in verschiedene Kategorien unterteilen:
@@ -95,6 +103,7 @@ module:: M450
 			- **Höchstleistungen**: Testet die Leistungsfähigkeit und Skalierbarkeit der Software unter extremen Belastungen, z. B. bei hoher Geschwindigkeit oder vielen Benutzern.
 			- **Komponentenausfall**: Testet, wie die Software auf Ausfälle einzelner Komponenten reagiert und sicherstellt, dass das System weiterhin verfügbar bleibt.
 	- ### Funktionale und nicht funktionale Anforderungen
+	  collapsed:: true
 		- Funktionale und nicht-funktionale Anforderungen sind zwei grundlegende Arten von Anforderungen in der Softwareentwicklung, die die Funktionalität und die Qualitätsmerkmale eines Systems beschreiben.
 		- **Funktionale Anforderungen**:
 			- Diese definieren, welche Funktionen das System bereitstellen muss. Sie werden oft als User Stories formuliert.
@@ -140,8 +149,4 @@ module:: M450
 				- **Fehlerartbasierte Klassifizierung**: Mängel werden nach ihrer Art kategorisiert, z. B. Benutzeroberflächenfehler, Funktionsfehler, Leistungsprobleme oder Sicherheitslücken.
 				- **Phasenbasierte Klassifizierung**: Mängel werden basierend auf der Phase des Entwicklungsprozesses, in der sie entdeckt wurden, klassifiziert, um Fehlertrends zu erkennen.
 				- **Auswirkungsbasierte Klassifizierung**: Fehler werden nach ihren potenziellen Auswirkungen auf Benutzer, Software oder das Unternehmen bewertet, um Ressourcen effizienter zu verteilen.
--
-- ## Testarten
-	- Die verschiedene Ansätze und Methoden, die verwendet werden, um die Qualität und Funktionalität von Softwareprodukten zu übeprüfen
-	- ### Systemtest
-		- Komplettes Software- oder Hardware-System auf seine Funktionalität
+	-

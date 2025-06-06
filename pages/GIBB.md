@@ -16,7 +16,7 @@
 	- [[Geschäftsprozesse beschreiben]]
 - ## Semester 5
 	- [[Funktional Programmieren]] #Haskell
-	- [[Applikationen testen]]
+	- [[Application Testing]]
 	- [[Facetten der Migration]] #ABU
 	- [[Globale Auswirkungen unseres Lebensstils]] #ABU
 	- [[Sprache und Kommunikation]] #ABU

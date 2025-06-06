@@ -1,5 +1,5 @@
-## Others
-	- [[LELA Präsi]]
+project:: [[IGE Procedure App]], [[LRN-235: Process Archive Viewer]], [[LRN-276: Data Delivery Explorer]]
+
 - ## Projects
 	- ### Vorlehre
 		- [[Memory Game]]
@@ -11,6 +11,9 @@
 	- ### 3. Lehrjahr
 		- [[LRN-235: Process Archive Viewer]]
 		- [[LRN-276: Data Delivery Explorer]]
+		- **Procedure-App**
+			- [[EGOV-3553: Frontend Umsetzung Erneuerung Zugriff Kontokorrentauszüge]]
+			- [[EGOV-3553: Frontend Umsetzung Erneuerung Zugriff Kontokorrentauszüge]]
 - ## Login Info
   collapsed:: true
 	- ### S3 
@@ -65,8 +68,12 @@
 - ## Ressourcen
 	- **Database**: https://database.ipi.ch/database-client/search
 	- **JIRA**: https://issues.ipip.ch/secure/Dashboard.jspa
-		- **Nexus**:
-		  id:: 673d9735-2f8d-4a08-a424-6ea83787b6bc
-		  collapsed:: true
-			- https://containers.ipip.ch/#browse/welcome
-			- https://repository.ipip.ch/repository/npm-jsr-registry/
+	- **Nexus**:
+	  id:: 673d9735-2f8d-4a08-a424-6ea83787b6bc
+	  collapsed:: true
+		- https://containers.ipip.ch/#browse/welcome
+		- https://repository.ipip.ch/repository/npm-jsr-registry/
+-
+- ## Others
+	- [[LELA Präsi]]
+-

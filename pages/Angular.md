@@ -1,4 +1,5 @@
 tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule]], [[Angular Material]]
+related:: [[Vue.js]], [[React]]
 
 - https://angular.dev/
 - Angular is a web framework used to be build scalable web apps with confidence
@@ -692,6 +693,7 @@ tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule
 		  ];
 		  ```
 - ## Forms
+  collapsed:: true
 	- **We have 2 ways to define forms and gather input from users**
 	- ### Template Driven Forms (Uncontrolled Forms)
 		- *We let the DOM handle all the form's functionality*
