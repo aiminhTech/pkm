@@ -1,5 +1,5 @@
 module:: M450
-children:: [[E2E]], [[Unit Test]], [[Intergration Test]]
+child:: [[E2E]], [[Unit Test]], [[Intergration Test]]
 
 - Applikation werden getestet, um sicherzustellen, dass sie fehlerfrei, sicher, leistungsfähig und benutzerfreundlich sind.
 -
