@@ -11,3 +11,4 @@ tags:: [[IGE]]
 		- **Buildjob:** https://build.ipie.ch/job/egov-procedure-app/
 		- **Maven:** https://build.ipie.ch/job/public-frontend-procedure/
 		- **Deployment**: https://build.ipie.ch/view/EGov/view/Deploy%20development/job/public-frontend-procedure-ear__development/
+		- **Config-DMZ**: https://build.ipie.ch/job/config-fill-dmz__development/
