@@ -30,5 +30,5 @@ tags:: Webdesign, [[HTML Tags]], [[HTML Schemantische Tags]], ARIA
 		- ![Bildschirmfoto 2023-07-27 um 12.11.43.png](../assets/Bildschirmfoto_2023-07-27_um_12.11.43_1690434705097_0.png)
 		- Mit HTML machen wir nichts anderes als die auf einer Webseite enthaltene Information zu
 		  strukturieren und den einzelnen Informationen so viel Bedeutung zu geben wie möglich.
-- ## Schemantische Tags
+- collapsed:: true
 	-

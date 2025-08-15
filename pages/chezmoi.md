@@ -1,0 +1,4 @@
+- https://github.com/twpayne/chezmoi
+- https://www.chezmoi.io/
+-
+- An open-source command-line tool designed to efficiently manage our personal configuration files, commonly known as *dotfiles* (like `~/.gitconfig`) across multiple machines in a secure, declarative, and flexible manne

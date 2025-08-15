@@ -1,7 +1,6 @@
 -
 - ## Architektur
-  collapsed:: true
-	- ![Bildschirmfoto 2024-05-23 um 09.37.35.png](../assets/Bildschirmfoto_2024-05-23_um_09.37.35_1716449857071_0.png)
+	- ![Bildschirmfoto 2024-05-23 um 09.37.35.png](../assets/Bildschirmfoto_2024-05-23_um_09.37.35_1716449857071_0.png){:height 442, :width 489}
 	- **Arbeitsdaten (Working Directory):** Die Dateien, an denen wir arbeiten, wie z.B. `program.cs`, sind auf unserem PC im Ordner `C:\Projekt\` gespeichert.
 	- **Staging Area und lokales Repository:** In einem versteckten Unterordner `C:\Projekt\.git\` befinden sich die Staging Area und das lokale Repository. Wir müssen uns nicht um die innere Struktur dieses Ordners kümmern.
 	- **Remote Repository:** Das Remote Repository, das in einer Cloudumgebung gespeichert ist, haben wir bereits ausgewählt.

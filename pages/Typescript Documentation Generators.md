@@ -1,0 +1,22 @@
+-
+- ## Docs Guidelines
+	- [https://jsr.io/docs/writing-docs#writing-documentation](https://jsr.io/docs/writing-docs#writing-documentation)
+	- [https://tsdoc.org/](https://tsdoc.org/)
+	- [https://github.com/TypeStrong/typedoc](https://github.com/TypeStrong/typedoc)
+		- `bun x typedoc --help`
+		- `bun x typedoc src/*.ts`
+-
+- ## Angular Frontend
+	- [https://compodoc.app/](https://compodoc.app/)
+	-
+	- `deno doc --output=out/docs --html  src/*.ts`
+		- [https://docs.deno.com/runtime/reference/cli/doc/#html-output](https://docs.deno.com/runtime/reference/cli/doc/#html-output)
+	-
+	- [https://overcast.blog/7-typescript-documentation-tools-generators-you-should-know-d7f1f474b1d8](https://overcast.blog/7-typescript-documentation-tools-generators-you-should-know-d7f1f474b1d8)
+	-
+	- [https://github.com/ts-docs/ts-docs](https://github.com/ts-docs/ts-docs)
+	- [https://github.com/gcanti/docs-ts](https://github.com/gcanti/docs-ts)
+	-
+	- [https://github.com/Effect-TS/effect/blob/main/package.json#L17](https://github.com/Effect-TS/effect/blob/main/package.json#L17)
+	- [https://github.com/Effect-TS/effect/blob/main/scripts/docs.mjs](https://github.com/Effect-TS/effect/blob/main/scripts/docs.mjs)
+	- [https://github.com/Effect-TS/docgen](https://github.com/Effect-TS/docgen)
