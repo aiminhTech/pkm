@@ -5,14 +5,24 @@
 	  id:: 666fdb0c-635c-4c74-9a21-5f65f0b6f1f3
 - ## Software update
 	- [[APT]]
-		- apt update
-		- apt upgrade
+		- ```bash
+		  sudo apt update
+		  sudo apt upgrade
+		  ```
 	- [[Deno]]
-		- deno upgrade
+		- ```bash
+		  deno upgrade
+		  ```
 	- [[bun]]
-		- bun upgrade
+		- ```bash
+		  bun upgrade
+		  ```
+- ## chezmoi #chezmoi
+	- ```bash
+	  cz-again
+	  cz-update
+	  ```
 - ### Fedora Linux VM
 	- #LABQAI100
 	- Sicherstelle, dass die VM läuft
--
 -

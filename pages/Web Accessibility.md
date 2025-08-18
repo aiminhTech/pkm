@@ -35,6 +35,7 @@ parent::  [[Website]], [[ARIA]]
 		- Foir example captions help deaf users, but also people watching videos in noisy places.
 -
 - ## Standard and Guidelines
+	- https://www.w3.org/TR/WCAG22/
 	- ### W3C -  World Wide Web Consortium
 	  collapsed:: true
 		- https://www.w3.org/
@@ -62,7 +63,6 @@ parent::  [[Website]], [[ARIA]]
 		-
 	-
 	- ### Conformance Levels in WCAG
-	  collapsed:: true
 		- **Level A** – Basic accessibility, minimum requirement.
 		- **Level AA** – The recommended standard; meets most legal requirements.
 		- **Level AAA** – The highest standard; often too strict for all content but ideal where possible.
@@ -98,4 +98,34 @@ parent::  [[Website]], [[ARIA]]
 			- Use **semantic elements** whenever possible. They come with **built-in accessibility**, saving time and reducing errors.
 -
 - ## Managing Focus & Tab Order
-	-
+	- ### Focus Styles
+		- When you press **Tab**, the browser moves focus to interactive elements (like links, buttons, inputs).
+		- Good websites **clearly show which element is focused** (with a border, highlight, or underline).
+		- Bad websites remove or hide focus indicators, leaving keyboard users lost
+	- ### Keyboard-Only & Tabbing
+		- Some users **only use the keyboard** (people with motor disabilities, or power users who prefer speed)
+		- By default, HTML supports keyboard navigation:
+			- **Tab** = move forward through interactive elements
+			- **Shift + Tab** = move backward
+		- Developers can:
+			- Use `tabindex="0"` to make custom elements focusable
+			- Add keyboard shortcuts for common actions
+			- Ensure tab order flows logically (not jumping randomly)
+- ## Color Contrast
+	- Good color contrast makes text **readable** for people with low vision or color blindness.
+	- Tools (like contrast checkers) can help ensure text meets **WCAG guidelines** for minimum contrast ratios.
+	- **Don’t rely only on color**. Some users can’t distinguish colors well, so color alone shouldn’t be the only way to show meaning (like errors, warnings, or success messages).
+	- ### Techniques
+		- **Alternative color schemes** – Offer themes (high-contrast mode or dark mode) that users can choose
+		- **Use icons or patterns** – Pair colors with icons, text, or shapes so the message is clear even without color
+		- Example: A red error message should also have an icon or text like “Error”
+	- ### Tools for Checking Contrast Radio
+		- **Browser Developer Tools**. They highlight whether the colors meet **WCAG AA or AAA** standards. #[[Chrome Developer Tools]]]
+-
+- ## Accessibility Tools
+	- **Google Lighthouse**
+		- CI/CD: https://github.com/GoogleChrome/lighthouse-ci
+	- **AXE DevTools by Deque**: https://www.deque.com/axe/
+		- CI/CD:  https://github.com/dequelabs/axe-core
+	- **Wave by WebAIM**: https://wave.webaim.org/
+-

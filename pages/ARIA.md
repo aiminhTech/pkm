@@ -13,3 +13,17 @@ tags:: [[HTML]], [[Web Accessibility]]
 	  ```
 -
 - ## ARIA Roles
+	- Give elements a **semantic role** for assistive tech.
+	- ```html
+	  <div role="button" tabindex="0">Submit</div>
+	  
+	  ```
+	- **Best practice:** Use real semantic elements (`<button>`) when possible. Only use ARIA when no native element fits.
+-
+- ## ARIA Live Regions
+	- Allow screen readers to **announce changes automatically** in certain areas of the page.
+	- When content inside this DIV updates, the screen reader will read it aloud
+	- ```html
+	  <div aria-live="polite">New messages will appear here.</div>
+	  ```
+	-
