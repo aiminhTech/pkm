@@ -2,7 +2,7 @@
 - [[Datenbank]]
 - [[Java]]
 - [[C#]]
-- [[Webdesign]]
+- [[Web Design]]
 - [[Frontend]] #React #[[React Hooks]]
 - [[Backend]]
 - [[Multiuser]]

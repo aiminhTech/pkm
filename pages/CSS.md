@@ -1,4 +1,5 @@
-tags:: [[Webdesign]], [[HTML]]
+tags:: [[Web Design]], [[HTML]]
+child:: [[Flex Box]]
 
 - ## Einfügen eines Stylesheets
   collapsed:: true
@@ -41,6 +42,7 @@ tags:: [[Webdesign]], [[HTML]]
 - ## Selektoren
 	- [https://](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors)[developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors)
 	- ### HTML Attribut id
+	  collapsed:: true
 		- Das HTML Attribut id gibt einem HTML-Element einen Identifikationsnamen
 		- Jedes HTML-Element kann **nur einen Identifikationsnamen** haben
 		- Dieselbe **id** darf nur einmal pro HTML-Seite **vergeben werden
@@ -53,6 +55,7 @@ tags:: [[Webdesign]], [[HTML]]
 		  
 		  ```
 	- ### HTML Attribut class
+	  collapsed:: true
 		- Das Attribut class gibt einem HTML-Element einen Klassennamen
 		- Jedes HTML-Element kann ein oder mehrere Klassennamen haben
 		- Elemente einer HTML-Klasse können mit CSS gestylt werden
@@ -64,6 +67,7 @@ tags:: [[Webdesign]], [[HTML]]
 		  
 		  ```
 	- ### HTML mit CSS formatieren
+	  collapsed:: true
 		- #### HTML
 		  collapsed:: true
 			- ```html
@@ -92,13 +96,13 @@ tags:: [[Webdesign]], [[HTML]]
 			- "#" wird benutzt um HTML-IDs anzusteuern
 			- "." wird benutzt um HTML-Klassen anzusteuern
 			- ![Bildschirmfoto 2023-07-27 um 12.50.02.png](../assets/Bildschirmfoto_2023-07-27_um_12.50.02_1690437004473_0.png)
-			- ![Bildschirmfoto 2023-07-27 um 12.50.39.png](../assets/Bildschirmfoto_2023-07-27_um_12.50.39_1690437044086_0.png)
+			- ![Bildschirmfoto 2023-07-27 um 12.50.39.png](../assets/Bildschirmfoto_2023-07-27_um_12.50.39_1690437044086_0.png){:height 326, :width 504}
 				- Spezifität -> alles was genauer, eindeutiger, unverwechselbarer selektiert ist zieht eher.
 		- ### Kombination von Selektoren
-			- ![Bildschirmfoto 2023-07-27 um 12.51.33.png](../assets/Bildschirmfoto_2023-07-27_um_12.51.33_1690437094593_0.png)
-- # BoxModel
+			- ![Bildschirmfoto 2023-07-27 um 12.51.33.png](../assets/Bildschirmfoto_2023-07-27_um_12.51.33_1690437094593_0.png){:height 259, :width 634}
+- ## BoxModel
   collapsed:: true
-	- ## Innen- und Ausssenabstand
+	- ### Innen- und Ausssenabstand
 		- Margin = aussenabstand
 		- Padding = innenabstand
 		- ```css
@@ -108,17 +112,13 @@ tags:: [[Webdesign]], [[HTML]]
 		  }
 		  
 		  ```
-	- ## Boxmodell
-	  collapsed:: true
-		- ![Bildschirmfoto 2023-07-27 um 12.54.16.png](../assets/Bildschirmfoto_2023-07-27_um_12.54.16_1690437260971_0.png)
-		- ![Bildschirmfoto 2023-07-27 um 12.56.12.png](../assets/Bildschirmfoto_2023-07-27_um_12.56.12_1690437379540_0.png)
-			-
-		- ## Box-sizing
-			- ![Bildschirmfoto 2023-07-27 um 12.55.37.png](../assets/Bildschirmfoto_2023-07-27_um_12.55.37_1690437339694_0.png)
-			- [http://guyroutledge.github.io/box-model](http://guyroutledge.github.io/box-model)
-			-
-	-
-- # Webseiten strukturieren
+	- ### Boxmodell
+		- ![Bildschirmfoto 2023-07-27 um 12.54.16.png](../assets/Bildschirmfoto_2023-07-27_um_12.54.16_1690437260971_0.png){:height 279, :width 268}
+		- ![Bildschirmfoto 2023-07-27 um 12.56.12.png](../assets/Bildschirmfoto_2023-07-27_um_12.56.12_1690437379540_0.png){:height 327, :width 496}
+	- ### Box-sizing
+		- ![Bildschirmfoto 2023-07-27 um 12.55.37.png](../assets/Bildschirmfoto_2023-07-27_um_12.55.37_1690437339694_0.png)
+		- [http://guyroutledge.github.io/box-model](http://guyroutledge.github.io/box-model)
+- ## Webseiten strukturieren
   collapsed:: true
 	- ## HTML Block-Elemente
 		- https://developer.mozilla.org/de/docs/Web/HTML/Block-level_elements
@@ -140,16 +140,16 @@ tags:: [[Webdesign]], [[HTML]]
 		- ```css
 		  <p>Lorem <span>ipsum</span> dolor sit amet</p>
 		  ```
-- [[Flex Box]]
-- # Grid
+- ## Grid
   collapsed:: true
-	- ## Grid und Verschachtelung
+	- ### Grid und Verschachtelung
 		- Gutes Video für Grid: https://youtu.be/HgwCeNVPlo0
 		- ![image.png](../assets/image_1690437628584_0.png)
 		-
-- # Patterns
+- ## Patterns
   collapsed:: true
-	- ## Position fixed
+	- ### Position fixed
+	  collapsed:: true
 		- Fixiert Elemente «fix» im Viewport
 		- Auch wenn gescrollt wird, bleibt das Element da, wo es mit top, left,
 		  bottom, right platziert wird
@@ -169,7 +169,8 @@ tags:: [[Webdesign]], [[HTML]]
 		  ```
 		- ![Bildschirmfoto 2023-07-27 um 13.07.17.png](../assets/Bildschirmfoto_2023-07-27_um_13.07.17_1690438039565_0.png)
 			-
-	- ## Position sticky
+	- ### Position sticky
+	  collapsed:: true
 		- Klebt Elemente an Viewport Rand
 		- Wenn weiter gescrollt wird, bleibt das Element da, wo es mit top, left, bottom, right platziert wird.
 		- Elemente, die im DOM folgen, werden automatisch verschoben
@@ -191,14 +192,16 @@ tags:: [[Webdesign]], [[HTML]]
 		  ```
 		- ![image.png](../assets/image_1690438102933_0.png)
 		-
-	- ## grid-template-areas
+	- ### grid-template-areas
+	  collapsed:: true
 		- https://www.digitalocean.com/community/tutorials/css-css-grid-holy-grail-layout
 		- Gridbereiche können visuell definiert werden
 		- Elemente können direkt an Bereiche zugewiesen werden
 		- Kombinierbar mit grid-template-rows und grid-template-columns
 		- ![Bildschirmfoto 2023-07-27 um 13.09.32.png](../assets/Bildschirmfoto_2023-07-27_um_13.09.32_1690438174589_0.png)
 		- https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
-	- ## Responsive Kacheln
+	- ### Responsive Kacheln
+	  collapsed:: true
 		- https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
 		- https://www.geeksforgeeks.org/auto-fit-vs-auto-fill-property-in-css-grid/
 		- ```css
@@ -208,12 +211,12 @@ tags:: [[Webdesign]], [[HTML]]
 		- **auto-fit**: füllt row bis zu vorhandenem Platz auf
 		- **minmax**: min 200px, max 1fr
 		- Vielseitig anwendbar
-	- ## Flex vs Grid
+	- ### Flex vs Grid
 		- Richtlinien
 			- Grid kann grundsätzlich für alles verwendet werden
 			- Flex bietet sich für 1-dimensionale Elemente an (horizontal oder vertikal)
 			- Guter Ansatz: Layout mit Grid, simple Elemente mit flex.
-- # Bildformate Pixel vs. Vektor
+- ## Bildformate Pixel vs. Vektor
   collapsed:: true
 	- ## Bildformate: Vektor vs. Raster
 	  collapsed:: true
@@ -414,8 +417,7 @@ tags:: [[Webdesign]], [[HTML]]
 			  der Creative-Commons-Lizenz CC0
 			- Auch bei gemeinfreien Werken ist esmeist sinnvoll, die Quelle anzugeben.
 			-
-- # :hover
-  collapsed:: true
+- collapsed:: true
 	- Hover bedeutet Schweben
 	- Mit <Elementname**:hover**> kann das Aussehen eines Elementes definiert werden, wenn mit dem Mauszeiger auf dieses gezeigt wird
 	- ```css

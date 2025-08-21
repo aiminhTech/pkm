@@ -1,0 +1,7 @@
+-
+- ## Mit Chrome/Edge
+	- [https://medium.com/the-web-club/override-http-responses-and-more-in-chrome-70f645fc7c8e](https://medium.com/the-web-club/override-http-responses-and-more-in-chrome-70f645fc7c8e)
+	- [https://developer.chrome.com/docs/devtools/overrides](https://developer.chrome.com/docs/devtools/overrides)
+-
+- ## Mit Firefox
+	-

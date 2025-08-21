@@ -1,0 +1,9 @@
+- https://github.com/sxyazi/yazi
+- https://yazi-rs.github.io/
+-
+- A **fast file manager** used in the terminal
+- It lets we:
+	- Lets us **browse**, **move**, **copy**, **delete** and **preview** files without leavong the terminal
+	- Supports **image previews**, **code highlighting** and **search**
+	- Highly **customizable** with plugins and themes (uses Lua for scripting).
+	- Works on Linux, macOS, and more.

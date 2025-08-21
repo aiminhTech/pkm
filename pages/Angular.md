@@ -1,5 +1,4 @@
-tags:: [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule]], [[Angular Material]]
-related:: [[Vue.js]], [[React]]
+related:: [[Vue.js]], [[React]], [[TypeScript]], [[HTML]], [[CSS]], [[RxJS]], [[Ng Bootstrap]], [[NgModule]], [[Angular Material]], [[Angular Feature Flag]]
 
 - https://angular.dev/
 - Angular is a web framework used to be build scalable web apps with confidence
@@ -117,6 +116,7 @@ related:: [[Vue.js]], [[React]]
 		- **Encapsulation**: Each Angular Module can be designed to encapsulate a specific feature or part of the application, keeping the codebase clean and manageable.
 -
 - ## Component
+  collapsed:: true
 	- ### Syntax
 	  collapsed:: true
 		- The `@Component` decorator annotates a class to specify that it is a component.
@@ -811,6 +811,7 @@ related:: [[Vue.js]], [[React]]
 		- #### Validation
 			-
 - ## Event Handling
+  collapsed:: true
 	- ### `EventEmitter`
 		- Is used to *create custom events in components and services*
 		- *Provides a way for components to communicate with each other*

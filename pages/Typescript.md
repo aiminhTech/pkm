@@ -1,4 +1,4 @@
-tags:: [[JavaScript]], [[Volta]], [[TypeScript Intermediate]], [[Making TypeScript Stick]] 
+tags:: [[JavaScript]], [[Volta]], [[TypeScript Intermediate]], [[Making TypeScript Stick]], [[Typescript Documentation Generators]] 
 title:: TypeScript
 
 - ## Declaration
@@ -15,6 +15,7 @@ title:: TypeScript
 		- https://github.com/mike-north/typescript-courses/tree/main?tab=readme-ov-file
 -
 - ## Types
+  collapsed:: true
 	- ### Union Types vs Intersection Types
 	  collapsed:: true
 		- ![Bildschirmfoto 2024-06-11 um 16.01.21.png](../assets/Bildschirmfoto_2024-06-11_um_16.01.21_1718114484006_0.png)

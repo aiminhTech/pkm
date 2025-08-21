@@ -3,6 +3,8 @@
 - Are sequences of characters that define a search pattern. They are primarily used for string matching, searching, and text processing in 
   various programming languages and text editors.
 - Regular expressions can be used to search, replace, and manage complex string patterns efficiently.
+- ## Courses
+	- [https://www.oreilly.com/videos/understanding-regular-expressions/9781491996300/](https://www.oreilly.com/videos/understanding-regular-expressions/9781491996300/)
 -
 - ## Literal Characters
   collapsed:: true
@@ -50,6 +52,7 @@
 -
 - ## Non-capturing group `(?:...)`
   id:: 674dc3d7-c7b1-483a-8e50-5e0c793f9fb1
+  collapsed:: true
 	- Are used to group parts of a pattern without capturing the matched text. This is useful when you 
 	  need to apply quantifiers or perform logical grouping, but don't need to reference or store the matched substring.
 	- ### Example
@@ -63,6 +66,7 @@
 		  ```
 -
 - ## Named capturing group `(?<name>...)`
+  collapsed:: true
 	- Allow you to assign a name to a group of characters, making it easier to extract and reference specific parts of your match results by name, 
 	  rather than by index. This feature improves code readability and helps in managing complex regular expressions.
 	- ### Example

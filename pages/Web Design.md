@@ -1,7 +1,6 @@
 tags:: BBC
 
 - ## Typografie
-  collapsed:: true
 	- Whitespace ist eines der mächtigsten Werkzeuge im Design. Whitespace ist
 	  id:: 64c1f8b1-758b-47de-9c0c-1fb23d01decf
 	  nicht verschwendete Fläche, sondern ein wichtiges Designelement.

@@ -1,0 +1,9 @@
+- A **website that behaves like an app** on your phone or computer.
+- Think of Twitter Lite or Spotify Web Player on your phone. You can “install” it, use it offline sometimes, and it feels like a real app.
+- ## Key Points in Simple Terms
+	- **Looks like an app:** You can open it from your home screen, not just a browser.
+	- **Works offline:** It can still show content even if your internet is gone.
+	- **Fast:** Loads quickly because it stores some parts on your device.
+	- **Safe:** Uses HTTPS (secure connection).
+	- **Easy to share:** You just send a link, no app store needed.
+	-
