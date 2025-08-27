@@ -12,9 +12,7 @@ tags:: [[Golang]], [[PostgreSQL]]
 	- Plan to use **connection pooling**
 	-
 - ## Installation
-	- ```bash
-	  go get github.com/jackc/pgx/v4/stdlib
-	  ```
+	- go get github.com/jackc/pgx/v4/stdlib
 -
 - ## Basic Example
 	- ### `db.ts`

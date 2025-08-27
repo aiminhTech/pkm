@@ -3,11 +3,11 @@ title:: Golang
 
 - https://go.dev/
 -
-- ## Resources
-  collapsed:: true
-	- ### Courses
-		- https://frontendmasters.com/courses/complete-go/
-			- https://github.com/Melkeydev/fem-project-live
+-
+- **Courses**
+	- https://frontendmasters.com/courses/complete-go/
+	- https://frontendmasters.com/courses/vanilla-js-go/
+	-
 - ## Overview
   collapsed:: true
 	- A **statically typed, compiled programming language** created by Google
@@ -781,4 +781,4 @@ title:: Golang
 		  | `testify/require` | Ensures tests stop immediately when a critical condition fails. | 
 		  | `testify/mock` | Helpful for mocking interfaces in larger systems. |
 		- <!--EndFragment-->
-- ## Authentication
+-

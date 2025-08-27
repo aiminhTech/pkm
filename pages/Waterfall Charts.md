@@ -1,6 +1,8 @@
 tags:: [[Chrome]], [[Chrome Developer Tools]]
 
-- Is a tool used by web developers to visualize and analyze how a web page's resources are loaded over the network. It’s part of the **browser’s developer tools**, typically found under the **Network tab**.
+- Shows **how resources load** (HTML, CSS, JS, images) over time.  This help identify which parts of the page are **slow** and need **optimization**
+  background-color:: blue
+-
 - The Network Waterfall breaks down **each request** made by a web page, showing:
   | Info | Description |
   | ---- | ---- | ---- |
@@ -11,8 +13,7 @@ tags:: [[Chrome]], [[Chrome Developer Tools]]
   | **Size** | Size of the downloaded resource. |
   | **Time** | How long it took to load the resource. |
   | **Waterfall** | A visual timeline showing when and how long each resource took to load. |
-- The **visual timeline** looks like a **cascade of bars**, each representing a different resource’s loading time — hence the name “waterfall.” It helps visualize:
-	- **When** resources start loading.
-	- **Which ones block others**.
-	- **Parallel vs. sequential** loading.
-	- **Delays**, such as DNS lookup, connection time, SSL handshake, time to first byte (TTFB), content download, etc.
+-
+- ![image.png](../assets/image_1756288993524_0.png){:height 253, :width 628}
+-
+- ![image.png](../assets/image_1756294968096_0.png)

@@ -1,4 +1,4 @@
-tags:: [[Chrome]], [[The Network Waterfall]], [[Dev-Tools]]
+tags:: [[Chrome]], [[Waterfall Charts]], [[Dev-Tools]]
 
 -
 - ## Courses & Links
@@ -7,7 +7,6 @@ tags:: [[Chrome]], [[The Network Waterfall]], [[Dev-Tools]]
 	- https://frontendmasters.com/courses/dev-tools-v4/
 	-
 - ## Essential Chrome DevTools
-  collapsed:: true
 	- **Inspecting Elements & Styles**
 		- View computed styles, box model and event listeners
 		- Edit the DOM structure live

@@ -1,0 +1,37 @@
+-
+- ## OAuth 2.0
+	- https://oauth.net/2/
+	- Third-party authentication
+	- Users authenticate via an external provider like Goole, GitHub or Facebook. The application receives a token from the provider that confirms the user's identity.
+	- **Pros:**
+		- Users don’t need to create a new password for your service
+		- Offloads authentication to trusted providers
+	- **Cons**
+		- Relies on third-party
+		- Requires integration with external services
+-
+- ## Stateless Token Auth
+	- https://www.jwt.io/introduction#what-is-json-web-token
+	- Token-based authentication
+	- The server issues a **JWT (JSON Web Token)** after user login. The token contains all necessary user information and is stored **client-side** (usually in local storage or cookies). On each request, the token is sent to the server and validated.
+	- **Pros:**
+		- No server-side session storage required
+		- Scales easily across multiple servers
+	- **Cons:**
+		- Token revocation is hard (can’t immediately invalidate a JWT)
+		- Tokens may be vulnerable if not stored securely on the client
+-
+- ##  Stateful Token Authentication
+	- Token-based authentication with server-side storage
+	- The server generates an **authentication token** and stores it in a **server-side session store** (e.g., in memory or database). The client sends this token with each request, and the server validates it against its stored session.
+	- **Pros:**
+		- Easy to revoke sessions (e.g., logout)
+		- Centralized control of active sessions
+	- **Cons:**
+		- Server must store session data, which can impact scalability
+		- Needs session management for multiple servers (requires shared storage)
+		-
+- ## Summarize
+	- **OAuth 2.0** = delegate login to external providers.
+	- **Stateless JWT** = store token on client, server doesn’t track sessions.
+	- **Stateful token** = store token on server, server tracks sessions.
