@@ -1,4 +1,5 @@
-- Examples
-	- [[tape archive]]
-	- [[zip]]
-		- [[jar]]
+tags::
+
+- [[tape archive]]
+- [[zip]]
+	- [[jar]]

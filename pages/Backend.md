@@ -1,6 +1,6 @@
 tags:: [[BBC]]
 
-- [[HTTP Protokoll]]
+-
 - [[HTTP Request Methods]]
 - [[Spring Boot]]
 - [[Data JPA]]
@@ -16,6 +16,7 @@ tags:: [[BBC]]
   collapsed:: true
 	- https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa
 - ## DataJPA DB-Einbinden
+  collapsed:: true
 	- ### Annotations
 	  collapsed:: true
 		- ### Controller

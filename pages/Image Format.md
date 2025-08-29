@@ -1,0 +1,18 @@
+-
+- **JPG (JPEG) – Joint Photographic Experts Group**.
+	- A common image format mainly for **photos**.
+	- Compresses images to save space, but may lose some detail.
+	-
+- **PNG - Portable Network Graphics**
+	- Used for **images with text, graphics, or transparency**.
+	- Lossless, so it keeps all the details, but files are bigger than JPG.
+- background-color:: blue
+- **WebP**
+	- A modern image format created by Google.
+	- Combines **small file size + good quality**.
+	- Supports **transparency and animations**.
+	-
+- **AVIF – AV1 Image File Format**
+	- Newer format based on the AV1 video codec. **
+	- Very small files with high quality**, supports **HDR, transparency, and animations**, but not supported everywhere yet.
+-

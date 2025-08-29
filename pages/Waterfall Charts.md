@@ -1,4 +1,4 @@
-tags:: [[Chrome]], [[Chrome Developer Tools]]
+tags:: [[Chrome]], [[Chrome Developer Tools]], [[Web Performance]]
 
 - Shows **how resources load** (HTML, CSS, JS, images) over time.  This help identify which parts of the page are **slow** and need **optimization**
   background-color:: blue

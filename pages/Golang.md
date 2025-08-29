@@ -7,6 +7,7 @@ title:: Golang
 - **Courses**
 	- https://frontendmasters.com/courses/complete-go/
 	- https://frontendmasters.com/courses/vanilla-js-go/
+	- https://frontendmasters.com/courses/htmx/ #HTMX
 	-
 - ## Overview
   collapsed:: true
