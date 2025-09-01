@@ -1,4 +1,4 @@
-tags:: [[Golang]], [[PostgreSQL]]
+tags:: [[Go]], [[PostgreSQL]]
 id:: 68a47736-9161-4537-a1ca-afa7a17f1fe2
 
 - https://github.com/pressly/goose

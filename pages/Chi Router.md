@@ -1,4 +1,4 @@
-tags:: [[Golang]]
+tags:: [[Go]]
 
 - https://github.com/go-chi/chi
 - A lightweight and idiomatic router for Go

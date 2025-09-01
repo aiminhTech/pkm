@@ -1,5 +1,6 @@
 alias:: End-to-End-Testing
-tags:: [[Application Testing]], [[Cypress]]
+parent:: [[Testing]] 
+technology::   [[Cypress]]
 
 - https://aqua-cloud.io/de/end-to-end/
 -

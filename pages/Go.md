@@ -1,8 +1,7 @@
-tags:: [[Programming Language]], [[Chi Router]], [[pgx]], [[Goose]], [[pgweb]] 
-title:: Golang
+child:: [[Programming Language]]
+library:: [[Chi Router]], [[Goose]], [[pgweb]], [[pgx]]
+homepage::  https://go.dev/
 
-- https://go.dev/
--
 -
 - **Courses**
 	- https://frontendmasters.com/courses/complete-go/

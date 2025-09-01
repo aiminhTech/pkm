@@ -1,10 +1,8 @@
 module:: M450
-child:: [[E2E]], [[Unit Testing]], [[Intergration Testing]]
 
 - Applikation werden getestet, um sicherzustellen, dass sie fehlerfrei, sicher, leistungsfähig und benutzerfreundlich sind.
 -
 - ## Das Testkonzept
-  collapsed:: true
 	- Ein ist ein Dokument oder eine schriftliche Vereinbarung, das Strategien, Ziele, Pläne und Annahmen für das Testen eines Softwareprojekts oder Systems beschreibt. Es dient dazu, die Testaktivitäten klar zu strukturieren und allen Beteiligten ein einheitliches Verständnis zu vermitteln.
 	- Die wichtigsten Elemente eines Testkonzepts sind:
 		- **Zielsetzung**: Beschreibung der Testziele, z. B. Fehleridentifikation oder Qualitätsprüfung.
@@ -19,7 +17,6 @@ child:: [[E2E]], [[Unit Testing]], [[Intergration Testing]]
 		- **Testmetriken und Berichte**: Festlegung von Messkriterien und Berichtsformaten.
 		- **Verantwortlichkeiten**: Zuweisung von Rollen und Aufgaben.
 	- ### Testobjekt
-	  collapsed:: true
 		- Das Testobjekt ist ==das Ziel der Testaktivitäten== in der Softwareentwicklung. Die Auswahl des Testobjekts ist entscheidend, um die Testziele zu erreichen und die Projektanforderungen effektiv abzudecken.
 		- Es kann je nach Testtyp und -ziel variieren. Gängige Beispiele sind:
 			- **Softwareanwendung**: Eine Webanwendung, mobile App, ein Desktop-Programm oder andere Software.
@@ -29,7 +26,6 @@ child:: [[E2E]], [[Unit Testing]], [[Intergration Testing]]
 			- **Datenbanken**: Geprüft auf Integrität, Konsistenz und Leistung.
 			- **Hardware-Software-Systeme**: Kombinationen aus Hardware und Software, wie bei eingebetteten Systemen.
 	- ### Systemkontextdiagramm
-	  collapsed:: true
 		- Ein Systemkontextdiagramm visualisiert die Interaktionen zwischen einem zu entwickelnden System und seiner Umgebung. Es bietet einen Überblick über die Systemgrenzen und zeigt die Schnittstellen zu externen Entitäten.
 		- **Hauptkomponenten**:
 			- **Das System**: Im Zentrum des Diagramms, z. B. eine Software, Hardware oder ein komplexes System.

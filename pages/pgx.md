@@ -1,4 +1,4 @@
-tags:: [[Golang]], [[PostgreSQL]]
+tags:: [[Go]], [[PostgreSQL]]
 
 - https://github.com/jackc/pgx
 -

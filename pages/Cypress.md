@@ -1,4 +1,4 @@
-parent::  [[E2E]]
+parent::  [[E2E Testing]]
 relate:: [[Angular]], [[React]], [[Vue.js]], [[Mocha]], [[Chai]]
 
 - https://www.cypress.io/
@@ -18,9 +18,9 @@ relate:: [[Angular]], [[React]], [[Vue.js]], [[Mocha]], [[Chai]]
 		- Tests run directly in the browser with access to Chrome DevTools for debugging
 	- ### Supports Multiple Testing Type
 		- Cypress isn't just for E2E tests, it supports various types of tests
-			- **End-to-End (E2E) Testing** #E2E
+			- **End-to-End (E2E) Testing** #[[E2E Testing]]
 			- **Component Testing** #[[Compontent Testing]]
-			- **Integration Testing** #[[Intergration Testing]]
+			- **Integration Testing** #[[Integration Testing]]
 			- **Unit Testing** #[[Unit Testing]]
 	- ### Time Travel
 		- Cypress takes snapshots at each step of test, allowing to hover over each command in the test runner and see exactly what happened in the browser at that point
