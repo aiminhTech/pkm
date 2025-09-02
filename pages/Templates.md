@@ -28,3 +28,9 @@
 			- *test-qai-entwicklung-*:
 			- *test-qai-*:
 -
+-
+- # Learn Page
+  template:: Learn
+  template-including-parent:: false
+	-
+	- ## 📔 Learning

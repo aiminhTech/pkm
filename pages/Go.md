@@ -1,9 +1,9 @@
 child:: [[Programming Language]]
 library:: [[Chi Router]], [[Goose]], [[pgweb]], [[pgx]]
-homepage::  https://go.dev/
+link::  https://go.dev/
 
 -
-- **Courses**
+- ## 📔 Learning
 	- https://frontendmasters.com/courses/complete-go/
 	- https://frontendmasters.com/courses/vanilla-js-go/
 	- https://frontendmasters.com/courses/htmx/ #HTMX

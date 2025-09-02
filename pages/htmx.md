@@ -1,5 +1,5 @@
 related:: [[HTML]], [[HATEOAS - Hypermedia as the Engine of Application State]]
-homepage:: https://htmx.org/
+link:: https://htmx.org/
 
 - https://templ.guide/
 -
@@ -11,7 +11,8 @@ homepage:: https://htmx.org/
 - Best part → you write **less JavaScript**, use more **plain HTML**.
   background-color:: yellow
 -
-- **Cources**
+-
+- ## 📔 Learning
 	- https://frontendmasters.com/courses/htmx/
 -
 - ## DOM Updates
