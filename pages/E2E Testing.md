@@ -1,5 +1,6 @@
 alias:: End-to-End-Testing
-parent:: [[Testing]] 
+parent:: [[Testing]]
+technology::   [[Cypress]], [[Playwright]]
 technology::   [[Cypress]], [[Playwright]]
 
 -
@@ -11,7 +12,4 @@ technology::   [[Cypress]], [[Playwright]]
 	  background-color:: pink
 		- **"End-to-end"** refers to testing the entire application, from the **user interface (frontend)** through the **backend**, and possibly **external services**, **databases**, and **networks**.
 		- The goal is to mimic real-world usage and ensure all parts of the system are integrated properly.
--
--
--
 -
