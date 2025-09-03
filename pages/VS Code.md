@@ -32,7 +32,6 @@ tags:: [[Dev-Tools]]
 	- **Inline Refactoring**: If a var or func is no longer needed, right-click and choose `Inline`
 -
 - ## Emmet
-  collapsed:: true
 	- A shorthand toolkit built-in VS Cide that helps us write HTML, CSS and JSX faster using **abbrevviations**
 	- It can expands abbreviations into full code snippets and is great for rapid HTML & CSS writing
 	- ### Basic HTML Abbreviations

@@ -2,7 +2,7 @@ related:: [[Application Testing]],
 child::  [[Unit Testing]], [[Integration Testing]] , [[E2E Testing]], [[Test Doubles]]
 
 -
-- **Courses**
+- ## 📔 Learning
 	- https://frontendmasters.com/courses/testing/
 		- Course Web: https://stevekinney.com/courses/testing
 		- Source Code: https://github.com/stevekinney/introduction-to-testing
