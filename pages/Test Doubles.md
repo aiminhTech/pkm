@@ -58,7 +58,51 @@ tags:: [[Vitest]]
 	  });
 	  
 	  ```
--
+	- ### Mocking the Current Date
+		- ```js
+		  import { vi, test, expect } from 'vitest';
+		  
+		  test('mocking Date', () => {
+		    // Mock current date to Jan 1, 2025
+		    const mockedDate = new Date(2025, 0, 1);
+		    vi.setSystemTime(mockedDate);
+		  
+		    // Your code will now see this mocked date
+		    const now = new Date();
+		    expect(now.getFullYear()).toBe(2025);
+		    expect(now.getMonth()).toBe(0);
+		    expect(now.getDate()).toBe(1);
+		  
+		    // Reset after test
+		    vi.useRealTimers();
+		  });
+		  
+		  ```
+	- ### Mocking Timers
+		- Vitest can **fake timers** so you can simulate `setTimeout`, `setInterval`, or `requestAnimationFrame` without waiting in real-time.
+		- ```js
+		  import { vi, test, expect } from 'vitest';
+		  
+		  test('mocking timers', () => {
+		    // enable fake timers
+		    vi.useFakeTimers();
+		  
+		    let counter = 0;
+		    setTimeout(() => {
+		      counter += 1;
+		    }, 1000);
+		  
+		    // Time hasn't passed yet
+		    expect(counter).toBe(0);
+		  
+		    // Fast-forward time by 1000ms
+		    vi.advanceTimersByTime(1000);
+		    expect(counter).toBe(1);
+		  
+		    // Restore real timers
+		    vi.useRealTimers();
+		  });
+		  ```
 - ## Stubs
 	- **Returns controlled data**
 	- Just fakes a function's return value
@@ -76,6 +120,7 @@ tags:: [[Vitest]]
 	  ```
 -
 - ## Mock Dependencies
+  collapsed:: true
 	- When we write tests for components, they often **depend on other modules or services** (like APIs, utility functions, or context providers).
 	- **Stubs and mocks** let you **replace these dependencies** with fake versions so your tests are **predictable and isolated**.
 	- **Example**: instead of calling a real API, you return fake data immediately
@@ -109,3 +154,4 @@ tags:: [[Vitest]]
 		  });
 		  
 		  ```
+-

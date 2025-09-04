@@ -15,7 +15,6 @@ link:: https://tailwindcss.com/
 		- https://github.com/stevekinney/tailwind-skatepark
 -
 - ## Useful Resources
-  collapsed:: true
 	- [Tailwind Prettier Plugin](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 	- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 	- [UI Colors](https://uicolors.app/)
