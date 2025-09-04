@@ -175,7 +175,7 @@ link:: https://www.cypress.io/
 		  // Check that the path is correct
 		   it('should navigate to "/sign-in" when you click the "Sign In" button', () => {
 		      cy.get('[data-test="sign-in"]').click();
-		      cy.location('pathname').should('contain.text', '/sign-in');
+		      cy.location('pathname').should('equal', '/sign-in');
 		    });
 		  ```
 	- ### Check the page title
@@ -218,35 +218,61 @@ link:: https://www.cypress.io/
 		        .should('be.true');
 		  }); 
 		  ```
+	- ### More examples
+		- ```javascript
+		   it('should require that the email actually be an email address', () => {
+		      cy.get('@email').type('notanemail');
+		  
+		      cy.get('@submit').click();
+		  
+		      cy.get('[data-test="sign-up-email"]:invalid').as('invalidEmail')
+		  
+		      cy.get('@invalidEmail')
+		        .invoke('prop', 'validationMessage')
+		        .should('not.be.empty');
+		  
+		      cy.get('@invalidEmail')
+		        .invoke('prop', 'validity')
+		        .its('typeMismatch')
+		        .should('be.true')
+		    });
+		  
+		    it('should require a password when the email is present', () => {
+		      cy.get('@email').type('valid@email.com');
+		  
+		      cy.get('[data-test="sign-up-password"]:invalid').as('invalidPassword');
+		  
+		      cy.get('@invalidPassword')
+		        .invoke('prop', 'validity')
+		        .its('valueMissing')
+		        .should('be.true')
+		    });
+		  ```
 -
 - ## Cypress Tasks
+  collapsed:: true
 	- Cypress tests run inside the browser, but sometimes we need to perform actions outside the browser like seeding a database, clearing test data or reading files => That is where tasks come in
 	- Tasks are defined on the Node.js server side (in `cypress.config.ts` or `cypress/plugins/index.ts`) an we call them from test using `cy.task()`
 	- ### Why use?
 	- ### How to define?
 		- ```javascript
 		  // cypress.config.ts
-		  const { defineConfig } = require('cypress');
+		  import { defineConfig } from 'cypress';
+		  import seed from './prisma/seed.cjs';
 		  
-		  module.exports = defineConfig({
+		  export default defineConfig({
 		    e2e: {
+		      baseUrl: 'http://localhost:3000',
 		      setupNodeEvents(on, config) {
 		        on('task', {
-		          // Example: seed the database
-		          seedDatabase() {
-		            // pretend this calls your DB seeding logic
-		            console.log('Database seeded!');
-		            return null;
+		          seed() {
+		            return seed();
 		          },
-		  
-		          // Example: return environment info
-		          getEnv() {
-		            return process.env.NODE_ENV;
-		          }
 		        });
 		      },
 		    },
 		  });
+		  
 		  
 		  ```
 	- ### Usage
@@ -256,11 +282,181 @@ link:: https://www.cypress.io/
 		      cy.task('seedDatabase'); // runs the server-side task
 		      cy.visit('/login');
 		    });
+		  });
 		  
-		    it('retrieves environment info', () => {
-		      cy.task('getEnv').then((env) => {
-		        expect(env).to.equal('test'); // assert environment
+		  ```
+- ## Cypress Command
+	- We can also define our own cmds inside `cypress/support/command.js`
+	- This allows to:
+		- Reuse **common routines** (e.g., login, form filling).
+		- Keep test files shorter and cleaner.
+		- Pass arguments to commands so they’re flexible and reusable.
+	- ```javascript
+	  /// <reference types="cypress" />
+	  
+	  Cypress.Commands.add('signIn', (user) => {
+	    cy.visit('/echo-chamber/sign-up');
+	    cy.get('[data-test="sign-in-email"]').type(user.email);
+	    cy.get('[data-test="sign-in-password"]').type(user.password);
+	    cy.get('[data-test="sign-in-submit"]').click();
+	  });
+	  
+	  
+	  // use in tests
+	  describe("User dashboard", () => {
+	    it("logs in and visits dashboard", () => {
+	      cy.login("alice", "mypassword");   // ✅ custom command
+	      cy.url().should("include", "/dashboard");
+	    });
+	  });
+	  
+	  ```
+-
+-
+- ## Network Request `cy.intercept()`
+  collapsed:: true
+	- External systems (Google, Auth0, third-party APIs) aren’t always reliable or testable
+	- Internal APIs may be owned by other teams, slow, or need seeded databases
+	- Using real servers = true end-to-end tests but slower + harder to set up
+	- Stubbing with `cy.intercept()` = faster, deterministic, test edge cases easily
+	- ### Spy (just listen to  reqs)
+	  collapsed:: true
+		- ```js
+		  // no response is changed, just verify the req happened
+		  cy.intercept('GET', '/users/*').as('getUser');
+		  
+		  cy.visit('/profile/1');
+		  cy.wait('@getUser').its('response.statusCode').should('eq', 200);
+		  
+		  ```
+	- ### Stub with static data
+	  collapsed:: true
+		- ```js
+		  // Return hardcoded response
+		  cy.intercept('GET', '/users/*', [{ username: 'Jimi', id: 1 }]);
+		  
+		  // Return data from fixture
+		  cy.intercept('GET', '/activities/*', { fixture: 'activities.json' });
+		  
+		  ```
+	- ### Stub with status codes and headers
+	  collapsed:: true
+		- Useful for testin error-handling flows
+		- ```js
+		  cy.intercept('/not-found', {
+		    statusCode: 404,
+		    body: '404 Not Found!',
+		    headers: { 'x-not-found': 'true' }
+		  });
+		  ```
+	- ### Use a routeHandler (dynamic control)
+	  collapsed:: true
+		- ```js
+		  // Assert request payload
+		  cy.intercept('POST', '/greatest-bands', (req) => {
+		    expect(req.body).to.include('Oasis');
+		  });
+		  
+		  // Stub dynamic response
+		  cy.intercept('POST', '/greatest-bands', (req) => {
+		    req.reply({ body: 'We intercepted this request!' });
+		  });
+		  
+		  ```
+	- ### Advanced req lifecycle hook
+	  collapsed:: true
+		- ```js
+		  cy.intercept('GET', '/users', (req) => {
+		    req.on('before:response', (res) => {
+		      res.send({ body: 'We modified this response!' });
+		    });
+		  
+		    req.on('response', (res) => {
+		      console.log('Got response from server');
+		    });
+		  
+		    req.on('after:response', (res) => {
+		      console.log('Response sent to browser');
+		    });
+		  });
+		  
+		  ```
+	- ### Fixtures
+	  collapsed:: true
+		- Predefined **dummy data** that Cypress uses instead of a real API response.
+		- They let us control test data so your tests are **fast, predictable, and isolated**.
+		- Useful when:
+			- You don’t care about testing the API itself
+			- You only want to test **how your app handles the data** it receives
+		- ### Inline
+			- Quick and easy when only need small dummy data
+			- ```js
+			  cy.intercept('GET', '/users', {
+			    body: [{ id: 1, username: 'Alice' }]
+			  });
+			  
+			  ```
+		- ### External fixture files
+			- Place a JSON file inside `cypress/fixtures/activities.json`
+			- ```json
+			  [
+			    { "id": 1, "activity": "Running" },
+			    { "id": 2, "activity": "Swimming" }
+			  ]
+			  ```
+			- ```javascript
+			  describe('Activities page', () => {
+			    it('displays mocked activities', () => {
+			      cy.intercept('GET', '/activities', { fixture: 'activities.json' }).as('getActivities');
+			  
+			      cy.visit('/activities');
+			      cy.wait('@getActivities');
+			  
+			      cy.contains('Running').should('be.visible');
+			      cy.contains('Swimming').should('be.visible');
+			    });
+			  });
+			  ```
+- ## Cookies & Sessions
+	- Cookies are often used for **authentication tokens**, **user preferences**, or **session management**.
+	- Instead of always logging in through the UI, you can **mock cookies directly** → faster tests.
+	- Cypress provides built-in commands:
+		- `cy.getCookie()` → read a single cookie
+		- `cy.getCookies()` → read all cookies
+		- `cy.setCookie()` → write a cookie
+		- `cy.clearCookie()` / `cy.clearCookies()` → remove cookies
+	- ### Examples
+		- ```javascript
+		  /// <reference types="cypress" />
+		  
+		  // Helper functions to fake JWT encoding/decoding
+		  const encodeToken = (payload) => Buffer.from(JSON.stringify(payload)).toString('base64');
+		  const decodeToken = (token) => JSON.parse(Buffer.from(token, 'base64').toString('utf-8'));
+		  
+		  const user = { email: 'test@example.com', id: 1 };
+		  
+		  describe('Cookie-based login', () => {
+		    it('logs in using UI and checks the cookie', () => {
+		      cy.visit('/sign-in');
+		  
+		      // Pretend we have a login form
+		      cy.signIn()
+		  
+		      // Check that app sets a cookie
+		      cy.getCookie('jwt').should('exist').then((cookie) => {
+		        const value = decodeToken(cookie.value);
+		        expect(value.email).to.equal(user.email);
 		      });
+		    });
+		  
+		    it('logs in by setting cookie directly', () => {
+		      // Skip the UI, just set the cookie
+		      cy.setCookie('jwt', encodeToken(user));
+		  
+		      cy.visit('/dashboard');
+		  
+		      // App should think we’re logged in
+		      cy.contains(`Signed in as ${user.email}`);
 		    });
 		  });
 		  
